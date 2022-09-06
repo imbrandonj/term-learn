@@ -1,14 +1,15 @@
-// global constants
-const DISPLAY_TERM_DEF = document.getElementById("definition");
-const TEXTBOX = document.getElementById("textBox");
+// global constants and variables
+const DISPLAY_TERM_DEF = document.getElementById("definition");  // html paragraph displaying term definition
+const TEXTBOX = document.getElementById("textBox");  // text input type
+let term = "empty string";  // the term is global to be passed between functions and randomly selected on load
 
 // TO DO: implement PROBLEMSET as a json file
 const PROBLEMSET = {
     "internal threat": "An employee stealing company data could be an example of which kind of threat actor?",
-    "hacker": "A general term used to describe any individual who uses their technical knowledge to gain unauthorized access to an organization.",
-    "script kiddie": "an individual who carries out an attack by using scripts or programs written by more advanced hackers.",
+    "hacker": "A general term used to describe any individual who uses their technical knowledge to gain unauthorized access to an organization",
+    "script kiddie": "an individual who carries out an attack by using scripts or programs written by more advanced hackers",
     "opportunistic attack": "A hacker scans hundreds of IP addresses randomly on the internet until they find an exploitable target. What kind of attack is this?",
-    "staging": "Preparing a computer to perform additional tasks in the attack.",
+    "staging": "Preparing a computer to perform additional tasks in the attack",
     "reconnaissance": "the process of gathering information about an organization, including system hardware information, network configuration, and individual user information",
     "layering": "the process of implementing multiple security measures to protect the same asset",
     "reconnaissance": "which phase of an attack does the attacker gather information about the target?",
@@ -35,20 +36,30 @@ const PROBLEMSET = {
     "social engineering": "Any attack involving human interaction of some kind",
     "social engineering": "Keylogging, impersonation, and shoulder surfing are all examples of this type of attack",
     "superuser account": "The root account has all privileges and no barriers. Also known as...",
-    "data breach": "when confidential or protected data is exposed,"
+    "data breach": "when confidential or protected data is exposed",
     
 };
 
 const ALL_TERM_DEF = Object.values(PROBLEMSET)  // all term definitions
 
-// retrieve a random term definition from PROBLEMSET
-let definition = ALL_TERM_DEF[Math.floor(Math.random() * ALL_TERM_DEF.length)];
 
-// obtain the term (key from PROBLEMSET object)
-let term = getKeyByValue(PROBLEMSET, definition);
+// functions and events:
+
+// load a random definition to the page and obtain the matching term
+function loadTerm() {
+
+    // retrieve a random term definition from PROBLEMSET
+    let definition = ALL_TERM_DEF[Math.floor(Math.random() * ALL_TERM_DEF.length)];
+
+    // obtain the term (key from PROBLEMSET object) to match the definition (value in PROBLEMSET object)
+    term = getKeyByValue(PROBLEMSET, definition);
+
+    // propagate term definition to page
+    DISPLAY_TERM_DEF.appendChild(document.createTextNode(definition));
+};
 
 
-// obtain key (the term) to match the given term definition (value) in PROBLEMSET (object)
+// obtain key (the term) to match the given value (term definition) in PROBLEMSET (object)
 function getKeyByValue(object, value) {
     for ( let prop in object ) {
         if ( object.hasOwnProperty(prop) ) {
@@ -59,21 +70,32 @@ function getKeyByValue(object, value) {
 };
 
 
-// textBox event
+// input text box event
 TEXTBOX.addEventListener("keydown", function(event) {
     if ( event.key === "Enter" ) {
         let text = event.target.value;
-        validateAnswer(text, answer);
+        validateAnswer(text, term);
     }
 });
 
 
 // check if answer is correct
 function validateAnswer(input, answer) {
-    if ( input == answer )
-        alert("Hey!!");
+    if ( input == answer ) {
+        TEXTBOX.value = "";
+        DISPLAY_TERM_DEF.removeChild(DISPLAY_TERM_DEF.firstChild);
+        loadTerm();
+    } else {
+        TEXTBOX.value = "";   
+    }
 };
 
 
-// propagate term definition to page
-DISPLAY_TERM_DEF.appendChild(document.createTextNode(definition));
+// give answer button event
+function giveAnswer() {
+    TEXTBOX.value = term;  // propagates the answer to the text input box
+}
+
+
+// on page load a random term is selected
+window.onload = loadTerm();
