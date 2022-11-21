@@ -1,2 +1,2 @@
 # term-learn
-A terminology quizzing webpage.
+A simplified terminology quizzing webpage used for my own studies.
