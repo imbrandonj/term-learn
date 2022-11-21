@@ -5,7 +5,9 @@ const TEXTBOX = document.getElementById("textBox");  // text input type
 let term = "empty string";  // the term is global to be passed between functions and randomly selected on load
 
 // Problem set in terms.js file
-const PROBLEMSET = CYBERSECURITY;
+//const PROBLEMSET = JAVATERMS;
+const PROBLEMSET = JSTERMS;
+//const PROBLEMSET = CYBERSECURITY;
 
 // Get term definitions
 const ALL_TERM_DEF = Object.values(PROBLEMSET) 
