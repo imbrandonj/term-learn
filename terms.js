@@ -666,3 +666,14 @@ const JAVATERMS = {
     "1024": "How many bytes = 1 kilobyte?",
 
 }
+
+const DSA = {
+    "Average-Case Array Access Time Complexity": "O(1)",
+    "Worst-Case Array Access Time Complexity": "O(1)",
+    "Average-Case Array Search Time Complexity": "O(n)",
+    "Average-Case Array Insertion Time Complexity": "O(n)",
+    "Average-Case Array Deletion Time Complexity": "O(n)",
+    "Worst-Case Array Search Time Complexity": "O(n)",
+    "Worst-Case Array Insertion Time Complexity": "O(n)",
+    "Worse-Case Array Deletion Time Complexity": "O(n)"
+};

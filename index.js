@@ -6,11 +6,12 @@ let term = "empty string";  // the term is global to be passed between functions
 
 // Problem set in terms.js file
 //const PROBLEMSET = JAVATERMS;
-const PROBLEMSET = JSTERMS;
+// const PROBLEMSET = JSTERMS;
 //const PROBLEMSET = CYBERSECURITY;
+const PROBLEMSET = DSA;
 
 // Get term definitions
-const ALL_TERM_DEF = Object.values(PROBLEMSET) 
+const ALL_TERM_DEF = Object.keys(PROBLEMSET) 
 
 
 // functions and events:
@@ -21,22 +22,11 @@ function loadTerm() {
     // retrieve a random term definition from PROBLEMSET
     let definition = ALL_TERM_DEF[Math.floor(Math.random() * ALL_TERM_DEF.length)];
 
-    // obtain the term (key from PROBLEMSET object) to match the definition (value in PROBLEMSET object)
-    term = getKeyByValue(PROBLEMSET, definition);
+    // obtain the term (value from PROBLEMSET object) to match the definition (key in PROBLEMSET object)
+    term = PROBLEMSET[definition];
 
     // propagate term definition to page
     DISPLAY_TERM_DEF.appendChild(document.createTextNode(definition));
-};
-
-
-// obtain key (the term) to match the given value (term definition) in PROBLEMSET (object)
-function getKeyByValue(object, value) {
-    for ( let prop in object ) {
-        if ( object.hasOwnProperty(prop) ) {
-            if ( object[prop] === value )
-                return prop;
-        }
-    }
 };
 
 
