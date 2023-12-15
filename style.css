@@ -2,15 +2,14 @@ html {
     background-color: aliceblue;
 }
 
-body {
+#problemContent {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
-#definitionBody {
-    margin: 10rem 10rem 0;
-}
 
 #definition {
     font-size: 3.8rem;
