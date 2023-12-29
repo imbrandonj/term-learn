@@ -29,24 +29,27 @@ function loadTerm() {
     DISPLAY_TERM_DEF.appendChild(document.createTextNode(definition));
 };
 
+// focus on input text box on load
+window.onload = TEXTBOX.focus();
 
-// input text box event
+
+// input text box enter event
 TEXTBOX.addEventListener("keydown", function(event) {
     if ( event.key === "Enter" ) {
-        let text = event.target.value;
-        validateAnswer(text, term);
+        const text = event.target.value;
+        validateAnswer(text.toLowerCase(), term.toLowerCase());
     }
 });
 
 
 // check if answer is correct
 function validateAnswer(input, answer) {
-    if ( input == answer ) {
+    if ( input === answer ) {
         TEXTBOX.value = "";
         DISPLAY_TERM_DEF.removeChild(DISPLAY_TERM_DEF.firstChild);
         loadTerm();
     } 
-    else if ( input == "idk" ) {
+    else if ( input === "idk" ) {
         TEXTBOX.value = term;
     } 
     else {
