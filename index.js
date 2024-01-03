@@ -29,9 +29,6 @@ function loadTerm() {
     DISPLAY_TERM_DEF.appendChild(document.createTextNode(definition));
 };
 
-// focus on input text box on load
-window.onload = TEXTBOX.focus();
-
 
 // input text box enter event
 TEXTBOX.addEventListener("keydown", function(event) {
@@ -64,5 +61,6 @@ function giveAnswer() {
 };
 
 
-// on page load a random term is selected
+// on page load a random term is selected & focus is set on the input text box
 window.onload = loadTerm();
+window.onload = TEXTBOX.focus();
