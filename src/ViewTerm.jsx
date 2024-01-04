@@ -1,34 +1,56 @@
 import { loadTerm } from './loadTerm';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
-export default function ViewTerm({ termSet }) {
-    const [term, setTerm] = useState(loadTerm(termSet));
-    const [userAnswer, setUserAnswer] = useState('');
+export default function ViewTerm({ termSet, setHome }) {
+  const [term, setTerm] = useState(loadTerm(termSet));
+  const [userAnswer, setUserAnswer] = useState('');
 
-    // let result = loadTerm(termSet)
+  const handleInput = (event) => {
+    setUserAnswer(event.target.value);
+  };
 
-    // console.log(result);
-
-    const handleInput = (event) => {
-        setUserAnswer(event.target.value);
+  // enter event on answer text box:
+  const checkAnswer = () => {
+    if (term.answer.toLowerCase() === userAnswer.toLowerCase()) {
+      setUserAnswer('');
+      setTerm(loadTerm(termSet));
+    } else if (userAnswer.toLowerCase() === 'idk') {
+      setUserAnswer(term.answer);
     }
+  };
 
-    const checkAnswer = () => {
-        if (term.answer.toLowerCase() === userAnswer.toLowerCase()) {
-            setUserAnswer('');
-            setTerm(loadTerm(termSet));
-        }
-    }
+  // user clicks 'idk give answer' button:
+  const giveAnswer = () => setUserAnswer(term.answer);
 
-    const giveAnswer = () => setUserAnswer(term.answer);
+  // 'return home' button
+  const goHome = () => setHome(true);
 
+  // focus on answer box on load and input:
+  useEffect(() => {
+    document.getElementById('textBox').focus();
+  }, [userAnswer]);
 
-    return (
-        <div id="termContent">
-            <p className="definition">{term.problem}</p>
-            <input type="text" id="textBox" value={userAnswer} onChange={handleInput} onKeyDown={event => {if (event.key === 'Enter') {checkAnswer()}}} />
-            <button id="giveAnswer" onClick={giveAnswer}>IDK give answer</button>
-        </div>
-    )
+  return (
+    <div id="termContent">
+      <p className="definition">{term.problem}</p>
+      <input
+        type="text"
+        id="textBox"
+        value={userAnswer}
+        onChange={handleInput}
+        onKeyDown={(event) => {
+          if (event.key === 'Enter') {
+            checkAnswer();
+          }
+        }}
+      />
+      <button id="giveAnswer" className="termBtn" onClick={giveAnswer}>
+        IDK give answer
+      </button>
+      <button className="termBtn" onClick={goHome}>
+        Return Home
+      </button>
+    </div>
+  );
 }

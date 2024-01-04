@@ -1,6 +1,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
+  letter-spacing: 0.1rem;
   font-weight: 400;
   --btnBlk: #1a1a1a;
 }
@@ -51,19 +52,21 @@ button:focus-visible {
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 35%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 #home > h1 {
-  margin: 5rem;
+  margin: 3rem;
   font-size: 3.2em;
   line-height: 1.1;
 }
 
 #home > h2 {
-  margin: 1rem;
+  margin: 2rem;
+  font-size: 2.2em;
+  font-weight: 200;
 }
 
 #home li {
@@ -80,7 +83,7 @@ button:focus-visible {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 500;
   font-family: inherit;
 }
@@ -90,27 +93,33 @@ button:focus-visible {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
 }
 
-
 .definition {
-  font-size: 2em;
+  margin: 3rem;
+  font-size: 2.6em;
   text-align: center;
   padding: 0rem 10rem;
 }
 
 #textBox {
+  margin: 1rem;
   height: 6rem;
   width: 60rem;
-  margin: 3rem 0;
   text-align: center;
-  font-family: Arial;
   font-size: 2.6em;
+  font-family: inherit;
+  letter-spacing: 0.05em;
   border-radius: 1em;
 }
 
-#giveAnswer {
+.termBtn {
+  margin: 1rem;
   padding: 0.6em 1.2em;
   font-size: 1.2em;
   text-align: center;
