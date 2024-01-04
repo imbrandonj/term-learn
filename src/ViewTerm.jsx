@@ -1,4 +1,5 @@
 import { loadTerm } from './loadTerm';
+import bolt from './assets/bolt.svg';
 
 import { useState, useEffect } from 'react';
 
@@ -51,6 +52,10 @@ export default function ViewTerm({ termSet, setHome }) {
       <button className="termBtn" onClick={goHome}>
         Return Home
       </button>
+      <h3>
+        <img src={bolt} height="60"></img> Type &apos;idk&apos; in the answer
+        text box for a quick-solution.
+      </h3>
     </div>
   );
 }

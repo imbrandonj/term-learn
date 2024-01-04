@@ -119,10 +119,6 @@ const CYBERTERMS = {
     'IP address',
   'a security technology that watches for and protects a system from malicious or unnecessary actions':
     'intrusion prevention system',
-  'which of the following is considered a detective security control?':
-    'intrusion detection system',
-  'which of the following is considered a preventive security control?':
-    'firewall',
   'which encryption type is more secure and uses public and private keys?':
     'asymmetric',
   'which encryption type is faster but less secure and uses the same key for both encryption and decryption?':
@@ -135,10 +131,6 @@ const CYBERTERMS = {
     'https',
   'what is the term for a program that appears to be harmless but is malicious?':
     'Trojan horse',
-  'which of the following is the best protection against data theft from a laptop left in a car?':
-    'encryption',
-  'which of the following is the best protection against unauthorized access?':
-    'strong passwords',
   'What is the primary purpose of penetration testing?':
     'to identify and fix vulnerabilities in a system',
   'Which encryption method uses a single key for both encryption and decryption?':

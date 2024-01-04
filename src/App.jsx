@@ -1,4 +1,10 @@
 import ViewTerm from './ViewTerm.jsx';
+
+import jsIcon from './assets/js.svg';
+import dsaIcon from './assets/dsa.svg';
+import javaIcon from './assets/java.svg';
+import cybersecIcon from './assets/cybersec.svg';
+
 import { useState } from 'react';
 
 function App() {
@@ -19,16 +25,26 @@ function App() {
         <h2>Select your term set:</h2>
         <ul className="btnBundle">
           <li>
-            <button onClick={() => selectTermSet('js')}>JavaScript</button>
+            <button onClick={() => selectTermSet('js')}>
+              <img src={jsIcon} height={'60'} />
+              JavaScript
+            </button>
           </li>
           <li>
-            <button onClick={() => selectTermSet('dsa')}>DSA</button>
+            <button onClick={() => selectTermSet('dsa')}>
+              <img src={dsaIcon} height={'60'} />
+              DSA
+            </button>
           </li>
           <li>
-            <button onClick={() => selectTermSet('java')}>Java</button>
+            <button onClick={() => selectTermSet('java')}>
+              <img src={javaIcon} height={'60'} />
+              Java
+            </button>
           </li>
           <li>
             <button onClick={() => selectTermSet('cyber')}>
+              <img src={cybersecIcon} height={'60'} />
               Cybersecurity
             </button>
           </li>
