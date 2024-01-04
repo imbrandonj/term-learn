@@ -1,0 +1,118 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --btnBlk: #1a1a1a;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: aliceblue;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--btnBlk);
+  color: whitesmoke;
+  transition: border-color 0.25s;
+  transition: letter-spacing 0.25s;
+}
+
+button:hover {
+  background-color: #646cff;
+  border-color: var(--btnBlk);
+  letter-spacing: 0.1em;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#home > h1 {
+  margin: 5rem;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#home > h2 {
+  margin: 1rem;
+}
+
+#home li {
+  list-style: none;
+}
+
+.btnBundle {
+  display: flex;
+  gap: 5rem;
+}
+
+.btnBundle li button {
+  width: 10em;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+#termContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.definition {
+  font-size: 2em;
+  text-align: center;
+  padding: 0rem 10rem;
+}
+
+#textBox {
+  height: 6rem;
+  width: 60rem;
+  margin: 3rem 0;
+  text-align: center;
+  font-family: Arial;
+  font-size: 2.6em;
+  border-radius: 1em;
+}
+
+#giveAnswer {
+  padding: 0.6em 1.2em;
+  font-size: 1.2em;
+  text-align: center;
+  border-radius: 8px;
+}
