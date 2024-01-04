@@ -13,7 +13,9 @@ function App() {
   if (home) {
     return (
       <div id="home">
-        <h1>Welcome to Term Learn</h1>
+        <h1>
+          Welcome to <span>Term Learn</span>
+        </h1>
         <h2>Select your term set:</h2>
         <ul className="btnBundle">
           <li>
@@ -21,6 +23,14 @@ function App() {
           </li>
           <li>
             <button onClick={() => selectTermSet('dsa')}>DSA</button>
+          </li>
+          <li>
+            <button onClick={() => selectTermSet('java')}>Java</button>
+          </li>
+          <li>
+            <button onClick={() => selectTermSet('cyber')}>
+              Cybersecurity
+            </button>
           </li>
         </ul>
       </div>
