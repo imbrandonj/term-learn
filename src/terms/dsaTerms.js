@@ -9,7 +9,7 @@ const DSA = {
   'Average-Case Array Deletion Time Complexity': 'O(n)',
   'Worst-Case Array Search Time Complexity': 'O(n)',
   'Worst-Case Array Insertion Time Complexity': 'O(n)',
-  'Worse-Case Array Deletion Time Complexity': 'O(n)',
+  'Worst-Case Array Deletion Time Complexity': 'O(n)',
   'Average-Case Binary Search Tree Search Time Complexity': 'O(log n)',
   'Average-Case Binary Search Tree Access Time Complexity': 'O(log n)',
   'Average-Case Binary Search Tree Insertion and Deletion Time Complexity':
@@ -37,7 +37,8 @@ const DSA = {
   'Selection Sort Time Complexity': 'O(n^2)',
   'Bubble Sort Time Complexity': 'O(n^2)',
   'Radix Sort Time Complexity': 'O(n)',
-  'A loop in a loop is what time complexity?': 'O(n^2)',
+  'Iterating over a loop while iterating over another loop (nested) is what time complexity?':
+    'O(n^2)',
   'Insertion and deletion at the end of an array': 'O(1)',
   'Insertion and deletion at the beginning of an array': 'O(n)',
   'Binary Search on sorted arrays time complexity': 'O(log n)',
@@ -190,7 +191,7 @@ const DSA = {
   '(true/false): A recursive algorithm applies itself to a smaller subproblem in all cases':
     'false',
   'A recursive algorithm terminates due to the...': 'Base Case',
-  'The presence of a base case is what identifies an algorithm as being recursive':
+  '(true/false): The presence of a base case is what identifies an algorithm as being recursive':
     'False',
   'A sequence of steps, including at least 1 terminating step, for solving a problem':
     'Algorithm',
@@ -236,5 +237,26 @@ const DSA = {
   'Time Complexity: Remove the first element of an array': 'O(n)',
   'Time Complexity: Best case for indexing, sorting, and deleting from an element from a BST':
     'O(log n)',
+  'Works by continuously splitting the array in half until it can no longer be divided. It then merges each subarry while sorting in the process':
+    'Merge Sort',
+  "Works by selecting a 'pivot' and partitioning the other elements into 2 subarrays (greater than and less than the pivot) and then sorting them recursively":
+    'Quicksort',
+  "A singly-linked list's last node is called the...": 'Tail',
+  'Stored data inside the Random Access Memory (RAM)': 'Data Structure',
+  'Time Complexity: Searching an Array given a specific index (access)': 'O(1)',
+  'Time Complexity: Looking up a key in a hash table': 'O(1)',
+  'Linked Lists are made up of list...': 'nodes',
+  'The hash function generates the same index for more than one key':
+    'Collision',
+  'An indexed storage location for one or more entries': 'Bucket',
+  'Takes a key and computes an integer': 'Hash',
+  'An array of linked lists': 'Adjacency List',
+  'Time Complexity: Iterating over an array n times': 'O(n^2)',
+  'Time Complexity: Traversing over a rectangular matrix (uneven columns and rows)':
+    'O(n * m)',
+  'Time Complexity: Dividing an array in half until it reaches length 1':
+    'O(log n)',
+  'Time Complexity: Most built-in sorting methods': 'O(n log n)',
+  'Time Complexity: Popping from a heap': 'O(log n)',
 };
 export default DSA;
