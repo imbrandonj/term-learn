@@ -38,6 +38,7 @@ export default function ViewTerm({ termSet, setHome }) {
       <input
         type="text"
         id="textBox"
+        autoComplete="off"
         value={userAnswer}
         onChange={handleInput}
         onKeyDown={(event) => {

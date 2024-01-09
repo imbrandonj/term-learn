@@ -28,7 +28,7 @@ const DSA = {
   'Random access of an element in an array': 'O(1)',
   'Inserting at the beginning of a linked list': 'O(1)',
   'Binary Search Time Complexity': 'O(log n)',
-  'Searching through a linked list': 'O(n)',
+  'Time Complexity: Searching through a linked list': 'O(n)',
   'Quicksort Average Time Complexity': 'O(n log n)',
   'Quicksort Worst Time Complexity': 'O(n^2)',
   'Merge Sort Time Complexity': 'O(n log n)',
@@ -235,7 +235,7 @@ const DSA = {
   'Time Complexity: Worst case in removing an element from a BST': 'O(n)',
   'Time Complexity: Average case in removing an element from a BST': 'O(log n)',
   'Time Complexity: Remove the first element of an array': 'O(n)',
-  'Time Complexity: Best case for indexing, sorting, and deleting from an element from a BST':
+  'Time Complexity: Best case for indexing, sorting, and deleting an element from a BST':
     'O(log n)',
   'Works by continuously splitting the array in half until it can no longer be divided. It then merges each subarry while sorting in the process':
     'Merge Sort',
