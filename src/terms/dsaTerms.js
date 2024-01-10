@@ -21,10 +21,15 @@ const DSA = {
   'Constant Time': 'O(1)',
   'Logarithmic Time': 'O(log n)',
   'Linear Time': 'O(n)',
-  'Quasilinear Time': 'O(n log n)',
+  'Quasilinear or Linearithmic Time': 'O(n log n)',
   'Quadratic Time': 'O(n^2)',
   'Factorial Time': 'O(n!)',
   'Exponential Time': 'O(n^n)',
+  'O(1) Complexity': 'Constant',
+  'O(log n) Complexity': 'Logarithmic',
+  'O(n) Complexity': 'Linear',
+  'O(n^2) Complexity': 'Quadratic',
+  'O(2^n) Complexity': 'Exponential',
   'Random access of an element in an array': 'O(1)',
   'Inserting at the beginning of a linked list': 'O(1)',
   'Binary Search Time Complexity': 'O(log n)',
@@ -121,7 +126,6 @@ const DSA = {
   'Which format is used to store data in a hash table?': 'Array',
   'A data structure that groups related items of data together to form a single entity':
     'Record',
-  'This Python data structure represents a hash table.': 'Dictionary',
   'Which data structure is used to store unordered items by mapping each item to a location in an array?':
     'Hash Table',
   '(true/false): An advantage linked lists have over arrays are their ability to grow and shrink as needed':
@@ -162,27 +166,27 @@ const DSA = {
     'Adaptability',
   'The algorithm should handle larger data sets and problem sizes without a significant decrease in performance':
     'Scalability',
-  'A straightforward approach that exhaustively tries all possible solutions, suitable for small problem instances but may become impractical for larger ones due to its high time complexity':
+  'Algorithm: A straightforward approach that exhaustively tries all possible solutions, suitable for small problem instances but may become impractical for larger ones due to its high time complexity':
     'Brute Force Algorithm',
-  'A method that breaks a problem into smaller, similar subproblems and repeatedly applies itself to solve them until reaching a base case':
+  'Algorithm: A method that breaks a problem into smaller, similar subproblems and repeatedly applies itself to solve them until reaching a base case':
     'Recursive Algorithm',
-  'Utilized to transform data into a secure, unreadable form using cryptographic techniques, ensuring confidentiality and privacy in digital communications and transactions':
+  'Algorithm: Utilized to transform data into a secure, unreadable form using cryptographic techniques, ensuring confidentiality and privacy in digital communications and transactions':
     'Encryption Algorithm',
-  'A trial-and-error technique used to explore potential solutions by undoing choices when they lead to an incorrect outcome, commonly employed in puzzles and optimization problems':
+  'Algorithm: A trial-and-error technique used to explore potential solutions by undoing choices when they lead to an incorrect outcome, commonly employed in puzzles and optimization problems':
     'Backtracking Algorithm',
-  'Designed to find a specific target within a dataset, enabling efficient retrieval of information from sorted or unsorted collections':
+  'Algorithm: Designed to find a specific target within a dataset, enabling efficient retrieval of information from sorted or unsorted collections':
     'Searching Algorithm',
-  'Aimed at arranging elements in a specific order, like numerical or alphabetical, to enhance data organization and retrieval':
+  'Algorithm: Aimed at arranging elements in a specific order, like numerical or alphabetical, to enhance data organization and retrieval':
     'Sorting Algorithm',
-  'Converts data into a fixed-size hash value, enabling rapid data access and retrieval in hash tables, commonly used in databases and password storage':
+  'Algorithm: Converts data into a fixed-size hash value, enabling rapid data access and retrieval in hash tables, commonly used in databases and password storage':
     'Hashing Algorithm',
-  'Breaks a complex problem into smaller subproblems, solves them independently, and then combines their solutions to address the original problem effectively':
+  'Algorithm: Breaks a complex problem into smaller subproblems, solves them independently, and then combines their solutions to address the original problem effectively':
     'Divide and Conquer Algorithm',
-  'Makes locally optimal choices at each step in the hope of finding a global optimum, useful for optimization problems but may not always lead to the best solution':
+  'Algorithm: Makes locally optimal choices at each step in the hope of finding a global optimum, useful for optimization problems but may not always lead to the best solution':
     'Greedy Algorithm',
   'The algorithm should end after a given time, and it should have a limited number of instructions':
     'Finiteness',
-  'It is the approach that comes first to mind when solving a problem. It is the most basic approach to solving a problem':
+  'Algorithm: It is the approach that comes first to mind when solving a problem. It is the most basic approach to solving a problem':
     'Brute Force Algorithm',
   'The amount of time an algorithm needs to run entirely, depending on the size of the input given':
     'Time Complexity',
@@ -224,6 +228,7 @@ const DSA = {
   "A traversal that visits a starting vertex, then visits every vertex along each path starting from that vertex to the path's end before backtracking":
     'Depth First Search',
   'Is a stack LIFO or FIFO?': 'LIFO',
+  'Is a queue LIFO or FIFO?': 'FIFO',
   'A linear list in which elements can be inserted only at one end, called the rear, and deleted only from the other end, called the front. The first element to be inserted is the first one to be deleted':
     'Queue',
   'An algorithmic process that remembers the path through a data structure and can retrace the path in reverse order':
@@ -249,7 +254,7 @@ const DSA = {
   'The hash function generates the same index for more than one key':
     'Collision',
   'An indexed storage location for one or more entries': 'Bucket',
-  'Takes a key and computes an integer': 'Hash',
+  'Takes a key and computes an integer': 'Hash Function',
   'An array of linked lists': 'Adjacency List',
   'Time Complexity: Iterating over an array n times': 'O(n^2)',
   'Time Complexity: Traversing over a rectangular matrix (uneven columns and rows)':
@@ -258,5 +263,59 @@ const DSA = {
     'O(log n)',
   'Time Complexity: Most built-in sorting methods': 'O(n log n)',
   'Time Complexity: Popping from a heap': 'O(log n)',
+  'The upper-bound complexity': 'Worst case',
+  'What is the runtime complexity for the expression: 305 + O(325 * n)': 'O(n)',
+  '(true/false): The runtime complexity of the algorithm O(n^n + 1) is exponential':
+    'true',
+  'What is the first element visited in this list when using a binary search? [6, 7, 8, 9, 11, 15, 20]':
+    '9',
+  'This tells the recursion when to terminate, meaning the recursion will be stopped once the condition is met':
+    'Base Case',
+  'The function calls itself recursively, and we progress toward achieving the base criteria':
+    'Recursive Case',
+  'An object that can store the memory address of a variable': 'Pointer',
+  'Contains a number of nodes in which each node contains data and a pointer that links to the next node':
+    'Singly Linked List',
+  'This method reads the last data element from the stack': 'peek()',
+  'This stack method deletes from the end of the stack': 'pop()',
+  'This stack method inserts at the end of the stack': 'push()',
+  '(true/false): A tree data structure is a linear, sequential data structure':
+    'false',
+  'A node that has a subtree': 'Parent',
+  'The root node of the tree is considered to be at level...': '0',
+  'The total number of direct children of a node': 'Degree',
+  'A collection of nodes, where the nodes in the tree can have zero, one, or two child nodes':
+    'Binary Tree',
+  'If all the nodes of a binary tree have either zero or two children, and if there is no node that has one child':
+    'Full Binary Tree',
+  '(true/false): A linked list is a linear data structure': 'true',
+  'The value used to map to an index': 'Key',
+  'Each hash table array element is called a...': 'Bucket',
+  "Computes a bucket index from the item's key": 'Hash Function',
+  'Occurs when an item being inserted into a hash table maps to the same bucket as an existing item in the hash table':
+    'Collision',
+  'A collision resolution technique where each bucket has a list of items belonging to that bucket':
+    'Chaining',
+  'A collision resolution strategy where collisions are resolved by looking for an empty bucket elsewhere in the table':
+    'Open Addressing',
+  "An open-addressing collision resolution technique where collisions are resolved by starting at the key's mapped bucket, and then linearly searches subsequent buckets until an empty bucket is found":
+    'Linear Probing',
+  'An open-addressing collision resolution technique that uses 2 different hash functions to compute bucket indices':
+    'Double Hashing',
+  'The number of items in the hash table divided by the number of buckets; may be used to decide when to resize the hash table':
+    'Load Factor',
+  'Maps items to buckets with no collisions': 'Perfect Hash Function',
+  'A named location that can be used to store and organize data':
+    'Data Structure',
+  'A collection of elements stored at contigious memory locations': 'Array',
+  'A collection of steps to solve a problem': 'Algorithm',
+  'One by one, examine the elements of an array to find a value':
+    'Linear Search',
+  'Heap: value of node >= value of its parent': 'Min Heap',
+  'Heap: value of node <= value of its parent': 'Max Heap',
+  'A FIFO data structure that serves elements with the highest priorities first before elements with lower priority':
+    'Priority Queue',
+  '(true/false): A queue is a linear data structure': 'true',
+  'Using peek() on a queue returns the...': 'Head',
 };
 export default DSA;

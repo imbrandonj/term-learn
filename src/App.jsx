@@ -1,6 +1,7 @@
 import ViewTerm from './ViewTerm.jsx';
 
 import jsIcon from './assets/js.svg';
+import pyIcon from './assets/py2.svg';
 import dsaIcon from './assets/dsa.svg';
 import javaIcon from './assets/java.svg';
 import cybersecIcon from './assets/cybersec.svg';
@@ -28,6 +29,12 @@ function App() {
             <button onClick={() => selectTermSet('js')}>
               <img src={jsIcon} height={'60'} />
               JavaScript
+            </button>
+          </li>
+          <li>
+            <button onClick={() => selectTermSet('python')}>
+              <img src={pyIcon} height={'60'} />
+              Python
             </button>
           </li>
           <li>
