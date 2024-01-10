@@ -76,7 +76,6 @@ const DSA = {
   'A connection between two nodes': 'Edge',
   'Adjacency Matrix Space Complexity': 'O(v^2)',
   'A node of a matrix or graph': 'Vertex',
-  'Adjacency List Time Complexity': 'O(v)',
   'Adjacency List Space Complexity': 'O(v + e)',
   'Which abstract data type (ADT) is characterized by the LIFO (last in, first out) principle?':
     'Stack',
