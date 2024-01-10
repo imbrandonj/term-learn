@@ -44,8 +44,9 @@ const DSA = {
   'Radix Sort Time Complexity': 'O(n)',
   'Iterating over a loop while iterating over another loop (nested) is what time complexity?':
     'O(n^2)',
-  'Insertion and deletion at the end of an array': 'O(1)',
-  'Insertion and deletion at the beginning of an array': 'O(n)',
+  'Time Complexity: Insertion and deletion at the end of an array': 'O(1)',
+  'Time Complexity: Insertion and deletion at the beginning of an array':
+    'O(n)',
   'Binary Search on sorted arrays time complexity': 'O(log n)',
   'Refers to the amount of memory or storage space that a function/algorithm consumes based on the size of its input':
     'Space Complexity',
@@ -73,7 +74,6 @@ const DSA = {
   'Sequence of nodes and edges from one node to another': 'Path',
   'Merge Sort Space Complexity': 'O(n)',
   'A connection between two nodes': 'Edge',
-  'Adjacency Matrix Time Complexity': 'O(1)',
   'Adjacency Matrix Space Complexity': 'O(v^2)',
   'A node of a matrix or graph': 'Vertex',
   'Adjacency List Time Complexity': 'O(v)',
@@ -82,6 +82,7 @@ const DSA = {
     'Stack',
   '(true/false): An algorithm that uses an agnostic code repository is independent in nature':
     'true',
+  '(true/false): A linked list has O(1) enqueue and dequeue operations': 'true',
   'Which term refers to a template for creating an object?': 'Class',
   'A data structure that stores subitems, organizing them into named fields or attributes, to represent a single entity':
     'Record',
@@ -123,7 +124,7 @@ const DSA = {
     '6',
   'How many elements in a list of size 64 would be visited when using a binary search for a number that is smaller than all the values in the list?':
     '6',
-  'Which format is used to store data in a hash table?': 'Array',
+  'Which format is most commonly used to store data in a hash table?': 'Array',
   'A data structure that groups related items of data together to form a single entity':
     'Record',
   'Which data structure is used to store unordered items by mapping each item to a location in an array?':
@@ -192,8 +193,6 @@ const DSA = {
     'Time Complexity',
   'Algorithms provide systematic and optimized approaches to solving problems, ensuring that solutions are obtained with minimal time and resource usage':
     'Efficiency',
-  '(true/false): A recursive algorithm applies itself to a smaller subproblem in all cases':
-    'false',
   'A recursive algorithm terminates due to the...': 'Base Case',
   '(true/false): The presence of a base case is what identifies an algorithm as being recursive':
     'False',

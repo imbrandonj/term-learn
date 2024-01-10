@@ -3,9 +3,9 @@ const PYTERMS = {
     'Default',
   'Which function determines that a linked list contains no data?':
     'is_empty()',
-  'Which function in Python is used to delete one item on the right side of the deque?':
+  'Which function in Python is used to delete one item on the right side of the dequeue?':
     'pop()',
-  'Which tool in Python is used to implement a deque ADT?': 'Collections',
+  'Which tool in Python is used to implement a dequeue ADT?': 'Collections',
   'Which Python list function will remove all items from a list?': 'clear()',
   'Which function in Python is used to find a specific value in a tuple?':
     'index()',
