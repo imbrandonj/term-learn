@@ -22,6 +22,8 @@ const PYTERMS = {
   "(true/false): Python's built-in list data structure utilize doubly-linked lists":
     'false',
   'Method: insertion at the end of the list': 'append()',
+  '(true/false): A dictionary is an abstract data type that maps keys with values':
+    'true',
 };
 
 export default PYTERMS;

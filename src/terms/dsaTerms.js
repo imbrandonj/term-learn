@@ -137,8 +137,6 @@ const DSA = {
     'Index',
   "A data type described by predefined user operations, such as 'insert data at rear,' without indicating how each operation is implemented":
     'Abstract Data Type',
-  '(true/false): A dictionary is an abstract data type that maps keys with values':
-    'true',
   '(true/false): A dynamic array is a linked list.': 'false',
   "(true/false): A list abstract data type's underlying data structure has no impact on the program's execution":
     'false',
@@ -274,7 +272,7 @@ const DSA = {
   'An object that can store the memory address of a variable': 'Pointer',
   'Contains a number of nodes in which each node contains data and a pointer that links to the next node':
     'Singly Linked List',
-  'This method reads the last data element from the stack': 'peek()',
+  'This method reads the top data element from the stack': 'peek()',
   'This stack method deletes from the end of the stack': 'pop()',
   'This stack method inserts at the end of the stack': 'push()',
   '(true/false): A tree data structure is a linear, sequential data structure':
