@@ -31,7 +31,7 @@ const DSA = {
   'O(n^2) Complexity': 'Quadratic',
   'O(2^n) Complexity': 'Exponential',
   'Random access of an element in an array': 'O(1)',
-  'Inserting at the beginning of a linked list': 'O(1)',
+  'Time Complexity: Inserting at the beginning of a linked list': 'O(1)',
   'Binary Search Time Complexity': 'O(log n)',
   'Time Complexity: Searching through a linked list': 'O(n)',
   'Quicksort Average Time Complexity': 'O(n log n)',
@@ -313,5 +313,6 @@ const DSA = {
     'Priority Queue',
   '(true/false): A queue is a linear data structure': 'true',
   'Using peek() on a queue returns the...': 'Head',
+  'A single variable used to store multiple values': 'Collection',
 };
 export default DSA;

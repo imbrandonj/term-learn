@@ -24,6 +24,30 @@ const PYTERMS = {
   'Method: insertion at the end of the list': 'append()',
   '(true/false): A dictionary is an abstract data type that maps keys with values':
     'true',
+  'A collection of ordered and changeable values. Duplicates are OK.': 'List',
+  'A collection of unordered and unique values. Can add or remove values. No duplicates.':
+    'Set',
+  'A collection of ordered and immutable values. Duplicates are OK.': 'Tuple',
+  'list[0:3]: is the 3 inclusive or exclusive?': 'exclusive',
+  '(true/false): list[::2] utilizes a step to access every 2nd element of the list':
+    'true',
+  '(true/false): list[::-1] utilizes a step to access the end of the list in descending order':
+    'true',
+  '(true/false): list[2:5] accesses indexes 2, 3, 4, 5': 'false',
+  'Data structure wrapped with {}': 'Set',
+  'Data structure wrapped with []': 'List',
+  'Data structure wrapped with ()': 'Tuple',
+  '(true/false): Using pop() on a Set removes and returns an arbitrary (random) value':
+    'true',
+  '(true/false): Using the clear() method on a Set removes all the values and empties the Set':
+    'true',
+  '(true/false): Using the clear() method on a Tuple removes all the values and empties the Tuple':
+    'false',
+  '(true/false): Tuples are unordered': 'false',
+  '(true/false): Tuples are faster than Lists': 'true',
+  "(true/false): You can check if a value is in a Tuple by using the 'in' keyword":
+    'true',
+  'Provide the method that returns the index of a value in a Set': 'index()',
 };
 
 export default PYTERMS;
