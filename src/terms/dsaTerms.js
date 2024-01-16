@@ -150,8 +150,6 @@ const DSA = {
     'Bag',
   'A sorting algorithm that repeatedly partitions the input into low and high parts (each part unsorted), and then recursively sorts each of those parts':
     'Quicksort',
-  "Refers to an algorithm's ability to define your problem clearly":
-    'Robustness',
   'The algorithm should be designed in a straightforward, structured way so that when you redefine the algorithm, no significant changes are made to the algorithm':
     'Maintainability',
   'A good algorithm should perform its task quickly and use minimal resources':
