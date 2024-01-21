@@ -640,6 +640,7 @@ const JSTERMS = {
     'proxy server',
   'the point of contact between the client device and a server resource; essentially, the url to which a server request is made':
     'API endpoint',
+  'The Event Loop in JavaScript uses this data structure': 'Queue',
 };
 
 export default JSTERMS;

@@ -75,8 +75,11 @@ const DSA = {
   'Merge Sort Space Complexity': 'O(n)',
   'A connection between two nodes': 'Edge',
   'Adjacency Matrix Space Complexity': 'O(v^2)',
+  'A 2D array to store 1s & 0s to represent edges': 'Adjacency Matrix',
+  'Adjacency Matrix Time Complexity (Access)': 'O(1)',
   'A node of a matrix or graph': 'Vertex',
   'Adjacency List Space Complexity': 'O(v + e)',
+  'Adjacency List Time Complexity': 'O(v)',
   'Which abstract data type (ADT) is characterized by the LIFO (last in, first out) principle?':
     'Stack',
   '(true/false): An algorithm that uses an agnostic code repository is independent in nature':
@@ -141,7 +144,7 @@ const DSA = {
   "(true/false): A list abstract data type's underlying data structure has no impact on the program's execution":
     'false',
   'Abstract data type: Items are ordered based on how items are added. Duplicate items are allowed.':
-    'List',
+    'Array',
   'Abstract data type: Items are not ordered. Duplicate items are not allowed.':
     'Set',
   "Abstract data type: Items are ordered based on items' priority. Duplicate items are allowed.":
@@ -217,9 +220,13 @@ const DSA = {
     'Adjacent',
   'A sequence of edges leading from a source (starting) vertex to a destination (ending) vertex':
     'Path',
-  'A traversal that visits a starting vertex, then all vertices of distance 1 from that vertex, then of distance 2, and so on, without revisiting a vertex':
+  'A search traversal that visits a starting vertex, then all vertices of distance 1 from that vertex, then of distance 2, and so on, without revisiting a vertex':
     'Breadth First Search',
-  "A traversal that visits a starting vertex, then visits every vertex along each path starting from that vertex to the path's end before backtracking":
+  "A search traversal that visits a starting vertex, then visits every vertex along each path starting from that vertex to the path's end before backtracking (when reaching a dead end)":
+    'Depth First Search',
+  'This tree & graph searching algorithm traverses one level at a time':
+    'Breadth First Search',
+  'This tree & graph searching algorithm traverses one branch at a time':
     'Depth First Search',
   'Is a stack LIFO or FIFO?': 'LIFO',
   'Is a queue LIFO or FIFO?': 'FIFO',

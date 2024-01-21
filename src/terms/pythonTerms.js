@@ -15,6 +15,8 @@ const PYTERMS = {
   'This Python data structure represents a hash table': 'Dictionary',
   'Which data structure is the most dynamic in storing data items of varying lengths?':
     'List',
+  'Abstract data type: Items are ordered based on how items are added. Duplicate items are allowed.':
+    'List',
   'Python variable types can be checked using the function...': 'type()',
   'An immutable sequence of characters represented in single, double, or triple quotes':
     'String',
