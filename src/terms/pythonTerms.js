@@ -50,6 +50,8 @@ const PYTERMS = {
   "(true/false): You can check if a value is in a Tuple by using the 'in' keyword":
     'true',
   'Provide the method that returns the index of a value in a Set': 'index()',
+  'Which Python list function removes the first instance of the specified element?':
+    'remove()',
 };
 
 export default PYTERMS;
