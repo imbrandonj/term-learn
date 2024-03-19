@@ -5,6 +5,7 @@ import pyIcon from './assets/py2.svg';
 import dsaIcon from './assets/dsa.svg';
 import javaIcon from './assets/java.svg';
 import cybersecIcon from './assets/cybersec.svg';
+import pmIcon from './assets/pm.svg';
 
 import { useState } from 'react';
 
@@ -53,6 +54,12 @@ function App() {
             <button onClick={() => selectTermSet('cyber')}>
               <img src={cybersecIcon} height={'60'} />
               Cybersecurity
+            </button>
+          </li>
+          <li>
+            <button onClick={() => selectTermSet('pm')}>
+              <img src={pmIcon} height={'60'} />
+              Project+
             </button>
           </li>
         </ul>

@@ -319,5 +319,8 @@ const DSA = {
   '(true/false): A queue is a linear data structure': 'true',
   'Using peek() on a queue returns the...': 'Head',
   'A single variable used to store multiple values': 'Collection',
+  "(true/false): A Max Heap's root must have the maximum key": 'true',
+  "A complete binary tree that maintains the simple property that a node's key is greater than or equal to the node's children keys":
+    'Max Heap',
 };
 export default DSA;

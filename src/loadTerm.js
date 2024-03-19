@@ -4,6 +4,7 @@ import PYTERMS from './terms/pythonTerms';
 import CYBERTERMS from './terms/cyberTerms';
 import JAVATERMS from './terms/javaTerms';
 import JSTERMS from './terms/jsTerms';
+import PMTERMS from './terms/pmTerms';
 
 export function loadTerm(set) {
   const TERMS =
@@ -17,7 +18,9 @@ export function loadTerm(set) {
             ? JAVATERMS
             : set === 'js'
               ? JSTERMS
-              : null;
+              : set === 'pm'
+                ? PMTERMS
+                : null;
 
   const ALL_TERM_DEF = Object.keys(TERMS); // the keys are the term definitions
   const definition =
