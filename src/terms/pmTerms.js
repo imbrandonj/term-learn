@@ -36,8 +36,8 @@ const PMTERMS = {
     'Alternatives Identification',
   '(True/False): In the Options section of a business case, always include a "Do Nothing" option.':
     'true',
-  'A generic name for protocols that carry voice traffic over data networks.':
-    'Voice Over Internet Protocol (VOIP)',
+  'A generic name for protocols that carry voice traffic over data networks; VOIP':
+    'Voice Over Internet Protocol',
   'It shows the sequence of events and the flow of inputs and outputs between elements in a process or system.':
     'Process Flowchart',
   'A metric to calculate whether an asset is worth the cost of deploying and maintaining it.':
@@ -58,7 +58,7 @@ const PMTERMS = {
     'risks',
   'Threats to the financial benefits of the project.': 'risks',
   'A project selection decision model that analyzes the predicted value of the completed projects in different ways.':
-    'Benefit Measurement Models',
+    'Benefit Measurement Model',
   'Organizational performance measures unrelated to financial performance that assess how an organization contributes to society.':
     'ESG',
   'A control point event in a project with zero duration that triggers a reporting requirement or requires sponsor or customer approval before proceeding with the project.':
@@ -114,6 +114,35 @@ const PMTERMS = {
     'portfolio',
   'The act of choosing a project from among competing proposals.':
     'project selection',
+  'A software development model where the phases of the SDLC cascade so that each phase will start only when all tasks identified in the previous phase are complete.':
+    'Waterfall',
+  'A statement that defines why a project is being undertaken, the functionality that a project is designed to accommodate, or how the functionality will be achieved and satisfied by the solution.':
+    'project requirements',
+  'The totality of features and characteristics of a product or service that bear on its ability to satisfy stated or implied needs.':
+    'quality',
+  'A software development model that focuses on iterative and incremental development to account for evolving requirements and expectations.':
+    'Agile',
+  'A process by which product development is broken down from a large application into smaller chunks. A product or product component goes through the entire life cycle: it is designed, developed, and tested in repeated cycles. The end user may not have a working product for several cycles.':
+    'iterative development',
+  'An approach that breaks the software development process down into small, manageable portions. Each version builds on the previous working version so that improvements are made step by step.':
+    'incremental development',
+  'A method that builds an incremental model that is developed in multiple cycles of iterations; IID':
+    'iterative and incremental development',
+  '(True/False): Agile uses only iterative development.': 'false',
+  'The extension of the project scope caused by unapproved and uncontrolled changes that impacts the cost, quality, or timing of the project.':
+    'scope creep',
+  'Software that enables an organization to manage services, personnel, and IT resources; ERP':
+    'enterprise resource planning',
+  'The most common agile framework, it delivers iterative and adaptive value while intentionally covering only the barest requirements; lightweight, customer-centric.':
+    'scrum',
+  'In Agile project management, this represents a complete process, from planning to delivery and demo of a part of the product.':
+    'sprint',
+  'A member of a Scrum team who maximizes outcomes and selects and prioritizes the work that the agile team will complete.':
+    'product owner',
+  'A role in the Scrum framework that enables the team to apply the framework; offers coaching, training, and guidance.':
+    'scrum master',
+  'A prioritized list of customer requirements. It is the first step of Scrum.':
+    'product backlog',
 };
 
 export default PMTERMS;
