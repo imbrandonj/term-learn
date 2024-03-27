@@ -143,6 +143,54 @@ const PMTERMS = {
     'scrum master',
   'A prioritized list of customer requirements. It is the first step of Scrum.':
     'product backlog',
+  'In Scrum, the product owner owns and manages the...': 'product backlog',
+  'A long-term goal of an agile product.': 'product goal',
+  'A list of user stories selected from the product backlog that the Scrum team chooses and commits to complete in that sprint cycle.':
+    'Sprint backlog',
+  'The primary value that a team plans to deliver in a given sprint.':
+    'Sprint goal',
+  'A complete body of work that meets the definition of done and moves toward the product goal.':
+    'increment',
+  'The predictable, rhythmic repetition of events or schedules that creates a sense of stability for teams.':
+    'cadence',
+  'A session where the scrum team selects enough work for the upcoming sprint to build a sprint backlog.':
+    'Sprint planning',
+  'A meeting in which the complete team gets together for a quick status update. These are short, 15-minute meetings that are conducted by standing in a circle.':
+    'daily Scrum',
+  'An informal, end-of-sprint meeting of the agile team and product stakeholders to review the product’s newest functionality in a working session, collaboratively adjust the backlog, and decide what to work on next.':
+    'Sprint review',
+  'A process improvement session where an agile team reflects on the previous sprint and identifies ways that the team can improve how they work together.':
+    'retrospective',
+  'A highly visual agile development methodology that emphasizes controlling work in progress and visualizing work.':
+    'Kanban',
+  'Troubleshooting issue where performance for a whole network or system is constrained by the performance of a single link, device, or subsystem.':
+    'bottleneck',
+  'An agile software development framework noted for its heavy emphasis on software engineering practices; (XP)':
+    'Extreme programming',
+  'A published version of a software product. This is the delivery channel for new features and functionality.':
+    'release',
+  'In Agile methodology, these are the customer requirements or features. Each one emphasizes the functionality of the feature and how it adds to the final product.':
+    'user stories',
+  'A software development method combining app and platform updates (rapidly committed to production) with code updates (rapidly committed to a code repository or build server). Continuous Integration & Continuous Deployment/Delivery':
+    'CI/CD',
+  'A software development method in which code updates are tested and rapidly committed to a development or build server/code repository.':
+    'Continuous Integration',
+  'A software development method in which app and platform requirements are frequently tested and validated for immediate availability.':
+    'Continuous Delivery',
+  'A software development method in which app and platform updates are rapidly committed to production.':
+    'Continuous Deployment',
+  'A combination of software development and systems operations; refers to the practice of integrating one discipline with the other.':
+    'DevOps',
+  'The fully automated alternative to continuous delivery; rapid integration':
+    'continuous deployment',
+  'A combination of software development, security operations, and systems operations; refers to the practice of integrating each discipline with the others.':
+    'DevSecOps',
+  '(True/False): "scaled agile" and "Scaled Agile Framework (SAFe)" are the same thing.':
+    'false',
+  'A popular agile-at-scale framework incorporating multiple agile practices and frameworks; SAFe':
+    'Scaled Agile Framework',
+  'The processes of planning, analysis, design, implementation, and maintenance that often govern software and systems development; SDLC':
+    'software development life cycle',
 };
 
 export default PMTERMS;
