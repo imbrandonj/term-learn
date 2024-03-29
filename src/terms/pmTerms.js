@@ -88,8 +88,8 @@ const PMTERMS = {
     'project manager',
   'An individual who coordinates with the project managers, oversees related projects in a program to obtain maximum benefits, and provides guidance and support to every individual project.':
     'program manager',
-  'A centralized, ongoing administrative unit or department that serves to improve project-management performance within an organization.':
-    'project management office (PMO)',
+  'A centralized, ongoing administrative unit or department that serves to improve project-management performance within an organization; (PMO)':
+    'project management office',
   'A structured system of processes and tools that improves an organization’s ability to meet targets; evaluates current performance and improves future outcomes':
     'performance management',
   'A person who has a business interest in the outcome of a project or is actively involved in its work.':
@@ -100,7 +100,7 @@ const PMTERMS = {
     'sponsor',
   '(True/False): The sponsor is often a single senior management member within the organization.':
     'true',
-  '(True/False): The sponsor only provided financial assistance to the project; they do not interject with any guidance or governance.':
+  '(True/False): The sponsor only provides financial assistance to the project; they do not interject with any guidance or governance.':
     'false',
   'A consumer of a good or service that works in the same organization as the supplier.':
     'internal customer',
@@ -191,6 +191,27 @@ const PMTERMS = {
     'Scaled Agile Framework',
   'The processes of planning, analysis, design, implementation, and maintenance that often govern software and systems development; SDLC':
     'software development life cycle',
+  'A sequential, rigid development model. Planning -> Requirements -> Design -> Development -> Testing -> Deployment -> Operations. The original SDLC model.':
+    'Waterfall SDLC',
+  'This is a hybrid development model. The beginning and ending phases occur once, like a waterfall project. But the middle stages iterate as often as needed.':
+    'Iterative SDLC',
+  'This is a risk-centric iterative development model. The project cycles through all SDLC phases, and each cycle assesses risk. The most complex and resource-intensive model.':
+    'Spiral SDLC',
+  'This is an iterative, customer-centric development model. Planning -> Requirements -> Design -> Development -> Testing -> Deployment -> Planning, etc.':
+    'Agile SDLC',
+  'Activities that underlie the effective practice of project management; they include all the phases of initiating/pre-project setup, planning, executing, monitoring/controlling, and closing a project.':
+    'project management processes',
+  'A process-based project management methodology that aims to control the project management process by predefining clear project phases, roles, and tasks. PRINCE2':
+    'Projects in Controlled Environments',
+  'PRINCE2 is not a good fit for companies that do not emphasize...':
+    'documentation',
+  'This project management methodology includes more upper management involvement than other methodologies do, which helps the organization manage resources and lower risks.':
+    'PRINCE2',
+  'The starkest difference between waterfall and agile is...': 'flexibility',
+  'If your team is 10 or fewer people, when selecting a project framework, you could choose waterfall or...':
+    'agile',
+  'If your team requires more than 10 members, when selecting a project framework, you could choose water or...':
+    'scaled agile',
 };
 
 export default PMTERMS;
