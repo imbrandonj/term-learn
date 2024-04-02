@@ -212,6 +212,59 @@ const PMTERMS = {
     'agile',
   'If your team requires more than 10 members, when selecting a project framework, you could choose water or...':
     'scaled agile',
+  "Request to modify a project's activities or resources, which would lead to a change in the project’s scope, budget, or timeline.":
+    'change request',
+  '(True/False): Agile projects engage the stakeholder throughout the entire project.':
+    'true',
+  'A process of development in which additional layers of detail are defined over the course of a project.':
+    'progressive elaboration',
+  'A definitive list of activities that must be completed to produce the desired project deliverables.':
+    'activity list',
+  'A project team member who closely understands business direction and company priorities and is familiar with the software environment, operating as a translator between business and IT.':
+    'business analyst',
+  "The document defining a project's scope, success factors, constraints, and other information to achieve project goals.":
+    'business requirements',
+  'Defines the criteria for a solution to a given problem that software or services are expected to meet.':
+    'solution requirements',
+  'Architects design solutions; they look across an organization at how different systems work together and ensure projects adhere to...':
+    'solution requirements',
+  'Professionals who improves an organization’s quality standards through inspection and process improvement (testing).':
+    'quality assurance specialists',
+  '"Suppliers", "sellers", "contractors", or "business partners"': 'vendors',
+  'External parties who enter into a contractual agreement with the organization and provide components or services needed for the project.':
+    'vendors',
+  'These team members work on the project full time. They are also referred to as "operational" team members.':
+    'core',
+  'These team members are fractional team members, meaning they work on the project part time. They might split their time between multiple projects and their functional job. Also called "functional" team members.':
+    'extended',
+  'During the initiation phase: after assembling the project team, you can build a...':
+    'project organizational chart',
+  'The various reporting relationships that occur within a project.':
+    'project interfaces',
+  'A governing body that oversees a project or program; guides priorities, policies, standards, and next steps.':
+    'steering committee',
+  '(True/False): The steering committee can be composed of multiple functional leaders and senior managers.':
+    'true',
+  'A type of Responsibility Assignment Matrix that helps detect the level of responsibility for each project team member.':
+    'RACI chart',
+  'A chart that links key project stakeholders to specific project deliverables or activities by assigning responsibilities to each stakeholder for each element of work. (RAM)':
+    'responsibility assignment matrix',
+  'Role ownership: 1) responsible, 2) accountable, 3) consulted, 4) informed':
+    'RACI chart',
+  'A management strategy that is created to ensure increase in support and minimize the negative impacts of stakeholders throughout the entire project life cycle.':
+    'stakeholder engagement plan',
+  'A document that identifies stakeholders of a project with information that includes their identification, assessment, and stakeholder classification.':
+    'stakeholder register',
+  'Items such as plans, standards and procedures, estimations, metrics, risks, and other historical information that provide evidence for lessons learned.':
+    'artifacts',
+  'At what phase of the project life cycle is the project charter created?':
+    'initiation',
+  'A brief, formal document created in the project initiation phase that outlines the project parameters.':
+    'project charter',
+  'Items generated throughout the project, either digital or print, but observable after creation.':
+    'artifacts',
+  'Objective: 1) specific, 2) measurable, 3) achievable, 4) relevant, 5) time-bound':
+    'SMART',
 };
 
 export default PMTERMS;
