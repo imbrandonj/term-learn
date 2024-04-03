@@ -59,7 +59,7 @@ const PMTERMS = {
   'Threats to the financial benefits of the project.': 'risks',
   'A project selection decision model that analyzes the predicted value of the completed projects in different ways.':
     'Benefit Measurement Model',
-  'Organizational performance measures unrelated to financial performance that assess how an organization contributes to society.':
+  'Organizational performance measures unrelated to financial performance that assess how an organization contributes to society; Factors: 1) environmental, 2) social, 3) governance':
     'ESG',
   'A control point event in a project with zero duration that triggers a reporting requirement or requires sponsor or customer approval before proceeding with the project.':
     'milestones',
@@ -149,7 +149,7 @@ const PMTERMS = {
     'Sprint backlog',
   'The primary value that a team plans to deliver in a given sprint.':
     'Sprint goal',
-  'A complete body of work that meets the definition of done and moves toward the product goal.':
+  'A complete body of work that meets the definition of "done" and moves toward the product goal.':
     'increment',
   'The predictable, rhythmic repetition of events or schedules that creates a sense of stability for teams.':
     'cadence',
@@ -265,6 +265,10 @@ const PMTERMS = {
     'artifacts',
   'Objective: 1) specific, 2) measurable, 3) achievable, 4) relevant, 5) time-bound':
     'SMART',
+  'A temporary endeavor undertaken to create a unique product, service, or result':
+    'project',
+  'Three main qualities: 1) unique, 2) defined start and finish, 3) reason/purpose':
+    'project',
 };
 
 export default PMTERMS;

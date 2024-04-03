@@ -1,7 +1,7 @@
 const JSTERMS = {
   '(true/false): It is the best practice to place all JavaScript scripts at the beginning of an HTML file so that they will not be run until after the Document Object Model has been created.':
     'false',
-  'Which JavaScript statement calls a method addToOrder() associated with the hotChocolate object, passing the argument 1 to this method?':
+  'Write a JavaScript statement that calls the method addToOrder() associated with the hotChocolate object, passing the argument 1 to this method.':
     'hotChocolate.addToOrder(1)',
   'a set of procedures that access an application': 'API',
   '(true/false): The Document Object Model and the Browser Object Model are examples of an Application Programming Interface(API)':
@@ -621,7 +621,7 @@ const JSTERMS = {
     'let parser = new DOMParser()',
   'What method parses JSON data received from a response object named "response"?':
     'response.json()',
-  'What method would you use to change a user profile in a database on a server?':
+  'Which HTTP method would you use to change a user profile in a database on a server?':
     'PUT',
   'The point of contact between the client and server resource, often specified as the URL that receives the client request.':
     'endpoint',
