@@ -1,6 +1,4 @@
 const PMTERMS = {
-  'Activities that underlie the effective practice of project management; they include all the phases of concept/discovery, initiation, planning, execution, and closing a project.':
-    'processes',
   'The total financial sum available to pay for a project’s expenses; includes the cost estimates and additional reserves to cover issues.':
     'project budget',
   'Computing architecture where on-demand resources provisioned with the attributes of high availability, scalability, and elasticity are billed to customers on the basis of metered utilization.':
@@ -46,8 +44,8 @@ const PMTERMS = {
     'ROI',
   'A mutually binding agreement that details the obligations of the buyer and vendor.':
     'Contract',
-  'The three main values of ROI': 'Benefit, Cost, Net Profit',
-  'The difference between the benefit and the cost.': 'Net Profit',
+  'The three main values of ROI': 'cost, benefit, net profit',
+  'The difference between the benefit and the cost.': 'net profit',
   'The money generated or explicitly saved due to the profit; financial value or revenue':
     'Benefit',
   'Compliance-mandatory characteristics for specific products, services, or processes.':
@@ -115,11 +113,9 @@ const PMTERMS = {
   'The act of choosing a project from among competing proposals.':
     'project selection',
   'A software development model where the phases of the SDLC cascade so that each phase will start only when all tasks identified in the previous phase are complete.':
-    'Waterfall',
+    'Waterfall SDLC',
   'A statement that defines why a project is being undertaken, the functionality that a project is designed to accommodate, or how the functionality will be achieved and satisfied by the solution.':
     'project requirements',
-  'The totality of features and characteristics of a product or service that bear on its ability to satisfy stated or implied needs.':
-    'quality',
   'A software development model that focuses on iterative and incremental development to account for evolving requirements and expectations.':
     'Agile',
   'A process by which product development is broken down from a large application into smaller chunks. A product or product component goes through the entire life cycle: it is designed, developed, and tested in repeated cycles. The end user may not have a working product for several cycles.':
@@ -199,8 +195,6 @@ const PMTERMS = {
     'Spiral SDLC',
   'This is an iterative, customer-centric development model. Planning -> Requirements -> Design -> Development -> Testing -> Deployment -> Planning, etc.':
     'Agile SDLC',
-  'Activities that underlie the effective practice of project management; they include all the phases of initiating/pre-project setup, planning, executing, monitoring/controlling, and closing a project.':
-    'project management processes',
   'A process-based project management methodology that aims to control the project management process by predefining clear project phases, roles, and tasks. PRINCE2':
     'Projects in Controlled Environments',
   'PRINCE2 is not a good fit for companies that do not emphasize...':
@@ -269,6 +263,102 @@ const PMTERMS = {
     'project',
   'Three main qualities: 1) unique, 2) defined start and finish, 3) reason/purpose':
     'project',
+  'A group of related projects or activities that are managed in coordination to obtain benefits not available if they were managed individually.':
+    'program',
+  'Includes all projects, programs, and operations managed by an organization to allow it to reach strategic objectives. The projects and programs included do not necessarily depend on each other.':
+    'portfolio',
+  IaaS: 'infrastructure as a service',
+  'Service provider manages: virtualization, servers, storage, & networking.':
+    'IaaS',
+  PaaS: 'platform as a service',
+  'Service provider manages: runtime, middleware, OS, virtualization, servers, storage, & networking.':
+    'PaaS',
+  SaaS: 'software as a service',
+  'Service provider manages: applications, data, runtime, middleware, OS, virtualization, servers, storage, & networking.':
+    'SaaS',
+  'Metrics generally used to evaluate factors crucial to the success of a project or organization; KPIs':
+    'Key Performance Indicators',
+  'Reflective measures of a KPI that can only be captured after the work is finished.':
+    'lagging indicators',
+  'Predictive measures of a KPI that reflect desired outcomes.':
+    'leading indicators',
+  "Process through which changes to the configuration of information systems are implemented as part of the organization's overall configuration management efforts.":
+    'change management',
+  'The objective is an aspirational goal, and it is paired with measurable key results to track progress; OKRs':
+    'objectives and key results',
+  'ESG impact must be analyzed during the project concept/discovery and...':
+    'initiation',
+  'A goal-setting framework composed of qualitative objectives and quantitative measures of key results.':
+    'OKR',
+  'Phases: Planning -> Requirements -> Design -> Develop -> Test -> Analyze -> Operations':
+    'SDLC',
+  'Is the Waterfall methodology adaptive or predictive?': 'predictive',
+  'A linear, sequential project management framework that uses a Big Design Up Front (BDUF) approach.':
+    'Waterfall',
+  'Is PRINCE2 adaptive or predictive?': 'predictive',
+  '(True/False): Agile methodology is both incremental and iterative.': 'true',
+  'Is the Agile methodology adaptive or predictive?': 'adaptive',
+  'DevOps responsibilities: release, deploy, operate, monitor': 'Ops',
+  'DevOps responsibilities: plan, code, build, test': 'Dev',
+  'An analysis that measures the difference between the current and desired states in order to help assess the scope of work included in a project.':
+    'gap analysis',
+  'Sessions held at the end of a project or phase in which you discuss and document areas for improvement and capture lessons learned for use in future projects.':
+    'closure meeting',
+  "A final summary of the project's performance, outcomes, and lessons learned; created in the closing phase and includes a request to close the project.":
+    'project closeout report',
+  'Documented communication from project stakeholders that they agree to close the project. The stakeholder indicates they agree that the completed work meets the agreed-upon requirements.':
+    'project signoff',
+  'The high-level design is created in which phase of the SDLC process?':
+    'analysis',
+  'The low-level design is created in which phase of the SDLC process?':
+    'design',
+  'The high-level design is created in the analysis phase of the SDLC. It assesses technical...':
+    'feasibility',
+  'The project kickoff marks the end of which project phase?': 'initiation',
+  'The first meeting between the project manager, project team, and stakeholders or customers; marks the end of the initiation phase and the start of the project work.':
+    'project kickoff',
+  'Agreement that sets the service requirements and expectations between a consumer and a provider; SLA':
+    'service level agreement',
+  'The management of processes involved in acquiring the necessary products and services from outside the project team. Starts as early as the project discovery phase and lasts until the last contract is closed.':
+    'procurement management',
+  'Responses submitted by potential vendors that are prepared in accordance with the requirements stated in the procurement documents.':
+    'vendor proposals',
+  'A type of fixed-price contract or a separate document that is appended to a contract. It is sent from a buyer to a vendor with a request for an order. When the vendor accepts the purchase order, a legally binding contract is formed; POs':
+    'purchase order',
+  'A contract that establishes precedence and guidelines for any business documents that are executed between two parties; MSA':
+    'master service agreement',
+  '(True/False): A PO (purchase order) is legally binding.': 'true',
+  'A solicitation document used when a business knows the solution it needs but requires information on how vendors will provide the solution; RFI':
+    'request for information',
+  'A formal business document that announces a project, describes it, and solicits bids from qualified contractors to complete it; RFP':
+    'request for proposal',
+  'Commonly used when deliverables are commodities with clear specifications and when price will be the primary determining factor; RFB':
+    'request for bid',
+  'Solicits proposals like an RFP (request for proposal) does, but the vendors compete on price; RFB':
+    'request for bid',
+  'It is a formal document requesting pricing information for detailed, specific requirements, such as supplies or labor. Vendors respond with detailed pricing models that describe how they will deliver the project scope and how much it will cost; RFQ':
+    'request for quote',
+  'This formal business document is used to solicit multiple vendor proposals for a solution; RFP':
+    'request for proposal',
+  'A graphical representation of the sequence of project activities and the dependencies among them.':
+    'project network diagram',
+  '(True/False): Fixed-priced contracts place the most risk on the vendor, not the buyer.':
+    'True',
+  '"Lump Sum Contract." The vendor agrees to perform the work at the negotiated contract value.':
+    'fixed price contract',
+  'The cost-plus contract places most of the risk on the...': 'buyer',
+  'A contract type that provides vendors a refund of the expenses incurred while providing a service, plus a fee representing vendor profit.':
+    'cost plus contract',
+  'This type of PMO (project management office) is the most controlling and sets rules for everybody in the company.':
+    'directive',
+  'This phase of Waterfall verifies that the work completed meets the requirements and quality specifications':
+    'testing',
+  'A risk evaluation parameter that defines the likelihood of a company detecting a risk occurrence during the project.':
+    'risk detectability',
+  'A deliverable containing an unacceptable deviation or defect that was not detected by the producer or quality team.':
+    'quality escape',
+  'A technology company has an employee whose responsibilities are to ensure that requirements stay aligned with project scope and business needs. What role would this employee hold?':
+    'business analyst',
 };
 
 export default PMTERMS;
