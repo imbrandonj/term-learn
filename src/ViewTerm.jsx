@@ -1,12 +1,19 @@
 import { loadTerm } from './loadTerm';
 import bolt from './assets/bolt.svg';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 export default function ViewTerm({ termSet, setHome }) {
-  const [term, setTerm] = useState(loadTerm(termSet));
+  const [term, setTerm] = useState(loadTerm(termSet)); // initial term on first render
   const [userAnswer, setUserAnswer] = useState('');
+  const problemHistory = useRef({});
 
+  useEffect(() => {
+    // focus on answer box on load and input:
+    document.getElementById('textBox').focus();
+  }, [userAnswer]); // dependency to focus after user clicks `idk give answer` box
+
+  // input event handler
   const handleInput = (event) => {
     setUserAnswer(event.target.value);
   };
@@ -14,10 +21,31 @@ export default function ViewTerm({ termSet, setHome }) {
   // enter event on answer text box:
   const checkAnswer = () => {
     if (term.answer.toLowerCase() === userAnswer.toLowerCase()) {
+      // place the term in useRef; only display a term twice at most
+      let termCounts = problemHistory.current;
+      termCounts[term.problem] = (termCounts[term.problem] || 0) + 1; // tally up or set the initial term
+
+      // load a new term for a term has been displayed less than twice:
+      let newTerm = loadTerm(termSet);
+      while (termCounts[newTerm.problem] > 1) {
+        // check if the set is complete, i.e., all terms tally to 2:
+        const setComplete = Object.values(termCounts).every(
+          (termCount) => termCount === 2,
+        );
+        if (setComplete) {
+          termCounts = {}; // reset the count and start anew
+        }
+
+        newTerm = loadTerm(termSet);
+      }
+
+      // store the new term:
+      setTerm(newTerm);
+      problemHistory.current = termCounts;
+
       setUserAnswer('');
-      setTerm(loadTerm(termSet));
     } else if (userAnswer.toLowerCase() === 'idk') {
-      setUserAnswer(term.answer);
+      setUserAnswer(term.answer); // displays the answer
     }
   };
 
@@ -26,11 +54,6 @@ export default function ViewTerm({ termSet, setHome }) {
 
   // 'return home' button
   const goHome = () => setHome(true);
-
-  // focus on answer box on load and input:
-  useEffect(() => {
-    document.getElementById('textBox').focus();
-  }, [userAnswer]);
 
   return (
     <div id="termContent">
