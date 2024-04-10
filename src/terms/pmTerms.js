@@ -73,7 +73,7 @@ const PMTERMS = {
     'organizational structure',
   'An organizational structure where reporting is hierarchical, with each individual reporting to a single manager.':
     'functional organizational structure',
-  'Individuals who are part of management in the administrative or functional side. They sometimes act as subject matter experts or may provide services needed for the project.':
+  'Individual who is part of management in the administrative or functional side. They sometimes act as subject matter experts or may provide services needed for the project.':
     'functional manager',
   'The project manager’s authority relative to the functional manager’s authority over the project and the project team.':
     'relative authority',
@@ -91,12 +91,12 @@ const PMTERMS = {
   'A structured system of processes and tools that improves an organization’s ability to meet targets; evaluates current performance and improves future outcomes':
     'performance management',
   'A person who has a business interest in the outcome of a project or is actively involved in its work.':
-    'project stakeholder',
+    'stakeholder',
   'The highest level of management in an organization, such as the executive team.':
     'senior management',
   'Individuals or groups that provide financial assistance to the project.':
     'sponsor',
-  '(True/False): The sponsor is often a single senior management member within the organization.':
+  '(True/False): The sponsor can be a senior management member within the organization.':
     'true',
   '(True/False): The sponsor only provides financial assistance to the project; they do not interject with any guidance or governance.':
     'false',
@@ -130,16 +130,18 @@ const PMTERMS = {
   'Software that enables an organization to manage services, personnel, and IT resources; ERP':
     'enterprise resource planning',
   'The most common agile framework, it delivers iterative and adaptive value while intentionally covering only the barest requirements; lightweight, customer-centric.':
-    'scrum',
+    'Scrum',
   'In Agile project management, this represents a complete process, from planning to delivery and demo of a part of the product.':
     'sprint',
   'A member of a Scrum team who maximizes outcomes and selects and prioritizes the work that the agile team will complete.':
     'product owner',
   'A role in the Scrum framework that enables the team to apply the framework; offers coaching, training, and guidance.':
-    'scrum master',
+    'Scrum master',
   'A prioritized list of customer requirements. It is the first step of Scrum.':
     'product backlog',
   'In Scrum, the product owner owns and manages the...': 'product backlog',
+  'In Scrum, the product backlog is owned and managed by the...':
+    'product owner',
   'A long-term goal of an agile product.': 'product goal',
   'A list of user stories selected from the product backlog that the Scrum team chooses and commits to complete in that sprint cycle.':
     'Sprint backlog',
@@ -359,6 +361,19 @@ const PMTERMS = {
     'quality escape',
   'A technology company has an employee whose responsibilities are to ensure that requirements stay aligned with project scope and business needs. What role would this employee hold?':
     'business analyst',
+  '(True/False): Kanban is only used for moderate to large teams.': 'false',
+  '(True/False): The roles of a Kanban project are undefined and adaptable.':
+    'true',
+  'Is the Kanban method more process or people-centric?': 'process',
+  "An Agile method centered around a repeated iterative work cycle known as 'Sprint'":
+    'Scrum',
+  '(True/False): A Scrum master does not assign work nor direct the project strategy.':
+    'true',
+  "An Agile project's key stakeholder.": 'product owner',
+  'Before user stories are chosen for a sprint, they are contained in the...':
+    'backlog',
+  '(True/False): Scrum teams are small in size, generally 5-9 members.': 'true',
+  'Which methodology has longer iterations – Kanban or Scrum?': 'Scrum',
 };
 
 export default PMTERMS;
