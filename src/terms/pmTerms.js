@@ -44,7 +44,7 @@ const PMTERMS = {
     'ROI',
   'A mutually binding agreement that details the obligations of the buyer and vendor.':
     'Contract',
-  'The three main values of ROI': 'cost, benefit, net profit',
+  'The three main values of ROI': 'benefit, cost, net profit',
   'The difference between the benefit and the cost.': 'net profit',
   'The money generated or explicitly saved due to the profit; financial value or revenue':
     'Benefit',
@@ -374,6 +374,63 @@ const PMTERMS = {
     'backlog',
   '(True/False): Scrum teams are small in size, generally 5-9 members.': 'true',
   'Which methodology has longer iterations – Kanban or Scrum?': 'Scrum',
+  'Which software development methodology has a focus on continuous integration/continuous delivery (CI/CD)?':
+    'DevOps',
+  '(True/False): Waterfall development methodology is a good choice for projects with a strict budget.':
+    'true',
+  '(True/False): The Waterfall framework has extremely high costs when changes are implemented later in the project.':
+    'true',
+  'A linear, sequential project management framework. All work gets completed in one phase before another phase starts. Work only flows one way.':
+    'Waterfall',
+  'It is an iterative, Agile framework that features paired programming and user stories as an approach.':
+    'Extreme Programming',
+  'A process-based project management methodology. It aims to create clear project phases, clearly define roles and responsibilities, and predefine tasks to manage the project life cycle.':
+    'PRINCE2',
+  '(True/False): Kanban is an Agile methodology.': 'true',
+  'Delivers development tools, such as software environments, over an internet connection.':
+    'PaaS',
+  'Delivers basic computing resources, such as servers, networks, and storage, over an internet connection.':
+    'IaaS',
+  'A general term for any cloud computing service.': 'XaaS',
+  'Agile method for the enterprise which focuses on the team, program, and portfolio.':
+    'SAFe',
+  '(True/False): Extreme Programming is meant for large teams.': 'false',
+  "The person who will interact with the project's final output.": 'end user',
+  'The party who receives the benefits from a project.': 'customer',
+  'The work that you perform to deliver the final project result.':
+    'project scope',
+  'The project requirements are given by the project...': 'stakeholders',
+  'A technique for creating the Work Breakdown Structure by subdividing project deliverables to the work package level.':
+    'decomposition',
+  "The end result of work; it can be a product, service, or outcome that responds to a business need or fits the sponsor's requirements.":
+    'deliverables',
+  'In project management, an example such as installing tile is an activity, and the finished floor is the...':
+    'work',
+  'The smallest, most granular deliverable that is displayed in the lowest-level component of the work breakdown structure.':
+    'work package',
+  'Created by decomposing the scope of the work into individual activities known as work packages; WBS':
+    'Work Breakdown Structure',
+  'An Agile equivalent to the WBS work package.': 'user story',
+  'Hierarchical structure: levels of elements descending to work packages.':
+    'Work Breakdown Structure',
+  'A prioritized list of requirements and functionality that could be added to a product or project; items at the top of the list are highly valuable, clearly defined, and ready for the agile team to begin delivering them.':
+    'backlog',
+  'Hierarchical structure: Epic -> Feature -> User Story': 'backlog',
+  'A deliverable in an agile team that is equivalent in size to a project; often lasts several iterations or several months.':
+    'epic',
+  'In agile development, a sizeable piece of functionality that is larger than a user story and smaller than an epic.':
+    'feature',
+  'In Agile methodology, these are the customer requirements or features; the smallest Agile deliverable.':
+    'user story',
+  'A deliverable in a Work Breakdown Structure.': 'element',
+  'The lowest element in each branch or leg of a Work Breakdown Structure.':
+    'work package',
+  '(True/False): In a WBS, having a measurable deliverable is one good way to stop an element from further breakdown.':
+    'true',
+  'In a Work Breakdown Structure (WBS), where would a project manager place a high-level deliverable?':
+    'element',
+  'In a Work Breakdown Structure (WBS), known as a "terminal element"; estimates costs, resources, and timing.':
+    'work package',
 };
 
 export default PMTERMS;
