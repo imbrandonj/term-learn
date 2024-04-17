@@ -431,6 +431,94 @@ const PMTERMS = {
     'element',
   'In a Work Breakdown Structure (WBS), known as a "terminal element"; estimates costs, resources, and timing.':
     'work package',
+  'A logical relationship that exists between two project activities.':
+    'dependency',
+  'When sequencing two activities, the activity that must take place prior to the other.':
+    'predecessor',
+  'When sequencing two activities, the activity that must take place after the other and is driven by the relationship.':
+    'successor',
+  'A dependency that is contingent on inputs from outside the project activities.':
+    'external dependency',
+  'An unavoidable, "hard logic" dependency; many times due to sequential reasons, or legal and contractual reasons':
+    'mandatory dependency',
+  'A preferential or sometimes strategic dependency; "soft logic dependency"':
+    'discretionary dependency',
+  'Dependency: activity 2 starts after activity 1 finishes.': 'finish to start',
+  'Dependency: activity 2 starts after activity 1 starts.': 'start to start',
+  'Dependency: activity 2 finishes after activity 1 finishes.':
+    'finish to finish',
+  'Dependency: activity 2 finishes after activity 1 starts.': 'start to finish',
+  'The precedence relationship between two activities where the predecessor activity must finish before the successor activity can start. (FS)':
+    'finish to start',
+  'The precedence relationship between two activities where the predecessor activity must start before the successor activity can start. (SS)':
+    'start to start',
+  'The precedence relationship between two activities where the predecessor activity must finish before the successor activity can finish. (FF)':
+    'finish to finish',
+  'The precedence relationship between two activities where the predecessor activity must start before the successor activity can finish. (SF)':
+    'start to finish',
+  'Dependency: one task is to run only after another begins.': 'start to start',
+  'Dependency: one task is to finish only after another begins.':
+    'start to finish',
+  'The most common dependency type. One task starts after another ends.':
+    'finish to start',
+  'Dependency: When cloud service configuration is finished, the server installation can begin.':
+    'finish to start',
+  'Dependency: The technical product owner will finish approving the designs at the conclusion of the demo.':
+    'finish to finish',
+  'Dependency: The procurement office should be engaged as soon as project activities start.':
+    'start to start',
+  'Dependency: Data integrity audits must be started before the cloud services turnover can be completed.':
+    'start to finish',
+  'A top-down estimating technique using duration of previous similar activities to estimate future duration.':
+    'analogous estimating',
+  "The process of assigning a forecasted value to an activity's duration, effort, or cost.":
+    'estimation',
+  'An estimating technique which augments bottom-up or top-down estimates with historical data and a mathematical model.':
+    'parametric estimating',
+  'An estimating technique in which three types of estimates are incorporated: most likely, optimistic, and pessimistic.':
+    'three point estimating',
+  'A method of estimating costs or duration by creating estimates at the lowest-level activities, work packages, and user stories. Then, the individual estimates are added together to create a project estimate.':
+    'bottom up estimating',
+  'A method of estimating costs or duration by encompassing the entire project or its key deliverables that cascades estimates down to the activity level.':
+    'top down estimating',
+  '(True/False): A bottom-up estimate is more time consuming but more accurate than a top-down estimate.':
+    'true',
+  'This estimation technique creates an estimate of the entire project or key deliverables.':
+    'top down estimating',
+  'This estimation technique creates estimates at the lowest-level activities, work packages, and user stories.':
+    'bottom up estimating',
+  'This estimation technique uses known variables to create a custom estimate for a project which augments either bottom up or top down estimates with historical data.':
+    'parametric estimating',
+  'The process of assigning work to a person until all of their available capacity is consumed.':
+    'resource loading',
+  'A calculated buffer of time and cost that covers documented risks. These risks are called "known unknowns," which means they are known but may or may not happen.':
+    'contingency reserve',
+  'Buffer added to the project tasks for unplanned changes to scope and cost.':
+    'management reserve',
+  'An additional sum of time or money that covers "unknown unknowns." Unknown unknowns are the setbacks that are not forecasted.':
+    'management reserve',
+  "A predetermined amount of additional time, money, or resources set aside in advance to be used to further the project's objectives if unknown risks or accepted known risks become reality.":
+    'contingency reserve',
+  'A project manager needs to utilize extra funds for documented risks. What fund type does the project manager use?':
+    'contingency reserve',
+  'Product life cycle phase where mainstream vendor support is no longer available.':
+    'end of life',
+  'Acquisition -> Maintenance -> Improvement -> Retirement':
+    'resource life cycle',
+  'Resource Life Cycle: Needs assessment, recruiting, procurement':
+    'acquisition',
+  'Resource Life Cycle: updates, onboarding, performance reviews, dashboards':
+    'maintenance',
+  'Resource Life Cycle: training, process improvements, feature enhancements':
+    'improvement',
+  'Resource Life Cycle: hardware decommissioning, software EOL, successor planning':
+    'retirement',
+  "Resources that utilize soft skills are very important to the project's success. What resource type does this characterize?":
+    'human resources',
+  'The goods needed in a project, including equipment, software, office supplies, workspaces, buildings, vehicles, and other assets.':
+    'physical resources',
+  'These two phases of the resource life cycle can run simultaneously for a single product.':
+    'maintenance, improvement',
 };
 
 export default PMTERMS;
