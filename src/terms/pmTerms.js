@@ -64,9 +64,17 @@ const PMTERMS = {
   'Individuals and organizations who are external to the company and provide specialized support to tasks such as installation, customization, training, or support.':
     'business partners',
   "Includes the company's vision, mission statement, values, and brand.":
-    'corporate identity',
+    'identity',
+  "A high-profile project experiences numerous difficulties and the client questions the team's ability in maintaining its reported vision, values, and mission statement. What is the client questioning in this scenario?":
+    'identity',
+  'Upon review, middle management finds that upper management has been misreporting project progress and expenses. As a result, the organization places the project on hold and addresses which ESG operational issue?':
+    'governance',
+  'A project manager discovers that a team member has been discussing project details in an online public chat room. The project manager discusses the issue with the team member and educates the entire team on the potential impact of which ESG operational issue?':
+    'social',
   'Must meet three criteria: it is unique, has a specific reason or purpose, and is temporary, meaning it must have a start and finish.':
     'project',
+  "A project manager decides to manage a project using a framework based on the concept of improving during the project's progress. Which team member role does the project manager introduce that is specific to this framework?":
+    'product owner',
   'The criteria used to measure whether a project is successful or not.':
     'project objectives',
   'The compositional makeup of an organization that dictates how the various groups and individuals within the organization interrelate.':
@@ -247,6 +255,14 @@ const PMTERMS = {
     'responsibility assignment matrix',
   'Role ownership: 1) responsible, 2) accountable, 3) consulted, 4) informed':
     'RACI chart',
+  'Role ownership: receives updates but does not interact with the tasks.':
+    'informed',
+  'Role ownership: a subject matter expert (SME) who can provide advice or direction or review and quality check.':
+    'consulted',
+  'Role ownership: an authority of the work whom approves all work assigned; best to have one per activity':
+    'accountable',
+  'Role ownership: one that performs the work on the intended deliverable.':
+    'responsible',
   'A management strategy that is created to ensure increase in support and minimize the negative impacts of stakeholders throughout the entire project life cycle.':
     'stakeholder engagement plan',
   'A document that identifies stakeholders of a project with information that includes their identification, assessment, and stakeholder classification.':
@@ -255,6 +271,8 @@ const PMTERMS = {
     'artifacts',
   'At what phase of the project life cycle is the project charter created?':
     'initiation',
+  'Clarifies the project\'s purpose and what stakeholders should expect; clarifies the PM\'s role and authority; "the source of truth for the project"':
+    'project charter',
   'A brief, formal document created in the project initiation phase that outlines the project parameters.':
     'project charter',
   'Items generated throughout the project, either digital or print, but observable after creation.':
@@ -297,6 +315,14 @@ const PMTERMS = {
   'Is the Waterfall methodology adaptive or predictive?': 'predictive',
   'A linear, sequential project management framework that uses a Big Design Up Front (BDUF) approach.':
     'Waterfall',
+  'A visual tool that helps to organize and present ideas or information around a central theme. It is useful for brainstorming activities, thinking through problems, or consolidating information.':
+    'mind map',
+  'The best approach for presenting project deliverable processes to technical and non-technical audiences; shows how information flows through a process or system and can be used to represent complex processes in a simple format.':
+    'data flow diagram',
+  'Shows how information flows through a process or system. Works well for audiences that include people with technical and nontechnical expertise.':
+    'data flow diagram',
+  'A decision model that represents a single decision that could have many outcomes.':
+    'decision tree',
   'Is PRINCE2 adaptive or predictive?': 'predictive',
   '(True/False): Agile methodology is both incremental and iterative.': 'true',
   'Is the Agile methodology adaptive or predictive?': 'adaptive',
@@ -397,8 +423,10 @@ const PMTERMS = {
   '(True/False): Extreme Programming is meant for large teams.': 'false',
   "The person who will interact with the project's final output.": 'end user',
   'The party who receives the benefits from a project.': 'customer',
+  '(True/False): A customer may not be the end-user.': 'true',
   'The work that you perform to deliver the final project result.':
     'project scope',
+  '(True/False): The sponsor is accountable for a project.': 'true',
   'The project requirements are given by the project...': 'stakeholders',
   'A technique for creating the Work Breakdown Structure by subdividing project deliverables to the work package level.':
     'decomposition',
@@ -519,6 +547,136 @@ const PMTERMS = {
     'physical resources',
   'These two phases of the resource life cycle can run simultaneously for a single product.':
     'maintenance, improvement',
+  'Measures the difference between the current and desired states in order to help assess the scope of work included in a project.':
+    'gap analysis',
+  'A project KPI that measures the effectiveness of project resources; expressed as a percentage.':
+    'resource utilization',
+  'Compares the current state and future state and describes the differences.':
+    'gap analysis',
+  'An optimization technique that attempts to reduce the variation of resource usage from one time period to the next. This process moves tasks to create a more even usage, but it does not allow the end date to shift.':
+    'resource smoothing',
+  'An optimization technique that reduces variation and allows the project timeline to extend.':
+    'resource leveling',
+  'This assessment reduces the number of unknowns that appear later in the project, reduces delays, and improves on-time performance.':
+    'needs assessment',
+  '(True/False): A skills matrix helps to identify areas for development.':
+    'true',
+  'A project manager performs a gap analysis on a project and finds that outside resources have difficulty accessing a data storage drive. The project manager records this gap as which type?':
+    'function',
+  'Gap Analysis type: identifies all the required skills that are not available on the team; type & expertise':
+    'skills gap',
+  'Gap Analysis type: a KPI that measures the effectiveness of project resources; 100% represents a fully utilized resource.':
+    'resource utilization',
+  'Gap Analysis type: the capabilities and tasks that physical resources need to perform.':
+    'features and functions',
+  '(True/False): Resource Utilization is a KPI used to identify utilization gaps.':
+    'true',
+  'The monetary funds needed for a project; pays for the other project resources: human and physical resources.':
+    'capital resources',
+  'ESG factor: describes how the company operates, including its policies, transparency, and structure.':
+    'governance',
+  "ESG factor: how the company develops relationships, including employees, people in the community, and groups impacted by the company's products and services":
+    'social',
+  'ESG factor: how the organization impacts the natural world.':
+    'environmental',
+  '(True/False): Waste disposal is included an each ESG factor (environmental, social, governance).':
+    'true',
+  "During a project meeting at an organization, a visitor states that they represent a group that will interact with the project's final output. What role does the visitor play?":
+    'end user',
+  'A project manager implements key performance indicators (KPIs) for several project processes. Which metrics does the manager record after finishing the deliverable?':
+    'lagging indicators',
+  '(True/False): A controlling PMO has full authority.': 'false',
+  'Waterfall phase: project team members verify that any work completed meets the requirements and quality specifications.':
+    'testing',
+  'Waterfall phase: project team members convert the project requirements into design specifications.':
+    'design',
+  'Waterfall phase: project team members define why a project is being undertaken, the functionality that a project is designed to accommodate, or how the functionality will be achieved and satisfied by the solution.':
+    'requirements',
+  'Waterfall phase: project team members solve issues as they arise, including solutions such as software updates.':
+    'maintenance',
+  'An examination of a project’s goals and achievements, including adequacy, accuracy, efficiency, effectiveness, and compliance with applicable methodologies and regulations.':
+    'project audit',
+  "Guides the meeting's purpose and agenda.": 'facilitator',
+  'The people that need to be at the meeting.': 'target audience',
+  'A checkpoint review of project deliverables and performance at the end of each phase or sub-phase of a project at which point a management review or sign-off may be required.':
+    'phase gate review',
+  'Any information exchange where the message is shared and received at different times, such as a letter or an email.':
+    'asynchronous communication',
+  'A real-time exchange of information. The sender and recipient receive and respond to information immediately, creating a continuous communication stream.':
+    'synchronous communication',
+  'A diagram that shows the relationships of various elements in a system or process; process flow or process diagram':
+    'flowchart',
+  'This type of data has no restrictions.': 'public',
+  'This type of data has limited access only available to authorized users either on a role or case-by-case basis.':
+    'confidential',
+  'This type of data is top secret, and access is severely restricted.':
+    'critical',
+  '1) Timing, 2) Format, 3) Formality, 4) Audience': 'communication modalities',
+  '1) Informative, 2) Decisive, 3) Collaborative': 'meeting types',
+  '1) Smoothing, 2) Forcing, 3) Compromising, 4) Collaborating, 5) Avoiding':
+    'conflict resolution',
+  'A conflict resolution strategy that attempts to redirect focus away from the conflict by finding points of agreement (accommodating); high importance of relationship, low importance of achieving goals.':
+    'smoothing',
+  'A conflict resolution strategy that removes conflict by enforcing a solution (dominating or competing); low importance of relationship, high importance of achieving goals.':
+    'forcing',
+  'A conflict resolution strategy that ignores a conflict or chooses not to address it; low importance of relationship, low importance of achieving goals.':
+    'avoiding',
+  'A conflict resolution strategy that enables the parties to resolve conflict by meeting in the middle; Both parties win and both parties give up something.':
+    'compromising',
+  'A conflict resolution strategy that enables parties to resolve conflict by designing a new solution that satisfies everybody; high importance of relationship, high importance of achieving goals.':
+    'collaborating',
+  'The communication plan and escalation plan are developed in which phase of the project life cycle?':
+    'initiation',
+  'The last team activity of the initiation phase.': 'project kickoff',
+  '1) Functional, 2) Projectized, 3) Matrix': 'organizational structures',
+  'Group related projects together and strategically align them to a larger goal.':
+    'program',
+  'Group all the projects an organization or division invests in to manage the number of projects in progress and total investments.':
+    'portfolio',
+  'A meeting intended to distribute specific information to increase an organization’s knowledge about a subject.':
+    'informative meeting',
+  'Project status meetings, demonstrations and presentations, and daily stand-ups are all examples of what meeting type?':
+    'informative',
+  'Workshops, focus groups, JAD sessions, and brainstorming are all examples of what meeting type?':
+    'collaborative',
+  'A type of collaborative meeting where the team and customer meet and design a product together in a working session; JAD':
+    'joint application development',
+  'A gathering where one or more attendees are expected to make decisions for specific items based on information provided.':
+    'decisive meeting',
+  'An interactive session where attendees work together on a shared goal; ex: workshops, focus groups, brainstorming, joint application development/joint application review sessions.':
+    'collaborative meeting',
+  'Task setting and project steering committee meetings are examples of what meeting type?':
+    'decisive',
+  'A process where a list of potential work items is analyzed, prioritized, and clarified; new information continually modifies the contents and sequence of backlog items.':
+    'refinement',
+  '1) Language barriers, 2) Time zone / geographical factors, 3) Technological factors, 4) Cultural differences':
+    'communication challenges',
+  'Communicative Element: visuals such as presentations, pictures, and documents.':
+    'artifacts',
+  'Communicative Element: used to facilitate and communicate project outcomes and artifacts to the recipients.':
+    'channels',
+  'Communicative Element: how often communication needs to occur or get shared.':
+    'frequency',
+  'A formal procedure that outlines when an event should be escalated to the next level of management or technical expert and defines the people or groups to contact.':
+    'escalation plan',
+  'The process of involving expert and senior staff to assist in problem management.':
+    'escalation',
+  'A description of resources and quantities necessary to complete project activities.':
+    'resource allocation',
+  'Trained moderator-guided interactive discussions that include stakeholders and Subject Matter Experts.':
+    'focus group',
+  'Focus Group type: one moderator who facilitates the session and monitors interactions; may recruit a helper to take notes or record the session.':
+    'single moderator',
+  'Focus Group type: uses two moderators – one is the lead facilitator and the other serves as a quality check, tracking topics and ensuring the group covers all the content.':
+    'dual moderator',
+  'Focus Group type: uses two moderators – both moderators are facilitators but both take opposing views.':
+    'dueling moderator',
+  "Focus Group type: allows one group to observe another focus group's session.":
+    'two way',
+  'Focus Group type: uses participants as moderators; can rotate moderators or select a single moderator.':
+    'respondent moderator',
+  'A working session where a group with shared interests gathers to exchange information and conduct research.':
+    'workshop',
 };
 
 export default PMTERMS;
