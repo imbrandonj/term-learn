@@ -1,14 +1,14 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.1vw;
   font-weight: 400;
   --btnBlk: #1a1a1a;
 }
 
 html {
   box-sizing: border-box;
-  background-color: aliceblue;
+  background-color: rgb(255, 237, 214);
 }
 *,
 *::before,
@@ -31,14 +31,17 @@ button {
   cursor: pointer;
   background-color: var(--btnBlk);
   color: whitesmoke;
+  letter-spacing: 0.025vw;
   border: 1px solid transparent;
   transition: border-color 0.25s;
   transition: letter-spacing 0.25s;
 }
 
 button:hover {
-  background-color: #646cff;
-  letter-spacing: 0.1em;
+  /* background-color: #646cff; */
+  background-color: rgb(106, 61, 61);
+  letter-spacing: 0.1vw;
+  font-weight: 500;
 }
 
 button:focus,
@@ -51,26 +54,24 @@ button:focus-visible {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: 25vh;
 }
 
 #home > h1 {
-  margin: 3rem;
-  font-size: 3.2em;
+  margin-bottom: 8vh;
+  font-size: 2vw;
   line-height: 1.1;
 }
 
 #home > h1 > span {
-  color: #646cff;
-  font-size: 1.2em;
+  color: rgb(149, 67, 67);
+  /* color: #646cff; */
+  font-size: 2.5vw;
 }
 
 #home > h2 {
-  margin: 2.2rem;
-  font-size: 2.2em;
+  margin-bottom: 4vh;
+  font-size: 1.5vw;
   font-weight: 200;
 }
 
@@ -80,7 +81,9 @@ button:focus-visible {
 
 .btnBundle {
   display: flex;
-  gap: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3vw;
 }
 
 .btnBundle li button {
@@ -88,56 +91,59 @@ button:focus-visible {
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  width: 10em;
+  width: 10vw;
   border-radius: 8px;
   padding: 0.6em 1.2em;
-  font-size: 1.2em;
-  font-weight: 500;
+  font-size: 1vw;
   font-family: inherit;
 }
 
 #termContent {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 75%;
+  justify-content: center;
+  margin-top: 8vh;
 }
 
 .definition {
-  margin: 3rem;
-  font-size: 2.6em;
+  margin: 2vh 0;
+  font-size: 1.55vw;
   text-align: center;
-  padding: 0rem 10rem;
+  width: 60vw;
 }
 
 #textBox {
-  margin: 1rem;
-  height: 6rem;
-  width: 60rem;
+  margin: 2vh;
+  width: 50vw;
+  padding: 1.5vh;
   text-align: center;
-  font-size: 2.6em;
+  font-size: 1.5vw;
   font-family: inherit;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.075em;
   border-radius: 1em;
 }
 
 .termBtn {
-  margin: 1rem;
+  margin-top: 1vh;
   padding: 0.6em 1.2em;
-  font-size: 1.2em;
+  font-size: 0.85vw;
   text-align: center;
   border-radius: 8px;
 }
 
+#termContent h3, #termContent h2 {
+  font-weight: 300;
+  font-size: 1vw;
+}
+
+#termContent h2 {
+  margin: 8vh 8vw;
+  align-self: end;
+}
+
 #termContent h3 {
-  margin-top: 3.5rem;
+  margin-top: 5vh;
   display: flex;
   align-items: center;
-  font-weight: 300;
-  font-size: 1.5em;
 }

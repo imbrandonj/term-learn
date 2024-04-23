@@ -1,12 +1,16 @@
-import { loadTerm } from './loadTerm';
+import { loadSet } from './loadSet.js';
+import { loadTerm } from './loadTerm.js';
 import bolt from './assets/bolt.svg';
 
 import { useState, useEffect, useRef } from 'react';
 
 export default function ViewTerm({ termSet, setHome }) {
-  const [term, setTerm] = useState(loadTerm(termSet)); // initial term on first render
+  const terms = loadSet(termSet); // all terms for the term set
+  const [term, setTerm] = useState(loadTerm(terms)); // initial term on first render
   const [userAnswer, setUserAnswer] = useState('');
+  const [idk, setIdk] = useState(false); // was the answer provided by the application? (they hit the 'idk' button or typed 'idk')
   const problemHistory = useRef({});
+  const [termsCompleted, setTermsCompleted] = useState(0);
 
   useEffect(() => {
     // focus on answer box on load and input:
@@ -20,44 +24,65 @@ export default function ViewTerm({ termSet, setHome }) {
 
   // enter event on answer text box:
   const checkAnswer = () => {
-    if (term.answer.toLowerCase() === userAnswer.toLowerCase()) {
-      // place the term in useRef; only display a term twice at most
-      let termCounts = problemHistory.current;
-      termCounts[term.problem] = (termCounts[term.problem] || 0) + 1; // tally up or set the initial term
+    // all of this if the answer is correct:
+    if (terms[term].toLowerCase() === userAnswer.toLowerCase()) {
+      let termCounts = problemHistory.current; // obtain problem history counts (how many times a problem has been shown)
+      console.log('before: ', termCounts);
+
+      // mastering a term; if `idk` or answer was given, term count will not be incremented
+      if (!idk) {
+        termCounts[term] = (termCounts[term] || 0) + 1; // tally up or set the initial term
+        if (termCounts[term] > 1) setTermsCompleted(termsCompleted + 1);
+      }
 
       // load a new term for a term has been displayed less than twice:
-      let newTerm = loadTerm(termSet);
-      while (termCounts[newTerm.problem] > 1) {
-        // check if the set is complete, i.e., all terms tally to 2:
-        const setComplete = Object.values(termCounts).every(
-          (termCount) => termCount === 2,
-        );
-        if (setComplete) {
-          termCounts = {}; // reset the count and start anew
+      let newTerm = loadTerm(terms);
+      while (termCounts[newTerm] > 1) {
+        const termHistory = Object.values(termCounts);
+        const termDefinitions = Object.values(terms);
+        console.log(termHistory.length);
+        console.log(termDefinitions.length);
+        // check if the set is complete:
+        if (termHistory.length === termDefinitions.length) {
+          // do all terms tally to 2?
+          if (termHistory.every((termCount) => termCount === 2)) {
+            termCounts = {}; // reset the count and start anew
+            setTermsCompleted(0);
+          }
         }
 
-        newTerm = loadTerm(termSet);
+        newTerm = loadTerm(terms);
       }
 
       // store the new term:
       setTerm(newTerm);
+      console.log('after: ', termCounts);
       problemHistory.current = termCounts;
 
+      // reset for next term:
+      if (idk) {
+        setIdk(false);
+      }
       setUserAnswer('');
     } else if (userAnswer.toLowerCase() === 'idk') {
-      setUserAnswer(term.answer); // displays the answer
+      setIdk(true);
+      setUserAnswer(terms[term]); // displays the answer
     }
   };
 
   // user clicks 'idk give answer' button:
-  const giveAnswer = () => setUserAnswer(term.answer);
+  const giveAnswer = () => {
+    setIdk(true);
+    setUserAnswer(terms[term]);
+  };
 
   // 'return home' button
   const goHome = () => setHome(true);
 
   return (
     <div id="termContent">
-      <p className="definition">{term.problem}</p>
+      <h2>Terms Completed: {termsCompleted}</h2>
+      <p className="definition">{term}</p>
       <input
         type="text"
         id="textBox"

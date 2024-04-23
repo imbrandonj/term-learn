@@ -1,31 +1,5 @@
-// all terms:
-import DSA from './terms/dsaTerms';
-import PYTERMS from './terms/pythonTerms';
-import CYBERTERMS from './terms/cyberTerms';
-import JAVATERMS from './terms/javaTerms';
-import JSTERMS from './terms/jsTerms';
-import PMTERMS from './terms/pmTerms';
-
-export function loadTerm(set) {
-  const TERMS =
-    set === 'dsa'
-      ? DSA
-      : set === 'python'
-        ? PYTERMS
-        : set === 'cyber'
-          ? CYBERTERMS
-          : set === 'java'
-            ? JAVATERMS
-            : set === 'js'
-              ? JSTERMS
-              : set === 'pm'
-                ? PMTERMS
-                : null;
-
-  const ALL_TERM_DEF = Object.keys(TERMS); // the keys are the term definitions
-  const definition =
-    ALL_TERM_DEF[Math.floor(Math.random() * ALL_TERM_DEF.length)]; // select 1 definition
-  const term = TERMS[definition]; // term is the answer
-
-  return { problem: definition, answer: term };
+// loads a random term
+export function loadTerm(terms) {
+  const ALL_TERM_DEF = Object.keys(terms); // the keys are the term definitions
+  return ALL_TERM_DEF[Math.floor(Math.random() * ALL_TERM_DEF.length)]; // select 1 definition
 }

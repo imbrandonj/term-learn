@@ -336,12 +336,41 @@ const PMTERMS = {
     'project closeout report',
   'Documented communication from project stakeholders that they agree to close the project. The stakeholder indicates they agree that the completed work meets the agreed-upon requirements.':
     'project signoff',
+  'The blueprinting process where the architect and project team select the technologies that will meet the project’s requirements':
+    'solution design',
+  'A professional who designs computer and networking systems to optimize efficiency and value to the organization and meet business and customer requirements.':
+    'solution architect',
+  'Project requirements that detail the desired functionality, capacity, or capability expected from the project.':
+    'functional requirements',
+  'The features that the business requests, such as product features, user interfaces, administration processes, and implementation support or training. These tangible elements are what make the system work.':
+    'functional requirements',
+  "The system's attributes that represent its capability to perform. These usually reflect a condition instead of a behavior.":
+    'nonfunctional requirements',
+  'Necessary system attributes that do not present as functionality but instead describe how a system operates; often called the "ilities" because many end in "-ility," such as scalability, portability, and extensibility.':
+    'nonfunctional requirements',
   'The high-level design is created in which phase of the SDLC process?':
     'analysis',
   'The low-level design is created in which phase of the SDLC process?':
     'design',
+  'This solution design helps stakeholders understand the project approach and what the final solution will look like.':
+    'high level design',
+  'This solution design provides implementation instructions, which the team will use to execute the project.':
+    'low level design',
   'The high-level design is created in the analysis phase of the SDLC. It assesses technical...':
     'feasibility',
+  "SDLC phase: Outline the project and define the software's scope and purpose.":
+    'planning',
+  'SDLC phase: Define the resources needed for the project; determine what the software needs to do.':
+    'requirements',
+  'SDLC phase: Define how the software needs to work; a low-function prototype to elaborate on the design; initiate a risk management plan.':
+    'design',
+  'SDLC phase: Create the software.': 'development',
+  'SDLC phase: Run tests to ensure the software performs as expected.':
+    'testing',
+  'SDLC phase: Assess risks, issues, and changes of the software development life cycle. Occurs after testing.':
+    'analyze',
+  'SDLC phase: Support the software; launch new dev cycles to fix bugs and create new enhancements for the product; maintenance':
+    'operations',
   'The project kickoff marks the end of which project phase?': 'initiation',
   'The first meeting between the project manager, project team, and stakeholders or customers; marks the end of the initiation phase and the start of the project work.':
     'project kickoff',
@@ -606,11 +635,11 @@ const PMTERMS = {
     'synchronous communication',
   'A diagram that shows the relationships of various elements in a system or process; process flow or process diagram':
     'flowchart',
-  'This type of data has no restrictions.': 'public',
+  'This type of data has no restrictions.': 'public data',
   'This type of data has limited access only available to authorized users either on a role or case-by-case basis.':
-    'confidential',
+    'confidential data',
   'This type of data is top secret, and access is severely restricted.':
-    'critical',
+    'critical data',
   '1) Timing, 2) Format, 3) Formality, 4) Audience': 'communication modalities',
   '1) Informative, 2) Decisive, 3) Collaborative': 'meeting types',
   '1) Smoothing, 2) Forcing, 3) Compromising, 4) Collaborating, 5) Avoiding':
@@ -677,6 +706,51 @@ const PMTERMS = {
     'respondent moderator',
   'A working session where a group with shared interests gathers to exchange information and conduct research.':
     'workshop',
+  'Access is severely restricted and is granted on a need-to-know basis with strict business justification. The most sensitive data.':
+    'restricted data',
+  'This information is only available to authorized users either on role or case-by-case basis. Sensitive data with limited access.':
+    'confidential data',
+  'This data is available to anybody within the company and therefore is minimally sensitive.':
+    'internal data',
+  'Information with no restrictions and is publicly available. The least sensitive data type.':
+    'public data',
+  'Implementation, features, user interfaces, administration processes, training, are all examples of what requirements?':
+    'functional requirements',
+  'Usability, maintainability, scalability, extensibility, availability, portability, compliance, are all examples of what requirements?':
+    'nonfunctional requirements',
+  'Which role leads the solution design process?': 'solution architect',
+  'This is a conceptual design that describes how the solution will need to work and integrate. It defines nonfunctional requirements and non-negotiable parameters.':
+    'high level design',
+  'Cloud storage such as AWS S3 or Azure Storage are what type of cloud model?':
+    'IaaS',
+  'Which level of security does the team design so digital press releases can be available?':
+    'public',
+  'The content of a company website, job postings, and press releases are all examples of what level of data?':
+    'public data',
+  'A complex data searching option is an example of what functional requirement?':
+    'features',
+  'A nonfunctional requirement that refers to how user-friendly the solution is.':
+    'usability',
+  'A nonfunctional requirement that evaluates how well the solution can work within the existing environment. This may be required due to integration with dissimilar systems.':
+    'compatability',
+  'A nonfunctional requirement that refers to the need for the solution to comply with applicable regulations. That may include operational regulations or regulations related to the end deliverable.':
+    'compliance',
+  'A modular software design that physically and logically separates the software elements into separate, isolated tiers; increases system durability and reduces downtime.':
+    'multitiered architecture',
+  'Creates the plan to move from the current state to the future state.':
+    'gap analysis',
+  "Understand the project's requirements -> Identify the current resources -> Identify any resource gaps -> Address the gaps":
+    'needs assessment',
+  'Identify any resource gaps, aka "gap identification" -> Address the gaps by creating a plan to close each gap identified in the previous step.':
+    'gap analysis',
+  'An abstract measure of effort; Agile teams use them to estimate how much work they can complete in a sprint.':
+    'story points',
+  'Consists of activities, dependencies, duration, and resources.':
+    'project schedule',
+  'Provides the total length of an activity and is used to create a project schedule.':
+    'duration',
+  'Task hours reflect the time spent on a task and are used to manage...':
+    'resources',
 };
 
 export default PMTERMS;
