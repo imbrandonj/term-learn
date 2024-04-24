@@ -1,7 +1,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  letter-spacing: 0.1vw;
+  letter-spacing: 0.15rem;
   font-weight: 400;
   --btnBlk: #1a1a1a;
 }
@@ -31,16 +31,15 @@ button {
   cursor: pointer;
   background-color: var(--btnBlk);
   color: whitesmoke;
-  letter-spacing: 0.025vw;
   border: 1px solid transparent;
+  letter-spacing: 0.05rem;
   transition: border-color 0.25s;
   transition: letter-spacing 0.25s;
 }
 
 button:hover {
-  /* background-color: #646cff; */
-  background-color: rgb(106, 61, 61);
-  letter-spacing: 0.1vw;
+  background-color: rgb(21, 21, 98);
+  letter-spacing: 0.15rem;
   font-weight: 500;
 }
 
@@ -59,19 +58,17 @@ button:focus-visible {
 
 #home > h1 {
   margin-bottom: 8vh;
-  font-size: 2vw;
-  line-height: 1.1;
+  font-size: 3.25rem;
 }
 
 #home > h1 > span {
-  color: rgb(149, 67, 67);
-  /* color: #646cff; */
-  font-size: 2.5vw;
+  color: rgb(21, 21, 98);
+  font-size: 3.75rem;
 }
 
 #home > h2 {
   margin-bottom: 4vh;
-  font-size: 1.5vw;
+  font-size: 2.25rem;
   font-weight: 200;
 }
 
@@ -92,9 +89,9 @@ button:focus-visible {
   align-items: center;
   gap: 0.5rem;
   width: 10vw;
-  border-radius: 8px;
   padding: 0.6em 1.2em;
-  font-size: 1vw;
+  border-radius: 8px;
+  font-size: 1.5rem;
   font-family: inherit;
 }
 
@@ -103,14 +100,18 @@ button:focus-visible {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 8vh;
+  margin-top: 10vh;
 }
 
 .definition {
-  margin: 2vh 0;
-  font-size: 1.55vw;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 60vw;
+  min-height: 15vh;
+  margin: 2vh 0;
+  font-size: 2.25rem;
+  text-align: center;
 }
 
 #textBox {
@@ -118,27 +119,27 @@ button:focus-visible {
   width: 50vw;
   padding: 1.5vh;
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 2.15rem;
   font-family: inherit;
-  letter-spacing: 0.075em;
+  letter-spacing: 0.15rem;
   border-radius: 1em;
 }
 
 .termBtn {
   margin-top: 1vh;
   padding: 0.6em 1.2em;
-  font-size: 0.85vw;
+  font-size: 1.15rem;
   text-align: center;
   border-radius: 8px;
 }
 
 #termContent h3, #termContent h2 {
   font-weight: 300;
-  font-size: 1vw;
+  font-size: 1.75rem;
 }
 
 #termContent h2 {
-  margin: 8vh 8vw;
+  margin: 6vh 8vw;
   align-self: end;
 }
 
