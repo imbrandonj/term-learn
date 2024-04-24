@@ -751,6 +751,19 @@ const PMTERMS = {
     'duration',
   'Task hours reflect the time spent on a task and are used to manage...':
     'resources',
+  "This risk analysis type is subjective; it's based on how people perceive and interpret the risk.":
+    'qualitative',
+  'This risk analysis type is objective; it uses verifiable data to assign scores to project risk.':
+    'quantitative',
+  'A do-nothing approach to risks.': 'acceptance',
+  'Assigns the risk to a third party, moving the financial responsibilities to somebody else.':
+    'transference',
+  'Reduces the impact or probability of a risk; this includes improving processes and creating backup plans.':
+    'mitigation',
+  'Attempts to prevent a risk from ever happening by detouring around anything that could cause the event.':
+    'avoidance',
+  'Describes how a risk will affect more than a single event. Nothing exists in isolation, so every risk could create a ripple effect if it were to occur.':
+    'interconnectivity',
 };
 
 export default PMTERMS;
