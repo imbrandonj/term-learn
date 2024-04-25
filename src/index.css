@@ -148,3 +148,74 @@ button:focus-visible {
   display: flex;
   align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+  #home {
+    margin-top: 10vh;
+  }
+  
+  #home > h1 {
+    margin-bottom: 5vh;
+    font-size: 1.5rem;
+  }
+  
+  #home > h1 > span {
+    font-size: 1.75rem;
+  }
+  
+  #home > h2 {
+    margin-bottom: 4vh;
+    font-size: 1.25rem;
+  }
+  
+  #home img {
+    height: 3rem;
+  }
+  
+  .btnBundle {
+    gap: 3vw;
+  }
+  
+  .btnBundle li button {
+    width: 35vw;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  #termContent {
+    margin-top: 5vh;
+  }
+  
+  .definition {
+    width: 90vw;
+    min-height: 15vh;
+    margin: 2vh 0;
+    font-size: 1.25rem;
+  }
+  
+  #textBox {
+    margin: 2vh;
+    width: 90vw;
+    font-size: 1.15rem;
+  }
+  
+  .termBtn {
+    font-size: 1rem;
+  }
+  
+  #termContent h3, #termContent h2 {
+    font-size: 1.15rem;
+  }
+  
+  #termContent h2 {
+    margin: 3vh 4vw;
+  }
+  
+  #termContent h3 {
+    margin-top: 5vh;
+  }
+
+  #termContent img {
+    height: 3rem;
+  }
+}
