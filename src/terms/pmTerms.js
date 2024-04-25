@@ -34,8 +34,6 @@ const PMTERMS = {
     'Alternatives Identification',
   '(True/False): In the Options section of a business case, always include a "Do Nothing" option.':
     'true',
-  'A generic name for protocols that carry voice traffic over data networks; VOIP':
-    'Voice Over Internet Protocol',
   'It shows the sequence of events and the flow of inputs and outputs between elements in a process or system.':
     'Process Flowchart',
   'A metric to calculate whether an asset is worth the cost of deploying and maintaining it.':
@@ -214,7 +212,7 @@ const PMTERMS = {
   'The starkest difference between waterfall and agile is...': 'flexibility',
   'If your team is 10 or fewer people, when selecting a project framework, you could choose waterfall or...':
     'agile',
-  'If your team requires more than 10 members, when selecting a project framework, you could choose water or...':
+  'If your team requires more than 10 members, when selecting a project framework, you could choose waterfall or...':
     'scaled agile',
   "Request to modify a project's activities or resources, which would lead to a change in the project’s scope, budget, or timeline.":
     'change request',
@@ -232,7 +230,7 @@ const PMTERMS = {
     'solution requirements',
   'Architects design solutions; they look across an organization at how different systems work together and ensure projects adhere to...':
     'solution requirements',
-  'Professionals who improves an organization’s quality standards through inspection and process improvement (testing).':
+  'Professionals who improve an organization’s quality standards through inspection and process improvement (testing).':
     'quality assurance specialists',
   '"Suppliers", "sellers", "contractors", or "business partners"': 'vendors',
   'External parties who enter into a contractual agreement with the organization and provide components or services needed for the project.':
@@ -399,6 +397,44 @@ const PMTERMS = {
     'request for proposal',
   'A graphical representation of the sequence of project activities and the dependencies among them.':
     'project network diagram',
+  'Precedence Diagram Method (PDM), Program Evaluation and Review Technique (PERT), and Critical Path Method (CPM)':
+    'project network diagram',
+  'A project network diagram representing duration, activities, and dependencies, including an estimate based on the weighted average duration of activities.':
+    'PERT',
+  PERT: 'Program Evaluation and Review Technique',
+  'A project schedule network diagramming method that uses rectangular or circular nodes to represent activities and arrows to represent precedence relationships between activities.':
+    'PDM',
+  PDM: 'Precedence Diagram Method',
+  'The Program Evaluation and Review Technique (PERT) documents a duration estimate for each activity, known as the "PERT estimate." The PERT estimate is a...':
+    'weighted factor',
+  'An analysis method that uses a sequential Finish-to-Start network logic and calculates one early and late start and finish date for each activity using a single-duration estimate.':
+    'CPM',
+  CPM: 'Critical Path Method',
+  'This project diagram uses a weighted factor using OPM (optimistic, pessimistic, most likely).':
+    'PERT',
+  '(True/False): A PERT chart uses the same diagramming style as PDM, with rectangles for activities and arrows for dependencies. The only difference is the weighted factor (duration).':
+    'true',
+  'The PERT estimate calculates the...': 'duration',
+  'This project diagram uses duration, activities, dependencies, PERT estimates, and additional calculations.':
+    'CPM',
+  'Value: the soonest an activity can start because of how long it will take to complete predecessor activities.':
+    'early start',
+  'Value: the earliest an activity can finish because of how long it takes to complete it.':
+    'early finish',
+  'Value: the latest an activity can start and still allow the project to finish on time.':
+    'late start',
+  'Value: the latest an activity can finish and still allow the project to finish on time.':
+    'late finish',
+  'Value: the amount of time an activity can wait to start without impacting the total project timeline.':
+    'total float',
+  'Value: the amount of time an activity can wait to start without impacting any other activities.':
+    'free float',
+  'The amount of time an activity can be delayed without delaying the early start of any activity that immediately follows it.':
+    'free float',
+  'The total amount of time that an activity can be delayed without delaying the project finish date; "slack"':
+    'total float',
+  'The network path that has the longest duration in a project or work package.':
+    'critical path',
   '(True/False): Fixed-priced contracts place the most risk on the vendor, not the buyer.':
     'True',
   '"Lump Sum Contract." The vendor agrees to perform the work at the negotiated contract value.':
@@ -758,12 +794,40 @@ const PMTERMS = {
   'A do-nothing approach to risks.': 'acceptance',
   'Assigns the risk to a third party, moving the financial responsibilities to somebody else.':
     'transference',
+  'A project manager presents stakeholders with a risk management plan. In the plan, a third party handles the risk. What risk management strategy does the project manager initiate for these risks?':
+    'transference',
   'Reduces the impact or probability of a risk; this includes improving processes and creating backup plans.':
     'mitigation',
   'Attempts to prevent a risk from ever happening by detouring around anything that could cause the event.':
     'avoidance',
   'Describes how a risk will affect more than a single event. Nothing exists in isolation, so every risk could create a ripple effect if it were to occur.':
     'interconnectivity',
+  'A project manager reviews project risk for a deliverable and discovers that several related issues exist that will delay the project. The project manager documents the risk using which area of knowledge?':
+    'interconnectivity',
+  'Includes many details such as risk impact, priority, or other scoring criteria, and the risk owner.':
+    'risk register',
+  '(True/False): A project will face numerous risks and must have the resources to pursue all of them.':
+    'false',
+  'Risk avoidance, mitigation, transference, and acceptance are all...':
+    'negative risk strategies',
+  'Risk exploitation, enhancement, sharing, and acceptance are all...':
+    'positive risk strategies',
+  'A plan that is implemented if the initial response strategy is ineffective in responding to a risk event.':
+    'contingency plan',
+  'A document highlighting the results of risk assessments in an easily comprehensible format; for department managers and technicians to understand risks associated with the workflows that they manage.':
+    'risk register',
+  'A periodic summary of relevant information about a project’s risks; provides a summarized overview of known and realized risks and their impact on the organization.':
+    'risk report',
+  'The risk register is created and populated during the initial risk assessment in which project phase?':
+    'planning',
+  "A document that describes the team and PM's approach to manage risks.":
+    'risk management plan',
+  "A list of all the project's risks.": 'risk register',
+  'The project manager prepares this; it includes information such as notable timely and high-impact risks.':
+    'risk report',
+  'Who creates the risk contingency plan?': 'project manager',
+  'This plan includes communication information, such as primary contacts, whom to inform, and escalations.':
+    'contingency plan',
 };
 
 export default PMTERMS;
