@@ -149,7 +149,7 @@ button:focus-visible {
   align-items: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   #home {
     margin-top: 10vh;
   }
