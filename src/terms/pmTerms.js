@@ -378,22 +378,22 @@ const PMTERMS = {
     'procurement management',
   'Responses submitted by potential vendors that are prepared in accordance with the requirements stated in the procurement documents.':
     'vendor proposals',
-  'A type of fixed-price contract or a separate document that is appended to a contract. It is sent from a buyer to a vendor with a request for an order. When the vendor accepts the purchase order, a legally binding contract is formed; POs':
+  'A type of fixed-price contract or a separate document that is appended to a contract. It is sent from a buyer to a vendor with a request for an order. When the vendor accepts the purchase order, a legally binding contract is formed':
     'purchase order',
   'A contract that establishes precedence and guidelines for any business documents that are executed between two parties; MSA':
     'master service agreement',
   '(True/False): A PO (purchase order) is legally binding.': 'true',
-  'A solicitation document used when a business knows the solution it needs but requires information on how vendors will provide the solution; RFI':
+  'A solicitation document used when a business knows the solution it needs but requires information on how vendors will provide the solution':
     'request for information',
-  'A formal business document that announces a project, describes it, and solicits bids from qualified contractors to complete it; RFP':
+  'A formal business document that announces a project, describes it, and solicits bids from qualified contractors to complete it':
     'request for proposal',
-  'Commonly used when deliverables are commodities with clear specifications and when price will be the primary determining factor; RFB':
+  'Commonly used when deliverables are commodities with clear specifications and when price will be the primary determining factor':
     'request for bid',
-  'Solicits proposals like an RFP (request for proposal) does, but the vendors compete on price; RFB':
+  'Solicits proposals like an RFP (request for proposal) does, but the vendors compete on price':
     'request for bid',
-  'It is a formal document requesting pricing information for detailed, specific requirements, such as supplies or labor. Vendors respond with detailed pricing models that describe how they will deliver the project scope and how much it will cost; RFQ':
+  'It is a formal document requesting pricing information for detailed, specific requirements, such as supplies or labor. Vendors respond with detailed pricing models that describe how they will deliver the project scope and how much it will cost':
     'request for quote',
-  'This formal business document is used to solicit multiple vendor proposals for a solution; RFP':
+  'This formal business document is used to solicit multiple vendor proposals for a solution':
     'request for proposal',
   'A graphical representation of the sequence of project activities and the dependencies among them.':
     'project network diagram',
@@ -541,13 +541,13 @@ const PMTERMS = {
   'Dependency: activity 2 finishes after activity 1 finishes.':
     'finish to finish',
   'Dependency: activity 2 finishes after activity 1 starts.': 'start to finish',
-  'The precedence relationship between two activities where the predecessor activity must finish before the successor activity can start. (FS)':
+  'The precedence relationship between two activities where the predecessor activity must finish before the successor activity can start.':
     'finish to start',
-  'The precedence relationship between two activities where the predecessor activity must start before the successor activity can start. (SS)':
+  'The precedence relationship between two activities where the predecessor activity must start before the successor activity can start.':
     'start to start',
-  'The precedence relationship between two activities where the predecessor activity must finish before the successor activity can finish. (FF)':
+  'The precedence relationship between two activities where the predecessor activity must finish before the successor activity can finish.':
     'finish to finish',
-  'The precedence relationship between two activities where the predecessor activity must start before the successor activity can finish. (SF)':
+  'The precedence relationship between two activities where the predecessor activity must start before the successor activity can finish.':
     'start to finish',
   'Dependency: one task is to run only after another begins.': 'start to start',
   'Dependency: one task is to finish only after another begins.':
@@ -828,6 +828,18 @@ const PMTERMS = {
   'Who creates the risk contingency plan?': 'project manager',
   'This plan includes communication information, such as primary contacts, whom to inform, and escalations.':
     'contingency plan',
+  'A general guideline with many applications; in terms of controlling processes, it contends that a relatively large number of problems or defects, typically 80 percent, are commonly due to a relatively small number of causes, typically 20 percent.':
+    'Pareto principle',
+  'Asserts that you can solve 80% of a problem by addressing 20% of causes.':
+    'Pareto principle',
+  'A bar chart or histogram that illustrates the causes of problems and their relative severity. Used for prioritizing efforts to solve problems.':
+    'Pareto chart',
+  'A documented strategy that outlines how stakeholders and team members will receive project updates':
+    'communication plan',
+  'Describes problem scenarios that might occur in the project and how the project manager can resolve them.':
+    'escalation plan',
+  'Visually compares the improvement in quality scores against the cost of achieving them.':
+    'law of diminishing returns chart',
 };
 
 export default PMTERMS;

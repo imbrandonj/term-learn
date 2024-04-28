@@ -149,7 +149,11 @@ button:focus-visible {
   align-items: center;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 450px) {
+  :root {
+    letter-spacing: 0.1rem;
+  }
+
   #home {
     margin-top: 10vh;
   }
@@ -197,6 +201,7 @@ button:focus-visible {
     margin: 2vh;
     width: 90vw;
     font-size: 1.15rem;
+    letter-spacing: 0.1rem;
   }
   
   .termBtn {
