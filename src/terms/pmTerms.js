@@ -372,7 +372,7 @@ const PMTERMS = {
   'The project kickoff marks the end of which project phase?': 'initiation',
   'The first meeting between the project manager, project team, and stakeholders or customers; marks the end of the initiation phase and the start of the project work.':
     'project kickoff',
-  'Agreement that sets the service requirements and expectations between a consumer and a provider; SLA':
+  'Agreement that sets the service requirements and expectations between a consumer and a provider':
     'service level agreement',
   'The management of processes involved in acquiring the necessary products and services from outside the project team. Starts as early as the project discovery phase and lasts until the last contract is closed.':
     'procurement management',
@@ -389,17 +389,31 @@ const PMTERMS = {
     'request for proposal',
   'Commonly used when deliverables are commodities with clear specifications and when price will be the primary determining factor':
     'request for bid',
+  'Vendors compete for a contract on a new project by submitting proposed solutions. To which document do vendors respond?':
+    'request for bid',
   'Solicits proposals like an RFP (request for proposal) does, but the vendors compete on price':
     'request for bid',
+  'A vendor provides examples of product offerings while communicating with a project manager of a large software project. Which document do the parties utilize for this process?':
+    'request for information',
   'It is a formal document requesting pricing information for detailed, specific requirements, such as supplies or labor. Vendors respond with detailed pricing models that describe how they will deliver the project scope and how much it will cost':
     'request for quote',
   'This formal business document is used to solicit multiple vendor proposals for a solution':
     'request for proposal',
+  'A project manager procures a resource through a coworker that creates a script to automate a process. Which resource procurement method takes place?':
+    'build',
+  'A procurement method where an initial fee occurs along with regular recurring payments for the duration of use.':
+    'lease',
+  'An all-inclusive rental model where a project manager sets a flat fee for access to a resource for a set duration.':
+    'subscription',
+  'A procurement method of using a resource to create and implement another resource/product.':
+    'build',
   'A graphical representation of the sequence of project activities and the dependencies among them.':
     'project network diagram',
   'Precedence Diagram Method (PDM), Program Evaluation and Review Technique (PERT), and Critical Path Method (CPM)':
     'project network diagram',
   'A project network diagram representing duration, activities, and dependencies, including an estimate based on the weighted average duration of activities.':
+    'PERT',
+  'The most realistic project timing estimate, with adjustments for worst- and best-case scenarios.':
     'PERT',
   PERT: 'Program Evaluation and Review Technique',
   'A project schedule network diagramming method that uses rectangular or circular nodes to represent activities and arrows to represent precedence relationships between activities.':
@@ -437,8 +451,34 @@ const PMTERMS = {
     'critical path',
   '(True/False): Fixed-priced contracts place the most risk on the vendor, not the buyer.':
     'True',
+  'A project manager completes a contract for services that places a vendor at risk. The vendor agrees to which contract type?':
+    'fixed price contract',
   '"Lump Sum Contract." The vendor agrees to perform the work at the negotiated contract value.':
     'fixed price contract',
+  'A hybrid of fixed and cost-plus contracts. The buyer pays materials and labor costs up to the maximum price listed in the contract.':
+    'time and materials contract',
+  'Within a quality assurance plan by creating a list of measurable quality targets.':
+    'quality objectives',
+  'Within a quality assurance plan by identifying industry or regulatory standards that apply to the project.':
+    'quality standards',
+  'A portion of quality assurance that involves inspecting finished work before it reaches the customers.':
+    'quality control',
+  'Encompasses quality control including all processes and procedures and aims to prevent quality issues.':
+    'quality assurance',
+  'Policies, procedures, and tools designed to ensure defect-free development and delivery.':
+    'quality assurance',
+  'An actual value that describes the measurements for the quality control process.':
+    'quality metrics',
+  'A version with just enough functionality to demonstrate how a final product will operate; intended for use by early adopters, who can provide valuable feedback to the development team, and to build stakeholder confidence in a project.':
+    'minimum viable product',
+  'The developer writes a simple "pass/no pass" test for code. This ensures that a particular block of code performs the exact action intended, and provides the exact output expected.':
+    'unit test',
+  'The process of testing an application after changes are made to see if these changes have triggered problems in older areas of code.':
+    'regression test',
+  'This type of test is limited only to the most crucial functions, ensuring that those pieces work, and does not analyze finer details. Typically, this test is done after a build and before a release.':
+    'smoke test',
+  'A software testing method that evaluates how software performs under extreme load.':
+    'stress test',
   'The cost-plus contract places most of the risk on the...': 'buyer',
   'A contract type that provides vendors a refund of the expenses incurred while providing a service, plus a fee representing vendor profit.':
     'cost plus contract',
@@ -648,8 +688,14 @@ const PMTERMS = {
     'true',
   "During a project meeting at an organization, a visitor states that they represent a group that will interact with the project's final output. What role does the visitor play?":
     'end user',
+  'An agreement that stipulates that entities will not share confidential information, knowledge, or materials with unauthorized third parties.':
+    'nondisclosure agreement',
+  'The operating agreements for how the vendor and project team will work together to deliver a project.':
+    'rules of engagement',
   'A project manager implements key performance indicators (KPIs) for several project processes. Which metrics does the manager record after finishing the deliverable?':
     'lagging indicators',
+  "When you don't have it and need it – you must either build, buy, lease, or rent it.":
+    'resource',
   '(True/False): A controlling PMO has full authority.': 'false',
   'Waterfall phase: project team members verify that any work completed meets the requirements and quality specifications.':
     'testing',
@@ -840,6 +886,24 @@ const PMTERMS = {
     'escalation plan',
   'Visually compares the improvement in quality scores against the cost of achieving them.':
     'law of diminishing returns chart',
+  'Project baseline component: the detailed project scope statement, the Work Breakdown Structure, and the Work Breakdown Structure dictionary.':
+    'scope baseline',
+  'Project baseline component: it is drawn from schedule network analysis and includes start and finish dates; management-approved':
+    'schedule baseline',
+  'Project baseline component: a time-phased budget that will monitor and measure cost performance throughout the project life cycle.':
+    'cost baseline',
+  'An approved time phased plan for a project, a work breakdown structure component, a work package, or an activity, plus the approved scope, cost, schedule, and technical changes.':
+    'project baseline',
+  '(True/False): A cost baseline includes the management reserve.': 'false',
+  '(True/False): A cost baseline includes the cost estimate and contingency reserve.':
+    'true',
+  '(True/False): A project budget includes the management reserve.': 'true',
+  'The total project cost, including the cost estimate, contingency reserve, and management reserve.':
+    'project budget',
+  '(True/False): The difference between verifiaction and validation is that verification is an objective assessment and validation is a subjective measure (i.e., meeting expectations).':
+    'true',
+  'After every sprint, an agile project team meets to reflect on their work and identify ways to improve. What is this quality activity called?':
+    'retrospective',
 };
 
 export default PMTERMS;
