@@ -249,7 +249,7 @@ const PMTERMS = {
     'true',
   'A type of Responsibility Assignment Matrix that helps detect the level of responsibility for each project team member.':
     'RACI chart',
-  'A chart that links key project stakeholders to specific project deliverables or activities by assigning responsibilities to each stakeholder for each element of work. (RAM)':
+  'A chart that links key project stakeholders to specific project deliverables or activities by assigning responsibilities to each stakeholder for each element of work.':
     'responsibility assignment matrix',
   'Role ownership: 1) responsible, 2) accountable, 3) consulted, 4) informed':
     'RACI chart',
@@ -331,6 +331,8 @@ const PMTERMS = {
   'Sessions held at the end of a project or phase in which you discuss and document areas for improvement and capture lessons learned for use in future projects.':
     'closure meeting',
   "A final summary of the project's performance, outcomes, and lessons learned; created in the closing phase and includes a request to close the project.":
+    'project closeout report',
+  'This is created in the closing phase and includes a request to close the project.':
     'project closeout report',
   'Documented communication from project stakeholders that they agree to close the project. The stakeholder indicates they agree that the completed work meets the agreed-upon requirements.':
     'project signoff',
@@ -904,6 +906,44 @@ const PMTERMS = {
     'true',
   'After every sprint, an agile project team meets to reflect on their work and identify ways to improve. What is this quality activity called?':
     'retrospective',
+  'A structured approach to building change plans that manage the strategy, artifacts, and processes that help people adapt to new business processes and technology.':
+    'organizational change mangement',
+  'A valuable tool for creating a more respectful project implementation plan. Applied through the execution and closing phases.':
+    'organizational change mangement',
+  OCM: 'organizational change mangement',
+  'An organizational change management metric that measures how many end-users use a new offering.':
+    'change adoption',
+  'Verification that each financial transaction in the project budget is matched with a corresponding payment or activity; can be done whenever but must be done during the project closing phase.':
+    'budget reconciliation',
+  'Security policy concept that states that duties and responsibilities should be divided among individuals to prevent ethical conflicts or abuse of powers.':
+    'separation of duties',
+  'When all deliverables are approved and validated, the project is approved to...':
+    'close',
+  'A project manager completes a project closeout report. If the PM summarizes reserves, which report area is the focus?':
+    'financial summary',
+  "Summarizes the project's final performance against the cost baseline and summarizes reserves usage. It is best to attach a copy of the final reconciled budget to the report.":
+    'financial summary',
+  "Summarizes the project's scope, schedule, and budget performance. This summary indicates how well the project performed.":
+    'performance analysis',
+  'Summarizes how the project affected ongoing operations and who the operation owners are.':
+    'transition summary',
+  'Summarizes the lessons learned from every phase, retrospective, and project closure meeting. This is the best resource for improving future projects.':
+    'lessons learned summary',
+  "A modification to a project's scope, budget, or timeline via an adjustment in project activities or resources.":
+    'change',
+  "A 'change' occurs during which project life cycle phase?": 'execution',
+  'This team member initiates all the activities in the closing phase.':
+    'project manager',
+  "A structured, objective assessment of a project's performance and how well it was served by the organization's project management processes.":
+    'project evaluation',
+  'Contains: project overview, project highlights, project challenges, future considerations, lessons learned workshop.':
+    'project closure meeting',
+  'This project closure activity is also called a "post-mortem", "project retrospective", or "project review."':
+    'lessons learned workshop',
+  'The project closeout report is a final project summary and an official request for...':
+    'project signoff',
+  'Contains: project overview, project highlights, project challenges, performance analysis, future considerations, lessons learned summary, financial summary, transition summary, closure approval request.':
+    'closeout report',
 };
 
 export default PMTERMS;
