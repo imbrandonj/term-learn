@@ -713,6 +713,10 @@ const PMTERMS = {
   'The people that need to be at the meeting.': 'target audience',
   'A checkpoint review of project deliverables and performance at the end of each phase or sub-phase of a project at which point a management review or sign-off may be required.':
     'phase gate review',
+  'This type of meeting occurs when the project prepares to move from one phase to the next.':
+    'phase gate review',
+  'Type: phase gate reviews, change control meetings, and ad hoc reporting.':
+    'conditional meetings',
   'Any information exchange where the message is shared and received at different times, such as a letter or an email.':
     'asynchronous communication',
   'A real-time exchange of information. The sender and recipient receive and respond to information immediately, creating a continuous communication stream.':
@@ -725,8 +729,8 @@ const PMTERMS = {
   'This type of data is top secret, and access is severely restricted.':
     'critical data',
   '1) Timing, 2) Format, 3) Formality, 4) Audience': 'communication modalities',
-  '1) Informative, 2) Decisive, 3) Collaborative': 'meeting types',
-  '1) Smoothing, 2) Forcing, 3) Compromising, 4) Collaborating, 5) Avoiding':
+  'Types: 1) Informative, 2) Decisive, 3) Collaborative': 'meeting types',
+  'Types: 1) Smoothing, 2) Forcing, 3) Compromising, 4) Collaborating, 5) Avoiding':
     'conflict resolution',
   'A conflict resolution strategy that attempts to redirect focus away from the conflict by finding points of agreement (accommodating); high importance of relationship, low importance of achieving goals.':
     'smoothing',
@@ -741,7 +745,8 @@ const PMTERMS = {
   'The communication plan and escalation plan are developed in which phase of the project life cycle?':
     'initiation',
   'The last team activity of the initiation phase.': 'project kickoff',
-  '1) Functional, 2) Projectized, 3) Matrix': 'organizational structures',
+  'Types: 1) Functional, 2) Projectized, 3) Matrix':
+    'organizational structures',
   'Group related projects together and strategically align them to a larger goal.':
     'program',
   'Group all the projects an organization or division invests in to manage the number of projects in progress and total investments.':
@@ -762,7 +767,7 @@ const PMTERMS = {
     'decisive',
   'A process where a list of potential work items is analyzed, prioritized, and clarified; new information continually modifies the contents and sequence of backlog items.':
     'refinement',
-  '1) Language barriers, 2) Time zone / geographical factors, 3) Technological factors, 4) Cultural differences':
+  'Types: 1) Language barriers, 2) Time zone / geographical factors, 3) Technological factors, 4) Cultural differences':
     'communication challenges',
   'Communicative Element: visuals such as presentations, pictures, and documents.':
     'artifacts',
@@ -944,6 +949,51 @@ const PMTERMS = {
     'project signoff',
   'Contains: project overview, project highlights, project challenges, performance analysis, future considerations, lessons learned summary, financial summary, transition summary, closure approval request.':
     'closeout report',
+  'At which project phase is the project plan approved?': 'planning',
+  "A document that is created by associating the project's deliverables with the requirements for creating each deliverable.":
+    'requirements traceability matrix',
+  'A project manager uses this for impact analysis, test results, and to understand requirement information.':
+    'requirements traceability matrix',
+  'A physical or virtual board that tracks work activities and their progress towards completion; i.e., Kanban':
+    'task board',
+  'A document containing a list of defects for a project or product; includes the defect and relevant information, such as when it was found, which environment, and its current status.':
+    'defect log',
+  'A document used to maintain a list of formal project change requests and their status.':
+    'change log',
+  'A document that is used to list, track, and assign project items that need to be addressed by the project team.':
+    'issue log',
+  'Types: defect log, change log, issue log': 'event logs',
+  'A tool used to track the total amount of work completed each day versus a target goal.':
+    'burnup chart',
+  'Measures the total amount of work completed each day. A line represents the target for completed work. It starts at zero on the first day of the project and the last day has all the project work.':
+    'burnup chart',
+  'Measures how much work is remaining each day. A line represents the target for the day.':
+    'burndown chart',
+  'A tool used to track the progress of the project by plotting the number of work days against the number of hours of work remaining.':
+    'burndown chart',
+  "A visual representation of a team's output over time; shows how many items are completed each sprint or iteration.":
+    'throughput chart',
+  "A visual representation of a team's output over time; shows how many story points are completed each sprint or iteration.":
+    'velocity chart',
+  '(True/False): A velocity chart measures how many story points are completed per iteration.':
+    'true',
+  '(True/False): A throughput chart measures how many story points are completed per iteration.':
+    'false',
+  '(True/False): A throughput chart measures the number of items completed per iteration.':
+    'true',
+  '(True/False): A velocity chart measures the number of items completed per iteration.':
+    'false',
+  "The process of rearranging a backlog's contents to ensure that the most valuable work is at the top of the list; occurs throughout the project.":
+    'backlog prioritization',
+  'Short project meetings conducted to discuss the current status of the project among the team members and other stakeholders.':
+    'project status meetings',
+  'Progress summaries that are generated as needed.': 'ad hoc report',
+  'A formally chartered group responsible for reviewing, evaluating, approving, delaying, or rejecting changes to the project and recording and communicating such decisions.':
+    'change control board',
+  'A project manager collects data, analyzes data, and shares progress throughout this project phase.':
+    'execution',
+  'Communication increases in frequency and urgency during this project phase. Review the communication plan.':
+    'execution',
 };
 
 export default PMTERMS;
