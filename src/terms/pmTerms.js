@@ -958,10 +958,15 @@ const PMTERMS = {
     'task board',
   'A document containing a list of defects for a project or product; includes the defect and relevant information, such as when it was found, which environment, and its current status.':
     'defect log',
+  'A simple document used to submit a new request for a change to a project.':
+    'change request form',
   'A document used to maintain a list of formal project change requests and their status.':
     'change log',
   'A document that is used to list, track, and assign project items that need to be addressed by the project team.':
     'issue log',
+  'Action taken to restore a system to the last known good state.': 'rollback',
+  'A proactive strategy that defines when and how to restore a system back to its last known good state in the event of issues during a release.':
+    'rollback plan',
   'Types: defect log, change log, issue log': 'event logs',
   'A tool used to track the total amount of work completed each day versus a target goal.':
     'burnup chart',
@@ -971,6 +976,8 @@ const PMTERMS = {
     'burndown chart',
   'A tool used to track the progress of the project by plotting the number of work days against the number of hours of work remaining.':
     'burndown chart',
+  'Measures the project scope as actual remaining stories vs target remaining stories. Deliverables, activites, or other measures can be used in substitution for user stories.':
+    'scope burndown chart',
   "A visual representation of a team's output over time; shows how many items are completed each sprint or iteration.":
     'throughput chart',
   "A visual representation of a team's output over time; shows how many story points are completed each sprint or iteration.":
@@ -994,6 +1001,99 @@ const PMTERMS = {
     'execution',
   'Communication increases in frequency and urgency during this project phase. Review the communication plan.':
     'execution',
+  'A potential future event that may or may not occur.': 'risk',
+  'If a risk occurs it becomes a...': 'issue',
+  '(True/False): Issues and risks can be seen as positive. Positive risks and positive issues.':
+    'true',
+  'A sequence of increasingly higher-authority individuals who will engage with an issue to resolve it and mitigate its impacts.':
+    'escalation path',
+  'The process and activities a project manager uses to identify, monitor, and resolve events outside the control of the project team.':
+    'issue tracking',
+  'Specific events or conditions that will activate a need to notify a higher level of authority to resolve or mitigate an issue’s impact (escalation).':
+    'escalation points',
+  'A common agile performance metric that compares how much work a team planned to complete in a sprint against how much work they actually completed.':
+    'predictability',
+  'A technique used to determine the true cause of the problem that, when removed, prevents the problem from occurring again.':
+    'root cause analysis',
+  'A simple root cause analysis that looks for hidden root causes of issues by continuing to identify why an issue occurred until you reach a solvable root cause.':
+    'Five Why',
+  'The quantitative effect of an event, such as the number of users affected of the cost of recovery.':
+    'impact',
+  'A strategy for minimizing an issue’s impact and reducing or eliminating its recurrence.':
+    'issue resolution plan',
+  'A graph that is used to analyze and communicate the variability of a process or project activity over time.':
+    'control chart',
+  'The process by which the need for change is recorded and approved.':
+    'change control',
+  'An approved renegotiating of scope, time, or budget.': 'scope change',
+  'When a project delivers more or less work than originally intended, this is what brings it back into alignment.':
+    'scope change',
+  'A change order that will not be implemented in the current project iteration but will impact the final deliverable later.':
+    'product change',
+  'A change order that affects the final deliverable of a project.':
+    'product change',
+  'A plan update or plan change.': 'scope change',
+  'The project team inspects and improves systems at every retrospective, phase gate, and lessons learned event.':
+    'team improvement',
+  'A project manager looks to resolve project timeline issues using the 80/20 rule. How does the project manager analyze the issues?':
+    'Pareto chart',
+  'A time-based line graph called a time series plot. It shows time or sequence on the x-axis and measures corresponding data on the y-axis.':
+    'run chart',
+  'Graphically demonstrates the relationship between two variables - one on the x-axis and one on the y-axis. Then, a dot represents the occurrence of each (x,y) variable.':
+    'scatter diagram',
+  'The tracking of two distinct variables (correlation); another name for scatter plot.':
+    'scatter diagram',
+  "A time series chart that plots how much of the project's budget has been used and how much remains.":
+    'budget burndown chart',
+  'The rate at which you are using up your budget.': 'burn rate',
+  'The estimated budget required to complete the remaining project work.':
+    'budget forecast',
+  "An adjustment to project baselines to remove variances that aren't related to a change request.":
+    'rebaseline',
+  "A baseline adjustment that isn't driven by any change request; a response to general variance.":
+    'rebaseline',
+  'An adjustment to project baselines resulting from project change requests.':
+    'revised baseline',
+  'A logical grouping of project deliverables arranged in a hierarchical structure that defines the total scope of work required to complete the project.':
+    'Work Breakdown Structure',
+  'A group of related activities that are reported as an aggregate activity.':
+    'summary activity',
+  'A formal mechanism designed to measure performance of a program against desired goals.':
+    'key performance indicators',
+  EVM: 'earned value management',
+  'A methodology that measures project progress by comparing actual schedule and cost performance against planned performance as laid out in the schedule and cost baselines.':
+    'earned value management',
+  'Values: 1) planned value (PV: the target cost and schedule), 2) earned value (EV: the actual schedule), 3) actual cost (AC)':
+    'earned value management',
+  'The total budgeted cost of the project at completion.':
+    'budget at completion',
+  "BAC; the project's cost baseline": 'budget at completion',
+  'A measurement of cost performance that is used to determine whether the project is over or under budget. The formula is EV/AC.':
+    'cost performance index',
+  'CPI; compares the earned value to the actual cost': 'cost performance index',
+  'The difference between the EV and the AC incurred to complete that work. The formula is EV - AC.':
+    'cost variance',
+  'CV; measures the difference between the earned value and the actual cost.':
+    'cost variance',
+  'The measured difference between the actual completion of an activity and the planned or scheduled completion of an activity. The formula is EV – PV':
+    'schedule variance',
+  'SV; measures the difference between the earned value and the planned value.':
+    'scheduled variance',
+  'The ratio of work performed to work scheduled. The formula is EV / PV':
+    'schedule performance index',
+  'SPI; compares the earned value and the planned value by creating a ratio.':
+    'schedule performance index',
+  'A forecast of total costs needed to complete the project; used to predict and control cost problems.':
+    'estimate at completion',
+  "EAC; a forecasted measure of the project's total cost, given the project's previous performance.":
+    'estimate at completion',
+  'A forecasting technique that equals the cost needed to finish the remaining work.':
+    'estimate to complete',
+  'ETC; the sum of all remaining activites.': 'estimate to complete',
+  'It is the difference between the BAC and the EAC. The formula is BAC - EAC':
+    'variance at completion',
+  'VAC; measures the total variance the project is expected to experience.':
+    'variance at completion',
 };
 
 export default PMTERMS;
