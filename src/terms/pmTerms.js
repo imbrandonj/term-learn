@@ -479,6 +479,10 @@ const PMTERMS = {
     'regression test',
   'This type of test is limited only to the most crucial functions, ensuring that those pieces work, and does not analyze finer details. Typically, this test is done after a build and before a release.':
     'smoke test',
+  'A performance test that measures performance under conditions such as multiple simultaneous users. The test engineer would perform this type of test after testing each of the core functions.':
+    'stress test',
+  'This type of test ensures the core features work. No other tests can run until the core functions can perform.':
+    'smoke test',
   'A software testing method that evaluates how software performs under extreme load.':
     'stress test',
   'The cost-plus contract places most of the risk on the...': 'buyer',
@@ -1094,6 +1098,34 @@ const PMTERMS = {
     'variance at completion',
   'VAC; measures the total variance the project is expected to experience.':
     'variance at completion',
+  'The process of identifying and adding extra time that will serve as contingency or management reserves to the duration estimates.':
+    'reserve analysis',
+  'A method of calculating the average outcome when the future is uncertain; Probability × Impact':
+    'expected monetary value',
+  EMV: 'expected monetary value',
+  'Formula: ES of the successor - EF of the predecessor': 'free float',
+  'Formula: LF of the activity - EF of the activity': 'total float',
+  'Formula: LS of the activity - ES of the activity': 'total float',
+  'The total project duration captured from the project schedule.':
+    'schedule baseline',
+  "What quality management activity presents finished deliverables (outputs) to the customer to see if the project meets the customer's expectations?":
+    'validation',
+  'Confirms the deliverable against quality standards and is a measure of internal quality.':
+    'verification',
+  'List of all activities where the Total Float is 0.': 'critical path',
+  'A chain of events with a TF of 0.': 'critical path',
+  'The original scope and related documents, such as the WBS and project statement.':
+    'scope baseline',
+  'Contains the scope baseline, the WBS, and the project plan.':
+    'detailed scope statement',
+  'This document finalizes the project scope for the planning process.':
+    'detailed scope statement',
+  '(True/False): By definition, the minimally viable product (MVP) has all the requirements to test the product appropriately.':
+    'true',
+  '(True/False): By definition, the minimally viable product (MVP) has all the features requested to demonstrate how desirable the product is.':
+    'false',
+  'The approval of this marks the end of the project planning phase and the beginning of the execution phase.':
+    'project management plan',
 };
 
 export default PMTERMS;
