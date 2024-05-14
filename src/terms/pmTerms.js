@@ -698,6 +698,8 @@ const PMTERMS = {
     'nondisclosure agreement',
   'The operating agreements for how the vendor and project team will work together to deliver a project.':
     'rules of engagement',
+  "Monitor team performance and call attention to deviations; incorporates the vendor's obligations, such as a plan for approving deliverables or providing feedback promptly.":
+    'rules of engagement',
   'A project manager implements key performance indicators (KPIs) for several project processes. Which metrics does the manager record after finishing the deliverable?':
     'lagging indicators',
   "When you don't have it and need it – you must either build, buy, lease, or rent it.":
@@ -885,6 +887,7 @@ const PMTERMS = {
   'Who creates the risk contingency plan?': 'project manager',
   'This plan includes communication information, such as primary contacts, whom to inform, and escalations.':
     'contingency plan',
+  'Outlines the steps to take if a risk event occurs.': 'contingency plan',
   'A general guideline with many applications; in terms of controlling processes, it contends that a relatively large number of problems or defects, typically 80 percent, are commonly due to a relatively small number of causes, typically 20 percent.':
     'Pareto principle',
   'Asserts that you can solve 80% of a problem by addressing 20% of causes.':
@@ -1126,6 +1129,95 @@ const PMTERMS = {
     'false',
   'The approval of this marks the end of the project planning phase and the beginning of the execution phase.':
     'project management plan',
+  'A business justification or a business objective; summarizes the information about the project and serves as the first project proposal.':
+    'business case',
+  'Formula: (Revenue - Cost) × 100': 'ROI',
+  'Formula: (Net Profit / Cost) × 100': 'ROI',
+  'Covers the relevant economic impacts of the project in the business case; contains a cost-benefit or ROI analysis with relevant risks and assumptions.':
+    'financial overview',
+  '(True/False): Project analysis is not a valid term in the business case.':
+    'true',
+  'Describes several approaches to solving the problem in the business case; contains at least three and no more than five alternatives; this section compares the solutions against each other with pros and cons.':
+    'options',
+  'In this organizational structure, a project manager is responsible for assigning work but does not have official authority over the people doing the work.':
+    'weak matrix',
+  'What is a document that describes how project requirements will be analyzed, documented, and managed throughout the project lifecycle?':
+    'requirements management plan',
+  'A project manager works through the common SDLC phases and has just created a low-function prototype. What phase is next?':
+    'development',
+  'In an SDLC framework, which phase comes first?': 'planning',
+  'In an SDLC framework, which phase comes after planning?': 'requirements',
+  'In an SDLC framework, this prototype phase cames after gathering the software requirements.':
+    'design',
+  'This project framework defines cost inputs and parameters at the start of the project with a flexible budget.':
+    'agile',
+  "Where other methodologies create a business case to start the project, this methodology features a continued business justification as one of it's seven principles.":
+    'PRINCE2',
+  'Contains: 1) Creation, 2) Storage and Retrieval, 3) Archival and Disposition':
+    'records management plan',
+  'Contains: 1) Project name, 2) Project description, 3) Project sponsor(s), 4) Project vision, 5) Project organization (people), 6) Implementation overview':
+    'project charter',
+  "Which statement defines the project and is created at an early stage to reflect the stakeholders' common understanding of what will be performed in the project?":
+    'project charter',
+  'What high-level document shares major progress points, such as new feature rollouts?':
+    'project road map',
+  'Describe project checkpoints such as timeline and plot deadlines, check-ins, and critical dates throughout the course of the project.':
+    'milestone charts',
+  "This document clarifies that project manager's role and authority level.":
+    'project charter',
+  'What management strategy organizes project management activities with the PM as the primary audience?':
+    'stakeholder engagement plan',
+  'Which conflict resolution strategy is considered the most complex approach, is considered a "win-win situation" situation, and can also produce the most creative results?':
+    'collaborating',
+  'Which conflict resolution technique emphasizes commonalities between the parties, effectively downplaying the differences and redirecting attention away from the conflict?':
+    'smoothing',
+  'What is the first step in developing a communication plan?':
+    'identify stakeholders',
+  'What type of communication is also referred to as real-time communication?':
+    'synchronous',
+  'A project manager wants to select a productivity tool that will share major progress points, including new feature rollouts and products that would serve well in an executive summary. Which tool would be the best option?':
+    'project roadmap',
+  'It is a unique bar chart that shows time across the x-axis and a list of tasks or activities on the y-axis.':
+    'Gantt chart',
+  'Formula: Allocated Time / Total Available Time': 'resource utilization',
+  'A proactive practice where companies create a plan for who would replace critical roles in a company if those employees were to suddenly vacate their position.':
+    'succession planning',
+  'A gap analysis tool that helps to visualize various factors that impact a single outcome; also known as a cause and effect diagram.':
+    'fishbone diagram',
+  'A project manager needs to establish a project team for a new web design project. Before assigning responsibility and bringing on team members, what must the project manager conduct?':
+    'needs assessment',
+  'Identifies what a project will need to provide to solve a business problem. It defines which resources the project needs, including skills, software, equipment, and other tangible and intangible resources.':
+    'needs assessment',
+  'Details proactive steps taken to reduce the impact or likelihood of a risk event.':
+    'risk mitigation plan',
+  'The risks that remain even after mitigation strategies have been applied.':
+    'residual risks',
+  "The first step in creating a WBS is to determine the project's...": 'scope',
+  'Which is a better choice with a fixed scope, time, and costs – WBS or a backlog?':
+    'WBS',
+  'Which is a better choice with a flexible scope, fixed time and resources – WBS or a backlog?':
+    'backlog',
+  '(True/False): In the RAM chart, having more than one person accountable for the same activity increases ambiguity and could also lead to misdirection of the project.':
+    'true',
+  'Contains the detailed description of work packages such as information about tasks each team member needs to complete, responsibilities, prerequisites, due dates, etc.':
+    'WBS dictionary',
+  "A customer's request for specific goods or services": 'purchase order',
+  'Establishes an agreement to purchase something at some point and gets fulfilled through one or more purchase orders.':
+    'procurement contract',
+  'Contains: 1) Scope, 2) Remediation, 3) Length of defect-free period':
+    'warranty',
+  'This type of statement of work (SOW) describes the expected outcomes along with minimum performance standards.':
+    'performance',
+  'This type of statement of work (SOW) describes the requirements of a finished product; it is outcome-focused.':
+    'functional',
+  'Sits between the presentation and data tiers. It retrieves and processes the data and sends it to the frontend.':
+    'application tier',
+  'The tier associated with the data houses and is stored within the solution. This could be a local server, shared drive, or a regional database.':
+    'data tier',
+  'In a multitier design, the outward-facing consumer tier. This would include webpages or web applications the user will interact with.':
+    'presentation tier',
+  'Refers to the need for the solution to comply with applicable regulations.':
+    'compliance',
 };
 
 export default PMTERMS;
