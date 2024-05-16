@@ -927,6 +927,10 @@ const PMTERMS = {
     'change adoption',
   'Verification that each financial transaction in the project budget is matched with a corresponding payment or activity; can be done whenever but must be done during the project closing phase.':
     'budget reconciliation',
+  'One of the reviewable items associated with preparing for project closure, starts after all the contracts are paid and should employ separation of duties whenever possible.':
+    'budget reconciliation',
+  'performance metric that is associated with overall organizational change management (OCM) but is not associated with reviews tied to closeout procedures.':
+    'change adoption',
   'Security policy concept that states that duties and responsibilities should be divided among individuals to prevent ethical conflicts or abuse of powers.':
     'separation of duties',
   'When all deliverables are approved and validated, the project is approved to...':
@@ -1218,6 +1222,66 @@ const PMTERMS = {
     'presentation tier',
   'Refers to the need for the solution to comply with applicable regulations.':
     'compliance',
+  'What function can the procurement specialist perform to collect information about the product, industry trends, and potential suppliers?':
+    'market research',
+  'Identifies a list of vendors and compares them against each other.':
+    'competitive analysis',
+  'When a risk materializes, it moves to the...': 'issue log',
+  'Validating deliverables occurs in which phase of the project life cycle?':
+    'closing',
+  'What type of meeting reviews the criteria of a stage to determine if the project is ready to move to the next stage?':
+    'phase gate review',
+  "A team touchpoint meeting to update the project's progress and solve problems ":
+    'status meeting',
+  'An artifact that identifies all of the risks associated with each project requirement':
+    'risk register',
+  "Creates a path between a project's requirements and the artifacts that resolve it; simplifies the audit and quality process since each artifact maps to each project requirement.":
+    'requirements traceability matrix',
+  'A stakeholder meeting is an opportunity to present a high-level status update in the form of a...':
+    'status report',
+  'Modifications that do not have a set process and do not happen often. These changes are planned in advance and require customer notifications to varying degrees.':
+    'normal changes',
+  'Recurring changes to set policies and procedures. Customers do not need notification of these types of changes.':
+    'standard changes',
+  'Unplanned recovery events. There is rarely time to give customers advance notice, but the organization can notify them during and after the event.':
+    'emergency changes',
+  'Helpful when the team thinks that many small inputs contribute to an issue. They are a useful brainstorming method for starting analysis when the team does not know where to look first.':
+    'fishbone diagram',
+  'A simple root cause analysis tool that looks beyond the surface issue to uncover hidden root causes.':
+    'Five Why',
+  'Decisions with effects beyond the boundaries of the project. This change involves a system outside the current project scope and will require additional project resources in the form of additional team members.':
+    'strategic change',
+  'Changes involving a specialized skill or product. This change will eventually involve a technical subject matter expert (SME) once the PM analyzes the requirements for the technical change.':
+    'technical change',
+  'Relates to the day-to-day business of running a project. This change falls outside of the current project scope.':
+    'operational change',
+  'Special cause and common cause variations are the types of variations monitored through this statistical tracking.':
+    'control chart',
+  'The project team plans to monitor when the implemented changes begin to affect system performance. The team will look for what type of variation?':
+    'special cause variation',
+  'Variations expected in a process. However, they do not indicate a change in a process.':
+    'common cause variation',
+  'What will the CV equal if the project ends on budget?': '0',
+  'A schedule performance index (SPI) greater than what indicates that the project will complete ahead of schedule?':
+    '1',
+  'This value indicates the cost needed to finish the remaining work.':
+    'estimate to complete',
+  'A variance at completion (VAC) rate of less than what indicates that the project will overrun the budget if no improvements occur?':
+    '1',
+  '(True/False): A high value of schedule performance index (SPI) is a good thing.':
+    'true',
+  '(True/False): A high value of variance at completion (VAC) is a good thing.':
+    'false',
+  '(True/False): Once the project stakeholders approve project deliverablesw, the team will not deliver new work or accept new change requests.':
+    'true',
+  'The project manager can begin closing contracts after obtaining approval to close the project from all...':
+    'stakeholders',
+  'Outlines how deliverables transition to the permanent owners. The project manager can verify that the team has completed all operational work and support handoffs.':
+    'transition plan',
+  'When the project is complete, the project manager confirms that the team met the objectives and completed all...':
+    'deliverables',
+  "A modular, living system to which an operations team can continue contributing throughout and beyond the project's life cycle.":
+    'knowledge base',
 };
 
 export default PMTERMS;
