@@ -380,7 +380,7 @@ const PMTERMS = {
     'procurement management',
   'Responses submitted by potential vendors that are prepared in accordance with the requirements stated in the procurement documents.':
     'vendor proposals',
-  'A type of fixed-price contract or a separate document that is appended to a contract. It is sent from a buyer to a vendor with a request for an order. When the vendor accepts the purchase order, a legally binding contract is formed':
+  'A type of fixed-price contract or a separate document that is appended to a contract. It is sent from a buyer to a vendor with a request for an order. When the vendor accepts it, a legally binding contract is formed':
     'purchase order',
   'A contract that establishes precedence and guidelines for any business documents that are executed between two parties; MSA':
     'master service agreement',
@@ -674,6 +674,8 @@ const PMTERMS = {
     'true',
   'A project manager performs a gap analysis on a project and finds that outside resources have difficulty accessing a data storage drive. The project manager records this gap as which type?':
     'function',
+  '(True/False): The transfer of deliverables in the closing phase occurs before the validation of deliverables, not after the deliverables are validated.':
+    'true',
   'Gap Analysis type: identifies all the required skills that are not available on the team; type & expertise':
     'skills gap',
   'Gap Analysis type: a KPI that measures the effectiveness of project resources; 100% represents a fully utilized resource.':
@@ -1013,7 +1015,7 @@ const PMTERMS = {
   'Communication increases in frequency and urgency during this project phase. Review the communication plan.':
     'execution',
   'A potential future event that may or may not occur.': 'risk',
-  'If a risk occurs it becomes a...': 'issue',
+  'If a risk occurs it becomes an...': 'issue',
   '(True/False): Issues and risks can be seen as positive. Positive risks and positive issues.':
     'true',
   'A sequence of increasingly higher-authority individuals who will engage with an issue to resolve it and mitigate its impacts.':
