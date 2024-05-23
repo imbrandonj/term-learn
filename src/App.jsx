@@ -6,6 +6,7 @@ import dsaIcon from './assets/dsa.svg';
 import javaIcon from './assets/java.svg';
 import cybersecIcon from './assets/cybersec.svg';
 import pmIcon from './assets/pm.svg';
+import awsIcon from './assets/aws.svg';
 
 import { useState } from 'react';
 
@@ -60,6 +61,12 @@ function App() {
             <button onClick={() => selectTermSet('pm')}>
               <img src={pmIcon} height={'60'} />
               Project+
+            </button>
+          </li>
+          <li>
+            <button onClick={() => selectTermSet('aws')}>
+              <img src={awsIcon} height={'60'} />
+              AWS Cloud
             </button>
           </li>
         </ul>

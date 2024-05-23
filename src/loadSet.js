@@ -5,6 +5,7 @@ import CYBERTERMS from './terms/cyberTerms';
 import JAVATERMS from './terms/javaTerms';
 import JSTERMS from './terms/jsTerms';
 import PMTERMS from './terms/pmTerms';
+import AWSTERMS from './terms/awsTerms';
 
 export function loadSet(set) {
   return set === 'dsa'
@@ -19,5 +20,7 @@ export function loadSet(set) {
             ? JSTERMS
             : set === 'pm'
               ? PMTERMS
-              : null;
+              : set === 'aws'
+                ? AWSTERMS
+                : null;
 }

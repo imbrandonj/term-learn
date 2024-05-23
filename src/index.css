@@ -53,7 +53,7 @@ button:focus-visible {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 25vh;
+  margin-top: 20vh;
 }
 
 #home > h1 {
@@ -80,6 +80,7 @@ button:focus-visible {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 60vw;
   gap: 3vw;
 }
 
@@ -155,7 +156,7 @@ button:focus-visible {
   }
 
   #home {
-    margin-top: 10vh;
+    margin-top: 8vh;
   }
   
   #home > h1 {
