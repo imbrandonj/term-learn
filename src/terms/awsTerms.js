@@ -16,7 +16,7 @@ const AWSTERMS = {
     'SaaS',
   'This cloud service model provides you with a complete product that is run and managed by the service provider.':
     'SaaS',
-  'List the 3 main cloud computing deployment models.':
+  'List the three main cloud computing deployment models:':
     'cloud, hybrid, on premises',
   'This cloud computing model thinks of infrastructure as hardware. Hardware solutions are physical, which means they require space, staff, physical security, and capital expenditure.':
     'traditional',
@@ -67,7 +67,51 @@ const AWSTERMS = {
     'AWS CLI',
   'Provides packages that enable accessing AWS in a variety of popular programming languages. This makes it easy to use AWS in your existing applications and it also enables you to create applications that deploy and monitor complex systems entirely through code.':
     'SDKs',
-  'List the three ways to intract with AWS services.': 'CLI, console, SDK',
+  'List the three ways to intract with AWS services:': 'CLI, console, SDK',
+  'AWS CAF': 'Cloud Adoption Framework',
+  'Provides guidance and best practices to help organizations build a comprehensive approach to cloud computing across the organization and throughout the IT lifecycle to accelerate successful cloud adoption.':
+    'AWS CAF',
+  "AWS CAF is organized into how many 'perspectives'?": '6',
+  'AWS CAF perspectives consist of sets of...': 'capabilities',
+  'List the three fundamental drivers of cost with AWS:':
+    'compute, data transfer, storage',
+  'Outbound data transfer is aggregated across services and then charged at the outbound data transfer rate. This charge appears on the monthly statement as...':
+    'AWS Data Transfer Out',
+  'With the AWS Free Tier, users are able to gain free hands-on experience with the AWS platform, products, and services for how long?':
+    '1 year',
+  'Enables you to provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define.':
+    'Amazon VPC',
+  VPC: 'Virtual Private Cloud',
+  IAM: 'Identity and Access Management',
+  'Controls your users’ access to AWS services and resources.': 'AWS IAM',
+  //   'Services: Amazon VPC, Elastic Beanstalk, Auto Scaling, AWS CloudFormation, AWS IAM':
+  //     'free',
+  'AWS does not charge for inbound data transfer but rather what type of data?':
+    'outbound',
+  TCO: 'Total Cost of Ownership',
+  'The financial estimate to help identify direct and indirect costs of a system.':
+    'TCO',
+  'To compare the costs of running an entire infrastructure environment or specific workloadon-premises versus on AWS; to budget and build the business case for moving to the cloud.':
+    'TCO',
+  'A free account management service that enables you to consolidate multiple AWS accounts into an organizational tree with each branch representing a department or team.':
+    'AWS Organizations',
+  'A free account management service that enables you to consolidate multiple AWS accounts into an organization that you create and centrally manage.':
+    'AWS Organizations',
+  'This tool provides an estimate of monthly costs, opportunities to reduce monthly costs, and the ability to model solutions before building them.':
+    'AWS Pricing Calculator',
+  'Containers that you add services to in order to organize and build your cost estimate.':
+    'groups',
+  'Reduced spending on compute, storage, networking, and security; reductions in hardware and software purchases (capex); reductions in operational costs, backup, and disaster recovery; quantitative benefits':
+    'hard benefits',
+  'Reuse of service and applications; increased developer productivity; improved customer satisfaction; increase in global reach; qualitative benefits':
+    'soft benefits',
+  SCPs: 'Service Control Policies',
+  'These policies enable you to allow or deny access to AWS services for all individuals or group accounts in an organizational unit (OU), including the AWS account root user.':
+    'SCPs',
+  'These policies enable you to allow or deny access to AWS services for specific users, groups, or roles, and it can never restrict the AWS account root user.':
+    'IAM policies',
+  '1) Create Organization, 2) Create organizational units, 3) Create service control policies, 4) Test restrictions':
+    'Organizations setup',
 };
 
 export default AWSTERMS;

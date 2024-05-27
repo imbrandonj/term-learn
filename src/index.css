@@ -178,11 +178,12 @@ button:focus-visible {
   }
   
   .btnBundle {
-    gap: 5vw;
+  width: 100vw;
+  margin-right: 6vw;
   }
   
   .btnBundle li button {
-    width: 35vw;
+    width: 40vw;
     padding: 1rem;
     font-size: 1rem;
   }
