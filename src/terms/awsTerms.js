@@ -112,6 +112,63 @@ const AWSTERMS = {
     'IAM policies',
   '1) Create Organization, 2) Create organizational units, 3) Create service control policies, 4) Test restrictions':
     'Organizations setup',
+  'Uses the cost visualization that is provided by Cost Explorer to show you the status of your budgets and to provide forecasts of your estimated costs.':
+    'AWS Budgets',
+  'This AWS Organizations tool gives you programmatic access to AWS Organizations and AWS by issuing HTTPS requests directly to the service.':
+    'HTTPS Query API',
+  'A single location for accessing comprehensive information about your AWS costs and usage. This tool lists the usage for each service category that is used by an account (and its users) in hourly or daily line items,and any tax that you activated for tax allocation purposes.':
+    'AWS Cost and Usage Report',
+  'A billing and account expert who will provide quick and efficient analysis on billing and account issues.':
+    'support concierge',
+  'If you want to ensure that you follow best practices to increase performance and fault tolerance in the AWS environment, AWS Support has the AWS...':
+    'trusted advisor',
+  "The user's primary point of contact who can provide guidance, architectural review, and continuous ongoing communication to keep you informed and prepared as you plan, deploy, and optimize your solutions.":
+    'technical account manager',
+  '1) Basic, 2) Developer, 3) Business, 4) Enterprise': 'support plans',
+  'This type of cloud service requires the customer to configure access controls and manage more aspects of the security.':
+    'IaaS',
+  'What type of cloud service is Amazon EC2?': 'IaaS',
+  'What type of cloud service is Amazon VPC?': 'IaaS',
+  'What type of cloud service is AWS Lambda?': 'PaaS',
+  'What type of cloud service is Amazon RDS?': 'PaaS',
+  'What type of cloud service is AWS Trusted Advisor?': 'SaaS',
+  'What type of cloud service is AWS Shield?': 'SaaS',
+  'What type of cloud service is Amazon Chime?': 'SaaS',
+  'Cloud services that provide centrally hosted software that is typically accessible via a web browser, mobile app, or application programming interface (API).':
+    'SaaS',
+  'What type of cloud service operates the infrastructure layer, the operating system, and platforms?':
+    'PaaS',
+  'A managed distributed denial of service (DDoS) protection service that safeguards applications running on AWS.':
+    'AWS Shield',
+  'A communications service that enables you to meet, chat, and place business calls inside and outside your organization, all using a single application.It is a pay-as-you-go communications service with no upfront fees, commitments, or long-term contracts.':
+    'Amazon Chime',
+  'An online tool that analyzes your AWS environment and provides real-time guidance and recommendations to help you provision your resources by following AWS best practices.':
+    'AWS Trusted Advisor',
+  'Upgrades and patches to the operating system on the EC2 instance – who is responsible?':
+    'customer',
+  'Physical security of the data center – who is responsible?': 'AWS',
+  'Virtualization infrastructure – who is responsible?': 'AWS',
+  'EC2 security group settings – who is responsible?': 'customer',
+  'Configuration of applications that run on the EC2 instance – who is responsible?':
+    'customer',
+  'Oracle upgrades or patches when the Oracle instance runs as an Amazon RDS instance – who is responsible?':
+    'AWS',
+  'Oracle upgrades or patches when the Oracle instance runs on an EC2 instance – who is responsible?':
+    'customer',
+  'S3 bucket access configuration – who is responsible?': 'customer',
+  'Ensuring that the AWS Management Console is not hacked – who is responsible?':
+    'AWS',
+  'Configuring the subnet – who is responsible?': 'customer',
+  'Configuring the VPC – who is responsible?': 'customer',
+  'Protecting against network outages in AWS regions – who is responsible?':
+    'AWS',
+  'Securing the SSH keys – who is responsible?': 'customer',
+  "Ensuring network isolation between AWS customers' data – who is responsible?":
+    'AWS',
+  'Ensuring low-latency network connection between the web server and the S3 bucket – who is responsible?':
+    'AWS',
+  'Enforcing multi-factor authentication for all user logins – who is responsible?':
+    'customer',
 };
 
 export default AWSTERMS;

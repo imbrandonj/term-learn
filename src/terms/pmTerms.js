@@ -1284,8 +1284,6 @@ const PMTERMS = {
     'deliverables',
   "A modular, living system to which an operations team can continue contributing throughout and beyond the project's life cycle.":
     'knowledge base',
-  'This AWS Organizations tool gives you programmatic access to AWS Organizations and AWS by issuing HTTPS requests directly to the service.':
-    'HTTPS Query API',
 };
 
 export default PMTERMS;
