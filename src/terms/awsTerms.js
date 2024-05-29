@@ -84,8 +84,36 @@ const AWSTERMS = {
   VPC: 'Virtual Private Cloud',
   IAM: 'Identity and Access Management',
   'Controls your users’ access to AWS services and resources.': 'AWS IAM',
-  //   'Services: Amazon VPC, Elastic Beanstalk, Auto Scaling, AWS CloudFormation, AWS IAM':
-  //     'free',
+  'A tool that centrally manages access to launching, configuring, managing, and terminating resources in your AWS account.':
+    'AWS IAM',
+  'Allows you to control access and authorization to compute, storage, database, and application services in the AWS Cloud.':
+    'AWS IAM',
+  'A person or application that can authenticate with an AWS account.': 'user',
+  'A collection of IAM users that are granted identical authorization.':
+    'IAM group',
+  'The document that defines which resources can be accessed and the level of access to each resource.':
+    'IAM policy',
+  'Useful mechanism to grant a set of permissions for making AWS service requests.':
+    'IAM role',
+  'This type of access requires the IAM user to present an access key ID and a secret access key when they make an AWS API call by using the AWS CLI, the AWS SDK, or some other development tool.':
+    'programmatic access',
+  'This type of access requires the IAM user to fill in the fields that appear in the browser login window.':
+    'Management Console access',
+  'Promotes that you grant only the minimal user privileges needed to the user, based on the needs of your users.':
+    'principle of least privilege',
+  'Permissions policies that you can attach to a principal (or identity) such as an IAM user, role, or group. These policies control what actions that identity can perform, on which resources, and under what conditions.':
+    'identity based policies',
+  'Standalone identity-based policies that you can attach to multiple users, groups, and roles in your AWS account.':
+    'managed policies',
+  'Policies that you create and manage, and that are embedded directly into a single user group or role.':
+    'inline policies',
+  'JSON policy documents that you attach to a resource, such as an S3 bucket. These policies control what actions a specified principal can perform on that resource, and under what conditions.':
+    'resource based policies',
+  'IAM policy documents are constructed and witten in...': 'JSON',
+  'A basic computer security concept:a user or system must first prove their identity.':
+    'authentication',
+  'The process of determining what permissions a user, service or application should be granted.':
+    'authorization',
   'AWS does not charge for inbound data transfer but rather what type of data?':
     'outbound',
   TCO: 'Total Cost of Ownership',
@@ -169,6 +197,10 @@ const AWSTERMS = {
     'AWS',
   'Enforcing multi-factor authentication for all user logins – who is responsible?':
     'customer',
+  "Responsible for security 'in' the cloud.": 'customer',
+  "Responsible for security 'of' the cloud.": 'AWS',
+  'An entity in an AWS account that you can work with.': 'resource',
+  'IAM users, IAM groups, and/or IAM roles.': 'entity',
 };
 
 export default AWSTERMS;
