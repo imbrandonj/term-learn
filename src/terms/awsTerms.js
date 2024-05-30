@@ -93,6 +93,8 @@ const AWSTERMS = {
     'IAM group',
   'The document that defines which resources can be accessed and the level of access to each resource.':
     'IAM policy',
+  'An IAM identity with specific permissions not uniquely associated with one person; does not contain standard longterm credentials; provides temporary security credentials.':
+    'IAM role',
   'Useful mechanism to grant a set of permissions for making AWS service requests.':
     'IAM role',
   'This type of access requires the IAM user to present an access key ID and a secret access key when they make an AWS API call by using the AWS CLI, the AWS SDK, or some other development tool.':
@@ -201,6 +203,20 @@ const AWSTERMS = {
   "Responsible for security 'of' the cloud.": 'AWS',
   'An entity in an AWS account that you can work with.': 'resource',
   'IAM users, IAM groups, and/or IAM roles.': 'entity',
+  'This is the service which allows you to define users and the types of access that they will be allowed to have.':
+    'AWS IAM',
+  '(True/False): AWS IAM is a free global service.': 'true',
+  MFA: 'multi factor authentication',
+  'In addition to user name and password, this requires a unique authentication code to access AWS services.':
+    'MFA',
+  '(True/False): By default, AWS IAM users are assigned permissions to everything.':
+    'false',
+  '(True/False): In an IAM policy, if there is a competition between an allow statement and a deny statement, the deny statement always wins.':
+    'true',
+  '(True/False): In an IAM policy, if there is neither an explicit deny nor an explicit allow statement, the user is granted permissive access.':
+    'false',
+  '(True/False): An IAM group can contain subgroups, or nested groups.':
+    'false',
 };
 
 export default AWSTERMS;
