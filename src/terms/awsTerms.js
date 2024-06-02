@@ -34,7 +34,7 @@ const AWSTERMS = {
   'Funds that a company uses to acquire, upgrade, and maintain physical assets, such as property, industrial buildings, or equipment; capex':
     'capital expenses',
   'A cost that you can easily alter or avoid by using cloud computing.':
-    'variable exepense',
+    'variable expense',
   '(True/False): Because of aggregate usage from all customers, AWS can achieve higher economies of scale and pass savings on to customers.':
     'true',
   '(True/False): A disadvantage of cloud computing is that by yourself you can control variable costs better.':
@@ -112,7 +112,7 @@ const AWSTERMS = {
   'JSON policy documents that you attach to a resource, such as an S3 bucket. These policies control what actions a specified principal can perform on that resource, and under what conditions.':
     'resource based policies',
   'IAM policy documents are constructed and witten in...': 'JSON',
-  'A basic computer security concept:a user or system must first prove their identity.':
+  'A basic computer security concept: a user or system must first prove their identity.':
     'authentication',
   'The process of determining what permissions a user, service or application should be granted.':
     'authorization',
