@@ -83,6 +83,8 @@ const AWSTERMS = {
     'Amazon VPC',
   VPC: 'Virtual Private Cloud',
   IAM: 'Identity and Access Management',
+  'A web service that enables AWS customers to manage users and user permissions in AWS.':
+    'AWS IAM',
   'Controls your users’ access to AWS services and resources.': 'AWS IAM',
   'A tool that centrally manages access to launching, configuring, managing, and terminating resources in your AWS account.':
     'AWS IAM',
@@ -127,6 +129,8 @@ const AWSTERMS = {
     'AWS Organizations',
   'A free account management service that enables you to consolidate multiple AWS accounts into an organization that you create and centrally manage.':
     'AWS Organizations',
+  'Enables you to consolidate multiple AWS accounts so that you can centrally manage them.':
+    'AWS Organizations',
   'This tool provides an estimate of monthly costs, opportunities to reduce monthly costs, and the ability to model solutions before building them.':
     'AWS Pricing Calculator',
   'Containers that you add services to in order to organize and build your cost estimate.':
@@ -138,6 +142,18 @@ const AWSTERMS = {
   SCPs: 'Service Control Policies',
   'These policies enable you to allow or deny access to AWS services for all individuals or group accounts in an organizational unit (OU), including the AWS account root user.':
     'SCPs',
+  'These policies offer centralized control over accounts; limit permissions that are available in an account that is part of an organization.':
+    'SCPs',
+  'Policies in AWS Organizations are called...': 'SCPs',
+  'SCPs vs IAM policies – this one grants permissions.': 'IAM policies',
+  'SCPs vs IAM policies – this one specifies the maximum permissions for all accounts in an organization.':
+    'SCPs',
+  'JSON policies that specify the maximum permissions for an organization or OU.':
+    'SCPs',
+  '(True/False): Service Control Policies (SCPs) are available only in an organization that has all features enabled, including consolidated billing.':
+    'true',
+  '(True/False): Well-defined Service Control Policies (SCPs) can be a substitute for IAM configurations.':
+    'false',
   'These policies enable you to allow or deny access to AWS services for specific users, groups, or roles, and it can never restrict the AWS account root user.':
     'IAM policies',
   '1) Create Organization, 2) Create organizational units, 3) Create service control policies, 4) Test restrictions':
@@ -170,6 +186,13 @@ const AWSTERMS = {
     'PaaS',
   'A managed distributed denial of service (DDoS) protection service that safeguards applications running on AWS.':
     'AWS Shield',
+  'This service provides always-on detection and automatic inline mitigations to safeguard applications running on AWS.':
+    'AWS Shield',
+  'Minimizes application downtime and latency by providing distributed denial of service (DDoS) protection.':
+    'AWS Shield',
+  '(True/False): AWS Shield Standard is the basic protection service that is enabled at no additional cost.':
+    'true',
+  '(True/False): AWS Shield Advanced is an optional paid service.': 'true',
   'A communications service that enables you to meet, chat, and place business calls inside and outside your organization, all using a single application.It is a pay-as-you-go communications service with no upfront fees, commitments, or long-term contracts.':
     'Amazon Chime',
   'An online tool that analyzes your AWS environment and provides real-time guidance and recommendations to help you provision your resources by following AWS best practices.':
@@ -217,6 +240,53 @@ const AWSTERMS = {
     'false',
   '(True/False): An IAM group can contain subgroups, or nested groups.':
     'false',
+  '(True/False): AWS strongly recommends that you do not use account root user credentials for day-to-day interactions with the account.':
+    'true',
+  "Allows actions that change the AWS Support plan, changes to account settings, and restoring an IAM user's permissions.":
+    'account root user',
+  '(True/False): AWS account root users only have full access to resources when specified.':
+    'false',
+  'A single sign-in identity that has complete access to all AWS services and resources in the account.':
+    'account root user',
+  'It is accessed by signing into the AWS Management Console with the email address and password that you used to create the account.':
+    'account root user',
+  'Stop using the account root user as soon as possible by creating this for yourself...':
+    'IAM user',
+  'This service logs all API requests to resources in your account and tracks user activity.':
+    'AWS CloudTrail',
+  '(True/False): Basic AWS CloudTrail event history is enabled by default and is a free service.':
+    'true',
+  'To enable events and history logs beyond 90 days in AWS CloudTrail, create a...':
+    'trail',
+  'These logs are the basis for security and forensic investigations.':
+    'CloudTrail logs',
+  'Tracks your AWS usage and provides estimated charges associated with your AWS account, either by the hour or by the day.':
+    'AWS Cost and Usage Report',
+  'Instead of sharing credentials, delegate using...': 'roles',
+  'Monitor account activity by using...': 'AWS CloudTrail',
+  'To assign permissions to IAM users, use...': 'groups',
+  'Create individual IAM users and grant permissions according to the...':
+    'principle of least privilege',
+  'Delete account root user...': 'access keys',
+  'The best practice of securing logins is with the use of...': 'MFA',
+  'A security feature that groups AWS accounts into organizational units (OUs) and attach different access policies to each OU.':
+    'AWS Organizations',
+  'AWS KMS': 'Key Management Service',
+  'A service that enables you to create and manage encryption keys, and to control the use of encryption across a wide range of AWS services and applications.':
+    'AWS KMS',
+  'A secure service that uses hardware security modules to protect your keys':
+    'AWS KMS',
+  'AWS Key Management Service (KMS) logs all key usage with the integration of this service...':
+    'AWS CloudTrail',
+  'This type of key is used to control access to data encryption keys that encrypt and decrypt your data.':
+    'customer master key',
+  SAML: 'Security Assertion Markup Language',
+  'This service uses common identity management standards, such as Security Assertion Markup Language (SAML) 2.0, to provide solutions to control access to AWS resources from your application.':
+    'Amazon Cognito',
+  'This service adds user sign-up, sign-in, and access control to your web and mobile applications; supports sign-in with social identity providers and enterprise identity providers via Security Assertion Markup Language (SAML) 2.0.':
+    'Amazon Cognito',
+  'This service give you access control in your application by meeting multiple security and compliance requirements, including requirements for highly regulated organizations such as healthcare companies and merchants.':
+    'Amazon Cognito',
 };
 
 export default AWSTERMS;
