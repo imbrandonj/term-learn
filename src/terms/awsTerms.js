@@ -27,6 +27,7 @@ const AWSTERMS = {
     'hybrid',
   'This cloud computing deployment model uses virtualization and resource management tools, sometimes called private cloud. It is sought for its ability to provide dedicated resources to increase resource utilization.':
     'on premises',
+  ACLs: 'access control lists',
   'AWS: Network ACLs, IAM, and Secruity groups': 'security',
   'AWS: Elastic Load Balancing and Amazon VPC': 'networking',
   'AWS: AMI and Amazon EC2 instances': 'compute',
@@ -167,7 +168,7 @@ const AWSTERMS = {
   'A billing and account expert who will provide quick and efficient analysis on billing and account issues.':
     'support concierge',
   'If you want to ensure that you follow best practices to increase performance and fault tolerance in the AWS environment, AWS Support has the AWS...':
-    'trusted advisor',
+    'Trusted Advisor',
   "The user's primary point of contact who can provide guidance, architectural review, and continuous ongoing communication to keep you informed and prepared as you plan, deploy, and optimize your solutions.":
     'technical account manager',
   '1) Basic, 2) Developer, 3) Business, 4) Enterprise': 'support plans',
@@ -196,6 +197,8 @@ const AWSTERMS = {
   'A communications service that enables you to meet, chat, and place business calls inside and outside your organization, all using a single application.It is a pay-as-you-go communications service with no upfront fees, commitments, or long-term contracts.':
     'Amazon Chime',
   'An online tool that analyzes your AWS environment and provides real-time guidance and recommendations to help you provision your resources by following AWS best practices.':
+    'AWS Trusted Advisor',
+  'Provides a bucket permission check feature that is a useful tool for discovering if any of the buckets in your account have permissions that grant global access.':
     'AWS Trusted Advisor',
   'Upgrades and patches to the operating system on the EC2 instance – who is responsible?':
     'customer',
@@ -276,6 +279,8 @@ const AWSTERMS = {
     'AWS KMS',
   'A secure service that uses hardware security modules to protect your keys':
     'AWS KMS',
+  'You can encrypt data stored in any service that is supported by the...':
+    'AWS KMS',
   'AWS Key Management Service (KMS) logs all key usage with the integration of this service...':
     'AWS CloudTrail',
   'This type of key is used to control access to data encryption keys that encrypt and decrypt your data.':
@@ -287,6 +292,44 @@ const AWSTERMS = {
     'Amazon Cognito',
   'This service give you access control in your application by meeting multiple security and compliance requirements, including requirements for highly regulated organizations such as healthcare companies and merchants.':
     'Amazon Cognito',
+  'Takes data that is legible and encodes it so that it is unreadable to anyone who does not have access to the secret key that can be used to decode it.':
+    'encryption',
+  'Refers to data that is physically stored on disk or on tape.':
+    'data at rest',
+  'Refers to data that is moving across the network.': 'data in transit',
+  'A service that enables you to provision, manage, and deploy SSL or TLS certificates for use with AWS services and your internal connected resources.':
+    'AWS Certificate Manager',
+  'A hybrid cloud storage service that provides on-premises access to AWS Cloud storage.':
+    'AWS Storage Gateway',
+  '(True/False): By default, newly created S3 buckets and objects are private and protected.':
+    'true',
+  'These access control settings predate IAM.': 'ACLs',
+  "Amazon S3 setting to enable for all buckets that you don't want to be publicly accessible.":
+    'Block Public Access',
+  'By default, are S3 buckets private or public?': 'private',
+  'These policies can specify the users or roles that can access specific S3 buckets and objects.':
+    'IAM policies',
+  'This option defines access to specific S3 buckets or objects, typically used when the user or system cannot authenticate by using IAM.':
+    'bucket policies',
+  'Encryption of data in transit is accomplished using what open standard protocol?':
+    'TLS',
+  'S3 bucket policies are a category of...': 'resource policies',
+  'TLS; formerly Secure Sockets Layer (SSL); encryption of data in transit.':
+    'Transport Layer Security',
+  'This network traffic is protected against eavesdropping and man-in-the-middle attacks because of the bi-directional encryption of the communication.':
+    'HTTPS',
+  'This overrides any other policy or object permission and is enabled by default when you create the S3 bucket.':
+    'Amazon S3 Block Public Access',
+  'A service that enables you to assess, audit, and evaluate the configurations of your AWS resources.':
+    'AWS Config',
+  'Continuously monitors and records your AWS resource configurations, and it enables you to automate the evaluation of recorded configurations against desired configurations.':
+    'AWS Config',
+  'This service is used to assess, audit, and evaluate the configurations of AWS resources.':
+    'AWS Config',
+  'A service that provides on-demand downloads of AWS security and compliance documents, such as AWS ISO certifications, Payment Card Industry (PCI), and Service Organization Control (SOC) reports.':
+    'AWS Artifact',
+  'This service provides access to security and compliance reports.':
+    'AWS Artifact',
 };
 
 export default AWSTERMS;
