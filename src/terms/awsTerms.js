@@ -124,7 +124,7 @@ const AWSTERMS = {
   TCO: 'Total Cost of Ownership',
   'The financial estimate to help identify direct and indirect costs of a system.':
     'TCO',
-  'To compare the costs of running an entire infrastructure environment or specific workloadon-premises versus on AWS; to budget and build the business case for moving to the cloud.':
+  'To compare the costs of running an entire infrastructure environment or specific workload on-premises versus on AWS; to budget and build the business case for moving to the cloud.':
     'TCO',
   'A free account management service that enables you to consolidate multiple AWS accounts into an organizational tree with each branch representing a department or team.':
     'AWS Organizations',
@@ -194,7 +194,7 @@ const AWSTERMS = {
   '(True/False): AWS Shield Standard is the basic protection service that is enabled at no additional cost.':
     'true',
   '(True/False): AWS Shield Advanced is an optional paid service.': 'true',
-  'A communications service that enables you to meet, chat, and place business calls inside and outside your organization, all using a single application.It is a pay-as-you-go communications service with no upfront fees, commitments, or long-term contracts.':
+  'A communications service that enables you to meet, chat, and place business calls inside and outside your organization, all using a single application. It is a pay-as-you-go communications service with no upfront fees, commitments, or long-term contracts.':
     'Amazon Chime',
   'An online tool that analyzes your AWS environment and provides real-time guidance and recommendations to help you provision your resources by following AWS best practices.':
     'AWS Trusted Advisor',
