@@ -103,7 +103,7 @@ const AWSTERMS = {
   'This type of access requires the IAM user to present an access key ID and a secret access key when they make an AWS API call by using the AWS CLI, the AWS SDK, or some other development tool.':
     'programmatic access',
   'This type of access requires the IAM user to fill in the fields that appear in the browser login window.':
-    'Management Console access',
+    'AWS Management Console',
   'Promotes that you grant only the minimal user privileges needed to the user, based on the needs of your users.':
     'principle of least privilege',
   'Permissions policies that you can attach to a principal (or identity) such as an IAM user, role, or group. These policies control what actions that identity can perform, on which resources, and under what conditions.':
@@ -330,6 +330,117 @@ const AWSTERMS = {
     'AWS Artifact',
   'This service provides access to security and compliance reports.':
     'AWS Artifact',
+  'A service that lets you provision a logically isolated section of the AWS Cloud where you can launch your AWS resources in a virtual network that you define.':
+    'Amazon VPC',
+  'A service that gives you control over your virtual networking resources, including the selection of your own IP address range, the creation of subnets, and the configuration of route tables and network gateways.':
+    'Amazon VPC',
+  '(True/False): You can use both IPv4 and IPv6 in your VPC for secure access to resources and applications.':
+    'true',
+  'A virtual network that is logically isolated from other virtual networks.':
+    'VPC',
+  'A range of IP addresses in a VPC.': 'subnet',
+  'This type of subnet has direct access to the internet.': 'public subnet',
+  'This type of subnet does not have access to the internet.': 'private subnet',
+  '(True/False): A VPC belongs to a single AWS Region that can span numerous availability zones with use of multiple subnets.':
+    'true',
+  "An isolated segment of your VPC with it's own range of IP addresses.":
+    'subnet',
+  'Belongs to one Availability Zone and requires a CIDR block.': 'subnet',
+  '(True/False): A singular VPC subnet can belong to multiple Availability Zones.':
+    'false',
+  'When you create a VPC, you assign what type of CIDR block?': 'IPv4',
+  '(True/False): Both IPv4 CIDR blocks and IPv6 CIDR blocks are available for your AWS VPC.':
+    'true',
+  '(True/False): You can change the IP address range after you create the VPC.':
+    'false',
+  'A static and public IPv4 address that is designed for dynamic cloud computing.':
+    'Elastic IP address',
+  '(True/False): Elastic VP addresses for your VPC are free of cost.': 'false',
+  'A virtual network interface that you can attach or detatch from an instance in a VPC.':
+    'elastic network interface',
+  'Contains a set of rules that you can configure to direct network traffic from your subnet.':
+    'route table',
+  '(True/False): Each VPC subnet must be associated with at least, and at most, one route table.':
+    'true',
+  'It controls the routing for all subnets that are not explicitly associated with any other route table; the route table that is automatically assigned to your VPC.':
+    'main route table',
+  '(True/False): A VPC subnet can be associated with only one route table at a time, but you can associate multiple subnets with the same route table.':
+    'true',
+  'This controls traffic for a subnet and has a built-in local route (which cannot be deleted).':
+    'route table',
+  'A VPC is subdivided into...': 'subnets',
+  'Belongs to one Region and requires a CIDR block.': 'VPC',
+  'A scalable, redundant, and highly available VPC component that allows communication between instances in your VPC and the internet.':
+    'internet gateway',
+  'Provides a target in your VPC route tables for internet-routable traffic and performs network address translation for instances that were assigned public IPv4 addresses.':
+    'internet gateway',
+  'Connects your VPC route table to the internet.': 'internet gateway',
+  'You attach this to your VPC subnet to make it public.': 'internet gateway',
+  NAT: 'network address translation',
+  'Enables instances in a private subnet to connect to the internet or other AWS services, but prevents the internet from initiating a connection with those instances.':
+    'NAT gateway',
+  'Enables multiple AWS accounts to create their application resources—such as Amazon EC2 instances, Amazon Relational Database Service (Amazon RDS) databases, Amazon Redshift clusters, and AWS Lambda functions—into shared, centrally managed VPCs.':
+    'VPC sharing',
+  'Enables customers to share subnets with other AWS accounts in the same organization in AWS Organizations.':
+    'VPC sharing',
+  'Enables you to decouple accounts and networks. You have fewer, larger, centrally managed VPCs. Highly interconnected applications automatically benefit from this approach.':
+    'VPC sharing',
+  'A networking connection between two VPCs that enables you to route traffic between them privately.':
+    'VPC peering connection',
+  'A virtual device that enables you to privately connect your VPC to supported AWS services and VPC endpoint services that are powered by AWS PrivateLink.':
+    'VPC endpoint',
+  'Connects VPC resources to AWS regional services, such as Amazon S3 and DynamoDB.':
+    'VPC endpoint',
+  '(True/False): AWS recommends using a NAT gateway instead of a NAT instance because a NAT gateway is a managed service that provides better availability, higher bandwidth, and less administrative effort.':
+    'true',
+  'A service that provides private connectivity between VPCs and AWS services, simplifying the security of data shared with cloud-based applications by eliminating the exposure of data to the public internet.':
+    'AWS PrivateLink',
+  'A substitute for a VPC subnet NAT gateway.': 'NAT instance',
+  "Of a VPC, contains 'Destinations' and 'Targets'.": 'route table',
+  '(True/False): By default, instances that you launch into an Amazon VPC cannot communicate with your own remote network.':
+    'true',
+  'This allows you to create and manage a single connection from a central gateway into each VPC, on-premises data center, or remote office across your network; acts as a hub that controls how traffic is routed among all the connected networks.':
+    'AWS Transit Gateway',
+  'A network transit hub that you use to interconnect your virtual private clouds, providing a singular manageable connection; alternative to VPC peering.':
+    'AWS Transit Gateway',
+  'Enables instances in a private subnet to connect to the internet.':
+    'NAT gateway',
+  'Connects your VPC to supported AWS services.': 'VPC endpoint',
+  'Connects your VPC to other VPCs; alternative to using an AWS Transit Gateway.':
+    'VPC peering',
+  'Allows multiple AWS accounts to create their application resources into shared, centrally-managed Amazon VPCs.':
+    'VPC sharing',
+  'Connects your VPC to a remote network by using a dedicated network connection.':
+    'AWS Direct Connect',
+  'Acts as a virtual firewall for your VPC instance, controlling inbound and outbound traffic.':
+    'security group',
+  '(True/False): VPC security groups vs network ACLs – this one acts on the instance level.':
+    'security group',
+  '(True/False): VPC security groups vs network ACLs – this one acts on the subnet level.':
+    'network ACL',
+  'The two Amazon VPC firewall options that you can use to secure your VPC.':
+    'network ACLs, security groups',
+  'An optional layer of security for your Amazon VPC which acts as a firewall for controlling traffic in and out of one or more subnets.':
+    'network ACL',
+  '(True/False): By default, security groups deny all inbound traffic and allow all outbound traffic.':
+    'true',
+  'This contains rules that control the inbound and outbound traffic of your VPC; if there are no inbound rules, no inbound traffic that originates from another host to your instance is allowed.':
+    'security group',
+  "Contains 'allowed' rules for inbound traffic into your VPC.":
+    'security group',
+  "Contains both 'allow' or 'deny' rules for inbound and outbound traffic of your VPC.":
+    'network ACL',
+  'It is designed to give developers and businesses areliable and cost-effective way to route users to internet applications by translating names (like www.example.com) into the numeric IP addresses (like 192.0.2.1) that computers use to connect to each other.':
+    'Amazon Route 53',
+  'A highly available and scalable cloud Domain Name System (DNS) web service that connects user requests to infrastructure running in AWS — such as Amazon EC2 instances, Elastic Load Balancing load balancers, or Amazon S3 buckets — and can also be used to route users to infrastructure that is outside of AWS.':
+    'Amazon Route 53',
+  'A highly available and scalable cloud DNS web service that translates domain names into numeric IP addresses.':
+    'Amazon Route 53',
+  CDN: 'content delivery network',
+  'A globally distributed system of caching servers which caches and delivers copies of commonly requested files (static content, such as Hypertext Markup Language, or HTML; Cascading Style Sheets, or CSS; JavaScript; and image files) that are hosted on the application origin server.':
+    'CDN',
+  'A fast CDN service that securely delivers data, videos, applications, and application programming interfaces (APIs) to customers globally with low latency and high transfer speeds.':
+    'Amazon CloudFront',
 };
 
 export default AWSTERMS;
