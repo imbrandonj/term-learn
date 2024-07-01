@@ -441,6 +441,93 @@ const AWSTERMS = {
     'CDN',
   'A fast CDN service that securely delivers data, videos, applications, and application programming interfaces (APIs) to customers globally with low latency and high transfer speeds.':
     'Amazon CloudFront',
+  'A globally distributed system of caching servers that accelerates delivery of content.':
+    'CDN',
+  'A compute service which provides resiable virtual machines.': 'Amazon EC2',
+  'Amazon EC2': 'Amazon Elastic Compute Cloud',
+  'Amazon ECR': 'Amazon Elastic Container Registry',
+  'Amazon ECS': 'Amazon Elastic Container Service',
+  'Amazon EKS': 'Amazon Elastic Kubernetes Service',
+  'A compute service which supports application availability by allowing you to define conditions that will automatically launch or terminate EC2 instances.':
+    'Amazon EC2 Auto Scaling',
+  'A compute service used to store and retrieve Docker images.': 'Amazon ECR',
+  'A container orchestration service that supports Docker.': 'Amazon ECS',
+  'A compute service which enables you to provision hybrid cloud without custom hardware.':
+    'VMware Cloud on AWS',
+  'An event-driven, serverless compute service. You pay only for the compute time that you use.':
+    'AWS Lambda',
+  'A zero-administration compute platform which enables you to run code without provisioning or managing servers.':
+    'AWS Lambda',
+  'A compute service which enables you to run managed Kubernetes on AWS.':
+    'Amazon EKS',
+  'A compute service which provides a simple-to-use way for building an application or website.':
+    'Amazon Lightsail',
+  'A compute service which provides a tool for running batch jobs at any scale.':
+    'AWS Batch',
+  'A compute service which provides a way to run containers that reduce the need for you to manage servers or clusters.':
+    'AWS Fargate',
+  'A compute service which provides a way to run select AWS services in your on-premises data center.':
+    'AWS Outposts',
+  'A compute service which provides a way to discover, deploy, and public serverless applications.':
+    'AWS Serverless Application Repository',
+  'Enable you to run multiple workloads on a single operating system (OS). Containers spin up more quickly than virtual machines, thus offering responsiveness.':
+    'Container service',
+  'A compute PaaS that facilitates the quick deployment, scaling, and management of your web applications and services.':
+    'AWS Elastic Beanstalk',
+  'A PaaS which facilitates the quick deployment of applications that you create by providing all the application services that you need. AWS manages the OS, the application server, and the other infrastructure components so that you can focus on developing your application code.':
+    'AWS Elastic Beanstalk',
+  'An IaaS which provides virtual machines where you can host the same kinds of applications that you might run on a traditional on-premises server.':
+    'Amazon EC2',
+  'An Amazon virtual machine in the cloud.': 'EC2 instance',
+  'Refers to reason why most users run servers in the first place, which is to host running applications or process data—actions that require machine resources, including processing power (CPU) and memory (RAM).':
+    'compute',
+  'Refers to the fact that you can easily increase or decrease the number of servers you run to support an application automatically, and you can also increase or decrease the size of existing servers.':
+    'elastic',
+  '(True/False): With Amazon EC2, you can launch any number of instances of any size into any Availability Zone anywhere in the world.':
+    'true',
+  'A template that is used to create an EC2 instance (which is a virtual machine, or VM,that runs in the AWS Cloud). Contains a Windows or Linux OS and often has some software pre-installed.':
+    'Amazon Machine Image',
+  'You can obtain pre-configured AMI templates from third parties via this digital catalog of software solutions.':
+    'AWS Marketplace',
+  'Provides information that is required to launch an EC2 instance such as a template for the root volume (the OS), permissions control, and a block device mapping that specifies the volumes to attach to the instance (if any) when it is launched.':
+    'Amazon Machine Image',
+  'AWS offers a number of pre-built AMIs for launching your EC2 instances. These AMIs include many Linux and Windows options.':
+    'Quick Start',
+  'These EC2 AMIs are AMIs that you created.': 'My AMIs',
+  'These EC2 AMIs are created by people all around the world. These AMIs are not checked by AWS, so use them at your own risk. Avoid using them in any production or corporate environment.':
+    'Community AMIs',
+  '(True/False): You can use different AMIs to launch different types of instances. For example, you can choose one AMI to launch an instance that will become a web server and another AMI to deploy an instance that will host an application server. You can also launch multiple instances from a single AMI.':
+    'true',
+  'After you choose the AMI for launching the EC2 instance, you must choose an...':
+    'instance type',
+  'Comprise varying combinations of CPU, memory, storage, and networking capacity for your EC2 instance.':
+    'instance type',
+  'Include general purpose, compute optimized, memory optimized, storage optimized, and accelerated computing instances.':
+    'instance type',
+  'A container for an IAM role.': 'instance profile',
+  'The AWS resource that contains the code to be triggered, either on a scheduled basis or in response to an event.':
+    'Lambda function',
+  '(True/False): AWS Lambda only costs compute time – you are not charged when your code is not running.':
+    'true',
+  'An AWS service or a developer-created application that produces events that trigger an AWS Lambda function to run.':
+    'event source',
+  'AWS Lambda automatically monitors Lambda functions and logs all request information using...':
+    'Amazon CloudWatch',
+  'Contains rules for the runtime environment (i.e., a version of Python or Node.js) and an execution role (to grant IAM permissions).':
+    'Lambda function',
+  'The maximum memory allocation for a single Lambda function is...':
+    '10240 MB',
+  'The maximum run time for a Lambda function, per run, is...': '15 minutes',
+  'Configurations include a trigger, the code, the memory amount, and optionally, environment variables and timeouts.':
+    'Lambda function',
+  'A ZIP archive that contains Lambda function code and dependencies.':
+    'Lambda deployment package',
+  '(True/False): AWS Lambda does not limit the amount of compute resources that you can use to run and store functions.':
+    'false',
+  '(True/False): There is no additional charge for AWS Elastic Beanstalk. You pay for the AWS resources (i.e., EC2 instances or S3 buckets) that power the application, not the deployment.':
+    'true',
+  '(True/False): Elastic Beanstalk supports Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker.':
+    'true',
 };
 
 export default AWSTERMS;
