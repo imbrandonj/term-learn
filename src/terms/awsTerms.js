@@ -381,7 +381,7 @@ const AWSTERMS = {
     'NAT gateway',
   'Enables multiple AWS accounts to create their application resources—such as Amazon EC2 instances, Amazon Relational Database Service (Amazon RDS) databases, Amazon Redshift clusters, and AWS Lambda functions—into shared, centrally managed VPCs.':
     'VPC sharing',
-  'Enables customers to share subnets with other AWS accounts in the same organization in AWS Organizations.':
+  'Enables customers to share subnets with other AWelastic contaS accounts in the same organization in AWS Organizations.':
     'VPC sharing',
   'Enables you to decouple accounts and networks. You have fewer, larger, centrally managed VPCs. Highly interconnected applications automatically benefit from this approach.':
     'VPC sharing',
@@ -452,6 +452,8 @@ const AWSTERMS = {
     'Amazon EC2 Auto Scaling',
   'A compute service used to store and retrieve Docker images.': 'Amazon ECR',
   'A container orchestration service that supports Docker.': 'Amazon ECS',
+  'A scalable, high-performance container management service that orchestrates the running of Docker containers, managing the fleet of nodes, or EC2 instances, that run your containers, removing the complexity of managing the infrastructure yourself.':
+    'Amazon ECS',
   'A compute service which enables you to provision hybrid cloud without custom hardware.':
     'VMware Cloud on AWS',
   'An event-driven, serverless compute service. You pay only for the compute time that you use.':
@@ -468,7 +470,7 @@ const AWSTERMS = {
     'AWS Fargate',
   'A compute service which provides a way to run select AWS services in your on-premises data center.':
     'AWS Outposts',
-  'A compute service which provides a way to discover, deploy, and public serverless applications.':
+  'A compute service which provides a way to discover, deploy, and publish serverless applications.':
     'AWS Serverless Application Repository',
   'Enable you to run multiple workloads on a single operating system (OS). Containers spin up more quickly than virtual machines, thus offering responsiveness.':
     'Container service',
@@ -478,6 +480,7 @@ const AWSTERMS = {
     'AWS Elastic Beanstalk',
   'An IaaS which provides virtual machines where you can host the same kinds of applications that you might run on a traditional on-premises server.':
     'Amazon EC2',
+  "A virtual machine running on AWS's infrastructure.": 'EC2 instance',
   'An Amazon virtual machine in the cloud.': 'EC2 instance',
   'Refers to reason why most users run servers in the first place, which is to host running applications or process data—actions that require machine resources, including processing power (CPU) and memory (RAM).':
     'compute',
@@ -528,6 +531,27 @@ const AWSTERMS = {
     'true',
   '(True/False): Elastic Beanstalk supports Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker.':
     'true',
+  'A method of operating system virtualization that enables you to run an application and its dependencies in resource-isolated processes.':
+    'containers',
+  "Enables you to easily package an application's code, configurations, and dependencies into easy-to-use building blocks that deliver environmental consistency, operational efficiency, developer productivity, and version control.":
+    'containers',
+  'Share a virtualized operating system and run as resource-isolated processes; holds everything that the software needs to run, such as libraries, system tools, code, and the runtime.':
+    'containers',
+  '(True/False): Containers are smaller than virtual machines and provide infrastructure-agnostic environments.':
+    'true',
+  'A software platform that packages software (such as applications) into containers;  installed on each server that will host containers, providing simple commands that you can use to build, start, or stop containers.':
+    'Docker',
+  'A form of virtualization at the application layer that packages code and its dependencies together. This ensures that the application runs reliably regardless of the environment.':
+    'containers',
+  '(True/False): You can install a container runtime, such as Docker, on an EC2 instance and then run multiple containers on that instance.':
+    'true',
+  '(True/False): Containers are environmentally-agnostic, however, they consume more resources compared to virtual machines.':
+    'false',
+  'A fully managed container orchestration service that makes it easy to run, stop, and manage Docker containers on a cluster of EC2 instances.':
+    'Amazon ECS',
+  'A pre-configured template used to create new EC2 instances. It includes the operating system, application server, and applications required to launch an instance.':
+    'Amazon Machine Image',
+  'Containers are created from a template called an...': 'image',
 };
 
 export default AWSTERMS;
