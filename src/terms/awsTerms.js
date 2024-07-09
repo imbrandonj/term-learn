@@ -413,9 +413,9 @@ const AWSTERMS = {
   'Connects your VPC to a remote network by using a dedicated network connection.':
     'AWS Direct Connect',
   'Acts as a virtual firewall for your VPC instance, controlling inbound and outbound traffic.':
-    'security group',
+    'security groups',
   '(True/False): VPC security groups vs network ACLs – this one acts on the instance level.':
-    'security group',
+    'security groups',
   '(True/False): VPC security groups vs network ACLs – this one acts on the subnet level.':
     'network ACL',
   'The two Amazon VPC firewall options that you can use to secure your VPC.':
@@ -425,9 +425,9 @@ const AWSTERMS = {
   '(True/False): By default, security groups deny all inbound traffic and allow all outbound traffic.':
     'true',
   'This contains rules that control the inbound and outbound traffic of your VPC; if there are no inbound rules, no inbound traffic that originates from another host to your instance is allowed.':
-    'security group',
+    'security groups',
   "Contains 'allowed' rules for inbound traffic into your VPC.":
-    'security group',
+    'security groups',
   "Contains both 'allow' or 'deny' rules for inbound and outbound traffic of your VPC.":
     'network ACL',
   'It is designed to give developers and businesses areliable and cost-effective way to route users to internet applications by translating names (like www.example.com) into the numeric IP addresses (like 192.0.2.1) that computers use to connect to each other.':
@@ -552,6 +552,28 @@ const AWSTERMS = {
   'A pre-configured template used to create new EC2 instances. It includes the operating system, application server, and applications required to launch an instance.':
     'Amazon Machine Image',
   'Containers are created from a template called an...': 'image',
+  'If you want to manage the Amazon ECS cluster that runs the containers, you create an Amazon ECS cluster backed by...':
+    'Amazon EC2',
+  'If you do not want to manage the Amazon ECS cluster that runs the containers, you create an Amazon ECS cluster backed by...':
+    'AWS Fargate',
+  'Consists of a group of EC2 instances with each instance running an Amazon ECS container agent, managing one or more containers.':
+    'ECS cluster',
+  'An open source software that orchestrates multiple Docker hosts (nodes).':
+    'Kubernetes',
+  'A fully managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images.':
+    'Amazon ECR',
+  'Enables you to run Kubernetes on AWS.': 'Amazon EKS',
+  'Enables you to store, manage, and deploy your Docker containers.':
+    'Amazon ECR',
+  '(True/False): Containers can hold everything that an application needs to run.':
+    'true',
+  '(True/False): A single application can span multiple containers.': 'true',
+  'Networking-only Amazon ECS clusters are powered by...': 'Amazon Fargate',
+  'Automates container provisioning, networking, load distribution, and scaling.':
+    'Kubernetes',
+  'Limits on an account that can potentially be relaxed by submitting a support ticket and providing justification for the request.':
+    'soft limits',
+  'Limits on an acount that cannot be increased.': 'hard limits',
 };
 
 export default AWSTERMS;
