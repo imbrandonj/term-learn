@@ -443,7 +443,7 @@ const AWSTERMS = {
     'Amazon CloudFront',
   'A globally distributed system of caching servers that accelerates delivery of content.':
     'CDN',
-  'A compute service which provides resiable virtual machines.': 'Amazon EC2',
+  'A compute service which provides resizable virtual machines.': 'Amazon EC2',
   'Amazon EC2': 'Amazon Elastic Compute Cloud',
   'Amazon ECR': 'Amazon Elastic Container Registry',
   'Amazon ECS': 'Amazon Elastic Container Service',
@@ -574,6 +574,70 @@ const AWSTERMS = {
   'Limits on an account that can potentially be relaxed by submitting a support ticket and providing justification for the request.':
     'soft limits',
   'Limits on an acount that cannot be increased.': 'hard limits',
+  'Refers to the process of optimizing the resource allocation to balance cost and performance, ensuring neither over-provisioning nor under-provisioning.':
+    'rightsizing',
+  'Changing the size and type of the EC2 instance based on resource utilization.':
+    'rightsizing',
+  'The service that you use to pay your AWS bill, monitor your usage, and budget your costs.':
+    'AWS Billing and Cost Management',
+  'You can activate your Cost Allocation tags via which console?':
+    'AWS Billing and Cost Management',
+  'The interface which lets you view the status of your month-to-date AWS expenditure, identify the services that account for the majority of your overall expenditure, and understand at a high level how costs are trending.':
+    'AWS Billing Dashboard',
+  'A graph on the AWS Billing Dashboard which shows how much you spent last month, the estimated costs of your AWS usage for the month to date, and a forecast for how much you are likely to spend this month.':
+    'Spend Summary',
+  'A tool of the AWS Billing and Cost Management console in which you can visualize (through graphs & charts), understand, and manage your AWS costs and usage over time.':
+    'Cost Explorer',
+  'A cost management tool which includes a default report that visualizes your costs and usage for your top cost-incurring AWS services, a monthly running costs report giving you an overview of all your costs for the past 3 months, and a forecasted numbers for the coming month, with a corresponding confidence interval.':
+    'Cost Explorer',
+  '(True/False): You can use AWS Budgets to create notifications for when you go over your budget for the month, or when your estimated costs exceed or are expected to exceed your budget.':
+    'true',
+  'Amazon SNS': 'Amazon Simple Notification Service',
+  'Budget alerts can be sent via email or via...': 'Amazon SNS',
+  'Metadata you can assign to your AWS resources (such as EC2 instances, S3 buckets, and more) that help you organize and track your costs.':
+    'Cost Allocation Tags',
+  'Enables detailed tracking of cloud costs by department and project':
+    'Cost Allocation Tags',
+  'Enables you to invoke an AWS Lambda function when an Amazon EC2 instance enters the "stopping" state.':
+    'Amazon EventBridge',
+  'A service that extends the capabilities of Amazon CloudWatch Events, providing a more powerful and flexible event-driven architecture solution.':
+    'Amazon EventBridge',
+  'This AWS service supports governance, compliance, and risk auditing of AWS accounts.':
+    'AWS CloudTrail',
+  'List the six pillars of the AWS Well-Architected Framework in alphabetical order.':
+    'cost optimization, operational excellence, performance efficiency, reliability, security, sustainability',
+  'Of the AWS Well-Architected Framework, which principle of the Security pillar does AWS CloudTrail implement?':
+    'traceability',
+  'A continuous security monitoring service designed to help you detect and respond to malicious activity and unauthorized behavior in your AWS accounts and workloads.':
+    'Amazon GuardDuty',
+  'This service uses machine learning algorithms to detect anomalies and potential threats based on activity patterns within your AWS environment.':
+    'Amazon GuardDuty',
+  "A threat detection service that continuously monitors your company's AWS accounts, workloads, and services (such as Amazon S3 buckets) for malicious activity and unauthorized behavior.":
+    'Amazon GuardDuty',
+  'This AWS service supports authentication to mobile and web applications.':
+    'Amazon Cognito',
+  "Temporary storage that is added to your Amazon EC2 instance; 'ephemeral storage.'":
+    'instance store',
+  'Amazon EBS': 'Amazon Elastic Block Store',
+  'Any data storage device that retains data after power to that device is shut off; non-volatile storage.':
+    'persistent storage',
+  'Enables you to create individual storage volumes and attach them to an Amazon EC2 instance; each volume is automatically replicated within its Availability Zone to protect you from component failure.':
+    'Amazon EBS',
+  'A backup of an Amazon EBS volume.': 'snapshot',
+  'A block storage provided by AWS designed to be used with Amazon EC2 instances; the data is stored in fixed-sized blocks, which can be managed and accessed individually.':
+    'Amazon EBS',
+  'A distinct location within an AWS region that is isolated from failures in other zones.':
+    'Availability Zone',
+  '(True/False): When you want to change one character in a 1GB object storage file, the entire file must be updated.':
+    'true',
+  '(True/False): When you want to change one character in a 1GB block storage, the entire file must be updated.':
+    'false',
+  'A durable, block-level storage device that you can attach to a single EC2 instance.':
+    'Amazon EBS volume',
+  'Off-instance storage that persists independently from the life of an instance.':
+    'Amazon EBS volume',
+  'Amazon S3 stores data as objects within resources that are called...':
+    'buckets',
 };
 
 export default AWSTERMS;
