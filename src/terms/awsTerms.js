@@ -623,14 +623,16 @@ const AWSTERMS = {
     'persistent storage',
   'Enables you to create individual storage volumes and attach them to an Amazon EC2 instance; each volume is automatically replicated within its Availability Zone to protect you from component failure.':
     'Amazon EBS',
+  'Designed to provide detachable block-level storage (which is like an external hard drive) for your Amazon EC2 instances.':
+    'Amazon EBS',
   'A backup of an Amazon EBS volume.': 'snapshot',
   'A block storage provided by AWS designed to be used with Amazon EC2 instances; the data is stored in fixed-sized blocks, which can be managed and accessed individually.':
     'Amazon EBS',
   'A distinct location within an AWS region that is isolated from failures in other zones.':
     'Availability Zone',
-  '(True/False): When you want to change one character in a 1GB object storage file, the entire file must be updated.':
+  '(True/False): When you want to change one character in a 1GB object storage file (like S3), the entire file must be updated.':
     'true',
-  '(True/False): When you want to change one character in a 1GB block storage, the entire file must be updated.':
+  '(True/False): When you want to change one character in a 1GB block storage (like EBS), the entire file must be updated.':
     'false',
   'A durable, block-level storage device that you can attach to a single EC2 instance.':
     'Amazon EBS volume',
@@ -638,6 +640,75 @@ const AWSTERMS = {
     'Amazon EBS volume',
   'Amazon S3 stores data as objects within resources that are called...':
     'buckets',
+  'A logical container for an S3 object.': 'bucket',
+  'Amazon S3 refers to files as...': 'objects',
+  'Snapshots of EBS volumes are stored in...': 'Amazon S3',
+  'Amazon S3': 'Amazon Simple Storage Service',
+  'What type of storage is Amazon S3?': 'object storage',
+  'What type of storage is Amazon EBS?': 'block storage',
+  'What type of storage is Amazon EFS?': 'file storage',
+  '(True/False): S3 can handle an almost unlimited amount of data, scaling up and down automatically to accommodate varying amounts of data without any user intervention. Whether you need a few megabytes or petabytes of data, S3 can handle the load.':
+    'true',
+  'Refers to the ability of a storage system to ensure that data is not lost or corrupted over time. For example, Amazon S3 offers 99.99999999999%...':
+    'durability',
+  '99.99999999999% durability, meaning that if you store 10,000,000 objects in S3, you can expect to lose a single object once every 10,000 years.':
+    '11 9s',
+  'A managed cloud storage solution that is designed to scale seamlessly and provide 11 9s of durability.':
+    'Amazon S3',
+  '(True/False): You can have multiple S3 buckets with the same name.': 'false',
+  'Amazon S3 object size limit (not bucket limit).': '5 TB',
+  '(True/False): By default, data in Amazon S3 is stored redundantly across multiple facilities and multiples devices in each facility.':
+    'true',
+  '(True/False): The data you store in Amazon S3 is not associated with any particular server, and you do not need to manage any infrastructure yourself. You can also put as many objects into Amazon S3 as you want.':
+    'true',
+  '(True/False): You are limited 10 TB of storage per S3 bucket.': 'false',
+  '(True/False): You can access Amazon S3 through the console, AWS CLI, or AWS SDK. You can also access the data in your bucket directly by using REST-based endpoints.':
+    'true',
+  '(True/False): Amazon S3 bucket names must be globally unique and Domain Name Server (DNS)-compliant.':
+    'true',
+  'You can access Amazon S3 at any time from anywhere through a...': 'URL',
+  'Amazon EFS': 'Amazon Elastic File System',
+  '(True/False): You can write, read, and delete objects in your S3 bucket via RESTful API calls.':
+    'true',
+  'Amazon EFS vs Amazon S3 – this one is mounted as a file system to EC2 instances, allowing for traditional file system operations.':
+    'Amazon EFS',
+  'Amazon EFS vs Amazon S3 – this one is accessed via APIs, typically HTTP/HTTPS.':
+    'Amazon S3',
+  'Amazon EFS vs Amazon S3 – this one is ideal for storing unstructured data, backups, media files, data lakes, and static website content.':
+    'Amazon S3',
+  'Amazon EFS vs Amazon S3 – this one is ideal for shared file storage, home directories, and applications requiring a file system interface.':
+    'Amazon EFS',
+  'Provides a file system interface and file system access semantics, allowing it to be mounted by multiple EC2 instances.':
+    'Amazon EFS',
+  'Provides simple, scalable, elastic file storage for use with AWS services and on-premises resources. It offers a simple interface that enables you to create and configure file systems quickly and easily.':
+    'Amazon EFS',
+  'A service that implements a shared file system that uses the Network File System, allowing multiple virtual machine access at the same time.':
+    'Amazon EFS',
+  '(True/False): Thousands of Amazon EC2 instances can access an Amazon EFS file system at the same time, and Amazon EFS is designed to provide consistent performance to each Amazon EC2 instance.':
+    'true',
+  '(True/False): You must pay an initial setup cost to use Amazon EFS.':
+    'false',
+  'Allows you to create a file system, mount the file system on an Amazon EC2 instance, and then read and write data to and from your file system.':
+    'Amazon EFS',
+  'Designed for long-term data archiving with significantly lower costs but slower retrieval times, making it ideal for storing data that is rarely accessed but needs to be retained for extended periods.':
+    'Amazon S3 Glacier',
+  'Any object (such as a photo, video, file, or document) that you store in Amazon S3 Glacier.':
+    'archive',
+  'It is a base unit of storage in Amazon S3 Glacier. Has its own unique ID and it can also have a description.':
+    'archive',
+  'A container for storing Amazon S3 Glacier archives.': 'vault',
+  'Determine who can and cannot access the data that is stored in an Amazon S3 Glacier vault; also contains what operations users can and cannot perform.':
+    'vault access policy',
+  'The highest cost S3 Glacier data retrieval. Available within 1-5 minutes.':
+    'expedited',
+  'The medium cost S3 Glacier data retrieval. Available within 3-5 hours.':
+    'standard',
+  'The lowest cost S3 Glacier data retrieval. Available within 5-12 hours.':
+    'bulk',
+  'A data archiving service that is designed for security, durability (11 9s), and an extremely low cost.':
+    'Amazon S3 Glacier',
+  'The three options for accessing & retrieving S3 Glacier Archives, from fastest to slowest (most expensive to cheapest).':
+    'expedited, standard, bulk',
 };
 
 export default AWSTERMS;
