@@ -134,6 +134,8 @@ const AWSTERMS = {
     'AWS Organizations',
   'This tool provides an estimate of monthly costs, opportunities to reduce monthly costs, and the ability to model solutions before building them.':
     'AWS Pricing Calculator',
+  'This service provides an estimate of cost before migration to the AWS Cloud.':
+    'AWS Pricing Calculator',
   'Containers that you add services to in order to organize and build your cost estimate.':
     'groups',
   'Reduced spending on compute, storage, networking, and security; reductions in hardware and software purchases (capex); reductions in operational costs, backup, and disaster recovery; quantitative benefits':
@@ -266,7 +268,9 @@ const AWSTERMS = {
   'Tracks your AWS usage and provides estimated charges associated with your AWS account, either by the hour or by the day.':
     'AWS Cost and Usage Report',
   'Instead of sharing credentials, delegate using...': 'roles',
-  'Monitor account activity by using...': 'AWS CloudTrail',
+  "This service records API activity within your AWS account. It's helpful for security and compliance auditing but doesn't provide the same level of performance monitoring as Amazon CloudWatch.":
+    'AWS CloudTrail',
+  'This service monitors resource utilization': '',
   'To assign permissions to IAM users, use...': 'groups',
   'Create individual IAM users and grant permissions according to the...':
     'principle of least privilege',
@@ -290,7 +294,7 @@ const AWSTERMS = {
     'Amazon Cognito',
   'This service adds user sign-up, sign-in, and access control to your web and mobile applications; supports sign-in with social identity providers and enterprise identity providers via Security Assertion Markup Language (SAML) 2.0.':
     'Amazon Cognito',
-  'This service give you access control in your application by meeting multiple security and compliance requirements, including requirements for highly regulated organizations such as healthcare companies and merchants.':
+  'This service gives you access control in your web and mobile application by meeting multiple security and compliance requirements, including requirements for highly regulated organizations such as healthcare companies and merchants.':
     'Amazon Cognito',
   'Takes data that is legible and encodes it so that it is unreadable to anyone who does not have access to the secret key that can be used to decode it.':
     'encryption',
@@ -376,6 +380,8 @@ const AWSTERMS = {
     'internet gateway',
   'Connects your VPC route table to the internet.': 'internet gateway',
   'You attach this to your VPC subnet to make it public.': 'internet gateway',
+  'Which component must be attached to a VPC to enable inbound internet access?':
+    'internet gateway',
   NAT: 'network address translation',
   'Enables instances in a private subnet to connect to the internet or other AWS services, but prevents the internet from initiating a connection with those instances.':
     'NAT gateway',
@@ -709,6 +715,71 @@ const AWSTERMS = {
     'Amazon S3 Glacier',
   'The three options for accessing & retrieving S3 Glacier Archives, from fastest to slowest (most expensive to cheapest).':
     'expedited, standard, bulk',
+  'A service that allows organizations to create and manage catalogs of IT services that are approved for use on AWS; ensures that only compliant, approved services and resources are used, thereby aiding in meeting compliance requirements.':
+    'AWS Service Catalog',
+  'A service that allows you to define and manage infrastructure as code, but it does not provide the cataloging, governance, and compliance features of AWS Service Catalog.':
+    'AWS CloudFormation',
+  'A monitoring and observability service designed to provide actionable insights into AWS resources and applications running on AWS and on-premises.':
+    'Amazon CloudWatch',
+  "This service can monitor and provide information about CPU utilization of a company's Amazon EC2 instances.":
+    'Amazon CloudWatch',
+  "A tool that's specifically designed for monitoring and observing resource utilization via collecting logs, metrics, and events from various resources including EC2 instances. You can track and create alarms to trigger notifications, or automated actions, when resources reach certain thresholds.":
+    'Amazon CloudWatch',
+  'This AWS service allows you to define and provision AWS infrastructure as code.':
+    'AWS CloudFormation',
+  'The key AWS service that enables a company to treat infrastructure as code with templates that allow you to define and manage infrastructure in a way that is versioned, tested, and easily integrated into CI/CD pipelines.':
+    'Amazon CloudFormation',
+  'This AWS service is designed for single digit millisecond performance in regard to database queries.':
+    'Amazon DynamoDB',
+  'Allows the AWS user to proactively detect when an instance or account might be compromised or if there are threats from attacks.':
+    'Amazon GuardDuty',
+  'This AWS Support plan provides the full set of AWS Trusted Advisor checks at the lowest cost.':
+    'AWS Business Support',
+  'AWS solution: Scaling, fault tolerance, and availability are managed by you.':
+    'unmanaged',
+  'AWS solution: Scaling, fault tolerance, and availability are typically built into the service.':
+    'managed',
+  'Is Amazon EC2 a managed or unmanaged solution?': 'unmanaged',
+  'A managed service that sets up and operates a relational database in the cloud.':
+    'Amazon RDS',
+  'A web service that makes it easy to set up, operate, and scale a relational database in the cloud.':
+    'Amazon RDS',
+  'Amazon RDS': 'Amazon Relational Database Service',
+  '(True/False): Amazon RDS is an AWS unmanaged service.': 'false',
+  'An isolated database environment that can contain multiple user-created databases.':
+    'database instance',
+  'List the six databases that Amazon RDS supports (alphabetical order):':
+    'Amazon Aurora, MariaDB, Microsoft SQL Server, MySQL, Oracle, PostgreSQL',
+  '(True/False): Do not use Amazon RDS with massive read/write rates (i.e., 150,000 writes per second).':
+    'true',
+  '(True/False): Use Amazon RDS for simple GET or PUT requests and queries.':
+    'false',
+  'This service is a good choice for complex database transactions or complex queries, a medium to high query or write rate (i.e., 30,000 writes or reads per second), and when no more than a single worker node or shard is needed.':
+    'Amazon RDS',
+  'This service is a good choice for high performance, low latency database transactions compatible with MySQL or PostgreSQL.':
+    'Amazon Aurora',
+  '(True/False): When a relational database management system (RDBMS) customization is needed, Amazon RDS is a good choice.':
+    'false',
+  '(True/False): With Amazon RDS, you can provision multiple database instances to handle peak loads.':
+    'true',
+  'Automated backups, patching, scaling, and monitoring, are all available for Aurora because it is managed by...':
+    'Amazon RDS',
+  'When operating system access or application features are not supported by AWS database services, configure the database on...':
+    'Amazon EC2',
+  'A fast and flexible NoSQL database service for all applications that need consistent, single-digit millisecond latency at any scale.':
+    'Amazon DynamoDB',
+  'This database service replicates your tables automatically across your choice of AWS Regions, storing all data on solid state drives (SSDs), and supports document and key-value store models.':
+    'Amazon DynamoDB',
+  '(True/False): Amazon DynamoDB has no limits on table size or throughput.':
+    'true',
+  'A fast, fully managed data warehouse that makes it simple and cost-effective to analyze all your data by using standard SQL and your existing business intelligence (BI) tools.':
+    'Amazon Redshift',
+  'By using standard SQL and your existing business intelligence (BI) tools, allows you to manage and analyze a simple and cost-effective data warehouse.':
+    'Amazon Redshift',
+  'Enables you to run complex analytic queries against petabytes of structured data by using sophisticated query optimization, columnar storage on high-performance local disks, and massively parallel data processing.':
+    'Amazon Redshift',
+  'A MySQL and PostgreSQL compatible relational database that is built for the cloud.':
+    'Amazon Aurora',
 };
 
 export default AWSTERMS;
