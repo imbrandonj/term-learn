@@ -202,8 +202,16 @@ const AWSTERMS = {
     'AWS Trusted Advisor',
   'Provides a bucket permission check feature that is a useful tool for discovering if any of the buckets in your account have permissions that grant global access.':
     'AWS Trusted Advisor',
+  'Patching operating systems on an EC2 instance – who is responsible?':
+    'customer',
   'Upgrades and patches to the operating system on the EC2 instance – who is responsible?':
     'customer',
+  'Updating the firmware on the underlying EC2 hosts – who is responsible?':
+    'AWS',
+  'Patching database software in the cloud – who is responsible?': 'AWS',
+  'Application security testing – who is responsible?': 'customer',
+  'Availability Zone management – who is responsible?': 'AWS',
+  'Customer data access controls – who is responsible?': 'customer',
   'Physical security of the data center – who is responsible?': 'AWS',
   'Virtualization infrastructure – who is responsible?': 'AWS',
   'EC2 security group settings – who is responsible?': 'customer',
@@ -436,6 +444,12 @@ const AWSTERMS = {
     'security groups',
   "Contains both 'allow' or 'deny' rules for inbound and outbound traffic of your VPC.":
     'network ACL',
+  'AWS WAF': 'AWS Web Application Firewall',
+  '(True/False): Security groups can only be attached to EC2 instances.':
+    'true',
+  '(True/False): A VPC route table can be used for protecting resources running outside of AWS.':
+    'false',
+  'Filters traffic entering and leaving a VPC subnet.': 'network ACLs',
   'It is designed to give developers and businesses areliable and cost-effective way to route users to internet applications by translating names (like www.example.com) into the numeric IP addresses (like 192.0.2.1) that computers use to connect to each other.':
     'Amazon Route 53',
   'A highly available and scalable cloud Domain Name System (DNS) web service that connects user requests to infrastructure running in AWS — such as Amazon EC2 instances, Elastic Load Balancing load balancers, or Amazon S3 buckets — and can also be used to route users to infrastructure that is outside of AWS.':
@@ -780,6 +794,189 @@ const AWSTERMS = {
     'Amazon Redshift',
   'A MySQL and PostgreSQL compatible relational database that is built for the cloud.':
     'Amazon Aurora',
+  'This AWS service distributes incoming application or network traffic across multiple targets in one or more availability zones.':
+    'Elastic Load Balancing',
+  'An AWS service that distributes incoming application or network traffic across multiple targets — such as Amazon Elastic Compute Cloud (Amazon EC2) instances, containers, internet protocol (IP) addresses, and Lambda functions — in a single Availability Zone or across multiple Availability Zones.':
+    'Elastic Load Balancing',
+  'The three types of load balancers (alphabetical).':
+    'application, classic, network',
+  'Accepts incoming traffic from clients (via listeners) and routes requests to its registered targets (such as EC2 instances) in one or more Availability Zones; can also perform health checks, which are used to monitor the health of the registered targets.':
+    'load balancer',
+  'This type of load balancer routes traffic to targets based on content of request and provides optimized load balancing of HTTP and HTTPS traffic.':
+    'application load balancer',
+  'This type of load balancer routes traffic to targets based on IP protocol data and provides load balancing of TCP, UDP, and TLS traffic where extreme performance is required.':
+    'network load balancer',
+  '(True/False): AWS recommends that you use a dedicated Application Load Balancer or Network Load Balancer, not a Classic Load Balancer.':
+    'true',
+  '(Of a load balancer), a process that checks for connection requests.':
+    'listener',
+  'This service enables you to retrieve statistics about data points for your Elastic Load Balancing balancers and targets, providing metrics to verify that your system is performing as expected.':
+    'Amazon CloudWatch',
+  'You can use access logs to capture detailed information about the requests that were made to your Elastic Load Balancing balancers and store them as log files in...':
+    'Amazon S3',
+  'This service captures detailed information (logs) about the calls that were made to the Elastic Load Balancing API.':
+    'AWS CloudTrail',
+  'An AWS service that helps you maintain application availability and enables you to automatically add or remove EC2 instances according to conditions you define.':
+    'Amazon EC2 Auto Scaling',
+  'A collection of EC2 instances that are treated as a logical grouping for the purposes of automatic scaling and management.':
+    'Auto Scaling group',
+  'With Amazon EC2 Auto Scaling, launching instances is referred to as scaling out, and terminating instances is referred to as...':
+    'scaling in',
+  '(True/False): One common configuration for implementing EC2 dynamic scaling is to create a CloudWatch alarm that is based on performance information for you EC2 instances or load balancer.':
+    'true',
+  'A separate service from Amazon EC2 Auto Scaling, this service monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest cost possible.':
+    'AWS Auto Scaling',
+  'These 3 services, when used together, optimize EC2 dynamic scaling.':
+    'Amazon EC2 Auto Scaling, CloudWatch, Elastic Load Balancing',
+  '(True/False): EC2 instances are serverless architecture.': 'false',
+  'A cloud computing service that provides scalable computing capacity but does not fit into the serverless model where the management of the server infrastructure is abstracted away from the user.':
+    'Amazon EC2',
+  '(True/False): Amazon DynamoDB is a serverless, managed service.': 'true',
+  "This AWS purchasing option optimizes the company's costs of serverless architecture, allowing the company to pay for resources up front.":
+    'Compute Savings Plan',
+  '(True/False): AWS Cloud operates on a pay-as-you-go business model – low upfront capital expenses but with higher variable expenses.':
+    'true',
+  'This Amazon S3 Glacier feature allows for a write-once, read-many (WORM) model to meet legal and compliance obligations.':
+    'S3 Glacier Vault Lock',
+  'The cheapest option among all the EC2 instances, it  gives you up to 90% discounts, but your application becomes interruptable.':
+    'Spot Instances',
+  'Spare EC2 capacity that is available at a significant discount compared to On-Demand Instances.':
+    'Spot Instances',
+  '(True/False): Amazon RDS with multiple Availability Zones provides high availability and fault tolerance.':
+    'true',
+  'The most secure way to store passwords on AWS.': 'AWS Secrets Manager',
+  '(True/False): There are more AWS Regions than Availability Zones.': 'false',
+  '(True/False): There are more edge locations than AWS Regions.': 'true',
+  '(True/False): An edge location is an Availability Zone.': 'false',
+  '(True/False): There are more AWS Regions than edge locations.': 'false',
+  '(True/False): There are more Availability Zones than AWS Regions.': 'true',
+  'Which AWS service provides DNS resolution?': 'Amazon Route 53',
+  'A Content Delivery Network (CDN) that helps improve website performance and security by caching content closer to users.':
+    'Amazon CloudFront',
+  'Think of Amazon VPC as a bubble, inside the bubble is the VPC, and all of your AWS services are within that bubble. Outside of that bubble is the internet. To connect with the public internet you use this...':
+    'internet gateway',
+  "Having on-premise infrastructure and sending confidential data to AWS over private internet, you'd use this...":
+    'AWS Direct Connect',
+  'A dedicated network connection between your company and AWS that nobody else can use.':
+    'AWS Direct Connect',
+  'Refers to the ability to increase or decrease resources based on demand.':
+    'scalability',
+  'Refers to the uptime and resilience of AWS Services, important for reliability.':
+    'availability',
+  'Refers to the ability to scale resources in highly dynamic usage patterns.':
+    'elasticity',
+  'Refers to the speed and responsiveness of applications.': 'performance',
+  'Refers to the ability to use AWS in many specific geographic areas around the world, important to comply with regulations.':
+    'global footprint',
+  '(True/False): Design workloads to fit on a single Amazon EC2 instance.':
+    'false',
+  'This tool estimates the cost before migrating to Cloud with the ability to project monthly AWS costs.':
+    'AWS Pricing Calculator',
+  'A fully managed file system service for Linux based workloads.':
+    'Amazon EFS',
+  'This configuration of AWS Storage Gateway gives you the ability to store files as objects in Amazon S3, using standard file protocols such as NFS (Network File System) and SMB (Server Message Block).':
+    'File Gateway',
+  'This AWS service can be used to provide root storage volumes for Amazon EC2 instances.':
+    'Amazon EBS',
+  'This element in the S3 bucket policy specifies the user, account, service, or other entity that is allowed or denied access to a resource.':
+    'principal',
+  'Allows you to tag your resources by department or project and then view costs attributed to the resources used by those groups.':
+    'cost allocation tags',
+  'A tool that lets you visualize, understand, and manage your AWS costs and usage over time.':
+    'AWS Cost Explorer',
+  'Use this service for full control over your database administration and instance.':
+    'Amazon EC2',
+  '(True/False): AWS provides full access to their data centers.': 'false',
+  '(True/False): AWS is responsible for securing your applications.': 'false',
+  '(True/False): Customers can request specialized hardware.': 'false',
+  'Changing the account name & changing AWS support plans are two tasks that can only be performed by the AWS account...':
+    'root user',
+  '(True/False): A company can store virtually unlimited data in the Amazon S3 service.':
+    'true',
+  'Amazon S3 objects can range in size from a minimum 0 bytes to a maximum of...':
+    '5 TB',
+  'The largest object that can be uploaded into Amazon S3 in a single PUT is...':
+    '5 GB',
+  'Built by AWS solutions architects and partners to help you deploy popular technologies on AWS, based on AWS best practices for security and high availability.':
+    'AWS Partner Solutions',
+  'A resource that allows a new user on AWS to get help with deploying popular technologies based on AWS best practices, including architecture and deployment instructions.':
+    'AWS Partner Solutions',
+  "(True/False): With Amazon RDS, you can access the database instance's operating system in order to run scripts.":
+    'false',
+  'Reducing interdependencies between system components.': 'loose coupling',
+  'Offers a set of best practice checks and recommendations across five categories: cost optimization, security, fault tolerance, performance, and service limits.':
+    'AWS Trusted Advisor',
+  'Provides a "low utilization Amazon EC2 instances" check, checking the Amazon EC2 instances that were running at any time during the last 14 days and alerts you if the daily CPU utilization was 10% or less and network I/O was 5 MB or less on 4 or more days.':
+    'AWS Trusted Advisor',
+  '(True/False): An Amazon VPC can include multiple edge locations.': 'false',
+  '(True/False): An Amazon VPC can include multiple availability zones.':
+    'true',
+  '(True/False): An Amazon VPC can include multiple AWS regions.': 'false',
+  '(True/False): An Amazon VPC can include multiple internet gateways.':
+    'false',
+  'This service allows customers to find and subscribe to third-party data sources to enrich their existing datasets with new insights.':
+    'AWS Data Exchange',
+  'A data warehouse service that is used to analyze data using standard SQL and existing Business Intelligency tools.':
+    'Amazon Redshift',
+  'A fully-managed AWS source control service that hosts secure Git-based repositories.':
+    'AWS CodeCommit',
+  'An AWS publisher/subscriber notification service that uses a push mechanism to publish messages to multiple subscribers.':
+    'Amazon SNS',
+  '(True/False): The best practice for managing AWS IAM access keys is to have customers rotate access keys regularly.':
+    'true',
+  'A company needs to break down the costs of applications running on different instances dedicated to specific departments. These allow a company to tag a department and run cost allocation reports.':
+    'cost allocation tags',
+  '(True/False): Configuring a firewall in front of resources is recommended to reduce the attack surface of your services which can mitigate some DDoS attacks.':
+    'true',
+  '(True/False): AWS Elastic Beanstalk is a compute service.': 'true',
+  '(True/False): AWS Batch is a compute service.': 'true',
+  '(True/False): Amazon EFS is a compute service.': 'false',
+  '(True/False): AWS CloudTrail is a compute service.': 'false',
+  'This type of credential is used for programmatic access to AWS resources from the AWS CLI or AWS API (directly or using the AWS SDK).':
+    'access keys',
+  'Long-term credentials for an IAM user or the AWS account root user which can be used to sign programmatic requests to the AWS CLI or AWS API.':
+    'access keys',
+  '(True/False): Dedicated hosts are very costly and should only be used when physical isolation of resources or host visibility is required.':
+    'true',
+  'The most efficient cloud architecture to address the growing workload of batch jobs on an Amazon EC2 instance is to run the batch workload in parallel across multiple...':
+    'Amazon EC2 instances',
+  'These are used to make programmatic calls to AWS from AWS APIs.':
+    'access keys',
+  'Enables access to your application by leveraging the same edge locations as CloudFront and routing connections across the AWS global network.':
+    'AWS Global Accelerator',
+  '(True/False): Amazon CloudFront assists with lowering latency and improving transfer speeds for global users.':
+    'true',
+  '(True/False): Configure a scheduled scaling policy for Amazon EC2 Auto Scaling in anticipation in an increase in application traffic at a future date and time when a sales event will take place, or for example, increased weekend activity.':
+    'true',
+  'This tool provides a visual console to visualize the steps in a workflow, helping to build and update applications quickly and monitor the status of each step in the process.':
+    'AWS Step Functions',
+  "'Perform operations as code' & 'Anticipate failure' are two design principles that align with this pillar of the AWS Well-Architected Framework.":
+    'operational excellence',
+  'An online tool that provides you real time guidance to help you provision your resources, such as needing to request an Amazon EC2 service limit increase.':
+    'AWS Trusted Advisor',
+  'An AWS auditing service that monitors API activity in your account. Whenever you perform any operation in the account this results in an API action and this information is recorded to create an audit trail.':
+    'AWS CloudTrail',
+  '(True/False): AWS Trusted Advisor is a service used to gather information about activity in an AWS account.':
+    'false',
+  '(True/False): AWS Fargate is a serverless service.': 'true',
+  'This Amazon EC2 instance deployment option provides a physical server fully dedicated for your use, so you can help address corporate compliance requirements.':
+    'Dedicated Host',
+  'This AWS service allows you to extend your VPC into your on-premises data center for a truly consistent hybrid experience.':
+    'AWS Outposts',
+  'This cloud feature resolves the issue of underutilization as you can easily and automatically adjust the resource allocations for your compute resources based on actual utilization.':
+    'elasticity',
+  'Which AWS feature can be used to launch a pre-configured Amazon EC2 instance?':
+    'AMI',
+  'Your go-to, central resource for AWS security and compliance documents.':
+    'AWS Artifact',
+  '(True/False): Two benefits of using a managed Amazon RDS service instead of a self-managed database on EC2 is that with a managed Amazon RDS service you get automatic backups and automatic software patching.':
+    'true',
+  'Amazon RDS Multi-AZ deployment is a good example of what pillar of the AWS Well-Architected Framework?':
+    'reliability',
+  '(True/False): Amazon CloudWatch provides recommendations on how to optimize performance for AWS services.':
+    'false',
+  '(True/False): AWS Trusted Advisor provides recommendations on how to optimize performance for AWS services.':
+    'true',
 };
 
 export default AWSTERMS;
