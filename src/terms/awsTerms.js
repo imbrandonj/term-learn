@@ -278,7 +278,6 @@ const AWSTERMS = {
   'Instead of sharing credentials, delegate using...': 'roles',
   "This service records API activity within your AWS account. It's helpful for security and compliance auditing but doesn't provide the same level of performance monitoring as Amazon CloudWatch.":
     'AWS CloudTrail',
-  'This service monitors resource utilization': '',
   'To assign permissions to IAM users, use...': 'groups',
   'Create individual IAM users and grant permissions according to the...':
     'principle of least privilege',
@@ -625,7 +624,7 @@ const AWSTERMS = {
   'This AWS service supports governance, compliance, and risk auditing of AWS accounts.':
     'AWS CloudTrail',
   'List the six pillars of the AWS Well-Architected Framework in alphabetical order.':
-    'cost optimization, operational excellence, performance efficiency, reliability, security, sustainability',
+    'cost efficiency, operational excellence, performance efficiency, reliability, security, sustainability',
   'Of the AWS Well-Architected Framework, which principle of the Security pillar does AWS CloudTrail implement?':
     'traceability',
   'A continuous security monitoring service designed to help you detect and respond to malicious activity and unauthorized behavior in your AWS accounts and workloads.':
@@ -806,6 +805,12 @@ const AWSTERMS = {
     'application load balancer',
   'This type of load balancer routes traffic to targets based on IP protocol data and provides load balancing of TCP, UDP, and TLS traffic where extreme performance is required.':
     'network load balancer',
+  'This type of load balancer routes TCP and UDP traffic to targets based on IP data.':
+    'network load balancer',
+  'This type of load balancer distributes incoming application traffic across multiple targets, such as EC2 instances, to increase the availability of the application.':
+    'application load balancer',
+  'This type of load balancer provides load balancing across multiple EC2 instances and operates at both the application level and network transport level. It supports load balancing of applications that use HTTP, HTTPS, TCP, and SSL.':
+    'classic load balancer',
   '(True/False): AWS recommends that you use a dedicated Application Load Balancer or Network Load Balancer, not a Classic Load Balancer.':
     'true',
   '(Of a load balancer), a process that checks for connection requests.':
@@ -977,6 +982,92 @@ const AWSTERMS = {
     'false',
   '(True/False): AWS Trusted Advisor provides recommendations on how to optimize performance for AWS services.':
     'true',
+  'With this cloud model, the cloud provider runs and manages the servers, networking, and storage, while the user manages the data and applications.':
+    'PaaS',
+  'With this cloud model, the cloud service provider provides networking, storage, servers, and other building blocks for cloud computing, while the user manages the operating systems, runtime, data, and business applications.':
+    'IaaS',
+  'This cloud model allows the user to create, deploy, manage, and maintain their own applications while the cloud service provider still manages the underlying infrastructure.':
+    'PaaS',
+  'With this cloud model, the cloud service provider runs and manages the computing infrastructure, applications, data, runtime, and operating system, while the user interacts with the application through mobile or web browser.':
+    'SaaS',
+  'AWS provides packages that enable accessing AWS in a variety of popular programming languages, making it easy to use AWS in existing applications.':
+    'SDKs',
+  'A web-based planning tool that can be used to create estimates for AWS use cases.':
+    'AWS Pricing Calculator',
+  'Cloud service providers like AWS can pass savings to their customers by aggregating usage from hundreds of thousands of customers in the cloud. This benefit is called...':
+    'economies of scale',
+  '(True/False): With cloud computing, a company stops guessing how much capacity it will need over time and starts scaling up and down (elasticity) as needed with only a few minutes notice.':
+    'true',
+  'A company needs a compute service that will allow the developers to run their code without managing or provisioning servers. Which AWS compute service best meets this requirement?':
+    'AWS Lambda',
+  'A CDN platform that securely delivers video, data, and applications to customers globally with low latency and high transfer speeds.':
+    'Amazon CloudFront',
+  'AWS data centers designed to deliver services with the lowest latency possible.':
+    'edge locations',
+  'These AWS data centers are closer to users than regions or availability zones, often in major cities, so responses can be fast.':
+    'edge locations',
+  'This AWS service has a consolidated billing feature that can be used to consolidate billing and payment for multiple AWS accounts.':
+    'AWS Organizations',
+  'Offers central control over the maximum available permissions for all accounts in AWS Organizations.':
+    'SCPs',
+  'AWS Key Management Service (KMS) integrates with this AWS service, which logs all key usage.':
+    'AWS CloudTrail',
+  'This AWS service provides authentication, authorization, and user management for web and mobile apps, allowing users to sign in directly with a username and password, or through a third party such as Facebook, Amazon, Google, or Apple.':
+    'Amazon Cognito',
+  'A company is worried about distributed denial of service (DDoS) attacks and wants to be sure its applications are well protected should there be a DDoS attack. Which AWS solution can the company use to protect its web application against infrastructure attacks?':
+    'AWS Shield',
+  'Every bit in this IP address block is fixed, and none (zero) of the bits is flexible, which means 2^0 (or 1) IP address is available for the network. It represents a single IP address and a single host.':
+    '/32',
+  '(True/False): When a company stops and restarts an EC2 instance associated with an elastic IP address, the EC2 instance retains its IP address after restarting.':
+    'true',
+  'A fixed IP address that will not change when it starts or stops the EC2 instance for updates.':
+    'Elastic IP address',
+  'This service enables developers to run their code and set triggers for when the code executes without provisioning or managing servers.':
+    'AWS Lambda',
+  'This Amazon EC2 instance type is best suited for delivering high quality video and audio streams to customers around the world.':
+    'compute optimized',
+  'A logical grouping of instances (placement group) within a single availability zone; recommended for applications that need low network latency, high network throughput, or both.':
+    'cluster',
+  'A shared files system that multiple EC2 instances can access concurrently.':
+    'Amazon EFS',
+  'A persistent storage that can store images, videos, server logs, and database snapshots as objects 5TB or less.':
+    'Amazon S3',
+  '(True/False): With S3 Glacier standard retrieval, the data can be retrieved in three to five hours.':
+    'true',
+  '(True/False): You can store data in Amazon S3 standard storage and then create a life cycle policy to transition the data to Amazon S3 Glacier (if the data needs to be accessed very little later on).':
+    'true',
+  '(True/False): The load can be reduced on a RDS MySQL database instance by routing read queries from the applications to a read replica.':
+    'true',
+  'This database service can handle several millions of queries per second, providing a consistent, single-digit millisecond database solution at any scale.':
+    'Amazon DynamoDB',
+  'Which tool is most suited for a company that needs to build an advanced analytic platform that efficiently and constantly processes 300 TB of structured and unstructured historical and real-time data to gain insights and make decisions quickly?':
+    'Amazon Redshift',
+  'A fully managed relational database engine from AWS that has automatic failover and data backups by default, and can instantly recover from crashes within 60 seconds.':
+    'Amazon Aurora',
+  'A cloud-native service that can help identify ways to optimize its cloud infrastructure, improve security and performance, reduce costs, and monitor service quotas.':
+    'AWS Trusted Advisor',
+  'Which AWS Well-Architected Framework pillar helps to anticipate failure and learn from all system failures?':
+    'operational excellence',
+  'Which AWS Well-Architected Framework pillar focuses on the ability to protect information, systems, and assets while delivering business value through risk assessment and mitigation strategies?':
+    'security',
+  'Which AWS Well-Architected Framework pillar includes the ability to use computing resources and maintain efficiency as demand changes and technologies evolve?':
+    'performance efficiency',
+  'Which AWS Well-Architected Framework pillar focuses on the long-term environmental, economic, and societal impact of business activities?':
+    'sustainability',
+  'Which AWS Well-Architected Framework pillar helps users to deploy their technologies and/or services in the cloud so they can focus on rapid development and deployment?':
+    'performance efficiency',
+  'Which AWS Well-Architected Framework pillar helps users analyze and attribute usage (through a consumption model) to easily measure the return on investment (ROI) of adopting the cloud?':
+    'cost optimization',
+  'These capture detailed information about the calls made to an elastic load balancing application: what was requested, when the visitor made the request, and the source IP address the request came from.':
+    'CloudTrail logs',
+  'A systems analyst wants to monitor the CPU utilization rate for the EC2 instances and get notified when the CPU utilization is greater than 60% for five minutes. What can the analyst implement to measure this metric to know when this threshold is breached?':
+    'Amazon CloudWatch alarm',
+  'The ability to automatically acquire resources as needed and release resources when no longer needed.':
+    'elasticity',
+  'Using Amazon EC2 auto scaling to adjust scaling of EC2 instances, automatically adding or removing EC2 instances according to conditions the business defines, is known as what ability?':
+    'elasticity',
+  'Which Amazon EC2 auto scaling option should a company use if periods of peak traffic to the company website are predictable?':
+    'scheduled scaling',
 };
 
 export default AWSTERMS;
