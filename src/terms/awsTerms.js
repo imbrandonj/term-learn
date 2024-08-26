@@ -209,6 +209,9 @@ const AWSTERMS = {
   'Updating the firmware on the underlying EC2 hosts – who is responsible?':
     'AWS',
   'Patching database software in the cloud – who is responsible?': 'AWS',
+  'Performing infrastructure patching and maintenance – who is responsible?':
+    'AWS',
+  'Securing the access of physical AWS facilities – who is responsible?': 'AWS',
   'Application security testing – who is responsible?': 'customer',
   'Availability Zone management – who is responsible?': 'AWS',
   'Customer data access controls – who is responsible?': 'customer',
@@ -938,9 +941,9 @@ const AWSTERMS = {
   '(True/False): Amazon EFS is a compute service.': 'false',
   '(True/False): AWS CloudTrail is a compute service.': 'false',
   'This type of credential is used for programmatic access to AWS resources from the AWS CLI or AWS API (directly or using the AWS SDK).':
-    'access keys',
+    'access key',
   'Long-term credentials for an IAM user or the AWS account root user which can be used to sign programmatic requests to the AWS CLI or AWS API.':
-    'access keys',
+    'access key',
   '(True/False): Dedicated hosts are very costly and should only be used when physical isolation of resources or host visibility is required.':
     'true',
   'The most efficient cloud architecture to address the growing workload of batch jobs on an Amazon EC2 instance is to run the batch workload in parallel across multiple...':
@@ -1068,6 +1071,54 @@ const AWSTERMS = {
     'elasticity',
   'Which Amazon EC2 auto scaling option should a company use if periods of peak traffic to the company website are predictable?':
     'scheduled scaling',
+  'This perspective in the AWS Cloud Adoption Framework (CAF) explains the processes, roles, and policies necessary to align IT strategy with business goals. Data handling is a key component in this perspective.':
+    'governance',
+  'Which AWS Cloud Adoption Framework (CAF) perspective focuses on organizing an inventory of data products in a data catalog?':
+    'governance',
+  'List the 6 AWS Cloud Adoption Framework (CAF) perspectives (in alphabetical order):':
+    'business, governance, operations, people, platform, security',
+  'Which AWS Support Plan runs production workload at the lowest cost?':
+    'Business',
+  '(True/False): The Basic AWS Support Plan is suitable for companies running production workloads.':
+    'false',
+  '(True/False): The Developer AWS Support Plan is suitable for companies running production workloads.':
+    'false',
+  'List the 5 AWS Support Plans from least support to most support:':
+    'Basic, Developer, Business, EOR, Enterprise',
+  'This AWS service provides automatic monitoring for threats to AWS workloads.':
+    'Amazon GuardDuty',
+  'This AWS service provides automatic provisioning of AWS resources.':
+    'AWS CloudFormation',
+  'Which VPC component can a company use to set up a virtual firewall at the Amazon EC2 instance level?':
+    'security group',
+  'This VPC component provides network security at the subnet level.':
+    'Network ACL',
+  'This determines where network traffic is directed within the VPC.':
+    'route table',
+  'This enables internet access in private subnets.': 'NAT gateway',
+  '(True/False): When a subnet contains an IGW (internet gateway), it is a public subnet.':
+    'true',
+  "Which security feature or AWS service must be provisioned in the developer's account to allow them to interact with AWS by using the AWS CLI?":
+    'access key',
+  'This AWS service allows the AWS customer to block users in certain countries from accessing its website.':
+    'AWS WAF',
+  'This provides a firewall at the application level.': 'AWS WAF',
+  '(True/False): S3 Glacier Deep Archive allows options for immediate file retrieval.':
+    'false',
+  '(True/False): S3 Glacier Flexible Retrieval takes anywhere from minutes to 12 hours for file retrieval.':
+    'true',
+  'A company using Amazon S3 to store files for rare access but immediate retrieval, would use this S3 storage class as the most cost-effective option.':
+    'S3 Standard Infrequent Access',
+  '(True/False): AWS Direct Connect provides underlying cables for a dedicated (private), secure network connection between on-premises and AWS. It takes at least 1 month for installation.':
+    'true',
+  'This provides a secure network connection from on-premises to the AWS cloud via public internet. Can be installed within 1 week.':
+    'AWS Site to Site VPN',
+  'This AWS service provides AWS Service Organization Control (SOC) reports.':
+    'AWS Artifact',
+  'This is a secure self-service portal that provides on-demand access to all AWS compliance reports.':
+    'AWS Artifact',
+  'This AWS service records and evaluates configuration changes on almost all AWS services, as well as providing remediation actions on AWS resources.':
+    'AWS Config',
 };
 
 export default AWSTERMS;
