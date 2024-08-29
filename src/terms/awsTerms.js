@@ -435,11 +435,11 @@ const AWSTERMS = {
   '(True/False): VPC security groups vs network ACLs – this one acts on the instance level.':
     'security groups',
   '(True/False): VPC security groups vs network ACLs – this one acts on the subnet level.':
-    'network ACL',
+    'network ACLs',
   'The two Amazon VPC firewall options that you can use to secure your VPC.':
     'network ACLs, security groups',
   'An optional layer of security for your Amazon VPC which acts as a firewall for controlling traffic in and out of one or more subnets.':
-    'network ACL',
+    'network ACLs',
   '(True/False): By default, security groups deny all inbound traffic and allow all outbound traffic.':
     'true',
   'This contains rules that control the inbound and outbound traffic of your VPC; if there are no inbound rules, no inbound traffic that originates from another host to your instance is allowed.':
@@ -447,7 +447,7 @@ const AWSTERMS = {
   "Contains 'allowed' rules for inbound traffic into your VPC.":
     'security groups',
   "Contains both 'allow' or 'deny' rules for inbound and outbound traffic of your VPC.":
-    'network ACL',
+    'network ACLs',
   'AWS WAF': 'AWS Web Application Firewall',
   '(True/False): Security groups can only be attached to EC2 instances.':
     'true',
@@ -1098,7 +1098,7 @@ const AWSTERMS = {
   'Which VPC component can a company use to set up a virtual firewall at the Amazon EC2 instance level?':
     'security groups',
   'This VPC component provides network security at the subnet level.':
-    'Network ACL',
+    'Network ACLs',
   'This determines where network traffic is directed within the VPC.':
     'route table',
   'This enables internet access in private subnets.': 'NAT gateway',
@@ -1141,7 +1141,7 @@ const AWSTERMS = {
   'Acts as a virtual firewall for your EC2 instances, controlling inbound and outbound traffic at the instance level.':
     'security groups',
   'Which AWS service or feature can a user configure to limit network access at the subnet level?':
-    'Network ACL',
+    'Network ACLs',
   'This managed AWS service uses machine learning and pattern recognition to identify and protect sensitive data.':
     'Amazon Macie',
   'A cloud-based hardware security module service that enables you to easily generate and use your own encryption keys on the cloud.':
