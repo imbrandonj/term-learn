@@ -163,9 +163,11 @@ const AWSTERMS = {
     'Organizations setup',
   'Uses the cost visualization that is provided by Cost Explorer to show you the status of your budgets and to provide forecasts of your estimated costs.':
     'AWS Budgets',
+  'Which AWS service can a company use to set $ spending limits and receive notifications if those limits are exceeded?':
+    'AWS Budgets',
   'This AWS Organizations tool gives you programmatic access to AWS Organizations and AWS by issuing HTTPS requests directly to the service.':
     'HTTPS Query API',
-  'A single location for accessing comprehensive information about your AWS costs and usage. This tool lists the usage for each service category that is used by an account (and its users) in hourly or daily line items,and any tax that you activated for tax allocation purposes.':
+  'A single location for accessing comprehensive information about your AWS costs and usage. This tool lists the usage for each service category that is used by an account (and its users) in hourly or daily line items, and any tax that you activated for tax allocation purposes.':
     'AWS Cost and Usage Report',
   'A billing and account expert who will provide quick and efficient analysis on billing and account issues.':
     'support concierge',
@@ -397,7 +399,7 @@ const AWSTERMS = {
     'NAT gateway',
   'Enables multiple AWS accounts to create their application resources—such as Amazon EC2 instances, Amazon Relational Database Service (Amazon RDS) databases, Amazon Redshift clusters, and AWS Lambda functions—into shared, centrally managed VPCs.':
     'VPC sharing',
-  'Enables customers to share subnets with other AWelastic contaS accounts in the same organization in AWS Organizations.':
+  'Enables customers to share subnets with other AWS accounts in the same organization in AWS Organizations.':
     'VPC sharing',
   'Enables you to decouple accounts and networks. You have fewer, larger, centrally managed VPCs. Highly interconnected applications automatically benefit from this approach.':
     'VPC sharing',
@@ -1049,6 +1051,8 @@ const AWSTERMS = {
     'Amazon Aurora',
   'A cloud-native service that can help identify ways to optimize its cloud infrastructure, improve security and performance, reduce costs, and monitor service quotas.':
     'AWS Trusted Advisor',
+  'Which AWS Well-Architected Framework pillar supports development innovation and continuous improvement of processes and procedures?':
+    'operational excellence',
   'Which AWS Well-Architected Framework pillar helps to anticipate failure and learn from all system failures?':
     'operational excellence',
   'Which AWS Well-Architected Framework pillar focuses on the ability to protect information, systems, and assets while delivering business value through risk assessment and mitigation strategies?':
@@ -1057,6 +1061,8 @@ const AWSTERMS = {
     'performance efficiency',
   'Which AWS Well-Architected Framework pillar focuses on the long-term environmental, economic, and societal impact of business activities?':
     'sustainability',
+  'Which AWS Well-Architected Framework pillar focuses on proper functionality throughout a lifecycle?':
+    'reliability',
   'Which AWS Well-Architected Framework pillar helps users to deploy their technologies and/or services in the cloud so they can focus on rapid development and deployment?':
     'performance efficiency',
   'Which AWS Well-Architected Framework pillar helps users analyze and attribute usage (through a consumption model) to easily measure the return on investment (ROI) of adopting the cloud?':
@@ -1090,7 +1096,7 @@ const AWSTERMS = {
   'This AWS service provides automatic provisioning of AWS resources.':
     'AWS CloudFormation',
   'Which VPC component can a company use to set up a virtual firewall at the Amazon EC2 instance level?':
-    'security group',
+    'security groups',
   'This VPC component provides network security at the subnet level.':
     'Network ACL',
   'This determines where network traffic is directed within the VPC.':
@@ -1111,7 +1117,7 @@ const AWSTERMS = {
     'S3 Standard Infrequent Access',
   '(True/False): AWS Direct Connect provides underlying cables for a dedicated (private), secure network connection between on-premises and AWS. It takes at least 1 month for installation.':
     'true',
-  'This provides a secure network connection from on-premises to the AWS cloud via public internet. Can be installed within 1 week.':
+  "This provides a secure network connection from on-premises to the AWS cloud via public internet. Can be integrated without any hardware on AWS's end.":
     'AWS Site to Site VPN',
   'This AWS service provides AWS Service Organization Control (SOC) reports.':
     'AWS Artifact',
@@ -1119,6 +1125,94 @@ const AWSTERMS = {
     'AWS Artifact',
   'This AWS service records and evaluates configuration changes on almost all AWS services, as well as providing remediation actions on AWS resources.':
     'AWS Config',
+  'This AWS service can migrate data between AWS storage services.':
+    'AWS DataSync',
+  '(True/False): A cost-effective benefit of using AWS cloud is that users can trade fixed expenses for variable expenses.':
+    'true',
+  '(True/False): The only 2 AWS Support plans that provide access to an AWS technical account manager (TAM) are the AWS Enterprise On-Ramp Support and the AWS Enterprise Support.':
+    'true',
+  'Provides examples of AWS Cloud solution designs.': 'AWS Architecture Center',
+  'This feature of Amazon RDS provides the ability to automatically create a primary database instance and to synchronously replicate data to an instance in another Availability Zone.':
+    'Multi-AZ deployment',
+  'Which AWS service should a company use to check for IAM access keys that have not been rotated recently?':
+    'AWS Trusted Advisor',
+  'Which AWS sercurity resource controls network traffic between EC2 instances?':
+    'security groups',
+  'Acts as a virtual firewall for your EC2 instances, controlling inbound and outbound traffic at the instance level.':
+    'security groups',
+  'Which AWS service or feature can a user configure to limit network access at the subnet level?':
+    'Network ACL',
+  'This managed AWS service uses machine learning and pattern recognition to identify and protect sensitive data.':
+    'Amazon Macie',
+  'A cloud-based hardware security module service that enables you to easily generate and use your own encryption keys on the cloud.':
+    'AWS CloudHSM',
+  'Use this AWS resource to find, buy, and immediately launch third-party software solutions.':
+    'AWS Marketplace',
+  'Use this AWS service to perform a one-time migration of a large dataset with millions of files from an on-premises data center to the AWS Cloud.':
+    'AWS DataSync',
+  'This is a fully managed AWS service designed specifically for migrating large data sets into and out of AWS.':
+    'AWS DataSync',
+  'This AWS service uses machine learning to convert text into audible speech.':
+    'Amazon Polly',
+  'This AWS service uses machine learning to convert speech to text.':
+    'Amazon Transcribe',
+  'This AWS service uses machine learning to perform analysis on images and videos.':
+    'Amazon Rekognition',
+  'This AWS service extracts text and data from scanned documents.':
+    'Amazon Textract',
+  '(True/False): AWS VPN provides dedicated network connectivity over private internet.':
+    'false',
+  'This AWS service provides dashboards and charts to analyze insights from business data / business intelligence.':
+    'Amazon QuickSight',
+  'This AWS service provides temprorary federated security credentials used to access AWS resources.':
+    'AWS Simple Token Service',
+  'When you use IAM roles, behind the scenes, this AWS security credential service is utilized.':
+    'AWS Simple Token Service',
+  'These distribute incoming traffic across multiple targets, such as EC2 instances.':
+    'load balancers',
+  '(True/False): An Elastic Load Balancing (ELB) load balancer can span multiple AWS regions.':
+    'false',
+  'This AWS service can convert video files and audio files to a format that will play on smartphones.':
+    'Amazon Elastic Transcoder',
+  'This AWS service converts media files from one format to another (i.e., an mp4 into an mp3).':
+    'Amazon Elastic Transcoder',
+  'This AWS service allows you to store database credentials and automatically rotate user passwords periodically.':
+    'AWS Secrets Manager',
+  '(True/False): Having the ability to set up infrastructure for new applications in minutes is because of the increase speed and agility of cloud computing.':
+    'true',
+  'This AWS service provides a managed NFS file system that you can use with your AWS compute resources.':
+    'Amazon EFS',
+  'This provides you access to your AWS storage from on-premises.':
+    'AWS Storage Gateway',
+  'This AWS service is designed to assess your on-premises environment to gather detailed information about your applications, servers, and dependencies. This information is crucial for planning migration to the AWS Cloud.':
+    'AWS Application Discovery Service',
+  "(True/False): Securing the virtualization layer is the customer's responsibility.":
+    'false',
+  "(True/False): Patching the Amazon RDS operating system is the customer's responsibility.":
+    'false',
+  'This AWS service allows you to create copies of your AWS architecture environments via templates.':
+    'AWS CloudFormation',
+  "(True/False): Patching the guest operating system with the latest security patches is the customer's responsibility.":
+    'true',
+  'This is the most costliest Amazon EC2 purchasing option.':
+    'On Demand Instances',
+  'The cheapest Amazon EC2 purchasing option.': 'Spot Instances',
+  'This AWS resource provides information about the status of AWS services (i.e., is a service down in a particular region).':
+    'AWS Health Dashboard',
+  'This AWS service provides comprehensive information to report ongoing optimization and security.':
+    'AWS Trusted Advisor',
+  'This AWS service provides recommendations based off 6 category checks – cost optimization, performance, security, fault tolerance, operational excellence, and service limits.':
+    'AWS Trusted Advisor',
+  'This AWS service provides the ability to encrypt data in transit.':
+    'AWS Certificate Manager',
+  'This AWS service specifically provides the ability to encrypt data at rest.':
+    'AWS KMS',
+  'This AWS tool allows you to track AWS costs against defined thresholds.':
+    'AWS Budgets',
+  'A cost-effective option to run Amazon EC2 instances for short periods which can be interrupted.':
+    'Spot Instances',
+  'This AWS service provides access to the AWS DDoS Response Team (DRT) to help mitigate DDoS events.':
+    'AWS Shield Advanced',
 };
 
 export default AWSTERMS;
