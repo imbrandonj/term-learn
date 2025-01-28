@@ -69,6 +69,12 @@ function App() {
               AWS Cloud
             </button>
           </li>
+          <li>
+            <button onClick={() => selectTermSet('sec')}>
+              <img src={pyIcon} height={'60'} />
+              Sec & Test
+            </button>
+          </li>
         </ul>
       </div>
     );
