@@ -70,9 +70,9 @@ function App() {
             </button>
           </li>
           <li>
-            <button onClick={() => selectTermSet('sec')}>
+            <button onClick={() => selectTermSet('net')}>
               <img src={pyIcon} height={'60'} />
-              Sec & Test
+              Networking
             </button>
           </li>
         </ul>
