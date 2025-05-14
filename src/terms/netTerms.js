@@ -199,6 +199,17 @@ const NETTERMS = {
     'LR',
   'This suffix indicates extended-range fiber using single-mode for distances up to 40 kilometers':
     'ER',
+  'What is the IEEE amendment for 100BASE-T over copper?': '802.3u',
+  'What is the IEEE amendment for 1000BASE-T over copper?': '802.3ab',
+  'What is the IEEE amendment for 1000BASE-SX over fiber?': '802.3z',
+  'What is the IEEE amendment for 1000BASE-LX over fiber?': '802.3z',
+  'What is the IEEE amendment for 10GBASE-SR over multimode fiber?': '802.3ae',
+  'What is the IEEE amendment for 10GBASE-LR over single-mode fiber?':
+    '802.3ae',
+  'What is the IEEE amendment for 10GBASE-ER over extended-range single-mode fiber?':
+    '802.3ae',
+  'The family of standards for Ethernet — it defines how devices communicate over wired connections (copper or fiber).':
+    'IEEE 802.3',
   "What does 'OSI' stand for?": 'Open Systems Interconnection',
   'The OSI model is divided into [...] layers.': '7',
   'Which layer of the OSI model interacts with software applications on a computer?':
