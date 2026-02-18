@@ -7,6 +7,7 @@ import JSTERMS from './terms/jsTerms';
 import PMTERMS from './terms/pmTerms';
 import AWSTERMS from './terms/awsTerms';
 import NETTERMS from './terms/netTerms';
+import MATHTERMS from './terms/mathTerms';
 
 export function loadSet(set) {
   return set === 'dsa'
@@ -25,5 +26,7 @@ export function loadSet(set) {
                 ? AWSTERMS
                 : set === 'net'
                   ? NETTERMS
-                  : null;
+                  : set === 'math'
+                    ? MATHTERMS
+                    : null;
 }

@@ -28,6 +28,12 @@ function App() {
         <h2>Select your term set:</h2>
         <ul className="btnBundle">
           <li>
+            <button onClick={() => selectTermSet('math')}>
+              <img src={dsaIcon} height={'60'} />
+              Math
+            </button>
+          </li>
+          {/* <li>
             <button onClick={() => selectTermSet('js')}>
               <img src={jsIcon} height={'60'} />
               JavaScript
@@ -74,7 +80,7 @@ function App() {
               <img src={pyIcon} height={'60'} />
               Networking
             </button>
-          </li>
+          </li> */}
         </ul>
       </div>
     );

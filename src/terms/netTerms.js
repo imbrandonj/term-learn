@@ -30,6 +30,7 @@ const NETTERMS = {
     'EMI',
   'Which two pin pairs are used in a 10BASE-T or 100BASE-T connection?':
     'pair 1-2, pair 3-6',
+  'What pins does a PC transmit on in a 100BASE-TX connection?': '1, 2',
   'Which is cheaper, single-mode or multimode fiber?': 'multimode',
   'Which four pin pairs are used in a 1000BASE-T or 10GBASE-T connection?':
     'pair 1-2, pair 3-6, pair 4-5, pair 7-8',
@@ -38,6 +39,10 @@ const NETTERMS = {
     'straight-through cable',
   'What kind of cable connects a pin pair on one end of a UTP cable to the opposite pair on the other end?':
     'crossover cable',
+  "You're connecting a router directly to another router with FastEthernet. What cable do you use?":
+    'crossover cable',
+  'What feature allows automatic correction of wrong cable types?':
+    'Auto MDI-X',
   "'Ethernet' connection speed": '10 Mbps',
   "What is the speed of an 'Ethernet' connection?": '10 Mbps',
   "'Gigabit Ethernet' speed": '1 Gbps',
@@ -277,6 +282,9 @@ const NETTERMS = {
   'OSI Model Transport Layer = TCP/IP [...] Layer': 'Transport',
   'OSI Model Network Layer = TCP/IP [...] Layer': 'Internet',
   'OSI Model Data Link, Physical Layers = TCP/IP [...] Layer': 'Link',
+  'For a fiber optic connection of a distance of 3 km, would you use multimode or single-mode fiber type?':
+    'single-mode',
+  '[True or False] 250 meter distance is too far for multimode fiber.': 'false',
 };
 
 export default NETTERMS;
