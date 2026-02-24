@@ -26,6 +26,8 @@ const MATHTERMS = {
   '(a + b) ⋅ c = a ⋅ c + b ⋅ c': 'Distributive Property',
   'c ⋅ (a + b) = c ⋅ a + c ⋅ b': 'Distributive Property',
   'a ⋅ (b + c) = a ⋅ b + a ⋅ c': 'Distributive Property',
+  'a(b + c) = ab + ac': 'Distributive Property',
+  '(b + c)a = ba + ca': 'Distributive Property',
   '1, 2, 3, 4,...': 'positive integers',
   'A whole number that can be positive, negative, or zero, and does not include any fractional or decimal parts.':
     'integer',
@@ -66,7 +68,7 @@ const MATHTERMS = {
   'In ordinary numbers, the multiplicative identity is...': '1',
   'Any element within a set that leaves other elements unchanged under a specific operation (e.g., 0 for addition, 1 for multiplication).':
     'identity element',
-  'The specific number that satifies the inverse property for a particular number.':
+  'The specific number that satisfies the inverse property for a particular number.':
     'additive inverse',
   'States that operating on a number with its opposite (additive) or reciprocal (multiplicative) results in the identity element (0 for addition, 1 for multiplication).':
     'inverse property',
@@ -84,6 +86,61 @@ const MATHTERMS = {
     'distributive property',
   'This property, or law, splits multiplication across addition (or subtraction) to simplify.':
     'distributive property',
+  'Factor the difference of squares: a² - b²': '(a - b)(a + b)',
+  'Factor the sum of two cubes: a^3 + b^3 (use ^2 for any exponents).':
+    '(a + b)(a^2 - ab + b^2)',
+  'Factor the difference of two cubes: a^3 - b^3 (use ^2 for any exponents).':
+    '(a - b)(a^2 + ab + b^2)',
+  'Write the general form of a quadratic equation (use ^2 for any exponents).':
+    'ax^2 + bx + c = 0',
+  'General form: ax² + bx + c = 0': 'quadratic equation',
+  'y = ax² + bx + c, where a, b, c are real numbers and a is not zero.':
+    'quadratic equation',
+  '(True/False): A real number can be a fraction.': 'true',
+  '(True/False): A quadratic equation or function can have an exponent degree of 3 or higher.':
+    'false',
+  'An equality of two fractions.': 'proportion',
+  'An equation stating that two ratios or fractions are equal.': 'proportion',
+  'The cross-products of a proportion are...': 'equal',
+  'Similar triangles have corresponding sides which are...': 'proportional',
+  'The answer obtained by dividing one number (the dividend) by another (the divisor).':
+    'quotient',
+  'It represents the result of a division operation, indicating how many times the divisor fits into the dividend, or the size of each group when sharing equally.':
+    'quotient',
+  'In a division operation, this is the number being split into smaller, equal parts.':
+    'dividend',
+  'In a division operation, this is the number of groups or the size of the groups being used to divide.':
+    'divisor',
+  'Dividend / Divisor =': 'quotient',
+  'Divisor ⋅ Quotient + Remainder =': 'dividend',
+  'In 20 / 5 = 4, which is the dividend?': '20',
+  'In 20 / 5 = 4, which is the divisor?': '5',
+  'In 20 / 5 = 4, which is the quotient?': '4',
+  'A fraction that contains at least one other fraction in its numerator, denominator, or both.':
+    'complex fraction',
+  '(a + b)² (use ^2 for exponents)': 'a^2 + 2ab + b^2',
+  'Any function which can be written as powers of x without using negative powers, fractional powers, infinite sums, or approximations':
+    'polynomial',
+  '(True/False): x² - 2 is a polynomial.': 'true',
+  '(True/False): sin(x) is a polynomial.': 'false',
+  '(True/False): x! is a polynomial.': 'false',
+  '(True/False): 4x² + 7y - 1 is a polynomial.': 'true',
+  '(True/False): 2x - 1 is a monomial.': 'false',
+  '(True/False): -12x² is a monomial.': 'true',
+  'An algebraic expression that consists of variable and constant terms, where the exponents of the variables must be non-negative integers.':
+    'polynomial',
+  'The numerical, multiplicative factor involved in some term of a polynomial, a series, or any other type of expression.':
+    'coefficient',
+  'The coefficient of the term with the highest exponent in a polynomial.':
+    'leading coefficient',
+  'The letter that represents an unknown value.': 'variable',
+  'The power to which a variable is raised.': 'exponent',
+  'A polynomial with only one term.': 'monomial',
+  'A two-term polynomial.': 'binomial',
+  'A three-term polynomial.': 'trinomial',
+  'When graphed, this type of polynomial forms a parabola.':
+    'quadratic polynomial',
+  'What type of polynomial is x² - 5x + 6?': 'quadratic polynomial',
 };
 
 export default MATHTERMS;
