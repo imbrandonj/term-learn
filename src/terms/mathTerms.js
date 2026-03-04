@@ -48,7 +48,7 @@ const MATHTERMS = {
     'additive inverse of a',
   'The second step in proving "if a + b = a, then b = 0 (which is ((-a) + a) + b = 0)" is applying...':
     'associativity',
-  'States that for every real number a, there exists a unique number -a such that their sum is zero: a + (-a) = 0.':
+  'This axiom states that for every real number a, there exists a unique number -a such that their sum is zero: a + (-a) = 0.':
     'additive inverse axiom',
   'For every number, there is a “mirror” number that cancels it out when added. This is that specific number (it applies the inverse property).':
     'additive inverse',
@@ -141,6 +141,22 @@ const MATHTERMS = {
   'When graphed, this type of polynomial forms a parabola.':
     'quadratic polynomial',
   'What type of polynomial is x² - 5x + 6?': 'quadratic polynomial',
+  'How many terms are in the expression 5x + 3?': '2',
+  'A single number, variable, or the product of numbers and variables that acts as a building block in an algebraic expression or equation.':
+    'term',
+  '(True/False): A term can be a single number (constant), a single letter (variable), or a combination of constants and variables multiplied together.':
+    'true',
+  'How many terms are in the expression 5x² - 3x + 8?': '3',
+  'How many terms are in the expression 3 ⋅ 4?': '1',
+  'Separated by addition and subtraction signs, while multiplication and division bind numbers and variables together into a single unit.':
+    'term',
+  'How many terms are in the expression 2ab?': '1',
+  'A part of a math expression or equation, separated by addition or subtraction signs.':
+    'term',
+  'If ab = 0, then a = 0 or b = 0': 'Zero Product Property',
+  'Parallel lines have the same...': 'slope',
+  'Write slope-intercept form.': 'y = mx + b',
+  'y = mx + b': 'slope-intercept form',
 };
 
 export default MATHTERMS;
