@@ -30,7 +30,7 @@ const MATHTERMS = {
   '(b + c)a = ba + ca': 'Distributive Property',
   '1, 2, 3, 4,...': 'positive integers',
   'A whole number that can be positive, negative, or zero, and does not include any fractional or decimal parts.':
-    'integer',
+    'integers',
   'The positive integers (whole numbers) used for counting and ordering, starting from 1 and continuing infinitely (1,2,3,4,...), and sometimes including zero.':
     'natural numbers',
   'The positive integers together with zero (algebraically it seems).':
@@ -169,10 +169,13 @@ const MATHTERMS = {
   'The horizontal axis.': 'x',
   'What is the negative reciprocal of 2?': '-1/2',
   'What is the negative reciprocal of a/b?': '-b/a',
+  'What is the negative reciprocal of -2?': '1/2',
   'Slope = ': 'rise/run',
   'y = c': 'horizontal line',
   'In a horizontal line, the slope is...': '0',
+  'y = c, the slope is...': '0',
   'x = c': 'vertical line',
+  'x = c, the slope is...': 'undefined',
   'Parallel to the x-axis.': 'horizontal line',
   'Parallel to the y-axis.': 'vertical line',
   'In a vertical line, the slope is...': 'undefined',
@@ -202,6 +205,90 @@ const MATHTERMS = {
   'Vertical axis of a graph': 'y-axis',
   'Horizontal axis of a graph': 'x-axis',
   'The standard form of a linear equation.': 'Ax + By = C',
+  'A relationship that maps 1 input to 1 output.': 'function',
+  '[in a function] f(x) values or dependent variables; usually y': 'output',
+  '[in a function] an input never gives you more than 1...': 'output',
+  '[in a function] an _____ never gives you more than 1 output.': 'input',
+  '[in a function] y = f(x), the x is the input or the...':
+    'independent variable',
+  '[in a function] y = f(x), the y is the output or the...':
+    'dependent variable',
+  '(x or y?, x or y?)': '(x, y)',
+  'The complete set of all possible input values for which a function produces a valid, defined output.':
+    'domain',
+  'The complete set of all possible output values for which a function can produce after substituting every possible input (domain).':
+    'range',
+  '[True/False]: This set can represent a function {(-2,16), (-1,4), (0,3), (1,4)}':
+    'true',
+  '[True/False]: This set can represent a function {(-2,5), (3,9), (5,0), (-2,6)}':
+    'false',
+  '[True/False]: In a function, one input can put out only one output.': 'true',
+  'y = 2x² - 5x + 4: The y here is the output or the...': 'dependent variable',
+  'f(x) = 2x² - 5x + 4: The x here is the input or the...':
+    'independent variable',
+  '[True/False]: y = ±√3 - 2x is a valid function.': 'false',
+  '[True/False]: y = 2x² - 5x + 4 is a valid function.': 'true',
+  '[True/False]: y = √3 - 2x is a valid function.': 'true',
+  '[True/False]: y² = 2x² + 1 is a valid function.': 'false',
+  '[True/False]: xy + 2y = 3x - 1 is a valid function.': 'true',
+  '[True/False]: x² - 4y² = 1 is a valid function.': 'false',
+  '[True/False]: If solving an equation for 𝑦 yields more than one value of 𝑦 for a single 𝑥 (often indicated by a ± or an even power like 𝑦²), then the relation is not a function of 𝑥.':
+    'true',
+  'A set of ordered pairs.': 'relation',
+  'In an x- and y- coordinate relation, all of the x-coordinates are called the...':
+    'domain',
+  'In an x- and y- coordinate relation, all of the y-coordinates are called the...':
+    'range',
+  'A relation where there is only one y-value for each x-value.': 'function',
+  'Refers to all of the x-values (the domain) that can be substituted in the formula for x.':
+    'input',
+  'Refers to all of the y-values (the range) that result after we input the x-values and simplify.':
+    'output',
+  'A number that is a ratio that describes the tilt of a line.': 'slope',
+  'An equation whose graph is a line.': 'linear equation',
+  '[True/False]: The only linear equations that cannot be written in the form y = mx + b are vertical lines.':
+    'true',
+  'The distance a number is from zero on the number line.': 'absolute value',
+  '[True/False]: All rational numbers can be placed on a number line.': 'true',
+  '[True/False]: 0 is a rational number.': 'true',
+  'All the numbers that can be found on a number line. Can be positive or negative, decimals, and fractions.':
+    'real numbers',
+  'A number with no fractional or decimal part. Cannot be negative.':
+    'whole numbers',
+  'Whole numbers from 1 and up. Some teachers say these are all the "counting numbers."':
+    'natural numbers',
+  'Unlike natural numbers, whole numbers include...': '0',
+  'All whole numbers and their negative counterparts.': 'integers',
+  'Any number that can be written by dividing one integer by another.':
+    'rational numbers',
+  'Any number that can be written as a fraction or ratio.': 'rational numbers',
+  'A number that cannot be written as a simple fraction (because the decimal goes on forever without repeating).':
+    'irrational numbers',
+  '[True/False] π and √2 are both irrational, real numbers.': 'true',
+  'Something that is endless, unlimited, or without bounds.': 'infinity',
+  'This property states that the opposite of the opposite of a number is the number itself.':
+    'Opposites of Opposites Property',
+  'Integers you multiply together to get another integer.': 'factors',
+  'A number that has only two factors (the number itself and 1).':
+    'prime numbers',
+  'Any factors that are the same for two (or more) numbers.': 'common factors',
+  '[True/False]: Every number greater than 1 has at least two factors, because every number can be divided by 1 and itself.':
+    'true',
+  'The largest factor that two (or more) numbers share.':
+    'greatest common factor',
+  'The only even prime number.': '2',
+  '[True/False]: 0 is a prime number.': 'false',
+  '[True/False]: 0 is an even number because it is an integer divisible by 2 with no remainder.':
+    'true',
+  'The result obtained by multiplying two or more numbers, variables, or expressions together.':
+    'product',
+  'The product of a given number and any whole number (integer).': 'multiple',
+  'Any multiples that are the same for two (or more) numbers.':
+    'common multiples',
+  'The smallest multiple that two numbers can have (i.e., for 2 and 5 it is 10).':
+    'least common multiple',
+  '[True/False]: There is no such thing as a greatest common multiple (GCM) for two or more integers because multiples are unbounded and continue to infinity.':
+    'true',
 };
 
 export default MATHTERMS;
