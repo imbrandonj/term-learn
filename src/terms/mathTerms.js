@@ -153,7 +153,9 @@ const MATHTERMS = {
   'How many terms are in the expression 2ab?': '1',
   'A part of a math expression or equation, separated by addition or subtraction signs.':
     'term',
-  'If ab = 0, then a = 0 or b = 0': 'Zero Product Property',
+  'If ab = 0, then a = 0 and/or b = 0': 'Zero Product Property',
+  'If the product of two or more real numbers is zero (a ⋅ b = 0), then at least one of the factors must be zero (a = 0 or b = 0).':
+    'Zero Product Property',
   'Parallel lines have the same...': 'slope',
   'Two lines with the same slope.': 'parallel lines',
   'Perpendicular lines have slopes which are...': 'negative reciprocals',
@@ -205,7 +207,7 @@ const MATHTERMS = {
   'Vertical axis of a graph': 'y-axis',
   'Horizontal axis of a graph': 'x-axis',
   'The standard form of a linear equation.': 'Ax + By = C',
-  'A relationship that maps 1 input to 1 output.': 'function',
+  'A relation in which each input is assigned exactly one output.': 'function',
   '[in a function] f(x) values or dependent variables; usually y': 'output',
   '[in a function] an input never gives you more than 1...': 'output',
   '[in a function] an _____ never gives you more than 1 output.': 'input',
@@ -239,7 +241,8 @@ const MATHTERMS = {
     'domain',
   'In an x- and y- coordinate relation, all of the y-coordinates are called the...':
     'range',
-  'A relation where there is only one y-value for each x-value.': 'function',
+  'A relationship between a set of inputs and a set of outputs such that for every input x, there exists EXACTLY ONE output y for that x.':
+    'function',
   'Refers to all of the x-values (the domain) that can be substituted in the formula for x.':
     'input',
   'Refers to all of the y-values (the range) that result after we input the x-values and simplify.':
@@ -274,8 +277,7 @@ const MATHTERMS = {
   'Any factors that are the same for two (or more) numbers.': 'common factors',
   '[True/False]: Every number greater than 1 has at least two factors, because every number can be divided by 1 and itself.':
     'true',
-  'The largest factor that two (or more) numbers share.':
-    'greatest common factor',
+  'The largest factor that two (or more) numbers share.': 'GCF',
   'The only even prime number.': '2',
   '[True/False]: 0 is a prime number.': 'false',
   '[True/False]: 0 is an even number because it is an integer divisible by 2 with no remainder.':
@@ -289,6 +291,66 @@ const MATHTERMS = {
     'least common multiple',
   '[True/False]: There is no such thing as a greatest common multiple (GCM) for two or more integers because multiples are unbounded and continue to infinity.':
     'true',
+  GCF: 'greatest common factor',
+  'When factoring, the first thing you look for is...': 'GCF',
+  'The biggest shared factor.': 'GCF',
+  'A function which is symmetric about the y-axis.': 'even',
+  'A function which is symmetric about the origin.': 'odd',
+  'An even function is symmetric about the...': 'y-axis',
+  'An odd function is symmetric about the...': 'origin',
+  'An even function.': 'f(-x) = f(x)',
+  'An odd function.': 'f(-x) = -f(x)',
+  'A function where for every input 𝑥, the outputs for 𝑥 and -𝑥 are the same.':
+    'even',
+  'A function where for every input 𝑥, the outputs for 𝑥 and -𝑥 are opposites.':
+    'odd',
+  'f(-x) = f(x)': 'even function',
+  'f(-x) = -f(x)': 'odd function',
+  'To add and subtract fractions, you must have common...': 'denominators',
+  'f of 𝑥': 'f(x)',
+  'A function whose variable is x.': 'f(x)',
+  'An operation where the output of one function (g) becomes the input of another (f), written as (f ∘ g)(x) = f(g(x)).':
+    'function composition',
+  '[True/False]: Function composition is commutative, i.e., f(g(x)) equals g(f(x)).':
+    'false',
+  'Expands a product into a sum.': 'distribution',
+  'Compresses a sum back into a product.': 'factoring',
+  'Essentially the opposite of distribution; the inverse of, or reverse, multiplication.':
+    'factoring',
+  'For any rational function, the denominator can never be...': '0',
+  '[in a function] when the denominator equals zero, the function, at that specific point, is considered...':
+    'undefined',
+  'Represents a set of real numbers using endpoints and parentheses/brackets.':
+    'interval notation',
+  'Means "combine all elements from both sets".': 'union',
+  'What notation is: (−∞, −2) ∪ (1, 5]': 'interval notation',
+  'Describes a set by stating a rule or condition that elements must satisfy.':
+    'set-builder notation',
+  'What notation is: { x ∣ x < −2 or 1 < x ≤5 }': 'set-builder notation',
+  'What notation is: { x ∣ condition A OR condition B }':
+    'set-builder notation',
+  'What notation is: A ∪ B': 'interval notation',
+  'Symbolic for logical OR, i.e., condition a OR condition b.': 'union',
+  'Symbolic for logical AND, i.e., condition a AND condition b.':
+    'intersection',
+  'for x₁ < x₂, f(x₁) < f(x₂)': 'increasing',
+  'for x₁ < x₂, f(x₁) > f(x₂)': 'decreasing',
+  'The highest output on a graph.': 'absolute maximum',
+  'The lowest output on a graph.': 'absolute minimum',
+  'The maximum (highest) and minimum (lowest) values of a function, either within a specific interval (local/relative) or across its entire domain (absolute/global).':
+    'extrema',
+  'a ≤ x ≤ b; includes endpoints': 'closed interval',
+  'a < x < b; exludes endpoints': 'open interval',
+  'A relative maximum.': 'local maximum',
+  'A relative minimum.': 'local minimum',
+  'A point (c, f(c)) where f(c) ≥ f(x) for all x in an open interval around c.':
+    'local maximum',
+  'A point (c, f(c)) where f(c) ≤ f(x) for all x in an open interval around c.':
+    'local minimum',
+  '[True/False]: Local maxima/minima are defined using an open interval (a neighborhood) around the point, not closed intervals.':
+    'true',
+  'If 𝑓 is continuous on a closed interval [a, b], then 𝑓 attains both an absolute maximum and an absolute minimum on [a, b].':
+    'Extreme Value Theorem',
 };
 
 export default MATHTERMS;
