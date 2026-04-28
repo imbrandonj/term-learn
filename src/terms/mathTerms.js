@@ -165,6 +165,8 @@ const MATHTERMS = {
   'y = mx + b': 'slope-intercept form',
   'y = mx + b ... what does the m represent?': 'slope',
   'y = mx + b ... what does the b represent?': 'y-intercept',
+  'y = 3x + 4 ... what is the y-intercept?': '4',
+  'y = 3x + 4 ... what is the slope?': '3',
   'The dependent variable.': 'y',
   'The independent variable.': 'x',
   'The vertical axis.': 'y',
@@ -263,17 +265,17 @@ const MATHTERMS = {
   'Unlike natural numbers, whole numbers include...': '0',
   'All whole numbers and their negative counterparts.': 'integers',
   'Any number that can be written by dividing one integer by another.':
-    'rational numbers',
-  'Any number that can be written as a fraction or ratio.': 'rational numbers',
+    'rational number',
+  'Any number that can be written as a fraction or ratio.': 'rational number',
   'A number that cannot be written as a simple fraction (because the decimal goes on forever without repeating).':
-    'irrational numbers',
+    'irrational number',
   '[True/False] π and √2 are both irrational, real numbers.': 'true',
   'Something that is endless, unlimited, or without bounds.': 'infinity',
   'This property states that the opposite of the opposite of a number is the number itself.':
     'Opposites of Opposites Property',
   'Integers you multiply together to get another integer.': 'factors',
   'A number that has only two factors (the number itself and 1).':
-    'prime numbers',
+    'prime number',
   'Any factors that are the same for two (or more) numbers.': 'common factors',
   '[True/False]: Every number greater than 1 has at least two factors, because every number can be divided by 1 and itself.':
     'true',
@@ -285,8 +287,7 @@ const MATHTERMS = {
   'The result obtained by multiplying two or more numbers, variables, or expressions together.':
     'product',
   'The product of a given number and any whole number (integer).': 'multiple',
-  'Any multiples that are the same for two (or more) numbers.':
-    'common multiples',
+  'Any multiple that is the same for two (or more) numbers.': 'common multiple',
   'The smallest multiple that two numbers can have (i.e., for 2 and 5 it is 10).':
     'least common multiple',
   '[True/False]: There is no such thing as a greatest common multiple (GCM) for two or more integers because multiples are unbounded and continue to infinity.':
@@ -351,6 +352,118 @@ const MATHTERMS = {
     'true',
   'If 𝑓 is continuous on a closed interval [a, b], then 𝑓 attains both an absolute maximum and an absolute minimum on [a, b].':
     'Extreme Value Theorem',
+  'f(x) = 1 / x - 2 ... the function is valid everywhere except x =': '2',
+  'Something only becomes a non-function if one input gives multiple...':
+    'outputs',
+  '[True/False] A square root such as √3 - 2x has domain restrictions, which makes it a non-function.':
+    'false',
+  'A parabola is an even function if and only if its vertex lies on the line...':
+    'x = 0',
+  'For an even parabola, the vertex is the...': 'y-intercept',
+  '[of a graph] The northeast quadrant.': 'Quadrant I',
+  '[of a graph] The southeast quadrant.': 'Quadrant IV',
+  '[of a graph] The southwest quadrant.': 'Quadrant III',
+  '[of a graph] The northwest quadrant.': 'Quadrant II',
+  '[of a graph] Which quadrant does (4, 2) lie on?': 'Quadrant I',
+  '[of a graph] Which quadrant does (4, -2) lie on?': 'Quadrant IV',
+  '[of a graph] Which quadrant does (-4, -2) lie on?': 'Quadrant III',
+  '[of a graph] Which quadrant does (-4, 2) lie on?': 'Quadrant II',
+  'A parabola has exactly one extremum, and that point is its...': 'vertex',
+  'The point where the parabola turns (minimum or maximum of the quadratic form).':
+    'vertex',
+  'A fixed point that helps define the parabola geometrically.': 'focus',
+  'The set of all points in a plane that are equidistant from a fixed point (called the focus) and a fixed line (called the directrix).':
+    'parabola',
+  '[True/False]: Over real numbers, every quadratic function graphs as a parabola.':
+    'true',
+  'A function of the form f(x) = ax² + bx + c, where a ≠ 0, whose graph is a parabola.':
+    'quadratic function',
+  'A function defined by multiple sub-functions, which each sub-function applying to a specific part of the main domain.':
+    'piecewise function',
+  'A single function whose rule changes depending on the input value, with each rule governing a specific region of the domain.':
+    'piecewise function',
+  'A function defined by multiple expressions, each applied to a specific interval or subset of the domain, so that exactly one expression determines the output for any given input.':
+    'piecewise function',
+  'Has position only. It has no length, width, or thickness.': 'point',
+  'Has length but has no width or thickness.': 'line',
+  'A portion a straight line beginning at a given point, called the endpoint, and extends infinitely in one direction.':
+    'ray',
+  'Has length and width, but no thickness.': 'surface',
+  'A flat surface such that a straight line connecting any two of its points lies entirely in it.':
+    'plane',
+  '[True or False]: A surface can be flat (like a plane) or curved (like a sphere or cylinder).':
+    'true',
+  'The part of a straight line between two of its points, including the two points, called endpoints.':
+    'line segment',
+  'The two points of a line segment.': 'endpoints',
+  'The point of division of a line segment in which the segment is divided into two equal parts.':
+    'midpoint',
+  'A line that crosses at the midpoint of a line segment.': 'bisector',
+  'A line that intersects at the midpoint of a line segment and forms a right angle (90°).':
+    'perpendicular bisector',
+  'The distance around a circle.': 'circumference',
+  'The perimeter of a circle.': 'circumference',
+  'The total boundary length of any closed 2D shape.': 'perimeter',
+  'A segment joining the center of a circle to a point on the circle.':
+    'radius',
+  'A segment joining any two points on a circle.': 'chord',
+  'A chord through the center of the circle; it is the longest chord and twice the length of the radius.':
+    'diameter',
+  'A continuous part of a circle.': 'arc',
+  'An arc measuring one-half of the circumference of a circle and thus contains 180°.':
+    'semicircle',
+  'An angle formed by two radii.': 'central angle',
+  'Circles having congruent radii.': 'congruent circles',
+  'Two line segments having the same length are said to be...': 'congruent',
+  'If three points a, b, and c lie on a line, they are said to be...':
+    'collinear',
+  'A figure formed by two rays with a common endpoint (the vertex).': 'angle',
+  'The common endpoint of the two rays that form an angle.': 'vertex',
+  'The sides of an angle.': 'rays',
+  'An angle whose measure is less than 90°.': 'acute angle',
+  'An angle that measures 90°.': 'right angle',
+  'An angle whose measure is more than 90° and less than 180°.': 'obtuse angle',
+  'An angle that measures 180°.': 'straight angle',
+  'An angle whose measure is more than 180° and less than 360°.':
+    'reflex angle',
+  'Angles that have the same number of degrees.': 'congruent angles',
+  'A ray, line, or segment that divides an angle into two equal (congruent) smaller angles.':
+    'angle bisector',
+  'Lines or rays or segments that meet at right angles.': 'perpendiculars',
+  'A polygon having 5 sides.': 'pentagon',
+  'A closed plane figure bounded by straight line segments as sides.':
+    'polygon',
+  'A polygon having 4 sides.': 'quadrilateral',
+  'A polygon having 3 sides.': 'triangle',
+  'How many vertices does a triangle have?': '3',
+  'A point where two edges (sides) of a polygon meet.': 'vertex',
+  'A triangle having no congruent sides.': 'scalene triangle',
+  'A triangle having at least two congruent sides.': 'isosceles triangle',
+  'A triangle having three congruent sides.': 'equilateral triangle',
+  'A triangle having exactly one interior angle of 90°.': 'right triangle',
+  'A triangle having exactly one interior angle greater than 90°.':
+    'obtuse triangle',
+  'A triangle having three interior angles each less than 90°.':
+    'acute triangle',
+  'In Euclidean geometry, the interior angles of a triangle always sum to...':
+    '180',
+  'A segment from a vertex of a triangle to the midpoint of the opposite side.':
+    'median',
+  'Two angles that have the same vertex and a common side between them.':
+    'adjacent angles',
+  'Two nonadjacent angles formed by two intersecting lines.': 'vertical angles',
+  'Two angles whose measures total 90°.': 'complementary angles',
+  'Two angles whose measures total 180°.': 'supplementary angles',
+  'If two complementary angles contain a° and b°, then a° + b° =': '90',
+  'Adjacent angles are complementary if their exterior sides are...':
+    'perpendicular',
+  'If two supplementary angles contain a° and b°, then a° + b° =': '180',
+  'Adjacent angles are supplementary if their exterior sides lie in the same...':
+    'straight line',
+  'If supplementary angles are congruent, each of them is a...': 'right angle',
+  'Equal supplementary angles are...': 'right angles',
+  'A pair of figures or polygons which have the same size and shape (exact duplicates) are said to be...':
+    'congruent',
 };
 
 export default MATHTERMS;
