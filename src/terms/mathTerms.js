@@ -29,7 +29,7 @@ const MATHTERMS = {
   'a(b + c) = ab + ac': 'Distributive Property',
   '(b + c)a = ba + ca': 'Distributive Property',
   '1, 2, 3, 4,...': 'positive integers',
-  'A whole number that can be positive, negative, or zero, and does not include any fractional or decimal parts.':
+  'A number that can be positive, negative, or zero, and does not include any fractional or decimal parts.':
     'integers',
   'The positive integers (whole numbers) used for counting and ordering, starting from 1 and continuing infinitely (1,2,3,4,...), and sometimes including zero.':
     'natural numbers',
@@ -380,7 +380,7 @@ const MATHTERMS = {
     'quadratic function',
   'A function defined by multiple sub-functions, which each sub-function applying to a specific part of the main domain.':
     'piecewise function',
-  'A single function whose rule changes depending on the input value, with each rule governing a specific region of the domain.':
+  'A single function whose rules change depending on the input value, with each rule governing a specific region of the domain.':
     'piecewise function',
   'A function defined by multiple expressions, each applied to a specific interval or subset of the domain, so that exactly one expression determines the output for any given input.':
     'piecewise function',
@@ -415,6 +415,7 @@ const MATHTERMS = {
   'An angle formed by two radii.': 'central angle',
   'Circles having congruent radii.': 'congruent circles',
   'Two line segments having the same length are said to be...': 'congruent',
+  'Objects that have the same size and shape.': 'congruent',
   'If three points a, b, and c lie on a line, they are said to be...':
     'collinear',
   'A figure formed by two rays with a common endpoint (the vertex).': 'angle',
@@ -438,8 +439,12 @@ const MATHTERMS = {
   'How many vertices does a triangle have?': '3',
   'A point where two edges (sides) of a polygon meet.': 'vertex',
   'A triangle having no congruent sides.': 'scalene triangle',
+  'A triangle having no equal sides and no equal angles.': 'scalene triangle',
   'A triangle having at least two congruent sides.': 'isosceles triangle',
+  'A triangle with 2 equal sides and 2 equal angles.': 'isosceles triangle',
   'A triangle having three congruent sides.': 'equilateral triangle',
+  '[True/False]: An equilateral triangle is an isosceles triangle.': 'true',
+  'All angles of an equilateral triangle have a degree of...': '60',
   'A triangle having exactly one interior angle of 90°.': 'right triangle',
   'A triangle having exactly one interior angle greater than 90°.':
     'obtuse triangle',
@@ -464,6 +469,51 @@ const MATHTERMS = {
   'Equal supplementary angles are...': 'right angles',
   'A pair of figures or polygons which have the same size and shape (exact duplicates) are said to be...':
     'congruent',
+  'To qualify as a polygon, at least how many straight sides must it have?':
+    '3',
+  'The smallest possible polygon.': 'triangle',
+  '[True/False]: All quadrilaterals are polygons.': 'true',
+  '[True/False]: A circle is a polygon.': 'false',
+  '[True/False]: To qualify as a polygon, all sides must be straight line segments.':
+    'true',
+  'A line with only one endpoint.': 'ray',
+  'Lines that are always the same distance apart and that never intersect.':
+    'parallel lines',
+  'Two lines that intersect to form a 90° angle.': 'perpendicular lines',
+  'A part of a line that has two endpoints.': 'line segment',
+  'A straight line that continues forever in both directions.': 'line',
+  'Angles formed by two intersecting lines that are opposite each other; they have equal measures.':
+    'vertical angles',
+  'A shape whose opposite sides are parallel and equal in length.':
+    'parallelogram',
+  'A parallelogram where all four vertices form right angles.': 'rectangle',
+  'A parallelogram where all sides are equal in length.': 'rhombus',
+  'A parallelogram where all sides are equal in length and all vertices form right angles.':
+    'square',
+  'A shape which has exactly two parallel sides, which are called base₁ and base₂. The sides do not have to be equal in length.':
+    'trapezoid',
+  'The distance around a two-dimensional object.': 'perimeter',
+  'The size of a surface or the amount of space inside a two-dimensional object.':
+    'area',
+  '[True/False]: A square is a rhombus.': 'true',
+  'The formula to calculate the area of a triangle.': '1/2bh',
+  'The formula to calculate the area of a parallelogram.': 'bh',
+  'A shape made up of two or more other shapes.': 'compound shape',
+  'The longest side of a right-angled triangle, which is always the side opposite the right angle.':
+    'hypotenuse',
+  'a² + b² = c²': 'Pythagorean Theorem',
+  'πd (of a circle)': 'circumference',
+  '2πr (of a circle)': 'circumference',
+  'Write the formula to calculate the circumference of a circle using the diameter.':
+    'pi d',
+  'Write the formula to calculate the circumference of a circle using the radius.':
+    '2 pi r',
+  'circumference / diameter (of a circle)': 'pi',
+  '2r (of a circle)': 'diameter',
+  'The fraction approximation of π': '22/7',
+  'A line segment whose endpoints are on the circle.': 'chord',
+  'πr² (of a circle)': 'area',
+  'Write the formula to calculate the area of a circle.': 'pi r^2',
 };
 
 export default MATHTERMS;
