@@ -6,7 +6,9 @@ const D665 = {
     'cramming',
   'A part of the limbic system involved in memory, learning, and emotion.':
     'hippocampus',
-  'Area of the brain which plays a crucial role in decision-making, impulse control, and emotional regulation.':
+  'Area of the brain which plays a crucial role in decision-making, impulse control, and emotional regulation. Frontal part of the cerebrum.':
+    'prefrontal cortex',
+  'Part of the brain which enables planning, decision-making, personality expression, emotional regulation, and moderating social behavior, largely by organizing cognitive processes to achieve goals.':
     'prefrontal cortex',
   'Fundamental concepts for understanding brain function, such as sensory input, working memory, and long-term memory.':
     'informational processing theory',
@@ -19,8 +21,6 @@ const D665 = {
   'Practices informed by evidence from studies conducted in educational research and learning science.':
     'evidence-based practices',
   'Deep in the brain, it is like an emotional control center helping handle feelings like happiness, fear, and sadness.':
-    'limbic system',
-  'The set of mental skills that help individuals plan, focus their attention, and remember instructions successfully.':
     'limbic system',
   'Composed of the amygdala, hippocampus, hypothalamus, thalamus, cingulate gyrus, and basal ganglia.':
     'limbic system',
@@ -83,12 +83,12 @@ const D665 = {
     'retention',
   'Cognitive frameworks that help people organize and interpret information.':
     'mental schemas',
-  'Adolescents between the ages of 12-17 engage in the exploration and formation of personal identity, including values, beliefs, and aspirations.':
-    'identity vs role confusion stage',
+  '[Piaget stage] Adolescents between the ages of 12-17 engage in the exploration and formation of personal identity, including values, beliefs, and aspirations.':
+    'identity vs role confusion',
   'Illustrates how associations between stimuli can lead to learned responses.':
     'classical conditioning',
-  'Children between ages 3 and 6 display increased assertiveness by taking the lead in play and engaging in social interactions more actively.':
-    'initiative vs guilt stage',
+  '[Piaget stage] Children between ages 3 and 6 display increased assertiveness by taking the lead in play and engaging in social interactions more actively.':
+    'initiative vs guilt',
   'The interplay between individual cognition and social factors in shaping learning; complements the emphasis on social interaction by highlighting the role of observational learning and modeling in knowledge acquisition.':
     'social constructivism',
   'Learning by exploring and independently resolving challenges, using curiosity and problem-solving skills to discover new ideas and concepts.':
@@ -100,8 +100,8 @@ const D665 = {
     'direct instruction',
   'A framework that categorizes educational objectives into six levels of cognitive complexity: remembering, understanding, applying, analyzing, evaluating, and creating.':
     "Bloom's revised taxonomy",
-  'Children between the ages of 2 and 7 years old think symbolically, using symbols to represent words, objects, images, individuals, and concepts, enabling the capacity to mimic behavior through imitation.':
-    'preoperational stage',
+  '[Piaget stage] Children between the ages of 2 and 7 years old think symbolically, using symbols to represent words, objects, images, individuals, and concepts, enabling the capacity to mimic behavior through imitation.':
+    'preoperational',
   'Decreases the likelihood of a behavior reoccurring.': 'punishment',
   'Conceptual frameworks that explain how individuals acquire knowledge, develop skills, and change behaviors over time.':
     'learning theories',
@@ -109,20 +109,22 @@ const D665 = {
     'operant conditioning',
   'Seeks to understand the internal processes involved in learning, such as perception, memory, problem-solving, and decision-making.':
     'cognitivism',
-  'Infants (0-2 years old) explore through senses and actions, developing an understanding of object permanence and laying cognitive foundations.':
-    'sensorimotor stage',
+  '[Piaget stage] Infants (0-2 years old) explore through senses and actions, developing an understanding of object permanence and laying cognitive foundations.':
+    'sensorimotor',
   'A key component of cognitivism that focuses on understanding the mental processes involved in learning and cognition.':
     'information processing theory',
   'Taking control of learning, setting goals, finding resources, and solving problems independently.':
     'self-directed learning',
-  'Children between the ages of 5 and 12 develop a growing sense of competence and accomplishment as they develop a greater understanding of their capabilities and limitations.':
-    'industry vs inferiority stage',
+  '[Erickson stage] Children between the ages of 5 and 12 develop a growing sense of competence and accomplishment as they develop a greater understanding of their capabilities and limitations.':
+    'industry vs inferiority',
   'To mentally undo actions or operations; allows individuals to understand that certain processes can be reversed to return to their original state.':
+    'reversibility',
+  'Refers to the understanding that changes in one direction can be undone, returning to the original stage.':
     'reversibility',
   'Sheds light on how external stimuli shape behavior, emphasizing the focus on observable behaviors rather than internal mental processes.':
     'behaviorism',
-  'Infants learn to rely on caregivers for their basic needs, fostering trust while inconsistency in meeting these needs can lead to mistrust, suspicion, and anxiety about their environment.':
-    'trust vs mistrust stage',
+  '[Erickson stage] Infants learn to rely on caregivers for their basic needs, fostering trust while inconsistency in meeting these needs can lead to mistrust, suspicion, and anxiety about their environment.':
+    'trust vs mistrust',
   'A prominent theory in education combining cognitive and social elements emphasizing active learning, student-centered instruction, and the construction of knowledge through personal experiences and interactions.':
     'constructivism',
   'Involves activities that engage the senses: touch, sight, hearing, smell and taste, helping children explore and understand the world around them.':
@@ -131,8 +133,8 @@ const D665 = {
     'egocentric',
   'The understanding that something still exists even though it cannot be seen or heard.':
     'object permanence',
-  "The shame and doubt stage involved in a child's journey toward independence and decision-making.":
-    'autonomy vs shame/doubt stage',
+  "[Erickson stage] The shame and doubt stage involved in a child's journey toward independence and decision-making.":
+    'autonomy vs shame/doubt',
   'Increases the likelihood of a behavior being repeated.': 'reinforcement',
   'The opposite of punishment.': 'reinforcement',
   'The opposite of reinforcement.': 'punishment',
@@ -140,10 +142,14 @@ const D665 = {
     'fine motor skills',
   'Understanding that certain physical attributes of objects, such as quantity, mass, volume, and number, remain constant even when their appearance or arrangement changes.':
     'conservation',
+  "A concept of Piaget's theory of cognitive development pertaining to the ability to understand that certain properties of objects remain the same despite changes in their appearance.":
+    'conservation',
   'When the teacher breaks down complex concepts into small, more manageable steps.':
     'scaffolding',
-  'In adolescents between ages 12 and 17; thinking becomes more abstract, complex, and systematic.':
-    'formal operational stage',
+  'Breaking down complex concepts into small, more manageable steps.':
+    'scaffolding',
+  '[Piaget stage] In adolescents between ages 12 and 17; thinking becomes more abstract, complex, and systematic.':
+    'formal operational',
   MKO: 'more knowledgeable other',
   'The teacher of a peer; a person who possesses more knowledge or expertise than the learner and provides assistance and guidance within the ZPD.':
     'more knowledgeable other',
@@ -151,8 +157,8 @@ const D665 = {
     'classification',
   'Typically occurs between ages 12 and 17; changes such as the development of secondary sexual characteristics, growth spurts, and alterations in body composition.':
     'puberty',
-  'In children between ages 7 and 11; thinking becomes more logical, organized, and systematic.':
-    'concrete operational stage',
+  '[Piaget stage] In children between ages 7 and 11; thinking becomes more logical, organized, and systematic.':
+    'concrete operational',
   'The addition of details.': 'elaboration',
   'Deals with observable behaviors and uses reinforcement and punishment.':
     'behaviorism',
@@ -183,6 +189,34 @@ const D665 = {
   'A Blooms Taxonomy Question': 'do it',
   '[True/False]: Hands-on active projects is an example of constructivism.':
     'true',
+  'Vygotsky Theory of development': 'do it',
+  'Creating a safe and loving environment to explore is a strategy for which Erikson stage of development?':
+    'trust vs mistrust',
+  'Offering opportunities to make choices during activities is a strategy for which Erikson stage of development?':
+    'autonomy vs shame/doubt',
+  'Providing opportunities to make choices and lead activities is a day-to-day teaching strategy for which Erikson stage of development?':
+    'initiative vs guilt',
+  'Offering  constructive criticism is a day-to-day teaching strategy for which Erickson stage of development?':
+    'industry vs inferiority',
+  'Encouraging open discussions about interests and aspirations is a day-to-day teaching strategy for which Erikson stage of development?':
+    'identity vs role confusion',
+  '[Piaget stage] Ages: Birth - 2': 'sensorimotor',
+  '[Piaget stage] Ages: 2 - 7': 'preoperational',
+  '[Piaget stage] Ages: 7 - 11': 'concrete operational',
+  '[Piaget stage] Ages: 12+': 'formal operational',
+  '[Erikson stage] Ages: Birth - 1': 'trust vs mistrust',
+  '[Erikson stage] Ages: 1 - 3': 'autonomy vs shame/doubt',
+  '[Erikson stage] Ages: 3 - 6': 'initiative vs guilt',
+  '[Erikson stage] Ages: 6 - 12': 'industry vs inferiority',
+  '[Erikson stage] Ages: 12 - 19': 'identity vs role confusion',
+  '[True/False]: Object permanence refers to the tendency to perceive objects as having stable, unchanging properties over time.':
+    'false',
+  "A teacher has been focusing on using imaginative play to help students understand complicated concepts and develop emotionally. Which stage of Piaget's cognitive development theory does this relate to?":
+    'preoperational',
+  "A teacher often encourages imaginative play and creativity to facilitate emotional development. Which stage of Piaget's cognitive development theory does this relate to?":
+    'preoperational',
+  "A teacher has consistently made an effort to give students chances to explore their interests and values through self-reflection. Which stage of Piaget's cognitive development theory does this relate to?":
+    'formal operational',
 };
 
 export default D665;
