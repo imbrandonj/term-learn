@@ -100,6 +100,7 @@ const MATHTERMS = {
   '(True/False): A quadratic equation or function can have an exponent degree of 3 or higher.':
     'false',
   'An equality of two fractions.': 'proportion',
+  'An equality of two ratios.': 'proportion',
   'An equation stating that two ratios or fractions are equal.': 'proportion',
   'The cross-products of a proportion are...': 'equal',
   'Similar triangles have corresponding sides which are...': 'proportional',
@@ -452,6 +453,7 @@ const MATHTERMS = {
     'acute triangle',
   'In Euclidean geometry, the interior angles of a triangle always sum to...':
     '180',
+  'Triangle angle sum.': '180',
   'A segment from a vertex of a triangle to the midpoint of the opposite side.':
     'median',
   'Two angles that have the same vertex and a common side between them.':
@@ -492,10 +494,32 @@ const MATHTERMS = {
     'square',
   'A shape which has exactly two parallel sides, which are called base₁ and base₂. The sides do not have to be equal in length.':
     'trapezoid',
+  'A quadrilateral having two, and only two, parallel sides.': 'trapezoid',
+  'A trapezoid whose legs are congruent.': 'isosceles trapezoid',
+  '[True/False]: A trapezoid can have 4 parallel sides - the base and the legs.':
+    'false',
+  'The parallel sides of a trapezoid.': 'base',
+  'The nonparallel sides of a trapezoid (which can be congruent, but never parallel).':
+    'legs',
+  'If the base angles of a trapezoid are congruent, the trapezoid is...':
+    'isosceles',
+  'A quadrilateral is a parallelogram if its opposite sides are congruent and...':
+    'parallel',
+  'A quadrilateral is a parallelogram if its opposite sides are parallel and...':
+    'congruent',
+  'A quadrilateral is a parallelogram if its opposite angles are...':
+    'congruent',
+  'A rectangle, rhombus, or square has all the properties of a...':
+    'parallelogram',
+  'Each angle of a rectangle is a...': 'right angle',
+  'A diagonal of a parallelogram divides it into two congruent...': 'triangles',
+  'The consecutive angles of a parallelogram are...': 'supplementary',
   'The distance around a two-dimensional object.': 'perimeter',
   'The size of a surface or the amount of space inside a two-dimensional object.':
     'area',
   '[True/False]: A square is a rhombus.': 'true',
+  'area = ½bh': 'triangle',
+  'area = b ⋅ h': 'parallelogram',
   'The formula to calculate the area of a triangle.': '1/2bh',
   'The formula to calculate the area of a parallelogram.': 'bh',
   'A shape made up of two or more other shapes.': 'compound shape',
@@ -508,12 +532,16 @@ const MATHTERMS = {
     'pi d',
   'Write the formula to calculate the circumference of a circle using the radius.':
     '2 pi r',
+  'Write the formula to calculate the diameter of a circle using the circumference.':
+    'c / pi',
   'circumference / diameter (of a circle)': 'pi',
   '2r (of a circle)': 'diameter',
   'The fraction approximation of π': '22/7',
   'A line segment whose endpoints are on the circle.': 'chord',
   'πr² (of a circle)': 'area',
   'Write the formula to calculate the area of a circle.': 'pi r^2',
+  '[True/False]: 1ft² = 12in²': 'false',
+  '[True/False]: 1ft² = 144in²': 'true',
 };
 
 export default MATHTERMS;

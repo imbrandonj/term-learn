@@ -1,6 +1,10 @@
 const D665 = {
   'The process of accessing stored information when needed.': 'retrieval',
-  'Strategically spacing out study sessions over time leads to more robust learning outcomes.':
+  '[Learning Strategy] Strategically spacing out study sessions over time leads to more robust learning outcomes.':
+    'spacing',
+  '[Learning Strategy] Rather than studying for six hours the night before a test, students might study for one hour each day over six days.':
+    'spacing',
+  '[Learning Strategy] Spacing out study sessions over time rather than cramming all at once, which promotes better retention and understanding.':
     'spacing',
   'The practice of studying intensively in a short period before an exam.':
     'cramming',
@@ -12,11 +16,15 @@ const D665 = {
     'prefrontal cortex',
   'Fundamental concepts for understanding brain function, such as sensory input, working memory, and long-term memory.':
     'informational processing theory',
-  'Part of the brain that connects to the spinal cord.': 'brain stem',
+  'Part of the brain that connects to the spinal cord.': 'brainstem',
   'Area of the brain which oversees important jobs like keeping the heart beating regularly, controlling breathing, managing blood flow, and controlling automatic actions like sneezing and swallowing.':
-    'brain stem',
+    'brainstem',
   'Involves retaining encoded information over time.': 'storage',
+  'Involves retaining this encoded information over time, while retrieval is the process of getting stored information when needed.':
+    'storage',
   'Introducing challenges or obstacles during learning to cultivate resilience and enhance overall learning.':
+    'desirable difficulty',
+  'Refers to introducing challenges or obstacles during learning that are neither too easy nor too difficult but just right for learning.':
     'desirable difficulty',
   'Practices informed by evidence from studies conducted in educational research and learning science.':
     'evidence-based practices',
@@ -25,6 +33,8 @@ const D665 = {
   'Composed of the amygdala, hippocampus, hypothalamus, thalamus, cingulate gyrus, and basal ganglia.':
     'limbic system',
   'Provides information about performance, guiding future actions to refine learning strategies.':
+    'feedback',
+  'Plays a vital role in refining our learning strategies by providing information about our performance, guiding future actions.':
     'feedback',
   'When a person sees abilities as unchangeable.': 'fixed mindset',
   'The front part of the brain responsible for controlling movement, body temperature, and thinking skills like speaking, problem-solving, and decision making; it also handles sensory tasks like seeing, hearing, and feeling touch.':
@@ -39,9 +49,15 @@ const D665 = {
     'distributed practice',
   'Tiny cells in the brain that work together like an extensive communication network.':
     'neurons',
-  'Enhances long-term retention by actively recalling information from memory.':
+  '[Learning Strategy] Enhances long-term retention by actively recalling information from memory.':
+    'retrieval practice',
+  '[Learning Strategy] Instead of just re-reading notes, students practice recalling information without looking at their materials.':
+    'retrieval practice',
+  '[Learning Strategy] Actively recalling information from memory, such as answering questions or completing quizzes, which strengthens long-term retention.':
     'retrieval practice',
   "The awareness and understanding of one's thinking process to monitor and regulate learning.":
+    'metacognition',
+  "Involves awareness and understanding of one's thinking processes, enabling learners to monitor and regulate their learning effectively.":
     'metacognition',
   "The brain's ability to reorganize and adapt in response to experiences.":
     'neuroplasticity',
@@ -53,6 +69,8 @@ const D665 = {
     'differentiated instruction',
   'The initial processing of information, converting sensory input into a form that the brain can store and use.':
     'encoding',
+  'Refers to the initial processing of information, where sensory input is transformed into a form that the brain can store and use.':
+    'encoding',
   'Connection between the body, mind, and environment.':
     'embodied mind perspective',
   'The study of the brain and nervous system.': 'neuroscience',
@@ -63,9 +81,17 @@ const D665 = {
   "Engages different senses to deepen students' learning experiences.":
     'multisensory learning',
   'The human mind is essentially empty at birth.': 'tabula rasa',
-  'Monitor and regulate learning processes to foster greater self-awareness and learning autonomy.':
-    'feedback-driven metacognition',
-  'Mixing different topics or skills within a single study session promotes deeper understanding and transfer of knowledge.':
+  "[Learning Strategy] Using feedback from assessments and evaluations to reflect on and regulate one's own learning strategies and understanding.":
+    'feedback driven metacognition',
+  '[Learning Strategy] After receiving feedback on an essay, a student reflects on areas for improvement and adjusts their writing strategies accordingly.':
+    'feedback driven metacognition',
+  '[Learning Strategy] Monitor and regulate learning processes to foster greater self-awareness and learning autonomy.':
+    'feedback driven metacognition',
+  '[Learning Strategy] Mixing different topics or skills within a single study session promotes deeper understanding and transfer of knowledge.':
+    'interleaving',
+  '[Learning Strategy] Mixing up different types of problems or topics during study sessions, which enhances learning by promoting deeper understanding and transfer of knowledge.':
+    'interleaving',
+  '[Learning Strategy] Instead of practicing one type of math problem at a time, students might practice a mix of addition, subtraction, multiplication, and division problems.':
     'interleaving',
   'Investigates how people learn, encompassing psychology, neuroscience, education, and computer science to understand the cognitive processes, behaviors, and environments that facilitate learning and knowledge acquisition.':
     'learning science',
@@ -227,6 +253,40 @@ const D665 = {
     'identity vs role confusion',
   "Erikson's theory": 'Psychosocial Development Theory',
   "Piaget's theory": 'Cognitive Development Theory',
+  'The largest part of the brain — is responsible for higher cognitive functions like thinking, reasoning, and problem-solving.':
+    'cerebrum',
+  'Within the cerebrum, plays a crucial role in decision-making, impulse control, and emotional regulation.':
+    'prefrontal cortex',
+  'As students progress through elementary, middle, and high school, the _______ ______ continues to mature, influencing their ability to plan, organize, and prioritize tasks, impacting their academic performance and social interactions.':
+    'prefrontal cortex',
+  'This part of the brain allows us to process complex information, learn new skills, and engage in higher-level thinking, all of which are essential for academic success.':
+    'cerebrum',
+  'This part of the brain plays a vital role in learning. It helps us perform physical tasks, such as writing, typing, or playing sports, which are often integral to educational activities.':
+    'cerebellum',
+  'This part of the brain helps us process emotions, form memories, and make decisions based on past experiences.':
+    'limbic system',
+  'This part of the brain regulates essential body functions like breathing, heart rate, and digesting food.':
+    'brainstem',
+  'This part of the brain is responsible for motor control, balance, and coordination.':
+    'cerebellum',
+  'Impulse control, emotional regulation, organizing and prioritizing tasks — think this part of the brain.':
+    'prefrontal cortex',
+  'Problem-solving, processing information, learning new skills, reasoning and higher-level thinking — think this part of the brain.':
+    'cerebrum',
+  'Regulation of essential body functions — think this part of the brain.':
+    'brainstem',
+  'Processing emotions, memory formation, and decision-making — think this part of the brain.':
+    'limbic system',
+  'Balance, coordination, and motor control — think this part of the brain.':
+    'cerebellum',
+  'From ages 11-14, this part of the brain is stronger than the developing prefrontal cortex, causing mood swings and impulsive actions.':
+    'limbic system',
+  '[True/False]: Cognition encompasses processes such as memory, perception, reasoning, problem-solving, and decision-making.':
+    'true',
+  '[True/False]: The prefrontal cortex is responsible for balance, coordination, and motor control.':
+    'false',
+  'Primarily used for mapping brain activity by measuring changes in blood flow and oxygenation levels associated with neuronal activity.':
+    'fMRI',
 };
 
 export default D665;
