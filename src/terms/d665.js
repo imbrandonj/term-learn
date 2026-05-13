@@ -49,7 +49,7 @@ const D665 = {
     'neuroplasticity',
   "Nurturing students' overall well-being, self-esteem, and sense of belonging.":
     'humanism',
-  'Recognizes that ever student is unique and tailors teaching to individual needs, interests, and readiness levels.':
+  'Recognizes that every student is unique and tailors teaching to individual needs, interests, and readiness levels.':
     'differentiated instruction',
   'The initial processing of information, converting sensory input into a form that the brain can store and use.':
     'encoding',
@@ -217,6 +217,16 @@ const D665 = {
     'preoperational',
   "A teacher has consistently made an effort to give students chances to explore their interests and values through self-reflection. Which stage of Piaget's cognitive development theory does this relate to?":
     'formal operational',
+  'List the Piaget stages of cognitive development in order.':
+    'sensorimotor, preoperational, concrete operational, formal operational',
+  'List the Erikson stages of psychosocial development in order.':
+    'trust vs mistrust, autonomty vs shame/doubt, initiative vs guilt, industry vs inferiority, identity vs role confusion',
+  "The final stage in Piaget's stages of cognitive development.":
+    'formal operational',
+  "The final stage in Erikson's stages of psychosocial development.":
+    'identity vs role confusion',
+  "Erikson's theory": 'Psychosocial Development Theory',
+  "Piaget's theory": 'Cognitive Development Theory',
 };
 
 export default D665;
