@@ -14,7 +14,7 @@ const D665 = {
     'prefrontal cortex',
   'Part of the brain which enables planning, decision-making, personality expression, emotional regulation, and moderating social behavior, largely by organizing cognitive processes to achieve goals.':
     'prefrontal cortex',
-  '[Learning Science] Focuses on the stages through which information is processed by the brain, including encoding, storage, and retrieval. It examines how individuals acquire, store, and use knowledge.':
+  '[Cognitivism] Focuses on the stages through which information is processed by the brain, including encoding, storage, and retrieval. It examines how individuals acquire, store, and use knowledge.':
     'information processing theory',
   'Part of the brain that connects to the spinal cord.': 'brainstem',
   'Area of the brain which oversees important jobs like keeping the heart beating regularly, controlling breathing, managing blood flow, and controlling automatic actions like sneezing and swallowing.':
@@ -87,8 +87,8 @@ const D665 = {
     'neurodiversity',
   '[Neuroscience] While some students prefer quiet workplaces, some students thrive in sensory-friendly areas with fidget tools. This showcases...':
     'neurodiversity',
-  'Arise from solid empirical research or methods shown to positively affect classroom learning.':
-    'research-based practices',
+  'Teaching methods and strategies from solid empirical research that have been scientifically proven to enhance student learning and achievement.':
+    'research-based best practices',
   "[Learning Strategy] Engages different senses to deepen students' learning experiences, enhancing understanding and retention.":
     'multisensory learning',
   'The human mind is essentially empty at birth.': 'tabula rasa',
@@ -97,6 +97,8 @@ const D665 = {
   '[Learning Strategy] After receiving feedback on an essay, a student reflects on areas for improvement and adjusts their writing strategies accordingly.':
     'feedback driven metacognition',
   '[Learning Strategy] Monitor and regulate learning processes to foster greater self-awareness and learning autonomy.':
+    'feedback driven metacognition',
+  '[Learning Strategy] Instead of just marking answers right or wrong, provide feedback that helps students think about their strategy and approach.':
     'feedback driven metacognition',
   '[Learning Strategy] Mixing different topics or skills within a single study session promotes deeper understanding and transfer of knowledge.':
     'interleaving',
@@ -122,39 +124,37 @@ const D665 = {
     'false',
   'Encoding, storage, and retrieval are the primary processes that shape knowledge...':
     'retention',
-  'Cognitive frameworks that help people organize and interpret information.':
+  '[Cognitivism] Of cognition; how people organize and interpret information through mental frameworks.':
     'mental schemas',
   '[Piaget stage] Adolescents between the ages of 12-17 engage in the exploration and formation of personal identity, including values, beliefs, and aspirations.':
     'identity vs role confusion',
-  'Illustrates how associations between stimuli can lead to learned responses.':
-    'classical conditioning',
   '[Piaget stage] Children between ages 3 and 6 display increased assertiveness by taking the lead in play and engaging in social interactions more actively.':
     'initiative vs guilt',
-  'The interplay between individual cognition and social factors in shaping learning; complements the emphasis on social interaction by highlighting the role of observational learning and modeling in knowledge acquisition.':
+  '[Learning Theory] The interplay between individual cognition and social factors in shaping learning; complements the emphasis on social interaction by highlighting the role of observational learning and modeling in knowledge acquisition.':
     'social constructivism',
-  'Learning by exploring and independently resolving challenges, using curiosity and problem-solving skills to discover new ideas and concepts.':
+  '[Constructivism Technique] Learning by exploring and independently resolving challenges, using curiosity and problem-solving skills to discover new ideas and concepts.':
     'discovery learning',
-  ZPD: 'zone of proximal development',
-  'The gap between what a learner can accomplish independently and what they can achieve with guidance and support; ZPD':
+  '[Constructivism] ZPD': 'zone of proximal development',
+  '[Constructivism] The gap between what a learner can accomplish independently and what they can achieve with guidance and support; ZPD':
     'zone of proximal development',
-  'A teacher-led traditional behaviorist teaching strategy.':
+  '[Behaviorism] A teacher-led traditional behaviorist teaching strategy.':
     'direct instruction',
-  'A framework that categorizes educational objectives into six levels of cognitive complexity: remembering, understanding, applying, analyzing, evaluating, and creating.':
+  '[Cognitivism] A framework that categorizes educational objectives into six levels of cognitive complexity: remembering, understanding, applying, analyzing, evaluating, and creating.':
     "Bloom's revised taxonomy",
   '[Piaget stage] Children between the ages of 2 and 7 years old think symbolically, using symbols to represent words, objects, images, individuals, and concepts, enabling the capacity to mimic behavior through imitation.':
     'preoperational',
   'Decreases the likelihood of a behavior reoccurring.': 'punishment',
   'Conceptual frameworks that explain how individuals acquire knowledge, develop skills, and change behaviors over time.':
     'learning theories',
-  'Demonstrates how behaviors are strengthened or weakened.':
+  '[Behaviorism] Demonstrates how behaviors are strengthened or weakened through reinforcement.':
     'operant conditioning',
-  'Seeks to understand the internal processes involved in learning, such as perception, memory, problem-solving, and decision-making.':
+  '[Learning Theory] Seeks to understand the internal processes involved in learning, such as perception, memory, problem-solving, and decision-making.':
     'cognitivism',
   '[Piaget stage] Infants (0-2 years old) explore through senses and actions, developing an understanding of object permanence and laying cognitive foundations.':
     'sensorimotor',
-  '[Learning Science] A key component of cognitivism that focuses on understanding the mental processes involved in learning and cognition, which includes encoding, storage, and retrieval.':
+  '[Cognitivism] A key component of cognitivism that focuses on understanding the mental processes involved in learning and cognition, which includes encoding, storage, and retrieval.':
     'information processing theory',
-  'Taking control of learning, setting goals, finding resources, and solving problems independently.':
+  '[Constructivism Technique] Taking control of learning, setting goals, finding resources, and solving problems independently.':
     'self-directed learning',
   '[Erickson stage] Children between the ages of 5 and 12 develop a growing sense of competence and accomplishment as they develop a greater understanding of their capabilities and limitations.':
     'industry vs inferiority',
@@ -162,11 +162,11 @@ const D665 = {
     'reversibility',
   'Refers to the understanding that changes in one direction can be undone, returning to the original stage.':
     'reversibility',
-  'Sheds light on how external stimuli shape behavior, emphasizing the focus on observable behaviors rather than internal mental processes.':
+  '[Learning Theory] Sheds light on how external stimuli shape behavior, emphasizing the focus on observable behaviors rather than internal mental processes.':
     'behaviorism',
   '[Erickson stage] Infants learn to rely on caregivers for their basic needs, fostering trust while inconsistency in meeting these needs can lead to mistrust, suspicion, and anxiety about their environment.':
     'trust vs mistrust',
-  'A prominent theory in education combining cognitive and social elements emphasizing active learning, student-centered instruction, and the construction of knowledge through personal experiences and interactions.':
+  '[Learning Theory] A prominent theory in education combining cognitive and social elements emphasizing active learning, student-centered instruction, and the construction of knowledge through personal experiences and interactions.':
     'constructivism',
   'Involves activities that engage the senses: touch, sight, hearing, smell and taste, helping children explore and understand the world around them.':
     'sensory exploration',
@@ -176,7 +176,8 @@ const D665 = {
     'object permanence',
   "[Erickson stage] The shame and doubt stage involved in a child's journey toward independence and decision-making.":
     'autonomy vs shame/doubt',
-  'Increases the likelihood of a behavior being repeated.': 'reinforcement',
+  '[Behaviorism] Increases the likelihood of a behavior being repeated.':
+    'reinforcement',
   'The opposite of punishment.': 'reinforcement',
   'The opposite of reinforcement.': 'punishment',
   'Involve tiny muscles working with the brain and nervous system to control movement in areas like the hands, fingers, lips, tongue, and eyes.':
@@ -185,14 +186,14 @@ const D665 = {
     'conservation',
   "A concept of Piaget's theory of cognitive development pertaining to the ability to understand that certain properties of objects remain the same despite changes in their appearance.":
     'conservation',
-  'When the teacher breaks down complex concepts into small, more manageable steps.':
+  '[Constructivism Technique] When the teacher breaks down complex concepts into small, more manageable steps.':
     'scaffolding',
-  'Breaking down complex concepts into small, more manageable steps.':
+  '[Constructivism Technique] Breaking down complex concepts into small, more manageable steps.':
     'scaffolding',
   '[Piaget stage] In adolescents between ages 12 and 17; thinking becomes more abstract, complex, and systematic.':
     'formal operational',
-  MKO: 'more knowledgeable other',
-  'The teacher of a peer; a person who possesses more knowledge or expertise than the learner and provides assistance and guidance within the ZPD.':
+  '[Constructivism] MKO': 'more knowledgeable other',
+  '[Constructivism] The teacher of a peer; a person who possesses more knowledge or expertise than the learner and provides assistance and guidance within the ZPD.':
     'more knowledgeable other',
   'To categorize objects, events, or concepts based on common attributes or characteristics, enabling children to organize and make sense of their environment.':
     'classification',
@@ -200,12 +201,18 @@ const D665 = {
     'puberty',
   '[Piaget stage] In children between ages 7 and 11; thinking becomes more logical, organized, and systematic.':
     'concrete operational',
-  'The addition of details.': 'elaboration',
-  'Deals with observable behaviors and uses reinforcement and punishment.':
+  '[Cognitivism Technique] The addition of details.': 'elaboration',
+  '[Learning Theory] Deals with observable behaviors and uses reinforcement and punishment.':
     'behaviorism',
-  'Explores cognitive processes involved in understanding and problem-solving.':
+  '[Learning Theory] Explores cognitive processes involved in understanding and problem-solving.':
     'cognitivism',
-  'Highlights active learning through experiences and social interactions.':
+  '[Learning Theory] Prioritizes active learning through experiences, social interactions, and hands-on, inquiry-based activities.':
+    'constructivism',
+  '[Learning Theory] Highlights mental processes like attention, memory, and problem-solving for higher-order thinking.':
+    'cognitivism',
+  '[Learning Theory] Highlights active learning through experiences and social interactions.':
+    'constructivism',
+  '[Learning Theory] Highlights the importance of learners actively building their own understanding and knowledge through experiences and interactions.':
     'constructivism',
   'A teacher uses stars on a chart to recognize outstanding student performances. Which theory of learning science does this strategy demonstrate?':
     'behaviorism',
@@ -227,10 +234,8 @@ const D665 = {
     'cognitivism',
   'A learning science theory strategy which connects each new concept to what students have already learned.':
     'constructivism',
-  'A Blooms Taxonomy Question': 'do it',
   '[True/False]: Hands-on active projects is an example of constructivism.':
     'true',
-  'Vygotsky Theory of development': 'do it',
   'Creating a safe and loving environment to explore is a strategy for which Erikson stage of development?':
     'trust vs mistrust',
   'Offering opportunities to make choices during activities is a strategy for which Erikson stage of development?':
@@ -353,6 +358,8 @@ const D665 = {
     'spacing',
   'A teacher designs the task for a lesson opener so that students have to use the concepts they know in a new way. This presents just the right amount of challenge. What is the strategy being used by the teacher?':
     'desirable difficulty',
+  '[Learning Process] Converting what students see, hear, or learn in class into memories they can retain and recall later.':
+    'encoding',
   '[Learning Process] Using mnemonic devices such as acronyms to remember key concepts.':
     'encoding',
   '[Learning Process] Recalling facts during a quiz to strengthen memory.':
@@ -511,6 +518,172 @@ const D665 = {
     'Erikson',
   '[True/False]: Erikson emphasizes the importance of resolving conflicts related to identity.':
     'true',
+  '[Behaviorism] Discovered by Ivan Pavlov, shows how children learn by making connections.':
+    'classical conditioning',
+  '[Learning Theory] ⋅ teacher directed, ⋅ basic skills and mastery, ⋅ conditioned behavior, ⋅ operant conditioning, ⋅ reinforcement (positive and negative), ⋅ direct instruction, ⋅ guided practice, ⋅ corrective feedback':
+    'behaviorism',
+  '[Learning Theory] ⋅ memory, ⋅ comprehension, ⋅ thinking processes, ⋅ working & long term memory, ⋅ metacognition, ⋅ mnemonic devices, ⋅ self-efficacy, ⋅ attention-getting devices, ⋅ trivia style games, ⋅ concept maps, ⋅ multiple interactions with material':
+    'cognitivism',
+  '[Learning Theory] ⋅ student-centered, ⋅ interactive learning, ⋅ building from personal experiences, ⋅ active learning, ⋅ real world learning, ⋅ social interaction, ⋅ collaboration, ⋅ cooperation, ⋅ project based learning, construct own meaning from prior knowledge, ⋅ scaffolding':
+    'constructivism',
+  '[Learning Theory] Focuses on observable actions and responses.':
+    'behaviorism',
+  '[Learning Theory] Emphasizes thinking and problem-solving.': 'cognitivism',
+  '[Learning Theory] States that children learn through doing and hands-on experiences.':
+    'constructivism',
+  '[Learning Theory] Piaget & Vygotsky': 'constructivism',
+  '[Learning Theory] Bandura & Information Processing': 'cognitivism',
+  '[Learning Theory] Skinner & Hunter': 'behaviorism',
+  '[Learning Theory] Adds to constructivism stating that children learn from social interaction and observation during the learning process.':
+    'social constructivism',
+  'Montessori (Maria Montessori) schools practice self-directed learning and discovery learning. These are techniques to what learning theory?':
+    'constructivism',
+  '[Constructivism] Created the concepts of Zone of Proximal Development (ZPD) and More Knowledgeable Other (MKO).':
+    'Vygotsky',
+  '[Constructivism] Has sublevels such as sublevels: 1) tasks that the learner cannot do even with assistance, 2) tasks that the learner can do with assistance, 3) tasks that the learner can do without assistance':
+    'zone of proximal development',
+  '[Constructivism] An individual can learn from someone who has a better understanding or a higher ability level. This person does not have to be a teacher or an adult.':
+    'more knowledgeable other',
+  '[Constructivism] ⋅ No specific stages, ⋅ Zone of Proximal Development (ZPD), ⋅ More Knowledgeable Other (MKO), ⋅ Scaffolding':
+    'Vygotsky theory',
+  "[True/False]: Providing students with opportunities to have group discussions is a strategy that aligns with Vygotsky's theory of development.":
+    'true',
+  'A student engages in self-directed learning by choosing projects and topics that interest her. She explores concepts through hands-on discovery and collaborates with classmates to solve problems. This is an example of what learning theory?':
+    'constructivism',
+  '[Constructivism Technique] ⋅ Explaining, ⋅ Providing examples and clarifications, ⋅ Asking leading questions':
+    'scaffolding',
+  'An instructor guiding a student beyond their independent capabilities through scaffolding techniques is an example of what constructivism concept?':
+    'zone of proximal development',
+  '[Learning Theory] Students work in small groups to test different variables. They analyze their results, compare patterns between groups, and develop explanations before sharing them with the class.':
+    'constructivism',
+  '[Learning Theory] A teacher begins each lesson by activating prior knowledge and has students use a flowchart to organize the phases before practicing.':
+    'cognitivism',
+  '[Learning Theory] A teacher introduces a system where students earn a small reward after five consecutive days of being prepared.':
+    'behaviorism',
+  '[Learning Theory] The teacher guides and facilitates learning rather than directly transmitting knowledge. The teacher designs learning experiences that challenge students, provide appropriate scaffolding, and support learners as they work through problems that are just beyond their current level of understanding.':
+    'constructivism',
+  'Extends the theory of constructivism into collaborative classroom practice by highlighting the importance of interaction, observation, and shared meaning-making.':
+    'social constructivism',
+  '[Learning Theory] Students work in self-directed, small groups to solve a real-world problem, sharing ideas, and creating knowledge together.':
+    'constructivism',
+  '[Learning Theory] A teacher provides scaffolding while students attempt a new task that is just beyond their skill level, supporting them within their Zone of Proximal Development (ZPD).':
+    'constructivism',
+  '[Learning Theory] Students actively evaluate their progress by using reflective journals to analyze their experiences and assess their own learning processes. Assess their own learning process is the key here.':
+    'constructivism',
+  '[Learning Theory] Classical and operant conditioning.': 'behaviorism',
+  '[Behaviorism] Illustrates how associations between stimuli can lead to learned responses.':
+    'classical conditioning',
+  '[Learning Theory] ⋅ Measurable learning outcomes, ⋅ Guide students in mastering a set of predictable skills or behaviors, ⋅ Best with task-based learning, ⋅ Studies measurable and observable behaviors that are repeated until automatic, ⋅ Memory is hardwired by repeated experiences, ⋅ Use tangible rewards and informative feedback':
+    'behaviorism',
+  '[Learning Theory] A teacher uses direct instruction to explain a new math concept, then has a student do individual worksheet practice.':
+    'behaviorism',
+  '[Learning Theory] To support the understanding of complex concepts, the teacher clearly explains the learning objectives and breaks instruction into manageable steps.':
+    'behaviorism',
+  '[Learning Theory] The teacher uses a token system where students earn stickers to praise desired behavior, which can be exchanged for a small reward.':
+    'behaviorism',
+  'Retrieval practice is a technique to which learning theory?': 'cognitivism',
+  'Recognition and recall.': 'retrieval',
+  '[Cognitivism] This theory emphasizes the role of rehearsal, elaboration, the addition of details, and meaningful encoding in transferring information from working memory to long-term memory.':
+    'information processing theory',
+  '[Learning Theory] A teacher starts the lesson by showing a funny picture, then asks students to guess what they will be learning today.':
+    'cognitivism',
+  '[Learning Theory] Students use flashcards or trivia games to help them memorize their geography facts.':
+    'cognitivism',
+  '[Learning Theory] A teacher uses concept maps to help students understand the similarities and differences between plant and animal cells.':
+    'cognitivism',
+  '[Learning Theory] ⋅ Memory is about encoding, storage, and retrieval, ⋅ Learning is structured and computational, ⋅ Best with reasoning, clear objectives and problem-solving, ⋅ Transfer by duplicating knowledge constructs of learner, ⋅ Observe new behavioral patterns and focuses on how to learn':
+    'cognitivism',
+  '[Learning Theory] Builds from existing schemas to influence further learning.':
+    'cognitivism',
+  '[Learning Theory] ⋅ Diagrams to visualize complex concepts, ⋅ Flashcards, ⋅ Summarizing knowledge to reinforce understanding':
+    'cognitivism',
+  '[Cognitivism] Remember, Understand, Apply, Analyze, Evaluate, Create':
+    "Bloom's Revised Taxonomy",
+  '[Cognitivism] Progressive complexity such as learning to identify a concept to learning how to analyze a concept.':
+    "Bloom's Revised Taxonomy",
+  '[Learning Theory] Reinforcement through observable behaviors and external stimuli.':
+    'behaviorism',
+  '[Learning Theory] Utilizing chunking strategies and visual cues to process information more effectively.':
+    'cognitivism',
+  "The highest level of Bloom's Revised Taxonomy, where one develops ideas or products.":
+    'creating',
+  "The lowest level of Bloom's Revised Taxonomy, where one focuses on recall of information.":
+    'remembering',
+  '[Constructivism] The gap between indepedent and guided achievement.':
+    'zone of proximal development',
+  '[Constructivism] Learning through peer interaction and observational learning.':
+    'social constructivism',
+  '[Encoding] Learning new information by actively paying attention and engaging with the material.':
+    'acquisition',
+  '[Encoding] Organizing and reinforcing new information by connecting it to what you already know and practicing it to better remember it.':
+    'consolidation',
+  '[Encoding] The introduction of new content to be absorbed.': 'acquisition',
+  '[Encoding] The processing and organization of information just learned.':
+    'consolidation',
+  '[Encoding] Involves the initial process of receiving and focusing on new information.':
+    'acquistion',
+  '[Learning Process] Elaboration of a topic. Discussing characteristics and relating it to familiar objects or concepts.':
+    'encoding',
+  '[Learning Process] The instructor organizes information by creating a concept map that illustrates relationships between concepts or things.':
+    'encoding',
+  '[Learning Process] Using mnemonic devices to remember information.':
+    'encoding',
+  '[Learning Process] Dual coding by using a combination of visual aids and verbal explanations.':
+    'encoding',
+  '[Learning Process] Giving students choice boards to provide a sense of ownership in their learning.':
+    'encoding',
+  '[Learning Process] Providing problem-based learning during initial acquisition of knowledge for a productive struggle.':
+    'encoding',
+  '[Encoding] Instructor guided questions to connect ideas as an effective memory strategy.':
+    'elaboration',
+  '[Storage] The storage of information for a long time, including knowledge, skills, and experiences.':
+    'long term memory',
+  '[Storage] A mental space that temporarily holds a small amount of information for a short time, usually a few seconds to a minute.':
+    'short term memory',
+  '[Learning Process] Asking students to summarize key events from a chapter.':
+    'storage',
+  '[Learning Process] Utilizing visualization by instructing students to draw diagrams of a topic or concept.':
+    'storage',
+  '[Learning Process] Asking students to associate topics or concepts with images or personal experiences.':
+    'storage',
+  '[Learning Process] Spaced practice of a concept.': 'storage',
+  '[Learning Process] Providing a supportive environment for peer coaching and cooperative activities.':
+    'storage',
+  '[Learning Process] Challenging students to summarize prior learning in their own words helps students organize information and promote a stronger memory.':
+    'storage',
+  '[Learning Process] Guiding students through a structed study schedule providing spaced repetition.':
+    'storage',
+  '[Learning Process] Instructor administered quiz to assess understanding of a topic.':
+    'retrieval',
+  '[Learning Process] Encouraging students to use flashcards to review topics or concepts.':
+    'retrieval',
+  '[Learning Process] Providing a practice test before an exam.': 'retrieval',
+  '[Learning Process] Facilitating peer teaching activities where students collaborate with a classmate to teach each other about a topic or concept.':
+    'retrieval',
+  '[True/False] Re-reading your notes is an example of retrieval practice.':
+    'false',
+  '[Learning Process] Principles of a growth mindset, effort and strategy, and self-testing to reinforce pathways.':
+    'retrieval',
+  '[Learning Process] Principles of a supportive environment, physiological needs, and spaced content.':
+    'storage',
+  '[Learning Process] Principles of deep thinking, productive struggle, collaboration, meaningful choice, and environment.':
+    'encoding',
+  '[Learning Process] Allowing students to choose partners to learn topics provides meaningful choice and ownership.':
+    'encoding',
+  '[Learning Process] Transforms new information into a format for memory storage.':
+    'encoding',
+  '[Learning Process] Involves retaining information in short-term and long-term memory systems.':
+    'storage',
+  '[Learning Process] Strengthens memory and deepens comprehension by recalling stored information.':
+    'retrieval',
+  '[Encoding] Processing and organizing new information during encoding.':
+    'consolidation',
+  '[Encoding] Mnemonic devices aid memory retention by creating a strong mental...':
+    'association',
+  'Which cognitive process is essential for managing and coordinating learning activities?':
+    'executive function',
+  '[Learning Process] Strengthens memory recall pathways and understanding.':
+    'retrieval',
 };
 
 export default D665;
