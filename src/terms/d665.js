@@ -156,7 +156,7 @@ const D665 = {
     'information processing theory',
   '[Constructivism Technique] Taking control of learning, setting goals, finding resources, and solving problems independently.':
     'self-directed learning',
-  '[Erickson stage] Children between the ages of 5 and 12 develop a growing sense of competence and accomplishment as they develop a greater understanding of their capabilities and limitations.':
+  '[Erikson stage] Children between the ages of 5 and 12 develop a growing sense of competence and accomplishment as they develop a greater understanding of their capabilities and limitations.':
     'industry vs inferiority',
   'To mentally undo actions or operations; allows individuals to understand that certain processes can be reversed to return to their original state.':
     'reversibility',
@@ -164,7 +164,7 @@ const D665 = {
     'reversibility',
   '[Learning Theory] Sheds light on how external stimuli shape behavior, emphasizing the focus on observable behaviors rather than internal mental processes.':
     'behaviorism',
-  '[Erickson stage] Infants learn to rely on caregivers for their basic needs, fostering trust while inconsistency in meeting these needs can lead to mistrust, suspicion, and anxiety about their environment.':
+  '[Erikson stage] Infants learn to rely on caregivers for their basic needs, fostering trust while inconsistency in meeting these needs can lead to mistrust, suspicion, and anxiety about their environment.':
     'trust vs mistrust',
   '[Learning Theory] A prominent theory in education combining cognitive and social elements emphasizing active learning, student-centered instruction, and the construction of knowledge through personal experiences and interactions.':
     'constructivism',
@@ -174,7 +174,7 @@ const D665 = {
     'egocentric',
   'The understanding that something still exists even though it cannot be seen or heard.':
     'object permanence',
-  "[Erickson stage] The shame and doubt stage involved in a child's journey toward independence and decision-making.":
+  "[Erikson stage] The shame and doubt stage involved in a child's journey toward independence and decision-making.":
     'autonomy vs shame/doubt',
   '[Behaviorism] Increases the likelihood of a behavior being repeated.':
     'reinforcement',
@@ -242,7 +242,7 @@ const D665 = {
     'autonomy vs shame/doubt',
   'Providing opportunities to make choices and lead activities is a day-to-day teaching strategy for which Erikson stage of development?':
     'initiative vs guilt',
-  'Offering  constructive criticism is a day-to-day teaching strategy for which Erickson stage of development?':
+  'Offering  constructive criticism is a day-to-day teaching strategy for which Erikson stage of development?':
     'industry vs inferiority',
   'Encouraging open discussions about interests and aspirations is a day-to-day teaching strategy for which Erikson stage of development?':
     'identity vs role confusion',
@@ -524,7 +524,7 @@ const D665 = {
     'behaviorism',
   '[Learning Theory] ⋅ memory, ⋅ comprehension, ⋅ thinking processes, ⋅ working & long term memory, ⋅ metacognition, ⋅ mnemonic devices, ⋅ self-efficacy, ⋅ attention-getting devices, ⋅ trivia style games, ⋅ concept maps, ⋅ multiple interactions with material':
     'cognitivism',
-  '[Learning Theory] ⋅ student-centered, ⋅ interactive learning, ⋅ building from personal experiences, ⋅ active learning, ⋅ real world learning, ⋅ social interaction, ⋅ collaboration, ⋅ cooperation, ⋅ project based learning, construct own meaning from prior knowledge, ⋅ scaffolding':
+  '[Learning Theory] ⋅ student-centered, ⋅ interactive learning, ⋅ building from personal experiences, ⋅ active learning, ⋅ real world learning, ⋅ social interaction, ⋅ collaboration, ⋅ cooperation, ⋅ project based learning, ⋅ construct own meaning from prior knowledge, ⋅ scaffolding':
     'constructivism',
   '[Learning Theory] Focuses on observable actions and responses.':
     'behaviorism',
@@ -539,6 +539,8 @@ const D665 = {
   'Montessori (Maria Montessori) schools practice self-directed learning and discovery learning. These are techniques to what learning theory?':
     'constructivism',
   '[Constructivism] Created the concepts of Zone of Proximal Development (ZPD) and More Knowledgeable Other (MKO).':
+    'Vygotsky',
+  '[Constructivism] Believes that cognitive growth comes from social and cultural interactions rather than set stages; e.g., a teacher would allow a student to discuss new ideas in groups of peers.':
     'Vygotsky',
   '[Constructivism] Has sublevels such as sublevels: 1) tasks that the learner cannot do even with assistance, 2) tasks that the learner can do with assistance, 3) tasks that the learner can do without assistance':
     'zone of proximal development',
@@ -599,6 +601,7 @@ const D665 = {
     'cognitivism',
   '[Cognitivism] Remember, Understand, Apply, Analyze, Evaluate, Create':
     "Bloom's Revised Taxonomy",
+  "Bloom's Revised Taxonomy is part of which Learning Theory?": 'cognitivism',
   '[Cognitivism] Progressive complexity such as learning to identify a concept to learning how to analyze a concept.':
     "Bloom's Revised Taxonomy",
   '[Learning Theory] Reinforcement through observable behaviors and external stimuli.':
@@ -684,6 +687,136 @@ const D665 = {
     'executive function',
   '[Learning Process] Strengthens memory recall pathways and understanding.':
     'retrieval',
+  'A teacher devotes 10 minutes of each class period to previously learned vocabulary. He provides a list of words learned in the preceding month. This leads to increased long-term retention and deeper learning. Which instructional technique aligns with this principle?':
+    'spacing',
+  "A student grades another student's paper. They practice feedback and elaboration by checking answers and adding a sentence connecting each correct answer to the original question before handing the paper back to the other student. What instructional technique does this align with?":
+    'feedback driven metacognition',
+  'Assigming students projects which engage in decision-making, organizing information, and strategizing help strengthen which cognitive process?':
+    'executive function',
+  'Students self-evaluating during a conference is a form of which learning strategy?':
+    'feedback driven metacognition',
+  '[Piaget Stage] ⋅ Reflexive, ⋅ Grabbing, ⋅ Sucking, ⋅ Looking, ⋅ Listening, ⋅ Crawling, ⋅ Object Permanence (unseen things still exist)':
+    'sensorimotor',
+  '[Piaget Stage] ⋅ Play & pretend, ⋅ Symbolic thinking, ⋅ Egocentrism (focus on self, self-centered), ⋅ Centration (focus on only one aspect at a time), ⋅ Forms many new schemas':
+    'preoperational',
+  '[Piaget Stage] ⋅ Hands-on experiences, ⋅ Mental reversal (balloons inflate-deflate), ⋅ Conservation (tall skinny glass and short fat glass hold same amount of liquid), ⋅ Seriation, ⋅ Sorting, ⋅ Classifying':
+    'concrete operational',
+  '[Piaget Stage] ⋅ Abstract thinking, ⋅ Metaphors, ⋅ Systemic problem-solving, ⋅ Hypothesize, ⋅ Predict':
+    'formal operational',
+  '[Erikson Stage] ⋅ Provide love, care, and food, ⋅ Need comfort and safety':
+    'trust vs mistrust',
+  '[Erikson Stage] ⋅ "Me Do" stage, ⋅ Independence, ⋅ Insist on doing things on their own':
+    'autonomy vs shame/doubt',
+  '[Erikson Stage] ⋅ Exploration, ⋅ Trying new things on their own, ⋅ Asking a lot of questions':
+    'initiative vs guilt',
+  '[Erikson Stage] ⋅ Intellectual curiosity, ⋅ School performance, ⋅ Need positive reinforcement, ⋅ Praise, ⋅ Avoid undue competition or criticism':
+    'industry vs inferiority',
+  "[Erikson Stage] ⋅ Develop sense of self, ⋅ Influenced by other's reactions, ⋅ Peers more important than parents or teachers, ⋅ Social role models, ⋅ Figuring out what they want to do after high school":
+    'identity vs role confusion',
+  '[Erikson Stage] Elementary age group (7-11)': 'industry vs inferiority',
+  '[Piaget Stage] Elementary age group (7-11)': 'concrete operational',
+  '[Piaget Stage] Thinking becomes more logical, organized, and systematic. They can do operations with objects and understand concepts of conservation, reversibility, and classification.':
+    'concrete operational',
+  '[Piaget Stage] Conservation, reversibility, and classification.':
+    'concrete operational',
+  '[Erikson Stage] Positive reinforcement and constructive feedback.':
+    'industry vs inferiority',
+  '[Erikson Stage] Mastering new skills, gaining recognition for accomplishments, and taking pride in achievements.':
+    'industry vs inferiority',
+  '[Age Stage] Activities should be designed to promote active engagement, hands-on, experiential learning. Students should be encouraged to collaborate, be provided with constructive feedback, and successes should be celebrated. Creating a supportive and inclusive learning environment can help decrease feelings of inferiority.':
+    'elementary',
+  '[Age Stage] Concrete operational & industry vs inferiority': 'elementary',
+  '[Age Stage] Concrete thought, cognitive transition, and industry.':
+    'elementary',
+  'When students master inductive reasoning and begin to use deductive reasoning to grasp abstract concepts, the stage of ______ __________ thought begins.':
+    'formal operational',
+  '[Age Stage] Sensorimotor & trust vs mistrust and autonomy vs shame/doubt':
+    'infant toddler',
+  '[Age Stage] Sensorimotor, trust, autonomy, cognitive transition, social transition':
+    'infant toddler',
+  '[Piaget Stage] Object permanence, familiarity, sensory exploration, and having preference.':
+    'sensorimotor',
+  '[Age Stage] Learning through sensory exploration, a trusted environment, and moving toward independent navigation of environment.':
+    'infant toddler',
+  '[Age Stage] Ages 7-11': 'elementary',
+  '[Age Stage] Ages 0-3': 'infant toddler',
+  '[Age Stage] Ages 3-4': 'preschool',
+  '[Age Stage] Ages 5-6': 'kindergarten-1',
+  '[Age Stage] Ages 12-17': 'adolescence',
+  '[Age Stage] Fine motor skills improve, allowing them to use forks and spoons, draw shapes, and thread beads onto strings.':
+    'preschool',
+  '[Age Stage] Beginning preoperational & initiative vs guilt': 'preschool',
+  '[Age Stage] Preoperational & initiative vs guilt moving into industry vs inferiority':
+    'kindergarten-1',
+  "[Erikson Stage] Children start wanting to be more independent and explore the world around them. They use their imagination and creativity a lot and like to have imaginative play, however they may have feelings of guilt or anxiety if they think they did something wrong or if adults don't like what they're doing.":
+    'initiative vs guilt',
+  '[Piaget Stage] Children start to think symbolically and develop language skills. They can use words and symbols to represent things, actions, and ideas. If they struggle with egocentrism, they may believe in magical thinking, like thinking their thoughts or wishes can change reality.':
+    'preoperational',
+  '[Age Stage] Preoperational and taking initiative.': 'preschool',
+  '[Age Stage] Physically: can hop on one leg, get dressed and undressed, hold a pencil, and pedal a tricycle.':
+    'preschool',
+  '[Age Stage] Scaffolding (breaking down complex concepts into manageable steps) is essential to avoid mental frustration.':
+    'preschool',
+  '[Age Stage] Allowing children to make choices and lead activities, while offering guidance. They often ask questions and use symbols for imaginative play.':
+    'preschool',
+  '[Age Stage] Physically: develops coordination needed for running, kicking, jumping, and throwing.':
+    'infant toddler',
+  '[Age Stage] Physically: can hold a book correctly, use safety scissors, print letters and numbers, and speak clearly.':
+    'kindergarten-1',
+  '[Age Stage] Transitioning from initiative to industry. They begin to look outside themselves for indication of success and adequacy.':
+    'kindergarten-1',
+  '[Piaget Stage] The transition is marked by an understaning of conservation and reversibility, indicating decentered thought, and generally occurs between first and second grade.':
+    'concrete operational',
+  '[Age Stage] Becoming proficient in language and thinking but still struggle with logic and constancy and are typically unable to think about things more than one aspect at a time.':
+    'kindergarten-1',
+  '[Age Stage] They develop a better understanding of cause-and-effect relationships and begin to grasp basic mathematical concepts such as counting and simple arithmetic.':
+    'kindergarten-1',
+  '[Age Stage] Mostly egocentric, imaginative, symbolic and may struggle with concepts of conservation and perspective-taking.':
+    'kindergarten-1',
+  '[Age Stage] Physically: growth is slow and steady. Advancements in fine motor skills allow students to enjoy crafts and write more clearly.':
+    'elementary',
+  '[Age Stage] Cognitive transition to being able to think about multiple aspects of a situation simultaneously and understanding perspectives other than their own. May struggle to think "outside the box."':
+    'elementary',
+  '[Age Stage] Formal operational & identity vs role confusion.': 'adolescence',
+  '[Age Stage] Physically: puberty, brain development, emotional swings, body dysphoria, and risk-taking.':
+    'adolescence',
+  '[Age Stage] Formal, abstract thought and identity.': 'adolescence',
+  '[Piaget Stage] Abstract and hypothetical thought analysis.':
+    'formal operational',
+  '[Erikson Stage] Encouraging the independent performance of tasks.':
+    'autonomy vs shame/doubt',
+  '[Erikson Stage] Encouraging a mindset of perseverance and success.':
+    'industry vs inferiority',
+  '[Erikson Stage] Using self-reflection to explore interests and values.':
+    'identity vs role confusion',
+  'A teacher uses simple rhymes to help students remember important formulas. Which learning theory forms the basis of the strategy in this scenario?':
+    'cognitivism',
+  '[Learning Theory] Emphasizes how students think and remember information.':
+    'cognitivism',
+  '[Learning Theory] Emphasizes how external factors shape behavior.':
+    'behaviorism',
+  '[Learning Theory] Emphasizes human needs and a whole-person viewpoint.':
+    'humanism',
+  '[Learning Theory] Emphasizes active, student-centered learning and personal experience.':
+    'constructivism',
+  'A teacher uses songs to help students memorize the names of states and state capitals. What is the learning theory underlying the teaching approach in this scenario?':
+    'cognitivism',
+  'Giving meaningful feedback for assignments and assessments is associated with which learning theory?':
+    'behaviorism',
+  'Using attention-getting devices in instruction and practice is associated with which learning theory?':
+    'cognitivism',
+  'Having students complete cognitive maps for assignments is associated with which learning theory?':
+    'cognitivism',
+  'A teacher starts each lesson by making connections to previously learned concepts. What is the learning theory underlying the teaching approach in this scenario?':
+    'constructivism',
+  'Inquiry-based problem-solving and hands-on active projects are an example of which learning theory?':
+    'constructivism',
+  'Repeated worksheet practice is associated with which learning theory?':
+    'behaviorism',
+  'Trivia-style class games are associated with which learning theory?':
+    'cognitivism',
+  '[True/False] Rote memorization of terms is associated with both behaviorism and cognitivism.':
+    'true',
 };
 
 export default D665;
