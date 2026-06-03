@@ -9,6 +9,8 @@ import AWSTERMS from './terms/awsTerms';
 import NETTERMS from './terms/netTerms';
 import MATHTERMS from './terms/mathTerms';
 import D665 from './terms/d665';
+import MATH_IMAGE_TERMS from './terms/mathImageTerms';
+import d655_IMAGE_TERMS from './terms/d655ImageTerms';
 
 export function loadSet(set) {
   return set === 'dsa'
@@ -28,8 +30,14 @@ export function loadSet(set) {
                 : set === 'net'
                   ? NETTERMS
                   : set === 'math'
-                    ? MATHTERMS
+                    ? {
+                        ...MATHTERMS,
+                        ...MATH_IMAGE_TERMS,
+                      }
                     : set === 'd665'
-                      ? D665
+                      ? {
+                          ...D665,
+                          ...d655_IMAGE_TERMS,
+                        }
                       : null;
 }

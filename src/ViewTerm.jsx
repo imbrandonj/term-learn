@@ -11,6 +11,12 @@ export default function ViewTerm({ termSet, setHome }) {
   const [idk, setIdk] = useState(false); // was the answer provided by the application? (they hit the 'idk' button or typed 'idk')
   const problemHistory = useRef({});
   const [termsCompleted, setTermsCompleted] = useState(0);
+  const isImage = term.includes('|/');
+  let imagePrompt = '';
+  let imagePath = '';
+  if (isImage) {
+    [imagePrompt, imagePath] = term.split('|');
+  }
 
   useEffect(() => {
     // focus on answer box on load and input:
@@ -82,7 +88,15 @@ export default function ViewTerm({ termSet, setHome }) {
   return (
     <div id="termContent">
       <h2>Terms Completed: {termsCompleted}</h2>
-      <p className="definition">{term}</p>
+      {isImage ? (
+        <div className="definition flex-center">
+          <p>{imagePrompt}</p>
+
+          <img src={imagePath} alt="Term prompt" className="termImage" />
+        </div>
+      ) : (
+        <p className="definition flex-center">{term}</p>
+      )}
       <input
         type="text"
         id="textBox"

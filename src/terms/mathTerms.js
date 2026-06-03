@@ -30,7 +30,7 @@ const MATHTERMS = {
   '(b + c)a = ba + ca': 'Distributive Property',
   '1, 2, 3, 4,...': 'positive integers',
   'A number that can be positive, negative, or zero, and does not include any fractional or decimal parts.':
-    'integers',
+    'integer',
   'The positive integers (whole numbers) used for counting and ordering, starting from 1 and continuing infinitely (1,2,3,4,...), and sometimes including zero.':
     'natural numbers',
   'The positive integers together with zero (algebraically it seems).':
@@ -342,7 +342,7 @@ const MATHTERMS = {
   'The maximum (highest) and minimum (lowest) values of a function, either within a specific interval (local/relative) or across its entire domain (absolute/global).':
     'extrema',
   'a ≤ x ≤ b; includes endpoints': 'closed interval',
-  'a < x < b; exludes endpoints': 'open interval',
+  'a < x < b; excludes endpoints': 'open interval',
   'A relative maximum.': 'local maximum',
   'A relative minimum.': 'local minimum',
   'A point (c, f(c)) where f(c) ≥ f(x) for all x in an open interval around c.':
@@ -542,6 +542,8 @@ const MATHTERMS = {
   'Write the formula to calculate the area of a circle.': 'pi r^2',
   '[True/False]: 1ft² = 12in²': 'false',
   '[True/False]: 1ft² = 144in²': 'true',
+  'Relates to the second degree; the term comes from the Latin word quadratus, meaning "square."':
+    'quadratic',
 };
 
 export default MATHTERMS;
