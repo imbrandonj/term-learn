@@ -156,7 +156,7 @@ const D665 = {
     'information processing theory',
   '[Constructivism Technique] Taking control of learning, setting goals, finding resources, and solving problems independently.':
     'self-directed learning',
-  '[Erikson stage] Children between the ages of 5 and 12 develop a growing sense of competence and accomplishment as they develop a greater understanding of their capabilities and limitations.':
+  '[Erikson stage] Children between the ages of 6 and 12 develop a growing sense of competence and accomplishment as they develop a greater understanding of their capabilities and limitations.':
     'industry vs inferiority',
   'To mentally undo actions or operations; allows individuals to understand that certain processes can be reversed to return to their original state.':
     'reversibility',
@@ -691,7 +691,7 @@ const D665 = {
     'spacing',
   "A student grades another student's paper. They practice feedback and elaboration by checking answers and adding a sentence connecting each correct answer to the original question before handing the paper back to the other student. What instructional technique does this align with?":
     'feedback driven metacognition',
-  'Assigming students projects which engage in decision-making, organizing information, and strategizing help strengthen which cognitive process?':
+  'Assigning students projects which engage in decision-making, organizing information, and strategizing help strengthen which cognitive process?':
     'executive function',
   'Students self-evaluating during a conference is a form of which learning strategy?':
     'feedback driven metacognition',

@@ -544,6 +544,22 @@ const MATHTERMS = {
   '[True/False]: 1ft² = 144in²': 'true',
   'Relates to the second degree; the term comes from the Latin word quadratus, meaning "square."':
     'quadratic',
+  'The value of a function as the input changes from a to b (where a ≤ b); f(b) - f(a).':
+    'net change',
+  '[of a function] is defined by different formulas on different parts of its domain.':
+    'piecewise function',
+  'A function table with two headings, one for inputs and one for the corresponding outputs.':
+    'table of values',
+  'The domain of a square root function must be ≥ ...': '0',
+  'The set of real numbers that the variable is allowed to have.': 'domain',
+  'The four ways to represent a function (alphabetically)':
+    'algebraic, numerical, verbal, visual',
+  'Using words to represent a function; "To convert from C° to F°, multiply C° by 9/5, then add 32.':
+    'verbal',
+  'Using a formula to represent a function; A(r) = πr²': 'algebraic',
+  'Using a table of values to represent a function; i.e., inputs and outputs in their respective units.':
+    'numerical',
+  'Using a graph to represent a function.': 'visual',
 };
 
 export default MATHTERMS;

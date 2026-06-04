@@ -108,7 +108,7 @@ button:focus-visible {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 10vh;
+  height: 100vh;
 }
 
 .definition {
@@ -151,7 +151,7 @@ button:focus-visible {
 }
 
 #termContent h2 {
-  margin: 0vh 8vw 2vh;
+  margin: 0vh 8vw 0vh;
   align-self: end;
 }
 
@@ -229,6 +229,10 @@ button:focus-visible {
   .definition {
     width: 90vw;
     font-size: 1.25rem;
+  }
+
+  .termImage {
+    width: 50vw;
   }
   
   #textBox {
