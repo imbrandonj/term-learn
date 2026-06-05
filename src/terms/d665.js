@@ -128,7 +128,7 @@ const D665 = {
     'mental schemas',
   '[Piaget stage] Adolescents between the ages of 12-17 engage in the exploration and formation of personal identity, including values, beliefs, and aspirations.':
     'identity vs role confusion',
-  '[Piaget stage] Children between ages 3 and 6 display increased assertiveness by taking the lead in play and engaging in social interactions more actively.':
+  '[Erikson stage] Children between ages 3 and 6 display increased assertiveness by taking the lead in play and engaging in social interactions more actively.':
     'initiative vs guilt',
   '[Learning Theory] The interplay between individual cognition and social factors in shaping learning; complements the emphasis on social interaction by highlighting the role of observational learning and modeling in knowledge acquisition.':
     'social constructivism',
@@ -285,7 +285,7 @@ const D665 = {
   'List the Piaget stages of cognitive development in order.':
     'sensorimotor, preoperational, concrete operational, formal operational',
   'List the Erikson stages of psychosocial development in order.':
-    'trust vs mistrust, autonomty vs shame/doubt, initiative vs guilt, industry vs inferiority, identity vs role confusion',
+    'trust vs mistrust, autonomy vs shame/doubt, initiative vs guilt, industry vs inferiority, identity vs role confusion',
   "The final stage in Piaget's stages of cognitive development.":
     'formal operational',
   "The final stage in Erikson's stages of psychosocial development.":
@@ -366,7 +366,7 @@ const D665 = {
     'retrieval',
   '[Learning Process] Organizing information into chunks, like grouping vocabulary words into categories.':
     'storage',
-  '[Learning Technique] Helps students monnitor and regulate their own learning process via self-assessment, goal setting, and reflection on learning strategies.':
+  '[Learning Technique] Helps students monitor and regulate their own learning process via self-assessment, goal setting, and reflection on learning strategies.':
     'metacognition',
   "[Learning Technique] Aimed at increasing students' interest and engagement in learning via reward systems, setting achievable goals, and using engaging materials.":
     'motivational',
@@ -624,7 +624,7 @@ const D665 = {
   '[Encoding] The processing and organization of information just learned.':
     'consolidation',
   '[Encoding] Involves the initial process of receiving and focusing on new information.':
-    'acquistion',
+    'acquisition',
   '[Learning Process] Elaboration of a topic. Discussing characteristics and relating it to familiar objects or concepts.':
     'encoding',
   '[Learning Process] The instructor organizes information by creating a concept map that illustrates relationships between concepts or things.':
@@ -765,7 +765,7 @@ const D665 = {
     'kindergarten-1',
   '[Age Stage] Transitioning from initiative to industry. They begin to look outside themselves for indication of success and adequacy.':
     'kindergarten-1',
-  '[Piaget Stage] The transition is marked by an understaning of conservation and reversibility, indicating decentered thought, and generally occurs between first and second grade.':
+  '[Piaget Stage] The transition is marked by an understanding of conservation and reversibility, indicating decentered thought, and generally occurs between first and second grade.':
     'concrete operational',
   '[Age Stage] Becoming proficient in language and thinking but still struggle with logic and constancy and are typically unable to think about things more than one aspect at a time.':
     'kindergarten-1',
