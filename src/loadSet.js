@@ -11,6 +11,8 @@ import MATHTERMS from './terms/mathTerms';
 import D665 from './terms/d665';
 import MATH_IMAGE_TERMS from './terms/mathImageTerms';
 import d655_IMAGE_TERMS from './terms/d655ImageTerms';
+import D635 from './terms/d635';
+import d635_IMAGE_TERMS from './terms/d635ImageTerms';
 
 export function loadSet(set) {
   return set === 'dsa'
@@ -39,5 +41,10 @@ export function loadSet(set) {
                           ...D665,
                           ...d655_IMAGE_TERMS,
                         }
-                      : null;
+                      : set === 'd635'
+                        ? {
+                            ...D635,
+                            ...d635_IMAGE_TERMS,
+                          }
+                        : null;
 }

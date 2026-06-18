@@ -39,6 +39,12 @@ function App() {
               D665
             </button>
           </li>
+          <li>
+            <button onClick={() => selectTermSet('d635')}>
+              <img src={dsaIcon} height={'60'} />
+              D635
+            </button>
+          </li>
           {/* <li>
             <button onClick={() => selectTermSet('js')}>
               <img src={jsIcon} height={'60'} />
