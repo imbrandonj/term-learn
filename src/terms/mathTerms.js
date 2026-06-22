@@ -591,6 +591,12 @@ const MATHTERMS = {
   'f(x - h) + k': 'shift right h up k',
   'The quadratic parent function is the simplest and most basic form of a quadratic function, defined by the equation...':
     'f(x) = x^2',
+  'A fractional expression in which both the numerator and the denominator are polynomials.':
+    'rational expression',
+  'The set of real numbers that the variable is permitted to have.': 'domain',
+  'A sum of two monomials.': 'binomial',
+  'A sum of three monomials.': 'trinomial',
+  'A sum of monomials.': 'polynomial',
 };
 
 export default MATHTERMS;

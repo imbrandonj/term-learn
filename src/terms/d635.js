@@ -66,6 +66,73 @@ const D635 = {
     'IEP',
   'How many categories of disability are recognized under the Individuals with Disabilities Education Act (IDEA)?':
     '13',
+  '[True/False]: Under IDEA, it is a responsibility of the general education teacher to conduct IEP meetings.':
+    'false',
+  '[True/False]: Under IDEA, it is the responsibility of the general education teacher to assess student learning and plan lessons for all students.':
+    'true',
+  'Special education teachers follow the _______ ___ __________ _______ Standards for Professional Practice to provide effective support for students with disabilities.':
+    'Council for Exceptional Children',
+  '[True/False]: Under IDEA, general education teachers are responsible for providing accommodations and modifications to meet the learning needs of students with disabilities.':
+    'true',
+  "In special education, this refers to any unique characteristics or circumstances that shape a student's learning may require specialized educational support and services.":
+    'exceptionality',
+  'Having a disability, being exceptionally gifted, coming from a diverse cultural or linguistic background, or navigating complex life situations.':
+    'exceptionality',
+  '[Disability] Significant limitations in intellectual functioning and adaptive behavior.':
+    'intellectual disability',
+  '[Disability] Deafness or impairment, even with amplification, that impacts learning.':
+    'hearing impairment',
+  '[Disability] Difficulty with speech, language, or communication.':
+    'language impairment',
+  '[Disability] Blindness or impairment to vision which affects learning.':
+    'visual impairment',
+  '[Disability] Mental disorders, behavioral, or emotional issues that impact learning.':
+    'emotional disturbance',
+  '[Disability] Physical disabilities affecting mobility or motor skills.':
+    'orthopedic impairment',
+  '[Disability] A developmental disorder impacting both verbal and nonverbal communication, social interaction, and educational performance.':
+    'Autism spectrum disorder',
+  '[Disability] Acquired brain injury causing cognitive or physical impairments.':
+    'traumatic brain injury',
+  '[Disability] Health conditions like ADHD, diabetes, or epilepsy that affect learning.':
+    'other health impairment',
+  '[Disability] A problem with understanding or using language, whether it is spoken or written.':
+    'specific learning disability',
+  '[Disability] Hearing and visual impairments occurring at the same time in the same individual.':
+    'deafblindness',
+  '[Disability] Multiple disabilities occurring at the same time in the same individual.':
+    'multiple disabilities',
+  '[Disability] A type of hearing impairment that impairs the ability to process information linguistically through hearing, with or without amplification.':
+    'deafness',
+  "[Exceptionality] A condition that affects a person's body or mind, resulting in activity limitation (when certain activities are more challenging) and participation restrictions (limits to their interaction with the world around them).":
+    'disability',
+  '[Exceptionality] Exceptional abilities or potential in the following domains: intellectual, creative, artistic, academic, or leadership areas.':
+    'giftedness',
+  '[Exceptionality] Refers to individuals whose brain functions and cognitive processes differ from what is considered typical or "neurotypical." Not seen as a deficit, but rather as a natural variation in human brain function, emphasizing that people think, learn, and process information in different ways.':
+    'neurodivergent',
+  '[Exceptionality] Diverse cultural background that impacts learning.':
+    'cultural diversity',
+  '[Exceptionality] Linguistic background that impacts learning.':
+    'linguistic diversity',
+  '[Exceptionality] Economic challenges affecting access to resources and educational opportunities.':
+    'under-resourced community',
+  '[Exceptionality] Proficiency in more than one language requiring specialized support.':
+    'multilingualism',
+  '[Exceptionality] Exceptional abilities or passions in specific areas, like art, music, or sports.':
+    'exceptional talent',
+  "[True/False]: Exceptionality under IDEA encompasses disabilities and non-disabilities that significantly affect a student's learning ability and require specialized educational support and services.":
+    'true',
+  "Under the Individuals with Disabilities Education Act (IDEA) includes disabilities and certain non-disabilities that substantially impact a student's learning and necessitate specialized educational support and services.":
+    'exceptionality',
+  '[True/False]: Exceptionality is included in the IDEA.': 'true',
+  "A component of a disability when something is wrong with a person's body or mind, like losing a limb, vision, or memory.":
+    'impairment',
+  'A component of a disability where a student has difficulty with tasks such as seeing, hearing, walking, or solving problems.':
+    'activity limitation',
+  'A component of a disability where there are limitations on everyday activities like working, socializing, enjoying recreational activities, or getting healthcare.':
+    'participation restrictions',
+  'The three components of a disability (alphabetical).':
+    'activity limitation, impairment, participation restrictions',
 };
 
 export default D635;
