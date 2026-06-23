@@ -9,6 +9,9 @@ const D635 = {
     'Section 504',
   'Section 504 vs IDEA: this one offers specialized instruction for students with specific disabilities via IEPs.':
     'IDEA',
+  'Section 504 vs IDEA: this one is a special education law.': 'IDEA',
+  'Section 504 vs IDEA: this one operates under civil rights law.':
+    'Section 504',
   FAPE: 'Free and Public Education',
   'List the 6 Principles of IDEA (alphabetical order).':
     'Appropriate Evaluation, FAPE, IEPs, LRE, Participation, Procedural Safeguards',
@@ -133,6 +136,34 @@ const D635 = {
     'participation restrictions',
   'The three components of a disability (alphabetical).':
     'activity limitation, impairment, participation restrictions',
+  "A range of medical conditions that adversely affect a person's health and educational performance; examples include but are not limited to attention deficit hyperactivity disorder (ADHD), asthma, and epilepsy.":
+    'OHI',
+  '[Disability] OHI': 'other health impairments',
+  'A condition that affects one or more of the senses, including sight, hearing, touch, taste, or smell.':
+    'sensory impairment',
+  'Devices and tools designed to enhance independence and accessibility for individuals with mobility or physical impairments.':
+    'assistive technology',
+  'Any condition of the body or mind (impairment) that makes it more difficult for the person with the condition to do certain activities (activity limitation) and interact with the world around them (participation restrictions).':
+    'disability',
+  'Has a broader definition of disability compared to the 13 categories outlined in IDEA, allowing students who do not qualify for IEPs equal access to education.':
+    'Section 504',
+  'A civil rights law that ensures that students with disabilities have equal access to education; prohibits discrimination against individuals with disabilities in any program or activity that receives federal financial assistance.':
+    'Section 504',
+  'Changes to the content and skills that students are expected to learn or master.':
+    'modifications',
+  'Changes or support that help students access the same learning materials and complete the same assignments as their peers.':
+    'accommodations',
+  'A federal law that provides funding to help ELs achieve English proficiency and academic success.':
+    'Title III',
+  'Federal legislation that focuses explicitly on English language acquisition to support academic success for ELs.':
+    'Title III',
+  ELs: 'English Learners',
+  'Individuals who are learning English as a second (or third, etc.) language and thus have varying levels of proficiency in English and may need additional support to access the curriculum.':
+    'ELs',
+  'Which federal legislation primarily focuses on providing accommodations for students with disabilities that significantly limit major life activities?':
+    'Section 504',
+  'Helps determine students needing language support services upon enrollment.':
+    'home language survey',
 };
 
 export default D635;
