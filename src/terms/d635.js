@@ -77,7 +77,7 @@ const D635 = {
     'Council for Exceptional Children',
   '[True/False]: Under IDEA, general education teachers are responsible for providing accommodations and modifications to meet the learning needs of students with disabilities.':
     'true',
-  "In special education, this refers to any unique characteristics or circumstances that shape a student's learning may require specialized educational support and services.":
+  "In special education, this refers to any unique characteristics or circumstances that shape a student's learning which may require specialized educational support and services.":
     'exceptionality',
   'Having a disability, being exceptionally gifted, coming from a diverse cultural or linguistic background, or navigating complex life situations.':
     'exceptionality',
@@ -98,7 +98,7 @@ const D635 = {
   '[Disability] Acquired brain injury causing cognitive or physical impairments.':
     'traumatic brain injury',
   '[Disability] Health conditions like ADHD, diabetes, or epilepsy that affect learning.':
-    'other health impairment',
+    'OHI',
   '[Disability] A problem with understanding or using language, whether it is spoken or written.':
     'specific learning disability',
   '[Disability] Hearing and visual impairments occurring at the same time in the same individual.':
@@ -125,7 +125,7 @@ const D635 = {
     'exceptional talent',
   "[True/False]: Exceptionality under IDEA encompasses disabilities and non-disabilities that significantly affect a student's learning ability and require specialized educational support and services.":
     'true',
-  "Under the Individuals with Disabilities Education Act (IDEA) includes disabilities and certain non-disabilities that substantially impact a student's learning and necessitate specialized educational support and services.":
+  "Under the Individuals with Disabilities Education Act (IDEA), includes disabilities and certain non-disabilities that substantially impact a student's learning and necessitate specialized educational support and services.":
     'exceptionality',
   '[True/False]: Exceptionality is included in the IDEA.': 'true',
   "A component of a disability when something is wrong with a person's body or mind, like losing a limb, vision, or memory.":
@@ -164,6 +164,100 @@ const D635 = {
     'Section 504',
   'Helps determine students needing language support services upon enrollment.':
     'home language survey',
+  SLDs: 'Specific Learning Disorders',
+  'A mobility impairment disability.': 'physical disability',
+  "A disability which impedes a person's ability to move around freely or perform certain tasks independently due to limitations in physical function or mobility.":
+    'physical disability',
+  '[True/False]: Difficulty walking, standing, or using limbs effectively to grasp or lift objects are all examples of physical disabilities.':
+    'true',
+  '[True/False]: A general education teacher cannot provide assistive technologies or personalized accommadations.':
+    'false',
+  '[Accommodation] Ensuring school buildings, transportation, and public spaces are wheelchair accessible with ramps, elevators, and wide doorways.':
+    'accessible facilities',
+  '[Accommodation] Providing specialized tools and devices, such as wheelchairs, walkers, canes, or prosthetic limbs, to enhance mobility and independence.':
+    'adaptive equipment',
+  '[Accommodation] Offering options for adjustable desks and seating to accommodate different mobility needs in classrooms.':
+    'flexible seating arrangement',
+  '[Accommodation] Assigning aides or support personnel to assist individuals with tasks such as navigating the environment, carrying items, or completing daily activities.':
+    'personal assistance',
+  '[Accommodation] Adapting physical education classes to include activities suitable for students with mobility impairments, such as wheelchair basketball or seated exercises.':
+    'modified physical education',
+  '[Accommodation] Providing interpreters or captioning services for individuals who are deaf or hard of hearing to facilitate communication.':
+    'sign language interpreters',
+  '[Accommodation] Offering written materials in Braille format for individuals with visual impairments to access written information independently.':
+    'braille materials',
+  '[Accommodation] Using amplification systems or hearing aids to improve auditory comprehension for individuals with hearing impairments.':
+    'assistive listening devices',
+  '[Accommodation] Using textured or tactile cues to navigate physical spaces for individuals with visual impairments.':
+    'tactile markers',
+  '[Accommodation] Developing personalized plans outlining medical needs, accommodations, and emergency procedures.':
+    'individualized healthcare plans',
+  '[Accommodation] Administering medications or allowing students to self-administer medication as prescribed.':
+    'medication management',
+  '[Accommodation] Allowing breaks or modified schedules to accommodate medical appointments or treatment regimens.':
+    'flexible scheduling',
+  '[Accommodation] Providing a quiet or low-stimulus environment for students with sensory sensitivities or attention difficulties.':
+    'environmental accommodations',
+  'Individualized healthcare plans, medication management, flexible scheduling, and environmental accommodations.':
+    'OHI accommodations',
+  'Assistive listening devices, sign language interpreters, braille materials, and tactile markers.':
+    'sensory impairment accommodations',
+  'Accessible facilities, adaptive equipment, flexible seating arrangements, personal assistance, and modified physical education.':
+    'physical disability accommodations',
+  'Tools designed to enhance independence and accessibility for individuals with mobility or physical impairments.':
+    'assistive technology',
+  'Wheelchairs, mobility scooters, prosthetic limbs, orthotic devices, and adaptive driving controls.':
+    'assistive technology',
+  '[Assistive Technology] Manual or powered devices that enable individuals to move around independently.':
+    'wheelchairs',
+  '[Assistive Technology] Electric scooters designed for individuals with limited mobility to travel longer distances.':
+    'mobility scooters',
+  '[Assistive Technology] Artificial limbs that replace missing or amputated body parts, restoring mobility and function.':
+    'prosthetic limbs',
+  '[Assistive Technology] Braces, splints, or supports worn on the body to stabilize joints or improve alignment.':
+    'orthotic devices',
+  '[Assistive Technology] Modified vehicle controls allow individuals with mobility impairments to operate vehicles safely.':
+    'adaptive driving controls',
+  OHI: 'Other Health Impairment',
+  'ADHD, asthma, seizure disorders (e.g., epilepsy), disabetes, and Tourette syndrome.':
+    'OHI',
+  'What type of accommodation is a wheelchair?': 'physical disability',
+  'What type of accommodation is braille?': 'sensory impairment',
+  'What type of accommodation is medication management?': 'OHI',
+  "A learning disorder that affects a person's ability to read, write, and spell accurately and fluently.":
+    'dyslexia',
+  '[True/False]: Dyslexia is related to a lack of intelligence or effort.':
+    'false',
+  "A learning disorder that affects a person's ability to understand and manipulate numbers and mathematical concepts.":
+    'dyscalculia',
+  "A learning disorder that affects a person's ability to write coherently and effectively. They may struggle with handwriting, spelling, and expressing their thoughts on paper.":
+    'dysgraphia',
+  'A neurodevelopmental disorder characterized by symptoms of inattention, impulsivity, and sometimes hyperactivity.':
+    'ADHD',
+  'For this disorder, allow students to use assistive technology, such as word processors or speech-to-text software.':
+    'dysgraphia',
+  'For this disorder, teach the students the relationship between letters and sounds, and provide explicit instruction in phonics.':
+    'dyslexia',
+  'For this disorder, use multisensory learning techniques, such as activities that engage multiple senses including sight, sound, and touch.':
+    'dyslexia',
+  'For this disorder, use concrete manipulatives, such as physical objects like blocks or counters.':
+    'dyscalculia',
+  'For this disorder, provide explicit instruction in handwriting and spelling, and provide accommodations for writing tasks.':
+    'dysgraphia',
+  '[True/False]: Offer frequent practice opportunities for each disorder — dyslexia, dysgraphia, and dyscalculia.':
+    'true',
+  'For this disorder, use assistive technologies, such as text-to-speech software, speech recognition software, and audiobooks.':
+    'dyslexia',
+  'For this disorder, focus on content over mechanics; emphasize the content of writing assignments rather than strict adherence to spelling and grammar rules, especially during the drafting process.':
+    'dysgraphia',
+  'For this disorder, provide structured outlines or graphic organizers, and break down writing tasks into smaller steps.':
+    'dysgraphia',
+  'For this disorder, provide accommodations or modifications such as extended time for reading and writing tasks, preferential seating to minimize distractions, and alternative formats for assignments.':
+    'dyslexia',
+  'For this disorder, offer alternative methods of expression, such as oral presentations, visual projects, or other non-written means.':
+    'dysgraphia',
+  'For this disorder, offer alternative assessments, such as oral presentations, projects that emphasize real-world applications, or technology-based assessments.':
+    'dyscalculia',
 };
 
 export default D635;
