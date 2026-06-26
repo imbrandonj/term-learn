@@ -81,6 +81,8 @@ const D635 = {
     'exceptionality',
   'Having a disability, being exceptionally gifted, coming from a diverse cultural or linguistic background, or navigating complex life situations.':
     'exceptionality',
+  '[Disability] Conditions such as Autism spectrum disorder (ASD), cerebral palsy (CP), Tourette syndrome (TS), fragile X syndrome (FXS), ADHD, and intellectual disabilities.':
+    'developmental disability',
   '[Disability] Significant limitations in intellectual functioning and adaptive behavior.':
     'intellectual disability',
   '[Disability] Deafness or impairment, even with amplification, that impacts learning.':
@@ -258,6 +260,42 @@ const D635 = {
     'dysgraphia',
   'For this disorder, offer alternative assessments, such as oral presentations, projects that emphasize real-world applications, or technology-based assessments.':
     'dyscalculia',
+  'For this disorder, provide clear and structured instructions, routines, and schedules, and allow for movement breaks and physical activity.':
+    'ADHD',
+  '[True/False]: Providing frequent feedback and positive reinforcement is a good classroom strategy for students with ADHD.':
+    'true',
+  'For this disorder, use visual aids and organizational tools to enhance focus.':
+    'ADHD',
+  'For this disorder, implement visual schedules and social stories in a structured and predictable environment.':
+    'autism spectrum disorder',
+  'For this disorder, offer individualized supports based on sensory needs and provide opportunities for peer interactions and social skills training.':
+    'autism spectrum disorder',
+  'For this disorder, provide assistive devices and accommodations for mobility challenges, while offering opportunities for participation in adapted physical education activities.':
+    'cerebral palsy',
+  'For this disorder, implement strategies to support fine and gross motor skills.':
+    'cerebral palsy',
+  '[True/False]: Fragile X syndrome (FX) can display symptoms of both autism spectrum disorder (ASD) and intellectual disability.':
+    'true',
+  'For this disorder, provide understanding and patience of the tics and allow for breaks and opportunities for the student to manage them.':
+    'Tourette syndrome',
+  'For this disorder, encourage open communication and awareness among peers about tics.':
+    'Tourette syndrome',
+  'Dyslexia, dyscalculia, and dysgraphia are all which type of disability?':
+    'SLD',
+  'A condition of the nervous system that causes people to have tics, which are sudden twitches, movements, or sounds that people do repeatedly and cannot control.':
+    'Tourette syndrome',
+  "Limitations in a person's ability to learn at an expected level and function in daily life.":
+    'intellectual disability',
+  'A genetic disorder caused by changes in the FMR1 gene, resulting in the absence or deficiency of the FMRP protein; characterized by intellectual disability, learning disabilities, and behavioral challenges.':
+    'fragile X syndrome',
+  'A group of disorders that affect a person’s ability to move and maintain balance and posture. It is caused by abnormal brain development or damage to the developing brain.':
+    'cerebral palsy',
+  'A neurodevelopmental disorder characterized by symptoms of inattention, impulsivity, and sometimes hyperactivity. Affects individuals across the lifespan and can significantly impact academic performance and social relationships.':
+    'ADHD',
+  'A developmental disorder characterized by difficulties in understanding and interpreting social cues, exhibiting repetitive behaviors, and having sensory sensitivities.':
+    'autism spectrum disorder',
+  '[Disability] Refers to limitations in a person’s ability to learn at an expected level and function in daily life. These limitations can vary greatly in severity among children and can be caused by various factors.':
+    'intellectual disability',
 };
 
 export default D635;

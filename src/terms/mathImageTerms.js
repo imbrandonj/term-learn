@@ -15,8 +15,7 @@ const MATH_IMAGE_TERMS = {
   'What is the domain of this function?|/images/math/xabsolute.png':
     'all real numbers',
   'What is the domain of this function?|/images/math/xsqrt.png': 'x >= 0',
-  'What is the range of this function?|/images/math/xisb.png':
-    'all real numbers',
+  'What is the range of this function?|/images/math/xisb.png': 'y = b',
   'What is the range of this function?|/images/math/xlinear.png':
     'all real numbers',
   'What is the range of this function?|/images/math/xcubed.png':
@@ -24,7 +23,7 @@ const MATH_IMAGE_TERMS = {
   'What is the range of this function?|/images/math/xcubert.png':
     'all real numbers',
   'What is the range of this function?|/images/math/xsquared.png': 'y >= 0',
-  'What is the range of this function?|/images/math/xabsolute.png': 'y >=',
+  'What is the range of this function?|/images/math/xabsolute.png': 'y >= 0',
   'What is the range of this function?|/images/math/xsqrt.png': 'y >= 0',
   'What is the range of this function?|/images/math/xdenom.png': 'y != 0',
   'Is this function even, odd, or neither?|/images/math/xisb.png': 'even',

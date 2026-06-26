@@ -170,8 +170,8 @@ const MATHTERMS = {
   'y = 3x + 4 ... what is the slope?': '3',
   'The dependent variable.': 'y',
   'The independent variable.': 'x',
-  'The vertical axis.': 'y',
-  'The horizontal axis.': 'x',
+  'The vertical axis.': 'y-axis',
+  'The horizontal axis.': 'x-axis',
   'What is the negative reciprocal of 2?': '-1/2',
   'What is the negative reciprocal of a/b?': '-b/a',
   'What is the negative reciprocal of -2?': '1/2',
@@ -561,7 +561,8 @@ const MATHTERMS = {
     'numerical',
   'Using a graph to represent a function.': 'visual',
   'The reciprocal function.': 'f(x) = 1/x',
-  'Odd function key points (aside from 1/x).': '(1, 1), (0, 0), (-1, -1)',
+  'Odd function key points (aside from f(x) = 1/x).':
+    '(1, 1), (0, 0), (-1, -1)',
   'Even function key points.': '(1, 1), (0, 0), (-1, 1)',
   '[True/False]: Most functions are neither even nor odd.': 'true',
   'f(x) + k': 'vertical shift up',
@@ -597,6 +598,67 @@ const MATHTERMS = {
   'A sum of two monomials.': 'binomial',
   'A sum of three monomials.': 'trinomial',
   'A sum of monomials.': 'polynomial',
+  'A quotient of two algebraic expressions.': 'fractional expression',
+  '[True/False] A fractional expression where the denominator contains a radical is still a rational expression.':
+    'false',
+  'To multiply rational expressions, first you should...': 'factor',
+  'A polygon with 3 sides.': 'triangle',
+  'A polygon with 4 sides.': 'quadrilateral',
+  'A polygon with 5 sides.': 'pentagon',
+  'A polygon with 6 sides.': 'hexagon',
+  'A polygon with 7 sides.': 'heptagon',
+  'A polygon with 8 sides.': 'octagon',
+  'A polygon with 9 sides.': 'nonagon',
+  'A polygon with 10 sides.': 'decagon',
+  'A polygon with 12 sides.': 'dodecagon',
+  'An equilateral and equiangular polygon.': 'regular polygon',
+  'If two sides and the included angle of one triangle are congruent to the corresponding parts of another, then the triangles are congruent.':
+    'SAS',
+  'If two angles and the included side of one triangle are congruent to the corresponding parts of another, then the triangles are congruent.':
+    'ASA',
+  'If three sides of one triangle are congruent to three sides of another, then the triangles are congruent.':
+    'SSS',
+  'If two sides of a triangle are congruent, the angles opposite these sides are...':
+    'congruent',
+  'If two angles of a triangle are congruent, the sides opposite these angles are...':
+    'congruent',
+  '[True/False]: An equilateral triangle is equiangular.': 'true',
+  '[True/False]: An equilateral triangle can have non-congruent angles.':
+    'false',
+  '[True/False]: An equiangular triangle is equilateral.': 'true',
+  '[True/False]: An equiangular triangle can have non-congruent sides.':
+    'false',
+  'Straight lines which lie in the same plane and do not intersect however far they are extended.':
+    'parallel lines',
+  'A line that intersects two or more other lines at different points.':
+    'transversal',
+  'The angles between the two lines cut by a transversal.': 'interior angles',
+  'The angles outside of the lines cut by a transversal.': 'exterior angles',
+  'Angles on the same side of a transversal and on the same side of the lines cut by the transversal.':
+    'corresponding angles',
+  'Nonadjacent angles between the two lines that lie on opposite sides of a transversal.':
+    'alternate interior angles',
+  'Angles that share a common vertex and a common side.': 'adjacent angles',
+  'Angles between the two lines that lie on opposide sides of a transversal.':
+    'alternate interior angles',
+  '[of a function] Vertical stretches/compressions and reflection over the x-axis affect which (x, y) values?':
+    'y',
+  '[of a function] Reflection about the y-axis occurs during a sign change (positive vs negative) of which (x, y) value?':
+    'x',
+  '[of a function] Reflection about the x-axis occurs during a sign change (positive vs negative) of which (x, y) value?':
+    'y',
+  '[of a function] Horizontal stretches/compressions and reflection over the y-axis affect which (x, y) values?':
+    'x',
+  '[of a function] Operations outside of the parent function affect which (x, y) values?':
+    'y',
+  '[of a function] Operations inside the parent function affect which (x, y) values?':
+    'x',
+  '[of a function] Adding to the input is a shift...': 'left',
+  '[of a function] Subtracting from the input is a shift...': 'right',
+  '[of a function] Adding to the output is a shift...': 'up',
+  '[of a function] Subtracting from the output is a shift...': 'down',
+  'A fraction in which the numerator, the denominator, or both, are themselves fractional expressions.':
+    'compound fraction',
 };
 
 export default MATHTERMS;
