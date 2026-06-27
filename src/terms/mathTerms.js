@@ -659,6 +659,22 @@ const MATHTERMS = {
   '[of a function] Subtracting from the output is a shift...': 'down',
   'A fraction in which the numerator, the denominator, or both, are themselves fractional expressions.':
     'compound fraction',
+  'The inverse operation of squaring (raising to the power of 2).':
+    'square root',
+  'The inverse operation of a square root.': 'squaring',
+  'The solutions of a quadratic are the x-values where the parabola intersects the...':
+    'x-axis',
+  'When solving a quadratic, if you can isolate an x² expression on one side of the equation and a constant on the other side, use this method to solve it.':
+    'square root method',
+  'A parabola that does not intersect the x-axis has how many real solutions?':
+    '0',
+  'A parabola tangent to the x-axis has how many real solutions?': '1',
+  'A parabola crossing the x-axis twice has how many real solutions?': '2',
+  "The zeros of a function correspond to the graph's...": 'x-intercepts',
+  '[True/False]: If you obtain imaginary numbers as a solution for a quadratic, you know that the parabola never crosses the x-axis.':
+    'true',
+  'The real solutions of f(x) = 0 correspond to what on the graph?':
+    'x-intercepts',
 };
 
 export default MATHTERMS;

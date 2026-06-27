@@ -281,7 +281,7 @@ const D635 = {
   'For this disorder, encourage open communication and awareness among peers about tics.':
     'Tourette syndrome',
   'Dyslexia, dyscalculia, and dysgraphia are all which type of disability?':
-    'SLD',
+    'SLDs',
   'A condition of the nervous system that causes people to have tics, which are sudden twitches, movements, or sounds that people do repeatedly and cannot control.':
     'Tourette syndrome',
   "Limitations in a person's ability to learn at an expected level and function in daily life.":
@@ -296,6 +296,61 @@ const D635 = {
     'autism spectrum disorder',
   '[Disability] Refers to limitations in a person’s ability to learn at an expected level and function in daily life. These limitations can vary greatly in severity among children and can be caused by various factors.':
     'intellectual disability',
+  'Serious changes in the way children typically learn, behave, or handle their emotions, which cause distress and problems getting through the day.':
+    'mental disorder',
+  'Psychiatric illnesses, disorders, or disabilities, or mental health conditions.':
+    'mental disorder',
+  'Anxiety, depression, oppositional defiant disorder (ODD), conduct disorder (CD), obsessive-compulsive disorder (OCD), and post-traumatic stress disorder (PTSD).':
+    'mental disorder',
+  '[True/False] Students with mental disorders may receive support and accommodations under two federal laws — IDEA and Section 504.':
+    'true',
+  'A mental disorder characterized by persistent fear and worry.': 'anxiety',
+  'A mental disorder characterized by persistent feelings of sadness and disinterest.':
+    'depression',
+  'A mental disorder characterized by persistent defiant behavior.':
+    'opposition defiant disorder',
+  'A mental disorder that is managed by using clear rules and consequences and building positive relationships with the student.':
+    'opposition defiant disorder',
+  'A mental disorder that is managed by creating a safe environment and encourage communication while providing access to mental health resources.':
+    'depression',
+  'A mental disorder that is managed by creating a calm environment and guiding the student through relaxation techniques.':
+    'anxiety',
+  'A mental disorder that is characterized by aggressive behavior and rule violations.':
+    'conduct disorder',
+  'A mental disorder that is managed by setting clear rules, providing feedback, and teaching conflict resolution skills.':
+    'conduct disorder',
+  'A mental disorder that is characterized by having unwanted thoughts and compulsive behaviors.':
+    'obsessive-compulsive disorder',
+  'A mental disorder that is managed by creating a support environment and developing coping strategies with the student.':
+    'obsessive-compulsive disorder',
+  'A mental disorder that is characterized by having severe stress or trauma following an event.':
+    'post-traumatic stress disorder',
+  'A mental disorder that is managed by creating a calm environment, giving advance notice of routine changes, and providing support and accommodations as needed.':
+    'post-traumatic stress disorder',
+  '[True/False]: Bipolar disorder, major depressive disorder, and schizophrenia are all psychiatric disorders that children commonly experience.':
+    'false',
+  '[True/False]: Anxiety disorders, conduct disorder, and oppositional defiant disorder are all psychiatric disorders that children may experience.':
+    'true',
+  'Embraces the idea that neurological differences, such as those associated with autism, ADHD, dyslexia, twice-exceptional, and other conditions, are a normal part of human diversity rather than disorders to be fixed.':
+    'neurodiversity',
+  'Refers to individuals whose neurological development diverges from typical or average.':
+    'neurodivergent',
+  "Autism Spectrum Disorder, Dyspraxia, Dyscalculia, Dyslexia, ADHD, Tourette's Syndrome, and Gifted & Twice Exceptional Students.":
+    'neurodivergent',
+  'Common mental health conditions that children may experience.':
+    'mental disorders',
+  'Persistent fears and worries that interfere with children’s activities at school, at home, or during play.':
+    'anxiety',
+  'Persistent feelings of sadness, hopelessness, or disinterest in activities they once enjoyed.':
+    'depression',
+  'Persistent defiant behavior often leading to significant problems at home, school, or with peers.':
+    'oppositional defiant disorder',
+  'Involves aggression toward others and serious violations of rules and social norms, which may result in legal issues or injuries.':
+    'conduct disorder',
+  'Recurring unwanted thoughts and the urge to perform specific actions to alleviate anxiety, even if these behaviors seem irrational.':
+    'obsessive-compulsive disorder',
+  'A disorder that develops in children who experience severe stress or trauma, leading to symptoms like reliving the event, nightmares, irritability, avoidance, and constantly seeking potential threats.':
+    'post-traumatic stress disorder',
 };
 
 export default D635;
