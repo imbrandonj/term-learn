@@ -675,6 +675,19 @@ const MATHTERMS = {
     'true',
   'The real solutions of f(x) = 0 correspond to what on the graph?':
     'x-intercepts',
+  'Two mathematical expressions that are identical except for the sign between their terms.':
+    'conjugate pairs',
+  'If a complex number is in the form a + bi, its conjugate is...': 'a - bi',
+  'A positive integer greater than 1 that has more than two factors.':
+    'composite number',
+  '[True/False]: 2 is a composite number.': 'false',
+  'A pair of complex numbers with identical real parts but imaginary parts of equal magnitude and opposite signs.':
+    'complex conjugate',
+  'The mathematical opposite of exponents.': 'radicals',
+  'It tells you what number, when multiplied by itself n times (the index), results in the original value.':
+    'radical',
+  'An answer to an equation that includes an imaginary number.':
+    'complex solution',
 };
 
 export default MATHTERMS;

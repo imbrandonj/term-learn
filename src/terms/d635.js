@@ -260,6 +260,8 @@ const D635 = {
     'dysgraphia',
   'For this disorder, offer alternative assessments, such as oral presentations, projects that emphasize real-world applications, or technology-based assessments.':
     'dyscalculia',
+  'For this disorder, provide concrete manipulatives for visualizing mathematical concepts.':
+    'dyscalculia',
   'For this disorder, provide clear and structured instructions, routines, and schedules, and allow for movement breaks and physical activity.':
     'ADHD',
   '[True/False]: Providing frequent feedback and positive reinforcement is a good classroom strategy for students with ADHD.':
@@ -351,6 +353,65 @@ const D635 = {
     'obsessive-compulsive disorder',
   'A disorder that develops in children who experience severe stress or trauma, leading to symptoms like reliving the event, nightmares, irritability, avoidance, and constantly seeking potential threats.':
     'post-traumatic stress disorder',
+  '[True/False]: A child may experience difficulties in speaking (speech disorders) and understanding or using language (language disorders) simultaneously.':
+    'true',
+  'Disorders that cause difficulty forming specific sounds or words correctly or difficulties with fluency, such as stuttering.':
+    'speech disorders',
+  'Issues with understanding and using language, which may include difficulty in comprehending words, constructing sentences, or expressing thoughts.':
+    'language disorders',
+  'Difficulty understanding or producing language due to brain injury.':
+    'aphasia',
+  'A disorder that affects understanding the meaning of the sounds the ear receives.':
+    'auditory processing disorder',
+  "A specialist who supports children with language or speech disorders in schools by collaborating with teachers, parents, and caregivers to develop tailored intervention plans for each child's needs.":
+    'speech-language pathologist',
+  'Speech disorder vs Language disorder: this one involves difficulty forming specific sounds or words correctly.':
+    'speech disorder',
+  'Speech disorder vs Language disorder: this one involves fluency difficulties, such as speech flow disruptions like stuttering.':
+    'speech disorder',
+  'Speech disorder vs Language disorder: this one involves difficulty in comprehending words, constructing sentences, or expressing thoughts.':
+    'language disorder',
+  'Speech disorder vs Language disorder: aphasia and auditory processing disorder fall under this category.':
+    'language disorder',
+  '[True/False]: It is common for children with OHI or neurodivergency to also display language or speech disorders.':
+    'true',
+  '[True/False]: Limited vocabulary is a common characteristic of speech and language disorders.':
+    'true',
+  '[True/False]: Early detection of language or speech problems is crucial for effective intervention. It could be developmental or it could be physical, such as hearing or ear issues':
+    'true',
+  'These disabilities require accommodations such as assistive devices and accessible environments.':
+    'physical disabilities',
+  'These disabilities require targeted interventions in academic skills like reading, writing, or math.':
+    'SLDs',
+  "Physical therapy is an example of a _______ _______ under IDEA aimed at addressing student's physical needs to support their education.":
+    'related service',
+  '[True/False]: Crutches are an example assistive technology device that would be appropriate to assist individuals with mobility or physical impairments.':
+    'false',
+  'A form of assistive technology used by individuals with mobility impairments to control computers or other devices.':
+    'trackballs',
+  'A student who speaks a different language at home and might struggle with English in school.':
+    'language minority student',
+  'Describes people who have trouble speaking, reading, writing, or understanding English; LEP':
+    'limited English proficiency',
+  '[True/False]: Students with differing linguistic needs automatically qualify for special education services.':
+    'false',
+  '[True/False]: Linguistically diverse students do not necessarily have disabilities that hinder their learning, but instead, they require support in developing English language skills in general education settings.':
+    'true',
+  UDL: 'Universal Design for Learning',
+  'An educational framework for designing flexible learning environments and curricula that provide all students—including those with diverse cultural and linguistic backgrounds—equitable access to learning opportunities.':
+    'UDL',
+  "A proven teaching method that connects students' cultures, languages, and life experiences with what they learn in school.":
+    'culturally responsive teaching',
+  "Focuses on understanding and valuing student's cultural backgrounds, identities, and experiences in teaching and learning.":
+    'culturally responsive teaching',
+  '[True/False]: Giftedness is not about grades or accomplishments; rather, it is a brain-based difference.':
+    'true',
+  'Characterized by high intellectual or academic ability and exceptional potential in various areas.':
+    'giftedness',
+  '[True/False]: Giftedness is shaped by both genetics and environmental factors and may present differently in atypical gifted students.':
+    'true',
+  'Considered to be more about inherent cognitive abilities or brain-based differences rather than solely reflecting grades or accomplishments, as it involves a unique capacity for high-level thinking and learning.':
+    'giftedness',
 };
 
 export default D635;
