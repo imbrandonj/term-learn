@@ -398,7 +398,7 @@ const D635 = {
   '[True/False]: Linguistically diverse students do not necessarily have disabilities that hinder their learning, but instead, they require support in developing English language skills in general education settings.':
     'true',
   UDL: 'Universal Design for Learning',
-  'An educational framework for designing flexible learning environments and curricula that provide all students—including those with diverse cultural and linguistic backgrounds—equitable access to learning opportunities.':
+  'An educational framework for designing flexible learning environments and curricula that provide all students — including those with diverse cultural and linguistic backgrounds — equitable access to learning opportunities.':
     'UDL',
   "A proven teaching method that connects students' cultures, languages, and life experiences with what they learn in school.":
     'culturally responsive teaching',
@@ -412,6 +412,207 @@ const D635 = {
     'true',
   'Considered to be more about inherent cognitive abilities or brain-based differences rather than solely reflecting grades or accomplishments, as it involves a unique capacity for high-level thinking and learning.':
     'giftedness',
+  "From Lewis Terman's early work to modern perspectives, this is a blend of potential and opportunity. Terman emphasizes biological aspects, while others highlight talents and life success. It is not solely inherited; experiences also shape it.":
+    'giftedness',
+  'A neurodivergent gifted student.': 'twice-exceptional',
+  '[True/False]: Both neurodivergent and gifted students can exhibit heightened sensitivity, creative thinking, and intense focus on topics of interest. There is overlapping traits between neurodivergence and giftedness.':
+    'true',
+  '[True/False]: Both gifted and neurodivergent students may have social or emotional challenges.':
+    'true',
+  'A brain-based (neurological) difference contributing to diverse perspectives and abilities.':
+    'giftedness',
+  '[True/False]: An educator benefits from understanding the traits of gifted learners by focusing on academic achievements and labeling students as "gifted."':
+    'false',
+  '[True/False]: An educator benefits from understanding the traits of gifted learners by creating inclusive classrooms tailored to individual strengths and needs.':
+    'true',
+  'Often include high curiousity, creativity, and intensity, distinguishing them from typical students.':
+    'giftedness',
+  'Provides funding to support ELs and immigrant children and youth in their language acquisition and academic achievement.':
+    'Title III',
+  'Plays a crucial role in Title III implementation by offering various approaches to language instruction, such as bilingual education, English as a Second Language (ESL), and dual language immersion programs.':
+    'LIEPs',
+  '[Title III] LIEPs': 'Language Instruction Education Programs',
+  "Funding schools to implement LIEPs tailored to meet their EL population's diverse linguistic and cultural needs, ensuring equitable access to high-quality education and opportunities for language development.":
+    'Title III',
+  'Special teaching techniques and materials that break down school subjects into comprehensible, simpler language, making it easier for ELs to understand. Often include language development activities that focus on academic language used in math, science, and social studies, helping ELs build their language skills while learning these subjects.':
+    'LIEPs',
+  '[LIEP model] Helps EL students understand academic lessons in English using activities, visuals, and simplified language; teachers focus on teaching subjects like math and science.':
+    'Sheltered English instruction',
+  '[LIEP model] Designed to help EL students learn English for success in English-only classes, with teachers trained to support EL students; EL students learn all subjects in English, aiming for quick fluency in the language.':
+    'Structured English immersion',
+  "[LIEP model] Uses both the student's primary language and English for instruction, helping them maintain skills in both languages while transitioning to English-only classes.":
+    'Transitional bilingualism',
+  "[LIEP model] Teaches EL students English language skills, like speaking, reading, and writing, mainly using English with little support in the student's native language.":
+    'English as a Second Language',
+  '[LIEP model] Helps students learn in both English and another language, such as Spanish, to become biliterate and proficient in both languages across various subjects.':
+    'Dual language program',
+  '[LIEP model] This method helps EL students understand academic lessons in English using activities, visuals, and simplified language. Teachers focus on teaching subjects like math and science.':
+    'Sheltered English instruction',
+  "[LIEP model] This method uses both the student's primary language and English for instruction, helping them maintain skills in both languages while transitioning to English-only classes.":
+    'Transitional bilingualism',
+  '[LIEP model] Students learn in both English and another language to become bilingual and proficient in both languages across various subjects.':
+    'Dual language program',
+  '[LIEP model] This is designed to help EL students learn English for sucess in English-only classes, with teachers trained to support EL students. EL students learn all subjects in English, aiming for quick fluency in the language.':
+    'Structured English immersion',
+  "[LIEP model] This method involves teaching EL students English language skills, like speaking, reading, and writing, mainly using English with little support in the student's native language.":
+    'English as a Second Language',
+  'Models of instruction for English learners that align with the goals of Title III to promote English proficiency, academic achievement, and cultural competence among ELs.':
+    'LIEPs',
+  'A linguistics expert known for his second language acquisition theory, which encompasses five main hypotheses.':
+    'Krashen',
+  'List the Six Stages of Second Language Acquisition.':
+    'pre-production, early production, speech emergent, beginning fluency, intermediate fluency, advanced fluency',
+  'The process of learning a new language.': 'language acquisition',
+  "List the five main hypotheses of Krashen's Theory of Second Language Acquisition [alphabetical].":
+    'acquisition-learning, affective filter, input, monitor, natural order',
+  '[True/False]: According to Krashen, grammar instruction is vitally important for ELs.':
+    'false',
+  '[True/False[: Krashen emphasizes the importance of natural communication and comprehensible input over explicit grammar teaching.':
+    'true',
+  '[Krashen Hypothesis] Separates language learning into two processes: acquisition and learning; acquisition happens naturally, like how children learn their first language by listening and interacting; learning, on the other hand, involves consciously studying grammar rules and vocabulary.':
+    'acquisition-learning',
+  '[Krashen Hypothesis] Describes how people use what they have learned to correct themselves; the monitor is like a little editor in the mind, checking language use.':
+    'monitor',
+  '[Krashen Hypothesis] Individuals learn languages best when they understand what is said or written.':
+    'input',
+  '[Krashen Hypothesis] A hypothesis that is all about how feelings affect learning.':
+    'affective filter',
+  '[Krashen Hypothesis] The idea that languages have a natural order in which people learn different parts; some components, like basic words and sentences, come first, while more complex grammar rules come later.':
+    'natural order',
+  '[Krashen Hypothesis] Says that learners tend to acquire grammar rules in a certain order, starting with simpler rules and moving to more complex ones; however, Krashen warns against strictly following this order in teaching.':
+    'natural order',
+  '[Krashen Hypothesis] States that emotions like motivation or anxiety affect how well students learn a language. When students feel anxious, it is harder to learn, but when they feel positive and motivated, it is easier.':
+    'affective filter',
+  '[Krashen Hypothesis] Suggests learners improve best when they are exposed to language just beyond their current ability, similar to advancing through levels in a game. This challenges learners while still making sense.':
+    'input',
+  '[Krashen Hypothesis] Explains that learners use what they’ve acquired to correct mistakes. This works like an internal editor to help spot and fix errors, but Krashen thinks it plays a smaller role compared to natural language learning through use.':
+    'monitor',
+  '[Krashen Hypothesis] Says there are two ways to learn a language: acquisition, which happens naturally through conversation, and learning, which comes from studying grammar and rules. Krashen believes acquisition is more important.':
+    'acquisition-learning',
+  '[Krashen Hypothesis] Learners will use their current language knowledge to correct themselves.':
+    'monitor',
+  '[Krashen Hypothesis] Grammatical structures are acquired by learners in a predictable sequence.':
+    'natural order',
+  '[Krashen Hypothesis] Non-cognitive factors such as motivation and anxiety impact language learning.':
+    'affective filter',
+  '[Krashen Hypothesis] Learning happens through both meaningful interactions and conscious study of the language.':
+    'acquisition-learning',
+  '[Second Language Acquisition Stage] Also known as "the silent period", where the learner absorbs the new language but does not yet speak it.':
+    'pre-production',
+  '[Second Language Acquisition Stage] When the individual begins to speak using short words and sentences, but the focus remains on listening and absorbing the new language.':
+    'early production',
+  '[Second Language Acquisition Stage] When speech becomes more frequent, with longer words and sentences; however, the learner still heavily relies on context clues and familiar topics.':
+    'speech emergent',
+  '[Second Language Acquisition Stage] When the individual achieves fairly fluent speech in social situations with minimal errors.':
+    'beginning fluency',
+  '[Second Language Acquisition Stage] When communication in the second language becomes fluent, especially in social settings.':
+    'intermediate fluency',
+  '[Second Language Acquisition Stage] The individual communicates fluenty across all contexts, navigating successfully in new situations and when exposed to new academic information.':
+    'advanced fluency',
+  '[Second Language Acquisition Stage] Enhance and refine academic language use through challenging tasks, note-taking, and ongoing support for near-native fluency.':
+    'advanced fluency',
+  '[Second Language Acquisition Stage] Continue listening support and begin encouraging simple verbal responses through repitition, visuals, and structured questions.':
+    'early production',
+  '[Second Language Acquisition Stage] Focus on listening comprehension with visuals, gestures, and modeling simple language while avoiding excessive correction.':
+    'pre-production',
+  '[Second Language Acquisition Stage] Develop academic vocabulary and skills like summarizing and comparing using graphic organizers and vocabulary strategies.':
+    'intermediate fluency',
+  '[Second Language Acquisition Stage] Expand academic language and vocabulary with visual aids, retelling activities, and minimal correction focused on meaning.':
+    'speech emergent',
+  '[Second Language Acquisition Stage] Promote group discussions, complete responses, and the use of academic language with targeted error correction.':
+    'beginning fluency',
+  '[Second Language Acquisition Stage] Pose "yes/no" and "either/or" questions.':
+    'early production',
+  "Valuing students' diverse cultural backgrounds and incorporating them into the learning process.":
+    'culturally responsive teaching',
+  "A pedagogical approach developed by educator and scholar Gloria Ladson-Billings in the early 1990s, centering on recognizing and valuing students' cultural backgrounds, languages, and life experiences in the learning process.":
+    'culturally responsive teching',
+  "A method that connects students' cultural backgrounds with their learning.":
+    'culturally responsive teaching',
+  'The three main domains of UDL:':
+    'action and expression, engagement, representation',
+  '⋅ Shifts away from a deficit mindset, ⋅ Recognizes and addresses implicit biases, ⋅ Promotes cultural competence, ⋅ Helps students feel valued and empowered':
+    'culturally responsive teaching',
+  'Guarantees that eligible children with disabilities receive a "free and appropriate public education." This law means they can attend public schools and receive special education and related services tailored to their needs.':
+    'IDEA',
+  "[True/False]: Under IDEA, every state must report yearly to the U.S. Department of Education's secretary about how well it is doing under its performance plan.":
+    'true',
+  'Of the Rehabilitation Act of 1973, safeguards the rights of individuals with disabilities in programs and activites that get federal financial aid. It protects not just those with obvious disabilities but also those with disabilities that might not be easy to see.':
+    'Section 504',
+  'Of the Elementary and Secondary Act (ESEA) reauthorized by the No Child Left Behind Act of 2001, gives funding to help programs for English Leaners (ELs).':
+    'Title III',
+  'Referred to in the law as "limited English proficient children," this act sets up a way to make sure states and districts work to improve these students\' achievement and English language skills and holds them accountable for their progress.':
+    'Title III',
+  'These programs aim to improve English language proficiency and academic achievement for English learners, including immigrant children and youth, in various subject areas.':
+    'LIEPs',
+  '⋅ Enhances Language Instruction Educational Programs (LIEPs), ⋅ Provides professional development for teachers and school administrators to enhance their ability to teach and assess ELs effectively, ⋅ Promotes parental, family, and community participation':
+    'Title III',
+  "Enforced through Office for Civil Rights (OCR), ensuring that schools and programs receiving federal financial assistance comply with the law's requirements.":
+    'Section 504',
+  '[True/False]: The U.S. Department of Education mandates that every state educational agency submit an annual Title III plan for approval to receive funding.':
+    'true',
+  "⋅ Helps ELs attain English proficiency, ⋅ Assists ELs to meet academic challenges in educational standards, ⋅ Enhance educator's capacity to serve ELs students, ⋅ Help educators increase ELs readiness to learn in an all-English setting, ⋅ Promotes parental and community engagement, ⋅ Supports community and family participation programs and services":
+    'Title III',
+  '[True/False]: Title III provides funding for school transportation services for ELs.':
+    'false',
+  'Provides specialized instruction such as: ⋅ hiring bilingual teachers, ⋅ offering English language development classes, ⋅ providing tutoring or mentoring, ⋅ offering materials in multiple languages':
+    'Title III',
+  '⋅ What is the primary language spoken in your home? ⋅ What language(s) does your child speak most frequently? ⋅ Has your child attended school in a language other than English? ⋅ Does your child receive any support or instruction in a language other than English? ⋅ What language(s) are spoken by other family members in your household?':
+    'home language survey',
+  "Identifies students' primary or home languages, enabling educators to tailor language support services to meet their specific needs.":
+    'home language survey',
+  "[True/False]: A home language survey assesses students' cultural backgrounds and traditions, informing culturally responsive teaching practices.":
+    'false',
+  '[True/False]: LIEP is governed by Individuals with Disabilities Education Act (IDEA), Every Student Succeeds Act (ESSA), and state-level education laws and policies.':
+    'true',
+  "1. Track EL students' English and academic progress, 2. Identify and evaluate EL students with disabilities under IDEA or Section 504, considering their language needs, 3. Exit students when they are proficient in English, 4. Monitor exited students to avoid premature exits.":
+    'LIEPs',
+  '[True/False]: Under Title III, a primary responsibility is effectively implementing Language Instruction Educational Programs (LIEPs), which help ELs achieve proficiency in English while meeting academic standards.':
+    'true',
+  '[True/False]: IDEA and Section 504 require schools to provide a Free Appropriate Public Education (FAPE) to eligible students with disabilities, including ELs.':
+    'true',
+  'The primary goal is to facilitate language acquisition while teaching academic content areas.':
+    'LIEPs',
+  'These programs are structured initiatives designed to facilitate the learning and acquisition of a particular language, focusing on aspects such as vocabulary, grammar, pronunciation, and cultural context.':
+    'LIEPs',
+  'Prohibits discrimination against individuals with disabilities in any program or activity that receives federal financial assistance.':
+    'Section 504',
+  'A plan that provides accommodations and supports that remove barriers to learning and ensure equal access to education for students with disabilities.':
+    '504 plan',
+  'Aims to protect prohibition of disability discrimination in educational settings.':
+    'Section 504',
+  "A federal law that enhances educators' capacity to serve English learners.":
+    'Title III',
+  "A key strategy for meeting requirements of this law is to provide materials in students' home languages alongside English.":
+    'Title III',
+  '[True/False]: Behavior challenges is an exceptionality covered by the Individuals with Disabilities Education Act (IDEA).':
+    'false',
+  '[True/False]: Linguistic diversity is an exceptionality covered by the Individuals with Disabilities Education Act (IDEA).':
+    'false',
+  '[True/False]: Linguistic diversity is an exceptionality, however it is not covered under IDEA, which deals only with 13 specific disability categories.':
+    'true',
+  '[True/False]: Artistic giftedness is an exceptionality covered by the Individuals with Disabilities Education Act (IDEA).':
+    'false',
+  '[True/False]: Other health impairments (OHI) is an exceptionality covered by the Individuals with Disabilities Education Act (IDEA).':
+    'true',
+  '[True/False]: Asthma is an OHI.': 'true',
+  'What type of disability/disorder is fragile X syndrome?':
+    'developmental disability',
+  'What type of disability/disorder is obsessive-compulsive behavior?':
+    'psychiatric disorder',
+  'What type of disability/disorder is aphasia?': 'language disorder',
+  "What is the framework that emphasizes recognizing and valuing students' backgrounds, languages, and life experiences in the learning process?":
+    'culturally responsive teaching',
+  "What is the framework that emphasizes providing multiple means of representation, engagement, and expression to address the variability of all learners? It focuses on designing flexible learning environments that accommodate various needs and preferences, regardless of students' cultural backgrounds.":
+    'UDL',
+  '[True/False]: Title III offers scholarships for high-achieving English learner students.':
+    'false',
+  'Provides resources through funding for curriculum development and instructional materials to implement effective language instruction programs.':
+    'Title III',
+  'The primary goal is using funds to upgrade curricula to better meet the needs of ELs in academic subjects.':
+    'Title III',
+  "[True/False]: Schools can use Title III funds to offer training sessions to enhance educators' skills in teaching ELs.":
+    'true',
 };
 
 export default D635;
