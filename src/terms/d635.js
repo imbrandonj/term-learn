@@ -613,6 +613,159 @@ const D635 = {
     'Title III',
   "[True/False]: Schools can use Title III funds to offer training sessions to enhance educators' skills in teaching ELs.":
     'true',
+  'An outline of educational goals and support services that must be provided for each student with a disability.':
+    'IEP',
+  "[True/False]: Duration of services is a key component of a student's individualized education program (IEP).":
+    'true',
+  "[True/False]: Demographic data and past report cards are key components of a student's individualized education program (IEP).":
+    'false',
+  'What is the name of the least restrictive envronment (LRE) in a scenario where a student is in a short-term hospital program that has unique capabilities required by the IEP?':
+    'specialized outside program',
+  '[True/False]: Annual goals are a key component of an Individualized Education Program (IEP).':
+    'true',
+  '[True/False]: Standardized testing is a key component of an Individualized Education Program (IEP).':
+    'false',
+  '[LRE] The student attends a program outside the district (e.g., private schools, residential programs, hospital programs) when their needs cannot be met in the traditional school setting.':
+    'specialized outside program',
+  '[LRE] The student participates in a specialized class tailored to their needs, offering individualized instruction.':
+    'special education class',
+  '[LRE] The student splits time between general education and special education settings, receiving individual instruction as needed.':
+    'partial mainstream/inclusion',
+  '[LRE] The student stays in the general classroom all day with additional support (e.g., tutoring, aides, specialized technology, or accommodations).':
+    'general education with support',
+  '[LRE] A student spends the entire school day in a general education classroom but receives additional support and services, such as tutoring, assistance from aides, specialized technology, related services, or accommodations.':
+    'general education with support',
+  '[LRE] A student splits their time between a general education classroom and a special education setting. They may receive individual or small-group instruction in a separate classroom or be pulled out of class for certain services while spending most of their day in the general education setting.':
+    'partial mainstream/inclusion',
+  '[LRE] Students participate in a specialized education program tailored to their specific learning needs. These classes are designed for students with similar learning requirements and may offer more individualized attention and specialized teaching methods.':
+    'special education class',
+  '[LRE] Placing a student in a program outside the local school district, such as a private school, a residential program, or a hospital program. These programs offer specialized services and may be necessary for students with unique or intensive needs that cannot be met within the traditional school system.':
+    'specialized outside program',
+  '[True/False]: Under the IDEA, general education teachers are responsible for communicating regularly and effectively with the student and their family.':
+    'true',
+  '[True/False]: Under the IDEA, general education teachers are responsible for attending district-wide trainings about special education.':
+    'false',
+  '[True/False]: Under the IDEA, general education teachers are responsible for deciding which paraprofessionals need to be in the classroom.':
+    'false',
+  '[True/False]: Under the IDEA, general education teachers are responsible for determining when to pull the student out of the classroom for extra assistance.':
+    'false',
+  '[True/False]: Under the IDEA, general education teachers are responsible for organizing the annual IEP meeting with the parents and the special education teacher.':
+    'false',
+  '[True/False]: Under the IDEA, general education teachers are responsible for approving the lesson plans that are developed by the special education teacher.':
+    'false',
+  "[True/False]: Under the IDEA, general education teachers are responsible for working with the special education teacher to supervise the paraprofessional's classroom activities.":
+    'true',
+  "[True/False]: Under the IDEA, general education teachers are responsible for sending reports about the student's academic progress at least twice a week.":
+    'false',
+  '[True/False]: Under the IDEA, special education teachers are responsible for adjusting the least restrictive environment (LRE) for students based on real-time academic data.':
+    'false',
+  '[True/False]: Under the IDEA, special education teachers are responsible for training general education teachers on the legal requirements of working with students with disabilities.':
+    'false',
+  '[True/False]: Under the IDEA, special education teachers are responsible for creating daily lesson plans that are adjusted versions of the general education classroom plans.':
+    'false',
+  '[True/False]: Under the IDEA, special education teachers are responsible for avoiding any actions that may harm individuals with exceptionalities and adhere to professional ethics and standards.':
+    'true',
+  '[True/False]: Under the IDEA, special education teachers are responsible for developing district policies and processes to locate, identify, and evaluate all children with disabilities.':
+    'false',
+  '[True/False]: Under the IDEA, special education teachers are responsible for demonstrating professionalism by maintaining high competence and integrity while supporting students and their families.':
+    'true',
+  '[True/False]: Under the IDEA, special education teachers are responsible for ensuring that students with disabilities have access to wraparound services such as transportation and food.':
+    'false',
+  '[True/False]: Under the IDEA, special education teachers are responsible for supervising and evaluating the work of all paraprofessionals who are working with students in their caseload.':
+    'false',
+  '[True/False]: Under the IDEA, special education teachers are responsible for continuing communication with families on job placements once the student has graduated.':
+    'false',
+  '[True/False]: Under the IDEA, special education teachers are responsible for cultivating partnerships with families and be involved in educational decision-making processes.':
+    'true',
+  "[True/False]: Under the IDEA, special education teachers are responsible for working with coaches and administrators to ensure equal access to the school's athletic program.":
+    'false',
+  '[True/False]: Under the IDEA, special education teachers are responsible for advocating for adequate resources and favorable conditions to improve educational outcomes for students with exceptionalities.':
+    'true',
+  '[True/False]: Under the IDEA, special education teachers are responsible for advocating for better working conditions and salaries for special education teachers within the district.':
+    'false',
+  'Ensures equal access to public education through the Rehabilitation Act.':
+    'Section 504',
+  '[True/False]: Section 504 provides federal funding for modifications.':
+    'false',
+  '[True/False]: Section 504 ensures adjustments to individual curriculum for students with exceptionalities.':
+    'false',
+  '[True/False]: Section 504 ensures medical care for physical impairments.':
+    'false',
+  '[True/False]: Graphic organizers are an example accommodation provided in educational settings.':
+    'true',
+  '[True/False]: Tailored content and alternative projects are example accommodations provided in educational settings.':
+    'false',
+  '[True/False]: Curriculum simplification is an example accommodation provided in educational settings.':
+    'false',
+  'IEP vs 504 Plan: this one falls under a special education law.': 'IEP',
+  'IEP vs 504 Plan: this one operates under civil rights law, which affects the support and services provided.':
+    '504 Plan',
+  'IEP vs 504 Plan: this one requires one of the specified disabilities that impacts classroom performance.':
+    'IEP',
+  'IEP vs 504 Plan: this one addresses disabilities that hinder learning in the general education setting and encompasses a wide range of physical and mental impairments that significantly impact daily functioning.':
+    '504 Plan',
+  '[True/False]: Students are Section 504 may not require specialized instruction but need accommodations to ensure equal educational opportunities.':
+    'true',
+  'Section 504 vs IDEA: this one is funded by state and local governments.':
+    'Section 504',
+  '[True/False]: Under Section 504, general education teachers are responsible for identifying needed modifications to curriculum.':
+    'false',
+  '[True/False]: Under Section 504, general education teachers are responsible for creating an alternate plan as a backup.':
+    'false',
+  "[True/False]: Under Section 504, general education teachers are responsible for becoming familiar with each student's needs.":
+    'true',
+  '[True/False]: Under Section 504, general education teachers are responsible for ordering materials with a simplified format.':
+    'false',
+  '[True/False]: Under Section 504, general education teachers are responsible for splitting responsibilities with other educators.':
+    'false',
+  '[True/False]: Under Section 504, general education teachers are responsible for preparing an isolated learning environment.':
+    'false',
+  '[True/False]: Under Section 504, general education teachers are responsible for coordinating with others to provide consistent support.':
+    'true',
+  '[True/False]: Under Section 504, general education teachers are responsible for creating assignments for extra practice.':
+    'false',
+  '[True/False]: Under Section 504, general education teachers are responsible for accommodating students by creating simplified exams.':
+    'false',
+  '[True/False]: Under Section 504, general education teachers are responsible for gathering student preferences for accommodations.':
+    'false',
+  '[True/False]: Under Section 504, general education teachers are responsible for scheduling medication to align with assessments.':
+    'false',
+  '[True/False]: Under Section 504, general education teachers are responsible for implementing specified accommodations proactively.':
+    'true',
+  '[True/False]: Under Section 504, general education teachers are responsible for assigning peer partners to affected students.':
+    'false',
+  '[True/False]: Under Section 504, general education teachers are responsible for celebrating an environment of inclusivity and diversity.':
+    'true',
+  '[True/False]: Under Section 504, general education teachers are responsible for prioritizing visual instruction methods when possible.':
+    'false',
+  '[True/False]: Under Section 504, general education teachers are responsible for splitting students into heterogenous groups.':
+    'false',
+  '[True/False]: A critical strategy for implementing a 504 plan is to address challenges and changes with flexibility.':
+    'true',
+  '[True/False]: A critical strategy for implementing a 504 plan is to invite parents to regularly contribute to instruction.':
+    'false',
+  '[True/False]: A critical strategy for implementing a 504 plan is to conduct daily assessments to monitor progress.':
+    'false',
+  '[True/False]: A critical strategy for implementing a 504 plan is to obtain technology to automate difficult instruction.':
+    'false',
+  '[True/False]: A critical strategy for implementing a 504 plan is to provide separate and individual instruction.':
+    'false',
+  '[True/False]: A critical strategy for implementing a 504 plan is to design an alternative grading rubric for projects.':
+    'false',
+  '[True/False]: A critical strategy for implementing a 504 plan is to adjust the academic calender to slow instruction.':
+    'false',
+  "[True/False]: A critical strategy for implementing a 504 plan is to ensure that students' rights are protected.":
+    'true',
+  'What is the name of the federal law that assists English learners in meeting challenging academic standards?':
+    'Title III',
+  "[True/False]: The Home Language Survey (HLS) is used for assessing a student's cultural backgrounds and traditions.":
+    'false',
+  '[True/False]: The Home Language Survey (HLS) is used for helping to determine eligibility for assistance under Title III.':
+    'true',
+  "[True/False]: The Home Language Survey (HLS) is used for evaluating a student's proficiency in multiple languages.":
+    'false',
+  '[True/False]: The Home Language Survey (HLS) is used for constructing a language instruction education program (LIEP).':
+    'false',
 };
 
 export default D635;
