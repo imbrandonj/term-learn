@@ -15,6 +15,11 @@ const D635 = {
   FAPE: 'Free and Public Education',
   'List the 6 Principles of IDEA (alphabetical order).':
     'Appropriate Evaluation, FAPE, IEPs, LRE, Participation, Procedural Safeguards',
+  '[IDEA Principle] Legal protections.': 'procedural safeguards',
+  '[IDEA Principle] Active involvement.': 'participation',
+  '[IDEA Principle] Outlined plan.': 'IEP',
+  '[IDEA Principle] Multiple & non-biased.': 'appropriate evaluation',
+  '[IDEA Principle] No cost; free.': 'FAPE',
   '[IDEA Principle] All students, regardless of ability, receive education tailored to their needs at no cost.':
     'FAPE',
   "[IDEA Principle] Accurate evaluations to identify and address students' specific needs.":
@@ -29,6 +34,9 @@ const D635 = {
     'Participation',
   "[IDEA Principle] Ensures students' and families' rights are protected, guaranteeing fair processes in educational matters.":
     'Procedural Safeguards',
+  'How many principles of IDEA are there?': '6',
+  '[IDEA Principle] Using a variety of assessments to determine eligibility.':
+    'appropriate evaluation',
   "This law means that schools must provide special education services tailored to each student's individual needs at no cost to their families.":
     'IDEA',
   'The primary purpose is to guarantee that all children, regardless of their disabilities, have the right to a free and appropriate public education. Aims to prepare students with disabilities for further education, employment, and independent living after school.':
@@ -460,6 +468,8 @@ const D635 = {
     'LIEPs',
   'A linguistics expert known for his second language acquisition theory, which encompasses five main hypotheses.':
     'Krashen',
+  'The stage of second language acquisition where the learner absorbs new language but does not yet speak it.':
+    'pre-production',
   'List the Six Stages of Second Language Acquisition.':
     'pre-production, early production, speech emergent, beginning fluency, intermediate fluency, advanced fluency',
   'The process of learning a new language.': 'language acquisition',
@@ -469,6 +479,12 @@ const D635 = {
     'false',
   '[True/False[: Krashen emphasizes the importance of natural communication and comprehensible input over explicit grammar teaching.':
     'true',
+  '[Krashen Hypothesis] An internal editor that checks and corrects language use.':
+    'monitor',
+  '[Krashen Hypothesis] Acquiring grammar rules from simpler to more complex.':
+    'natural order',
+  '[Krashen Hypothesis] Struggling when feeling anxious.': 'affective filter',
+  '[Krashen Hypothesis] Self-correcting.': 'monitor',
   '[Krashen Hypothesis] Separates language learning into two processes: acquisition and learning; acquisition happens naturally, like how children learn their first language by listening and interacting; learning, on the other hand, involves consciously studying grammar rules and vocabulary.':
     'acquisition-learning',
   '[Krashen Hypothesis] Describes how people use what they have learned to correct themselves; the monitor is like a little editor in the mind, checking language use.':
@@ -511,7 +527,7 @@ const D635 = {
     'advanced fluency',
   '[Second Language Acquisition Stage] Enhance and refine academic language use through challenging tasks, note-taking, and ongoing support for near-native fluency.':
     'advanced fluency',
-  '[Second Language Acquisition Stage] Continue listening support and begin encouraging simple verbal responses through repitition, visuals, and structured questions.':
+  '[Second Language Acquisition Stage] Continue listening support and begin encouraging simple verbal responses through repetition, visuals, and structured questions.':
     'early production',
   '[Second Language Acquisition Stage] Focus on listening comprehension with visuals, gestures, and modeling simple language while avoiding excessive correction.':
     'pre-production',
@@ -619,6 +635,8 @@ const D635 = {
     'true',
   "[True/False]: Demographic data and past report cards are key components of a student's individualized education program (IEP).":
     'false',
+  'A key tool in Title III used during enrollment to identify students needing language support services.':
+    'home language survey',
   'What is the name of the least restrictive envronment (LRE) in a scenario where a student is in a short-term hospital program that has unique capabilities required by the IEP?':
     'specialized outside program',
   '[True/False]: Annual goals are a key component of an Individualized Education Program (IEP).':
@@ -704,7 +722,7 @@ const D635 = {
     'IEP',
   'IEP vs 504 Plan: this one addresses disabilities that hinder learning in the general education setting and encompasses a wide range of physical and mental impairments that significantly impact daily functioning.':
     '504 Plan',
-  '[True/False]: Students are Section 504 may not require specialized instruction but need accommodations to ensure equal educational opportunities.':
+  '[True/False]: Students under Section 504 may not require specialized instruction but need accommodations to ensure equal educational opportunities.':
     'true',
   'Section 504 vs IDEA: this one is funded by state and local governments.':
     'Section 504',
@@ -766,6 +784,260 @@ const D635 = {
     'false',
   '[True/False]: The Home Language Survey (HLS) is used for constructing a language instruction education program (LIEP).':
     'false',
+  '[True/False]: Under Title III, educators are expected to place English learners into immersive settings.':
+    'false',
+  '[True/False]: Under Title III, educators are expected to engage with parents of English learners.':
+    'true',
+  '[True/False]: Under Title III, educators are expected to provide professional development for teachers of English learners.':
+    'true',
+  '[True/False]: A critical strategy for implementing requirements of Title III is conducting oral assessments in order to simplify the testing process.':
+    'false',
+  "[True/False]: A critical strategy for implementing requirements of Title III is encouraging at-home learning in the student's native language.":
+    'true',
+  '[True/False]: A critical strategy for implementing requirements of Title III is avoiding the use of technology in English language classrooms.':
+    'false',
+  "[True/False]: A critical strategy for implementing requirements of Title III is tailoring lessons and assessments to EL's varied language proficiency levels.":
+    'true',
+  '[True/False]: A critical strategy for implementing requirements of Title III is focusing on grammar drills in isolation from other academic content.':
+    'false',
+  "[True/False]: A critical strategy for implementing requirements of Title III is refraining from using the student's native language to accelerate English acquisition.":
+    'false',
+  "[True/False]: A critical strategy for implementing requirements of Title III is modeling correct language use and providing sentence frames to guide students' responses.":
+    'true',
+  "[True/False]: A critical strategy for implementing requirements of Title III is 'simplified language.'":
+    'true',
+  "[True/False]: A critical strategy for implementing requirements of Title III is 'limited grammar.'":
+    'false',
+  "[True/False]: A critical strategy for implementing requirements of Title III is 'extracurricular support.'":
+    'false',
+  "[True/False]: A critical strategy for implementing requirements of Title III is 'oral-only assessments.'":
+    'false',
+  '[True/False]: Orthopedic impairment is one of the expectionalities covered in the Individuals with Disabilities Education Act (IDEA).':
+    'true',
+  '[True/False]: Intellectual talent is one of the expectionalities covered in the Individuals with Disabilities Education Act (IDEA).':
+    'false',
+  '[True/False]: Behavior challenges is one of the expectionalities covered in the Individuals with Disabilities Education Act (IDEA).':
+    'false',
+  '[True/False]: Artistic giftedness is one of the expectionalities covered in the Individuals with Disabilities Education Act (IDEA).':
+    'false',
+  '[True/False]: Autism is one of the expectionalities covered in the Individuals with Disabilities Education Act (IDEA).':
+    'true',
+  '[True/False]: Emotional disturbance is one of the expectionalities covered in the Individuals with Disabilities Education Act (IDEA).':
+    'true',
+  '[True/False]: Traumatic brain injury is one of the expectionalities covered in the Individuals with Disabilities Education Act (IDEA).':
+    'true',
+  '[True/False]: Specific learning disability is one of the expectionalities covered in the Individuals with Disabilities Education Act (IDEA).':
+    'true',
+  '[True/False]: Intellectual disability is one of the expectionalities covered in the Individuals with Disabilities Education Act (IDEA).':
+    'true',
+  '[True/False]: Speech or language impairment is one of the expectionalities covered in the Individuals with Disabilities Education Act (IDEA).':
+    'true',
+  '[True/False]: OHI is one of the expectionalities covered in the Individuals with Disabilities Education Act (IDEA).':
+    'true',
+  '[True/False]: Hearing impairment is one of the expectionalities covered in the Individuals with Disabilities Education Act (IDEA).':
+    'true',
+  '[True/False]: Visual impairment is one of the expectionalities covered in the Individuals with Disabilities Education Act (IDEA).':
+    'true',
+  '[True/False]: To qualify for IDEA special education services, the student must require special education and related services as a result of the disability.':
+    'true',
+  "[True/False]: To qualify for IDEA special education services, the disability must adversely affect the student's educational performance.":
+    'true',
+  '[True/False]: Medication management is an accommodation specifically found in the category of OHI.':
+    'true',
+  '[True/False]: Explicit phonics instruction is an accommodation specifically found in the category of OHI.':
+    'false',
+  '[True/False]: Dyslexia is a psychiatric disorder.': 'false',
+  '[True/False]: Obsessive-compulsive disorder is a psychiatric disorder.':
+    'true',
+  '[True/False]: Fragile X syndrome is a psychiatric disorder.': 'false',
+  '[True/False]: ADHD is a psychiatric disorder.': 'false',
+  'A disorder causing uncontrollable twitches and sounds.': 'Tourette syndrome',
+  '[True/False]: Struggling to read the board in the front of the classroom is one indication that a student might have a specific learning disability.':
+    'false',
+  '[True/False]: Having difficulty distinguishing the directions of right and left is one indication that a student might have a specific learning disability.':
+    'true',
+  'It allows ELs to learn in both English and another language to become bilingual and proficient in both languages across various subjects.':
+    'dual language program',
+  "What is the name of the hypothesis from Krashen's theory of second-language acquisition stating that language learners acquire grammatical structures in a predictable sequence?":
+    'natural order',
+  'Which stage of second-language acquisition will a student enter after moving through the beginning fluency stage?':
+    'intermediate fluency',
+  '[True/False]: Promoting the importance of cultural competence is one of the four main principles of culturally responsive teaching, according to Gloria Ladson-Billings.':
+    'true',
+  '[True/False]: Honoring the affective factors in learning is one of the four main principles of culturally responsive teaching, according to Gloria Ladson-Billings.':
+    'false',
+  '[True/False]: Giving students books representing their culture is one of the four main principles of culturally responsive teaching, according to Gloria Ladson-Billings.':
+    'false',
+  "Which framework focuses on adapting instruction to reflect students' diverse backgrounds and experiences?":
+    'culturally responsive teaching',
+  'Culturally responsive teaching vs UDL: this one is more about creating an inclusive and affirming learning environment.':
+    'culturally responsive teaching',
+  'Culturally responsive teaching vs UDL: this one is more about flexibility in teaching methods and different ways to learn.':
+    'UDL',
+  'Culturally responsive teaching vs UDL: the goal of this one is providing equal learning opportunities.':
+    'UDL',
+  'Culturally responsive teaching vs UDL: the goal of this one is creating inclusive and culturally affirming learning environments.':
+    'culturally responsive teaching',
+  'Culturally responsive teaching vs UDL: implementation strategies such as instructional design and flexible curriculum.':
+    'UDL',
+  'Culturally responsive teaching vs UDL: implementation strategies such as fostering relationships, cultural content, and inclusive curriculum design.':
+    'culturally responsive teaching',
+  'A classroom that values and reflects the cultures and identities of all students, including building strong relationships with students and their families.':
+    'culturally responsive teaching',
+  '[True/False]: Learners with linguistic needs require support in developing English language skills, while those with disabilities may require support with processing language due to issues with comprehension and/or fluency.':
+    'true',
+  'Krashen\'s theory talks about "acquisition" and "learning." Which is subconscious?':
+    'acquisition',
+  'Krashen\'s theory talks about "acquisition" and "learning." Which is conscious?':
+    'learning',
+  '[True/False]: Providing specialized instruction is the primary goal of a 504 plan.':
+    'false',
+  '[True/False]: Providing accommodations that ensure equal access to education is the primary goal of a 504 plan.':
+    'true',
+  '[True/False]: Students with disabilities who require specialized instruction qualify for a 504 plan.':
+    'false',
+  'IEP vs 504 Plan: this one provides specialized instruction.': 'IEP',
+  '[True/False]: 504 plans do not provide specialized instruction.': 'true',
+  'IEP vs 504 Plan: this one focuses on accommodations and supports to address barriers to learning in the general education setting.':
+    '504 plan',
+  '[True/False]: To be eligible for a 504 plan, students must have a documented disability that substantially limits a major life activity.':
+    'true',
+  '[True/False]: 504 plans are governed by civil rights legislation.': 'true',
+  '[True/False]: A common trait of a gifted student is a preference for work that involves details.':
+    'false',
+  '[True/False]: A common trait of a gifted student is a profound curiosity about diverse subjects.':
+    'true',
+  '[True/False]: A common trait of a gifted student is a struggle to use imaginative thinking.':
+    'false',
+  '[True/False]: A common trait of a gifted student is an unconventional sense of humor.':
+    'true',
+  '[True/False]: A common trait of a gifted student is an attraction to routine tasks.':
+    'false',
+  '[True/False]: A common trait exhibited by students with gifts and talents is having a singular approach to learning and problem-solving.':
+    'false',
+  '[True/False]: A common trait exhibited by students with gifts and talents is the ability to absorb information rapidly.':
+    'true',
+  '[True/False]: A common trait exhibited by students with gifts and talents is showing little to no interest in international issues.':
+    'false',
+  '[True/False]: A common trait exhibited by students with gifts and talets is having a lack of emotional depth and sensitivity.':
+    'false',
+  '[True/False]: Giftedness is solely a matter of genetic inheretance.':
+    'false',
+  '[True/False]: Giftedness is primarily about a brain-based difference.':
+    'true',
+  '[True/False]: Gifted traits can be seen mostly by academic achievements.':
+    'false',
+  '[True/False]: Giftedness is always apparent through outward success in school.':
+    'false',
+  "What is required in a student's IEP when a student is 16 years or older (14 in some states)?":
+    'transition plan',
+  '[IEP Key Part] Current strengths and challenge areas.':
+    'present levels of performance',
+  "[IEP Key Part] Describes the student's current performance and how their disability affects their involvement and progress in the general education curriculum.":
+    'present levels of performance',
+  '[IEP Key Part] Specific, measurable, achievable, relevant, and time-bound (SMART) goals that the student is expected to achieve within a year.':
+    'annual goals',
+  '[IEP Key Part] Outlines the special education services, related services (such as speech therapy or counseling), and supplementary aids and services the student will receive.':
+    'special education and related services',
+  '[IEP Key Part] Explains the extent, if any, to which the student will not participate with non-disabled peers in regular classes and activities.':
+    'participation with non-disabled children',
+  "[IEP Key Part] Includes any individual accommodations necessary to measure the student's academic achievement and functional performance on state and district-wide assessments.":
+    'participation in state and district-wide assessments',
+  '[IEP Key Part] For students 16 or older (or younger if needed), the plan must include measurable post-secondary goals related to training, education, employment, and independent living skills, along with the services required to achieve those goals.':
+    'transition plan',
+  "[IEP Key Part] States how the student's progress toward meeting the annual goals will be measured and how the parents will be regularly informed of their progress.":
+    'progress monitoring',
+  '[IEP Key Part] Details the projected start date for the services and modifications, as well as the anticipated frequency, location, and duration of those services and modifications.':
+    'duration of services',
+  "[IEP Key Part] Specifies any accommodations and modifications that will be provided to support the student's learning and participation in the general education curriculum.":
+    'accommodations and modifications',
+  '[IEP Key Part] Goals to achieve within a year of the IEP.': 'annual goals',
+  '[IEP Key Part] Lists any personalized instruction or services needed; the type of services and specialized instruction.':
+    'special education and related services',
+  '[IEP Key Part] Support they need after high school.': 'transition plan',
+  '[IEP Key Part] How the students learns and expectations.':
+    'accommodations and modifications',
+  '[IEP Key Part] How long; start and end date; frequency (i.e., 5 times a week x 20 minutes a day).':
+    'duration of services',
+  'Accommodations vs Modifications: changes in how a student learns.':
+    'accommodations',
+  'Accommodations vs Modifications: changes in what the student is expected to learn.':
+    'modifications',
+  '[True/False]: Parts of an IEP will vary from state to state.': 'true',
+  '[True/False]: Transition services is part of the transition plan of an IEP.':
+    'true',
+  'Which stage of second-language acquisition will a student enter after moving through the Speech Emergent stage?':
+    'beginning fluency',
+  "What is the name of the hypothesis from Krashen's theory of second-language acquisition stating that language learners can use the language they have acquired to correct mistakes?":
+    'monitor',
+  "[True/False]: Sheltered English Instruction program model uses both the student's primary language and English for instruction, helping them maintain skills in both languages while transtioning to English-only classes.":
+    'false',
+  '[True/False]: Sheltered English Instruction program model helps EL students understand academic lessons in English using activities, visuals, and simplified language; teachers focus on teaching subjects like math and science.':
+    'true',
+  '[True/False]: Incorprating multiple means of action and expression is one of the four main principles of culturally responsive teaching.':
+    'false',
+  '[True/False]: Shifting away from a deficit mindset is one of the four main principles of culturally responsive teaching.':
+    'true',
+  'Emma is learning English as a second language. Her teacher asks her, "Why do you like summer?" Emma responds, "Because I can swim and play outside." Which stage does this response best represent?':
+    'speech emergent',
+  'In this stage of second language acquisition, the student may struggle using idiomatic expressions correctly.':
+    'advanced fluency',
+  '[True/False]: A student in the early production stage of second language acquisition will likely remain silent when asked what they did over the weekend.':
+    'false',
+  '[True/False]: A student in the early production stage of second language acquisition may answer, "Park. Play soccer," when asked what they did over the weekend.':
+    'true',
+  'After moving to a new country, Olivia has been attending school and receiving consistent language instruction for 5-7 years. Which stage of language acquisition is she most likely to have reached?':
+    'advanced fluency',
+  'Nora has moved to a new country. She spends most of her time listening to the teacher and classmates, trying to understand what is being said, but she does not speak in English yet. Which stage of second language acquisition is Nora experiencing?':
+    'pre-production',
+  'Priya is a new student in your class. When teachers or classmates ask her questions, she only nods or shakes her head and does not speak. Which stage of second language acquisition is Priya most likely in?':
+    'pre-production',
+  'Mia is learning a new language. She has started to use short words and phrases to communicate, but she still makes frequent errors. At which stage of language acquisition is Mia most likely in?':
+    'early production',
+  'A teacher encourages a new language speaker to answer with one or two sentences and provides the student with sentence starters. What stage of language acquisition is this student most likely in?':
+    'speech emergent',
+  'Scarlett is learning a new language. She can now use more complex sentences and express her opinions, but she still makes some grammar mistakes. At which stage is Scarlett likely to be?':
+    'intermediate fluency',
+  'Scarlett is learning Spanish and understands basic phrases. Her teacher gives her materials that include slightly more complex sentences than she currently knows. Which Krashen hypothesis explains why Scarlett will improve best in this situation?':
+    'input',
+  "Daniel attends a school where he learns subjects in both his primary language and English. This approach helps him maintain his primary language while gradually transitioning to English-only classes. Which model is being used at Daniel's school?":
+    'transitional bilingualism',
+  '[True/False]: Least Restrictive Transitions is a key principle of IDEA.':
+    'false',
+  '[True/False]: Free Academic Placement is a key principle of IDEA.': 'false',
+  'Engagement, representation, and action & expression.': 'UDL',
+  'Aria is an English learner in a math class. Her teacher uses activities, visuals, and simplified language to help her understand the lesson. What model is the teacher using to support Aria in learning academic content in English?':
+    'sheltered English instruction',
+  'Liam attends a school where he learns subjects in both English and Spanish, aiming to become proficient and literate in both languages. What type of program is Liam participating in?':
+    'dual language program',
+  'Aria has recently moved to a new school where all her classes—math, science, and history—are taught in English. The goal is for her to become fluent in English as quickly as possible. Which model is her school using?':
+    'structured English immersion',
+  'Maya recently moved to a new country and is having trouble speaking, reading, writing, or understanding English. Which term best describes Maya?':
+    'limited English proficiency',
+  '[Language] LEP': 'limited English proficiency',
+  '[Language] ESL': 'English as a Second Language',
+  'Jackson is a school administrator implementing Language Instruction Educational Programs (LIEPs) to align with the goals of Title III. His aim is to promote English proficiency, academic achievement, and...':
+    'cultural competence',
+  'Achieving advanced fluency for a student who has strong first-language literacy skills takes about how long?':
+    '5-7 years',
+  'Mia has recently moved to a new country and can now speak fluently with her friends in social situations, making only minimal errors. However, she still finds it challenging to understand academic language and struggles in new contexts. At which stage is Mia in her language learning journey?':
+    'beginning fluency',
+  'Nora has recently started learning a new language. She begins to speak using short words and sentences, makes frequent errors, and still focuses mostly on listening. Which stage is Nora in?':
+    'early production',
+  'Michael has recently moved to a new country and is attending a class where he learns English skills (speaking, reading, writing) mainly in English, with little support in his native language. What is the name of this model?':
+    'English as a Second Language',
+  'Daniel is a school administrator looking for ways to support English Learners (ELs) and immigrant children and youth in their language acquisition and academic achievement. Which program provides funding for these efforts?':
+    'Title III',
+  "Krashen's Acquisition-Learning Hypothesis: natural, through interaction.":
+    'acquisition',
+  "Krashen's Acquisition-Learning Hypothesis: conscious study of rules.":
+    'learning',
+  "A method connecting students' cultures, languages, and life experiences with what they learn in school.":
+    'culturally responsive teaching',
+  "Priya has just moved to a new country and is learning the local language. For several weeks, she listens carefully but does not speak much. This first stage of second language acquisition, also called 'the silent period,' is...":
+    'pre-production',
+  'Helps students succeed by breaking content into comprehensible, simpler language and developing academic language.':
+    'LIEPs',
 };
 
 export default D635;
