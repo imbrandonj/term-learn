@@ -513,6 +513,8 @@ const D635 = {
     'affective filter',
   '[Krashen Hypothesis] Learning happens through both meaningful interactions and conscious study of the language.':
     'acquisition-learning',
+  '[Krashen Hypothesis] Explains the difference between understanding and production.':
+    'input',
   '[Second Language Acquisition Stage] Also known as "the silent period", where the learner absorbs the new language but does not yet speak it.':
     'pre-production',
   '[Second Language Acquisition Stage] When the individual begins to speak using short words and sentences, but the focus remains on listening and absorbing the new language.':
@@ -542,7 +544,7 @@ const D635 = {
   "Valuing students' diverse cultural backgrounds and incorporating them into the learning process.":
     'culturally responsive teaching',
   "A pedagogical approach developed by educator and scholar Gloria Ladson-Billings in the early 1990s, centering on recognizing and valuing students' cultural backgrounds, languages, and life experiences in the learning process.":
-    'culturally responsive teching',
+    'culturally responsive teaching',
   "A method that connects students' cultural backgrounds with their learning.":
     'culturally responsive teaching',
   'The three main domains of UDL:':
@@ -1038,6 +1040,82 @@ const D635 = {
     'pre-production',
   'Helps students succeed by breaking content into comprehensible, simpler language and developing academic language.':
     'LIEPs',
+  "A parent disagrees with the school's proposed IEP and requests mediation. Which IDEA principle allows the parent to do this?":
+    'procedural safeguards',
+  'A student with ADHD is frequently disciplined for behaviors related to their disability, and the school does not adjust the IEP or provide behavioral supports. Which IDEA principles are being overlooked?':
+    'FAPE, LRE',
+  "Abigail's school is holding a meeting to discuss her educational plan. Which principle of IDEA ensures that Abigail's parents have the right to be involved in this meeting about her education?":
+    'participation',
+  '[True/False] No child with a disability can be denied a public education at a local public school, as it violates IDEA.':
+    'true',
+  'A school district refuses to evaluate a student for special education because the student is passing all classes. Which IDEA principle is potentially being violated?':
+    'appropriate evaluation',
+  'A high school student with a visual impairment is transitioning to college. The IEP team is planning for post-secondary goals and services. Which IDEA principle is most relevant in this scenario?':
+    'FAPE',
+  'A student with a physical disability is placed in a separate classroom, even though they could participate in general education with minor accommodations. The IEP team should consider which IDEA principle?':
+    'LRE',
+  'A student with a learning disability is provided with assistive technology and modified assignments in the general classroom. Which two IDEA principles are most directly being addressed?':
+    'FAPE, LRE',
+  'Scarlett, a student with a disability, is placed in a general education classroom and receives support services to help her succeed. Which IDEA principle is being applied?':
+    'LRE',
+  'A school psychologist uses multiple assessment tools to determine if a student qualifies for special education services. Which IDEA principle is being demonstrated?':
+    'appropriate evaluation',
+  'Which principle of IDEA ensures that students with disabilities are provided with a free education at no cost to the parents?':
+    'FAPE',
+  "A parent believes their child’s evaluation was biased and did not consider cultural background. Which IDEA principle supports a parent's action against this?":
+    'appropriate evaluation',
+  'Which IDEA principle requires schools to protect the confidentiality of student records?':
+    'procedural safeguards',
+  "A parent is not invited to their child's IEP meeting, and decisions are made without their input. Which principle of IDEA has the school failed to uphold?":
+    'participation',
+  'Which stage of second-language acquisition will a student enter after moving through the Early Production stage?':
+    'speech emergent',
+  "What is the name of the hypothesis from Krashen's theory of second-language acquisition stating that language learners acquire language in a predictable order?":
+    'natural order',
+  "It teaches EL students English language skills, like speaking, reading, and writing, mainly using English with little support in the student's native language.":
+    'English as a Second Language',
+  '[True/False]: One of the four main principles of culturally responsive teaching is recognizing and addressing implicit biases.':
+    'true',
+  '[True/False]: One of the four main principles of culturally responsive teaching is incorporating multiple means of engagement.':
+    'false',
+  'A language learner can accurately correct their own grammar mistakes when writing but not when speaking spontaneously. Which of Krashen’s hypotheses best explains this phenomenon?':
+    'monitor',
+  'A student is able to understand spoken English in class but struggles to speak fluently. According to Krashen, which hypothesis explains this difference between understanding and production?':
+    'input',
+  'A teacher notices that students who are motivated and feel safe in class tend to progress faster in language acquisition. Which Krashen hypotheses explains this?':
+    'affective filter',
+  '[True/False]: The Output Hypothesis is a Krashen theory hypothesis.':
+    'false',
+  '[True/False]: According to Krashen, receiving comphrehensive input is one of the most important things for successful language acquisition.':
+    'true',
+  '[True/False]: According to Krashen, repeating sentences aloud is one of the most important things for successful language acquisition.':
+    'false',
+  '[True/False]: According to Krashen, practicing grammar drills is one of the most important things for successful language acquisition.':
+    'false',
+  '[True/False]: According to Krashen, memorizing vocabulary lists is one of the most important things for successful language acquisition.':
+    'false',
+  "[Krashen Hypothesis] Language material that is slightly above the learner's current level is best for learning new things.":
+    'input',
+  'A teacher provides students with stories that are just a bit more advanced than their current level. Which Krashen hypothesis is the teacher applying?':
+    'input',
+  'Aria is learning a new language, but she finds it harder to make progress when she feels anxious or unmotivated in class. According to Krashen’s theory, which hypothesis explains how emotional factors like anxiety can influence her language learning success?':
+    'affective filter',
+  '[True/False]: It is common to use both the Home Language Survey and academic data when determining whether the student needs further assessment or language support.':
+    'true',
+  '[True/False]: The home language survey asks which languages are spoken by the student and their family members.':
+    'true',
+  "[True/False]: The home language survey asks about the students' academic grades.":
+    'false',
+  "[True/False]: The home language survey asks about the students' favorite hobbies.":
+    'false',
+  '[True/False]: The home language survey asks what language is spoken most often at home.':
+    'true',
+  '[True/False]: The home language survey asks about how many siblings the student has.':
+    'false',
+  'The main purpose is to identify the primary language spoken at home.':
+    'home language survey',
+  '[True/False]: The home language survey is commonly administered to all families even if most students speak English at home.':
+    'true',
 };
 
 export default D635;
