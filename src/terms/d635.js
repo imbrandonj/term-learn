@@ -91,31 +91,31 @@ const D635 = {
     'exceptionality',
   '[Disability] Conditions such as Autism spectrum disorder (ASD), cerebral palsy (CP), Tourette syndrome (TS), fragile X syndrome (FXS), ADHD, and intellectual disabilities.':
     'developmental disability',
-  '[Disability] Significant limitations in intellectual functioning and adaptive behavior.':
+  '[IDEA Disability] Significant limitations in intellectual functioning and adaptive behavior.':
     'intellectual disability',
-  '[Disability] Deafness or impairment, even with amplification, that impacts learning.':
+  '[IDEA Disability] Deafness or impairment, even with amplification, that impacts learning.':
     'hearing impairment',
-  '[Disability] Difficulty with speech, language, or communication.':
+  '[IDEA Disability] Difficulty with speech, language, or communication.':
     'language impairment',
-  '[Disability] Blindness or impairment to vision which affects learning.':
+  '[IDEA Disability] Blindness or impairment to vision which affects learning.':
     'visual impairment',
-  '[Disability] Mental disorders, behavioral, or emotional issues that impact learning.':
+  '[IDEA Disability] Mental disorders, behavioral, or emotional issues that impact learning.':
     'emotional disturbance',
-  '[Disability] Physical disabilities affecting mobility or motor skills.':
+  '[IDEA Disability] Physical disabilities affecting mobility or motor skills.':
     'orthopedic impairment',
-  '[Disability] A developmental disorder impacting both verbal and nonverbal communication, social interaction, and educational performance.':
+  '[IDEA Disability] A developmental disorder impacting both verbal and nonverbal communication, social interaction, and educational performance.':
     'Autism spectrum disorder',
-  '[Disability] Acquired brain injury causing cognitive or physical impairments.':
+  '[IDEA Disability] Acquired brain injury causing cognitive or physical impairments.':
     'traumatic brain injury',
-  '[Disability] Health conditions like ADHD, diabetes, or epilepsy that affect learning.':
+  '[IDEA Disability] Health conditions like ADHD, diabetes, or epilepsy that affect learning.':
     'OHI',
-  '[Disability] A problem with understanding or using language, whether it is spoken or written.':
+  '[IDEA Disability] A problem with understanding or using language, whether it is spoken or written.':
     'specific learning disability',
-  '[Disability] Hearing and visual impairments occurring at the same time in the same individual.':
+  '[IDEA Disability] Hearing and visual impairments occurring at the same time in the same individual.':
     'deafblindness',
-  '[Disability] Multiple disabilities occurring at the same time in the same individual.':
+  '[IDEA Disability] Multiple disabilities occurring at the same time in the same individual.':
     'multiple disabilities',
-  '[Disability] A type of hearing impairment that impairs the ability to process information linguistically through hearing, with or without amplification.':
+  '[IDEA Disability] A type of hearing impairment that impairs the ability to process information linguistically through hearing, with or without amplification.':
     'deafness',
   "[Exceptionality] A condition that affects a person's body or mind, resulting in activity limitation (when certain activities are more challenging) and participation restrictions (limits to their interaction with the world around them).":
     'disability',
@@ -182,31 +182,31 @@ const D635 = {
     'true',
   '[True/False]: A general education teacher cannot provide assistive technologies or personalized accommadations.':
     'false',
-  '[Accommodation] Ensuring school buildings, transportation, and public spaces are wheelchair accessible with ramps, elevators, and wide doorways.':
+  '[Mobility Impairment Accommodation] Ensuring school buildings, transportation, and public spaces are wheelchair accessible with ramps, elevators, and wide doorways.':
     'accessible facilities',
-  '[Accommodation] Providing specialized tools and devices, such as wheelchairs, walkers, canes, or prosthetic limbs, to enhance mobility and independence.':
+  '[Mobility Impairment Accommodation] Providing specialized tools and devices, such as wheelchairs, walkers, canes, or prosthetic limbs, to enhance mobility and independence.':
     'adaptive equipment',
-  '[Accommodation] Offering options for adjustable desks and seating to accommodate different mobility needs in classrooms.':
+  '[Mobility Impairment Accommodation] Offering options for adjustable desks and seating to accommodate different mobility needs in classrooms.':
     'flexible seating arrangement',
-  '[Accommodation] Assigning aides or support personnel to assist individuals with tasks such as navigating the environment, carrying items, or completing daily activities.':
+  '[Mobility Impairment Accommodation] Assigning aides or support personnel to assist individuals with tasks such as navigating the environment, carrying items, or completing daily activities.':
     'personal assistance',
-  '[Accommodation] Adapting physical education classes to include activities suitable for students with mobility impairments, such as wheelchair basketball or seated exercises.':
+  '[Mobility Impairment Accommodation] Adapting physical education classes to include activities suitable for students with mobility impairments, such as wheelchair basketball or seated exercises.':
     'modified physical education',
-  '[Accommodation] Providing interpreters or captioning services for individuals who are deaf or hard of hearing to facilitate communication.':
+  '[Sensory Impairment Accommodation] Providing interpreters or captioning services for individuals who are deaf or hard of hearing to facilitate communication.':
     'sign language interpreters',
-  '[Accommodation] Offering written materials in Braille format for individuals with visual impairments to access written information independently.':
+  '[Sensory Impairment Accommodation] Offering written materials in Braille format for individuals with visual impairments to access written information independently.':
     'braille materials',
-  '[Accommodation] Using amplification systems or hearing aids to improve auditory comprehension for individuals with hearing impairments.':
+  '[Sensory Impairment Accommodation] Using amplification systems or hearing aids to improve auditory comprehension for individuals with hearing impairments.':
     'assistive listening devices',
-  '[Accommodation] Using textured or tactile cues to navigate physical spaces for individuals with visual impairments.':
+  '[Sensory Impairment Accommodation] Using textured or tactile cues to navigate physical spaces for individuals with visual impairments.':
     'tactile markers',
-  '[Accommodation] Developing personalized plans outlining medical needs, accommodations, and emergency procedures.':
+  '[OHI Accommodation] Developing personalized plans outlining medical needs, accommodations, and emergency procedures.':
     'individualized healthcare plans',
-  '[Accommodation] Administering medications or allowing students to self-administer medication as prescribed.':
+  '[OHI Accommodation] Administering medications or allowing students to self-administer medication as prescribed.':
     'medication management',
-  '[Accommodation] Allowing breaks or modified schedules to accommodate medical appointments or treatment regimens.':
+  '[OHI Accommodation] Allowing breaks or modified schedules to accommodate medical appointments or treatment regimens.':
     'flexible scheduling',
-  '[Accommodation] Providing a quiet or low-stimulus environment for students with sensory sensitivities or attention difficulties.':
+  '[OHI Accommodation] Providing a quiet or low-stimulus environment for students with sensory sensitivities or attention difficulties.':
     'environmental accommodations',
   'Individualized healthcare plans, medication management, flexible scheduling, and environmental accommodations.':
     'OHI accommodations',
@@ -555,6 +555,8 @@ const D635 = {
     'IDEA',
   "[True/False]: Under IDEA, every state must report yearly to the U.S. Department of Education's secretary about how well it is doing under its performance plan.":
     'true',
+  'Of the Rehabilitation Act of 1973, prohibits disability discrimination in federally funded programs.':
+    'Section 504',
   'Of the Rehabilitation Act of 1973, safeguards the rights of individuals with disabilities in programs and activites that get federal financial aid. It protects not just those with obvious disabilities but also those with disabilities that might not be easy to see.':
     'Section 504',
   'Of the Elementary and Secondary Act (ESEA) reauthorized by the No Child Left Behind Act of 2001, gives funding to help programs for English Leaners (ELs).':
@@ -661,6 +663,18 @@ const D635 = {
     'special education class',
   '[LRE] Placing a student in a program outside the local school district, such as a private school, a residential program, or a hospital program. These programs offer specialized services and may be necessary for students with unique or intensive needs that cannot be met within the traditional school system.':
     'specialized outside program',
+  '[True/False]: Under the IDEA, general education teachers are responsible for developing lesson plans that facilitate learning and engagement for all students.':
+    'true',
+  '[True/False]: Under the IDEA, general education teachers are responsible for monitoring the progress of all students regularly.':
+    'true',
+  '[True/False]: Under the IDEA, general education teachers are responsible for communicating effectively with students and their families.':
+    'true',
+  '[True/False]: Under the IDEA, general education teachers are responsible for collaborating with the special education teacher to develop and implement necessary accommodations, modifications, and adaptations for students with disabilities.':
+    'true',
+  "[True/False]: Under the IDEA, general education teachers are responsible for working with the special education teacher to create a support plan benefiting all students, organize paraprofessionals' schedules, and supervise their activities in the general classroom.":
+    'true',
+  '[True/False]: Under the IDEA, general education teachers are responsible for regularly updating the special education teacher on the performance of students with disabilities in class, and collaborate to assign midterm and final grades.':
+    'true',
   '[True/False]: Under the IDEA, general education teachers are responsible for communicating regularly and effectively with the student and their family.':
     'true',
   '[True/False]: Under the IDEA, general education teachers are responsible for attending district-wide trainings about special education.':
@@ -677,6 +691,28 @@ const D635 = {
     'true',
   "[True/False]: Under the IDEA, general education teachers are responsible for sending reports about the student's academic progress at least twice a week.":
     'false',
+  '[True/False]: Under the IDEA, special education teachers are responsible for establishing high expectations for students with disabilities to achieve optimal learning outcomes while respecting their individual backgrounds and dignity.':
+    'true',
+  '[True/False]: Under the IDEA, special education teachers are responsible for demonstrating professionalism by maintaining high competence and integrity, using sound judgment to support students and their families.':
+    'true',
+  '[True/False]: Under the IDEA, special education teachers are responsible for encouraging the active involvement and participation of students with disabilities within their educational environments and communities.':
+    'true',
+  '[True/False]: Under the IDEA, special education teachers are responsible for collaborating with colleagues to ensure comprehensive support for students with disabilities.':
+    'true',
+  '[True/False]: Under the IDEA, special education teachers are responsible for cultivating partnerships with families based on mutual respect, and be involved in educational decision-making processes.':
+    'true',
+  '[True/False]: Under the IDEA, special education teachers are responsible for implementing evidence-based practices, instructional data, research findings, and professional knowledge to inform instructional approaches.':
+    'true',
+  '[True/False]: Under the IDEA, special education teachers are responsible for ensuring the physical and emotional wellbeing of students with disabilities.':
+    'true',
+  '[True/False]: Under the IDEA, special education teachers are responsible for avoiding any actions that may harm individuals with disabilities, and adhere to professional ethics and standards.':
+    'true',
+  '[True/False]: Under the IDEA, special education teachers are responsible for advocating for adequate resources and favorable conditions to improve educational outcomes for students with disabilities.':
+    'true',
+  '[True/False]: Under the IDEA, special education teachers are responsible for contributing actively to professional development and growth within the field of special education.':
+    'true',
+  '[True/False]: Under the IDEA, special education teachers are responsible for sharing and disseminating professional knowledge and skills to enhance educational practices.':
+    'true',
   '[True/False]: Under the IDEA, special education teachers are responsible for adjusting the least restrictive environment (LRE) for students based on real-time academic data.':
     'false',
   '[True/False]: Under the IDEA, special education teachers are responsible for training general education teachers on the legal requirements of working with students with disabilities.':
@@ -1115,6 +1151,56 @@ const D635 = {
   'The main purpose is to identify the primary language spoken at home.':
     'home language survey',
   '[True/False]: The home language survey is commonly administered to all families even if most students speak English at home.':
+    'true',
+  '[True/False]: A pencil grip to improve handwriting control is a low-tech assistive technology that can help students with handwriting issues.':
+    'true',
+  'Tactile markers, Braille materials, assistive listening devices, and sign language interpreters.':
+    'sensory impairment accommodations',
+  '[True/False]: If a student requires adapted equipment to participate in physical activites, it should be stated so in their IEP.':
+    'true',
+  'What type of impairment do height-adjustable desk and mounting systems accommodate?':
+    'physical impairment',
+  'Liam is a student who is not allowed to participate in certain school activities because of safety, health, or behavior concerns. Which term best describes these limits placed on Liam’s involvement?':
+    'participation restrictions',
+  '[True/False]: Providing a student with a temporary mobility impairment an elevator key and extra passing time is an appropriate accommodation.':
+    'true',
+  'Providing captions to videos is an inclusive UDL strategy.': 'true',
+  'Regularly randomizing seating is an inclusive UDL strategy.': 'false',
+  '[UDL Domain] The "WHY" of learning.': 'engagement',
+  '[UDL Domain] The "WHAT" of learning.': 'representation',
+  '[UDL Domain] The "HOW" of learning.': 'action and expression',
+  'The 3 domains of UDL.': 'engagement, representation, action and expression',
+  '[UDL Domain] Providing visual aids, audio recordings, and tactile markers. All about access.':
+    'representation',
+  '[UDL Domain] Providing students with various opportunities through various means such as written assignments, oral presentations, multimedia projects, or hands-on activities.':
+    'action and expression',
+  'A framework that involves proactive planning and design to ensure that learning environments and materials are accessible to all students.':
+    'UDL',
+  '[UDL Domain] Focuses on how students interact with the learning materials.':
+    'engagement',
+  '[UDL Domain] Offering multiple means to demonstrate and showcase their knowledge.':
+    'action and expression',
+  '[UDL Domain] Using graphic organizers, timelines, and audio recordings to allow all students access to the content in various formats.':
+    'representation',
+  '[UDL Domain] Providing students a list of novels for a book report and allowing them to choose.':
+    'engagement',
+  '[UDL Domain] Providing students the option to work individually, in pairs, or in small groups.':
+    'engagement',
+  '[UDL Domain] Providing video demonstrations, hands-on experiments, and written instructions to cater to different learning styles and abilities.':
+    'representation',
+  'Scarlett reports difficulty accessing medical appointments and community recreation due to mobility issues. What is the core concern?':
+    'participation restrictions',
+  '[True/False]: Documented missed appointments due to transportation is a relevant data source for verifying limitations in healthcare access.':
+    'true',
+  '[True/False]: A switch-access note-taking device is a type of accommodation for those with limited hand function.':
+    'true',
+  'Aria is a student with ADHD attending a public school. Her parents are concerned about ensuring she receives nondiscriminatory treatment and reasonable accommodations. Which legal framework ensures these protections for Aria?':
+    'Section 504',
+  '[True/False]: Allowing extended time on tests and assignments is a modification.':
+    'false',
+  '[True/False]: Allowing extended time on tests and assignments is an accommodation, not a modification.':
+    'true',
+  '[True/False]: Reducing the number of key concepts a student must master is a modification.':
     'true',
 };
 
