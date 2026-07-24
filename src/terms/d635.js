@@ -12,6 +12,36 @@ const D635 = {
   'Section 504 vs IDEA: this one is a special education law.': 'IDEA',
   'Section 504 vs IDEA: this one operates under civil rights law.':
     'Section 504',
+  'Section 504 vs IDEA: protects children 3-21 who fall under 1 of 13 specified disabilities.':
+    'IDEA',
+  'Section 504 vs IDEA: requires IEP.': 'IDEA',
+  'Section 504 vs IDEA: requires completion before any placement changes.':
+    'IDEA',
+  'Section 504 vs IDEA: requires parental consent for evaluations.': 'IDEA',
+  'Section 504 vs IDEA: re-evaluations every three years.': 'IDEA',
+  'Section 504 vs IDEA: places students in the least restrictive environment possible.':
+    'IDEA',
+  'Section 504 vs IDEA: federally funded.': 'IDEA',
+  'Section 504 vs IDEA: provides free and appropriate education (FAPE).':
+    'both',
+  'Section 504 vs IDEA: procedural safeguards - notice to parents regarding identification, evaluation, and placement.':
+    'both',
+  'Section 504 vs IDEA: due process - impartial hearing provided to parents who disagree with the identification, evaluation, or placement.':
+    'both',
+  'Section 504 vs IDEA: prohibits discrimination based on disability under the Civil Rights Act of 1973.':
+    'Section 504',
+  'Section 504 vs IDEA: mandates physical and program access via modifications and accommodations that do not create undue hardships but provide comparable facilities and services for general education.':
+    'Section 504',
+  'Section 504 vs IDEA: protects anyone with physical/mental impairment.':
+    'Section 504',
+  'Section 504 vs IDEA: requires a 504 Plan.': 'Section 504',
+  'Section 504 vs IDEA: may include an IEP if eligibility for IDEA is established.':
+    'Section 504',
+  'Section 504 vs IDEA: parental consent for evaluations is recommended, but not required.':
+    'Section 504',
+  'Section 504 vs IDEA: state and local funded.': 'Section 504',
+  'Section 504 vs IDEA: guarantees special education and related services.':
+    'IDEA',
   FAPE: 'Free and Public Education',
   'List the 6 Principles of IDEA (alphabetical order).':
     'Appropriate Evaluation, FAPE, IEPs, LRE, Participation, Procedural Safeguards',
@@ -82,6 +112,8 @@ const D635 = {
   '[True/False]: Under IDEA, it is the responsibility of the general education teacher to assess student learning and plan lessons for all students.':
     'true',
   'Special education teachers follow the _______ ___ __________ _______ Standards for Professional Practice to provide effective support for students with disabilities.':
+    'Council for Exceptional Children',
+  'Aria is a special educator who wants to ensure her teaching practices are both ethical and effective. She is looking for guidance from a professional body that sets standards for special educators. Which professional body should Aria refer to?':
     'Council for Exceptional Children',
   '[True/False]: Under IDEA, general education teachers are responsible for providing accommodations and modifications to meet the learning needs of students with disabilities.':
     'true',
@@ -760,6 +792,30 @@ const D635 = {
     'IEP',
   'IEP vs 504 Plan: this one addresses disabilities that hinder learning in the general education setting and encompasses a wide range of physical and mental impairments that significantly impact daily functioning.':
     '504 Plan',
+  "IEP vs 504 Plan: eligibility is based on 1) having a disability that adversely affects the student's educational performance and 2) the disability is one of the specific disabilities listed in the IDEA.":
+    'IEP',
+  "IEP vs 504 Plan: eligibility is based on 1) having an impairment that impacts the student's ability to access education in the general education setting and 2) this physical or mental impairment must substantially limit one or more major life activities such as learning, reading, or concentrating.":
+    '504 Plan',
+  "IEP vs 504 Plan: goes beyond accommodations and provides specialized instruction tailored to meet the student's unique needs.":
+    'IEP',
+  'IEP vs 504 Plan: provides accommodations and support that remove barriers to learning to ensure access to education. These accommodations may include adjustments to the learning environment, access to assistive technology, or modifications to instruction.':
+    '504 Plan',
+  'IEP vs 504 Plan: typically individualized and with a team of educators, specialists, and parents working together to develop and implement the plan.':
+    'IEP',
+  'IEP vs 504 Plan: focuses on accommodations and supports within the general education setting. These accommodations are typically implemented by general education teachers, with input from other school staff as needed.':
+    '504 Plan',
+  "IEP vs 504 Plan: provides specialized instruction tailored to meet the student's unique needs.":
+    'IEP',
+  'IEP vs 504 Plan: involves a comprehensive approach with a team of educators, specialists, and parents.':
+    'IEP',
+  'IEP vs 504 Plan: eligibility requires a physical or mental impairment that substantially limits one or more major life activities.':
+    '504 Plan',
+  'IEP vs 504 Plan: eligibility is based on having one of the specific disabilities listed in IDEA and requiring specialized instruction.':
+    'IEP',
+  'IEP vs 504 Plan: accommodations are typically implemented by general education teachers within the general education setting.':
+    '504 Plan',
+  'IEP vs 504 Plan: ensures equal access to education through accommodations and supports.':
+    '504 Plan',
   '[True/False]: Students under Section 504 may not require specialized instruction but need accommodations to ensure equal educational opportunities.':
     'true',
   'Section 504 vs IDEA: this one is funded by state and local governments.':
@@ -920,6 +976,26 @@ const D635 = {
     'UDL',
   'Culturally responsive teaching vs UDL: implementation strategies such as fostering relationships, cultural content, and inclusive curriculum design.':
     'culturally responsive teaching',
+  'Culturally responsive teaching vs UDL: promoting equity, engagement, and student success.':
+    'both',
+  'Culturally responsive teaching vs UDL: recognizing diversity as essential and leveraging it for better learning outcomes.':
+    'both',
+  'Culturally responsive teaching vs UDL: inclusive teaching practices, addressing individual needs, and fostering belonging and respect.':
+    'both',
+  'Culturally responsive teaching vs UDL: flexibility in teaching methods.':
+    'UDL',
+  'Culturally responsive teaching vs UDL: different ways to learn (representation, engagement, expression':
+    'UDL',
+  'Culturally responsive teaching vs UDL: goal of providing equal learning opportunities.':
+    'UDL',
+  'Culturally responsive teaching vs UDL: principles like multiple representation, engagement, and expression.':
+    'UDL',
+  "Culturally responsive teaching vs UDL: making learning relevant to students' backgrounds and experiences.":
+    'culturally responsive teaching',
+  'Culturally responsive teaching vs UDL: key principles like building relationships, cultural relevance, and inclusivity.':
+    'culturally responsive teaching',
+  'Culturally responsive teaching vs UDL: goal of creating inclusive and culturally affirming learning environments.':
+    'culturally responsive teaching',
   'A classroom that values and reflects the cultures and identities of all students, including building strong relationships with students and their families.':
     'culturally responsive teaching',
   '[True/False]: Learners with linguistic needs require support in developing English language skills, while those with disabilities may require support with processing language due to issues with comprehension and/or fluency.':
@@ -1001,6 +1077,37 @@ const D635 = {
     'accommodations',
   'Accommodations vs Modifications: changes in what the student is expected to learn.':
     'modifications',
+  'Accommodations vs Modifications: changes to how teachers present or assess the material.':
+    'accommodations',
+  'Accommodations vs Modifications: changes to the content or expectations of assignments.':
+    'modifications',
+  'Accommodations vs Modifications: changes instruction delivery, not learning targets.':
+    'accommodations',
+  'Accommodation or Modification: reducing the number of key concepts a student must master.':
+    'modification',
+  'Accommodation or Modification: permitting note-taking supports and graphic organizers.':
+    'accommodation',
+  'Accommodation or Modification: providing audio versions of textbooks and readings.':
+    'accommodation',
+  'Accommodation or Modification: allowing extended time on tests and assignments.':
+    'accommodation',
+  'Accommodation or Modification: extended time or adjusting the test or assignment format.':
+    'accommodation',
+  'Accommodation or Modification: visual aids and graphic organizers.':
+    'accommodation',
+  'Accommodation or Modification: flexible seating arrangements.':
+    'accommodation',
+  'Accommodation or Modification: peer assistance and note-taking support.':
+    'accommodation',
+  'Accommodation or Modification: allowing the use of a calculator, extra note paper, or other tools during math tests.':
+    'accommodation',
+  'Accommodation or Modification: simplified assignments or assessments.':
+    'modification',
+  'Accommodation or Modification: altered grading criteria.': 'modification',
+  'Accommodation or Modification: alternative assignments or projects.':
+    'modification',
+  'Accommodation or Modification: curriculum simplification or differentiation.':
+    'modification',
   '[True/False]: Parts of an IEP will vary from state to state.': 'true',
   '[True/False]: Transition services is part of the transition plan of an IEP.':
     'true',
@@ -1202,6 +1309,51 @@ const D635 = {
     'true',
   '[True/False]: Reducing the number of key concepts a student must master is a modification.':
     'true',
+  "[Culturally Responsive Teaching] Identifies and leverages students' strengths.":
+    'shifts away from deficit mindset',
+  '[Culturally Responsive Teaching] Adopts an assets mindset.':
+    'recognizes and addresses implicit biases',
+  '[Culturally Responsive Teaching] Exposes students and teachers to all perspectives.':
+    'promotes cultural competence',
+  '[Culturally Responsive Teaching] Fosters a sense of belonging through representation.':
+    'help students feel valued and empowered',
+  'How many main principles of culturally responsive teaching are there?': '4',
+  'How many main principles of UDL are there?': '3',
+  'Provides legal protections and accommodations to ensure students with disabilities have equal access to education. These include accommodations such as extended time on tests, preferential seating, and the use of assistive technology.':
+    'section 504',
+  '[True/False]: Preferential seating, providing extra time for assignments, and ensuring classroom materials are accessible to all are common accommodations of a 504 Plan.':
+    'true',
+  'Prohibits disability discrimination in federally funded programs, enacted under the Rehabilitation Act of 1973.':
+    'Section 504',
+  'A plan to provide accommodations that remove barries to equal access.':
+    '504 Plan',
+  'A plan to remove learning barriers through accommodations.': '504 Plan',
+  'A civil rights law ensuring equal educational access.': 'Section 504',
+  'A federal law ensuring tailored supports in schools.': 'IDEA',
+  'Aria is a school administrator who wants to ensure that all students, including those with diverse cultural and linguistic backgrounds, have equitable access to learning opportunities. She is looking for a framework that designs flexible learning environments and curricula to achieve this goal. Which term best describes the framework Aria should consider?':
+    'UDL',
+  'Equitable access through multiple means of engagement, representation, and action.':
+    'UDL',
+  'Cost-free tailored educational services.': 'FAPE',
+  'Jackson is an English Learner at his school. His teachers want to ensure he develops English proficiency while also having access to academic content. Which program model is designed to provide structured services for students like Jackson?':
+    'LIEP',
+  'When Olivia enrolls in a new school, the administration gives her parents a form to determine her primary language. Which term refers to this school-administered form?':
+    'home language survey',
+  'Mason is a student with a disability. His school team meets to create a personalized plan outlining his educational goals and support services, as required under IDEA. What is the term for this document?':
+    'IEP',
+  '[True/False]: A student with a disability being declined club participation (such as the school science club) is a violation of Section 504.':
+    'true',
+  'A ninth-period scenario: A student remains in algebra class all day but uses text-to-speech, meets a tutor after school, and has a classroom aide. What instructional model is being implemented?':
+    'general education with support',
+  'Include students in general education to the maximum feasible.': 'LRE',
+  '[True/False]: The CEC professional standards for ethical and professional practice requires documenting and implementing IEP accommodations consistently.':
+    'true',
+  'Adjusting teaching methods to meet individual needs.':
+    'differentiated instruction',
+  'Mia receives small-group instruction in a separate room but spends most of the day in general education. What service model is this?':
+    'partial mainstream/inclusion',
+  "Olivia is a student who stays in the general education classroom but receives added help, such as aides, technology, or accommodations. Which term best describes Olivia's placement?":
+    'general education with support',
 };
 
 export default D635;
