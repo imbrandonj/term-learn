@@ -91,6 +91,11 @@ const MATHTERMS = {
     '(a + b)(a^2 - ab + b^2)',
   'Factor the difference of two cubes: a^3 - b^3 (use ^2 for any exponents).':
     '(a - b)(a^2 + ab + b^2)',
+  '(a - b)(a + b)': 'difference of squares',
+  '(a + b)²': 'perfect square',
+  '(a - b)²': 'perfect square',
+  '(a - b)(a² + ab + b²)': 'difference of cubes',
+  '(a + b)(a² - ab + b²)': 'sum of cubes',
   'Write the general form of a quadratic equation (use ^2 for any exponents).':
     'ax^2 + bx + c = 0',
   'General form: ax² + bx + c = 0': 'quadratic equation',
@@ -120,6 +125,7 @@ const MATHTERMS = {
   'A fraction that contains at least one other fraction in its numerator, denominator, or both.':
     'complex fraction',
   '(a + b)² (use ^2 for exponents)': 'a^2 + 2ab + b^2',
+  '(a - b)² (use ^2 for exponents)': 'a^2 - 2ab + b^2',
   'Any function which can be written as powers of x without using negative powers, fractional powers, infinite sums, or approximations':
     'polynomial',
   '(True/False): x² - 2 is a polynomial.': 'true',
@@ -209,7 +215,11 @@ const MATHTERMS = {
   'y is 0 when the line passes through the...': 'x-axis',
   'Vertical axis of a graph': 'y-axis',
   'Horizontal axis of a graph': 'x-axis',
-  'The standard form of a linear equation.': 'Ax + By = C',
+  'The standard form of a linear equation of a line.': 'ax + by = c',
+  'The standard form of a one variable linear equation.': 'ax + b = 0',
+  'The standard form of a two variable linear equation.': 'ax + by = c',
+  'A linear equation is degree...': '1',
+  'A quadratic equation is degree...': '2',
   'A relation in which each input is assigned exactly one output.': 'function',
   '[in a function] f(x) values or dependent variables; usually y': 'output',
   '[in a function] an input never gives you more than 1...': 'output',
@@ -688,6 +698,36 @@ const MATHTERMS = {
     'radical',
   'An answer to an equation that includes an imaginary number.':
     'complex solution',
+  'Write the form of a quadratic function.': 'f(x) = ax^2 + bx + c',
+  'An upward facing parabola.': 'a > 0',
+  'A downward facing parabola.': 'a < 0',
+  '(0, C)': 'y-intercept',
+  'f(x) = 0': 'x-intercept',
+  'ax² + bx + c = 0 solves for what?': 'x-intercept',
+  'ax² + bx + c = 0': 'quadratic equation',
+  'AB = 0 if and only if A = 0 or B = 0': 'zero product property',
+  'A statement that two mathematical expressions are equal.': 'equation',
+  'Roots of the equation.': 'solutions',
+  'The values of an unknown that make the equation true are called the solutions or the...':
+    'roots',
+  'Two equations with exactly the same solutions.': 'equivalent equations',
+  'ax + b = 0': 'linear equation',
+  'To make x² + bx a perfect square, add...': '(b/2)^2',
+  'If the coefficient of x² is 1, then: x² + bx + (b/2)² =': '(x + b/2)^2',
+  'Applying the quadratic formula of a quadratic equation finds the solutions aka the...':
+    'roots',
+  '[True/False]: Every parabola that is the graph of a quadratic function has a y-intercept.':
+    'true',
+  '[True/False]: Every parabola that is a graph of a quadratic function has an x-intercept.':
+    'false',
+  'The point of a parabola where it changes from increasing to decreasing (downward parabola), or decreasing to increasing (upward parabola).':
+    'vertex',
+  'For every quadratic function, the x-coordinate of the vertex is...':
+    'x = -b/2a',
+  'For every quadratic function, the y-coordinate of the vertex is...':
+    'y = f(-b/2a)',
+  'For every quadratic function, the axis of symmetry is...': 'x = -b/2a',
+  'The vertex of a quadratic function.': '(-b/2a, f(-b/2a))',
 };
 
 export default MATHTERMS;
