@@ -87,9 +87,9 @@ const MATHTERMS = {
   'This property, or law, splits multiplication across addition (or subtraction) to simplify.':
     'distributive property',
   'Factor the difference of squares: a² - b²': '(a - b)(a + b)',
-  'Factor the sum of two cubes: a^3 + b^3 (use ^2 for any exponents).':
+  'Factor the sum of two cubes: a³ + b³ (use ^2 for any exponents).':
     '(a + b)(a^2 - ab + b^2)',
-  'Factor the difference of two cubes: a^3 - b^3 (use ^2 for any exponents).':
+  'Factor the difference of two cubes: a³ - b³ (use ^2 for any exponents).':
     '(a - b)(a^2 + ab + b^2)',
   '(a - b)(a + b)': 'difference of squares',
   '(a + b)²': 'perfect square',
@@ -192,6 +192,8 @@ const MATHTERMS = {
   'In a vertical line, the slope is...': 'undefined',
   '0 / run': 'horizontal line',
   'rise / 0': 'vertical line',
+  '√(x₂​−x₁​)² + (y₂−y₁​)²': 'distance formula',
+  'Distance formula': 'd = sqrt((x2 - x1)^2 + (y2 - y1)^2)',
   'm = y₂ - y₁ / x₂ - x₁': 'slope formula',
   'Divides the vertical change ("rise") by the horizontal change ("run") between two points to calculate the steepness of a line.':
     'slope formula',
@@ -221,12 +223,12 @@ const MATHTERMS = {
   'A linear equation is degree...': '1',
   'A quadratic equation is degree...': '2',
   'A relation in which each input is assigned exactly one output.': 'function',
-  '[in a function] f(x) values or dependent variables; usually y': 'output',
-  '[in a function] an input never gives you more than 1...': 'output',
-  '[in a function] an _____ never gives you more than 1 output.': 'input',
-  '[in a function] y = f(x), the x is the input or the...':
+  '[of a function] f(x) values or dependent variables; usually y': 'output',
+  '[of a function] an input never gives you more than 1...': 'output',
+  '[of a function] an _____ never gives you more than 1 output.': 'input',
+  '[of a function] y = f(x), the x is the input or the...':
     'independent variable',
-  '[in a function] y = f(x), the y is the output or the...':
+  '[of a function] y = f(x), the y is the output or the...':
     'dependent variable',
   '(x or y?, x or y?)': '(x, y)',
   'The complete set of all possible input values for which a function produces a valid, defined output.':
@@ -445,6 +447,16 @@ const MATHTERMS = {
   'A polygon having 5 sides.': 'pentagon',
   'A closed plane figure bounded by straight line segments as sides.':
     'polygon',
+  'A regular quadrilateral is more commonly called a...': 'square',
+  'A polygon where all sides have the same length.': 'equilateral',
+  'A polygon where all angles have the same measure.': 'equiangular',
+  'A polygon which is equilateral and equiangular.': 'regular',
+  'A polygon with at least one interior angle measuring greater than 180°.':
+    'concave',
+  'A polygon where all interior angles measure less than 180°.': 'convex',
+  'A polygon, which, informally, has at least one pair of sides "pushed in."':
+    'concave',
+  'A polygon, which, informally, has all sides "pushed out."': 'convex',
   'A polygon having 4 sides.': 'quadrilateral',
   'A polygon having 3 sides.': 'triangle',
   'How many vertices does a triangle have?': '3',
@@ -461,6 +473,12 @@ const MATHTERMS = {
     'obtuse triangle',
   'A triangle having three interior angles each less than 90°.':
     'acute triangle',
+  'A triangle with no congruent sides or angles.': 'scalene triangle',
+  'A triangle where all angles are less than 90°.': 'acute triangle',
+  'What is a triangle with no congruent sides or angles and one angle is greater than 90°?':
+    'scalene obtuse triangle',
+  'What is a triangle with no congruent sides or angles and where all angles are less than 90°?':
+    'scale acute triangle',
   'In Euclidean geometry, the interior angles of a triangle always sum to...':
     '180',
   'Triangle angle sum.': '180',
@@ -728,6 +746,48 @@ const MATHTERMS = {
     'y = f(-b/2a)',
   'For every quadratic function, the axis of symmetry is...': 'x = -b/2a',
   'The vertex of a quadratic function.': '(-b/2a, f(-b/2a))',
+  'i² =': '-1',
+  'i =': 'sqrt(-1)',
+  'A function that repeats its output in a predictable pattern.':
+    'periodic function',
+  '[True/False]: If the function f has period P, then horizontally translating the graph of f by any multiple of P will leave the graph unchanged.':
+    'true',
+  'The horizontal line of a periodic function representing the average of its maximum and minimum outputs.':
+    'midline',
+  "Half the vertical distance between a periodic function's maximum and minimum outputs.":
+    'amplitude',
+  'Write the equation for finding the midline of a periodic function.':
+    'M = (y-max + y-min)/2',
+  'Write the equation for finding the amplitude of a periodic function.':
+    'A = (y-max - y-min)/2',
+  '[of a periodic function]: M + A': 'maxima',
+  '[of a periodic function]: M - A': 'minima',
+  'Functions such as x, x², x³': 'power function',
+  'For the power function xⁿ, the exponent n is called its...': 'degree',
+  'Even-degree power functions are U-shaped and pass through the points... (excluding x⁰)':
+    '(-1, 1), (0, 0), (1, 1)',
+  'Odd-degree power functions are S-shaped and pass through the points...':
+    '(-1, -1), (0, 0), (1, 1)',
+  'All power functions with even degree have the property that p(x) =': 'p(-x)',
+  'All power functions with odd degree have the property that p(x) =': '-p(x)',
+  'Unshifted, even-degree power functions have reflectional symmetry at...':
+    'x = 0',
+  'Unshifted, even-degree and odd-degree power functions share the points...':
+    '(0, 0), (1, 1)',
+  'When two lines intersect, the angles opposite from each other are called...':
+    'vertical angles',
+  'A pair of vertical angles are always... [in measurement]': 'equal',
+  'When calculating the average rate of change of a function between two points, use this formula.':
+    'slope formula',
+  'Slope formula': '(y2 - y1)/(x2 - x1)',
+  'A rectangle is a parallelogram having one...': 'right angle',
+  'Since the consecutive angles of a parallelogram are supplementary, if one angle is a right angle, the remaining angles must be...':
+    'right angles',
+  'f(x) = axⁿ': 'power function',
+  'What is the domain for all power functions?': 'all real numbers',
+  'What is the range for odd power functions?': '(-infinity, infinity)',
+  'What is the range for all even, positive power functions?': '[0, infinity)',
+  'What is the range for all even, negative power functions?': '(-infinity, 0]',
 };
 
 export default MATHTERMS;
