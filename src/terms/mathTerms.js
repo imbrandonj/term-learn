@@ -174,6 +174,9 @@ const MATHTERMS = {
   'y = mx + b ... what does the b represent?': 'y-intercept',
   'y = 3x + 4 ... what is the y-intercept?': '4',
   'y = 3x + 4 ... what is the slope?': '3',
+  'f(x) = mx + b where m > 0': 'increasing linear function',
+  'f(x) = mx + b where m < 0': 'decreasing linear function',
+  'f(x) = mx + b where m = 0': 'constant function',
   'The dependent variable.': 'y',
   'The independent variable.': 'x',
   'The vertical axis.': 'y-axis',
@@ -194,6 +197,9 @@ const MATHTERMS = {
   'rise / 0': 'vertical line',
   '√(x₂​−x₁​)² + (y₂−y₁​)²': 'distance formula',
   'Distance formula': 'd = sqrt((x2 - x1)^2 + (y2 - y1)^2)',
+  'Midpoint formula': 'm = ((x1 + x2)/2, (y1 + y2)/2)',
+  'Given the endpoints of a line segment, (x₁, y₁) and (x₂, y₂), this states how to find the coordinates of the midpoint M.':
+    'midpoint formula',
   'm = y₂ - y₁ / x₂ - x₁': 'slope formula',
   'Divides the vertical change ("rise") by the horizontal change ("run") between two points to calculate the steepness of a line.':
     'slope formula',
@@ -217,9 +223,10 @@ const MATHTERMS = {
   'y is 0 when the line passes through the...': 'x-axis',
   'Vertical axis of a graph': 'y-axis',
   'Horizontal axis of a graph': 'x-axis',
-  'The standard form of a linear equation of a line.': 'ax + by = c',
+  'The standard form of a line.': 'ax + by = c',
   'The standard form of a one variable linear equation.': 'ax + b = 0',
   'The standard form of a two variable linear equation.': 'ax + by = c',
+  'f(x) = mx + b': 'linear function',
   'A linear equation is degree...': '1',
   'A quadratic equation is degree...': '2',
   'A relation in which each input is assigned exactly one output.': 'function',
@@ -266,6 +273,8 @@ const MATHTERMS = {
   'An equation whose graph is a line.': 'linear equation',
   '[True/False]: The only linear equations that cannot be written in the form y = mx + b are vertical lines.':
     'true',
+  'A line on which distances from a point are marked off in equal units, posititively in one direction, and negatively in the other.':
+    'number line',
   'The distance a number is from zero on the number line.': 'absolute value',
   '[True/False]: All rational numbers can be placed on a number line.': 'true',
   '[True/False]: 0 is a rational number.': 'true',
@@ -706,6 +715,9 @@ const MATHTERMS = {
   'Two mathematical expressions that are identical except for the sign between their terms.':
     'conjugate pairs',
   'If a complex number is in the form a + bi, its conjugate is...': 'a - bi',
+  'a + bi': 'complex number',
+  'a + bi, the a represents the...': 'real part',
+  'a + bi, the bi represents the...': 'imaginary part',
   'A positive integer greater than 1 that has more than two factors.':
     'composite number',
   '[True/False]: 2 is a composite number.': 'false',
@@ -788,6 +800,76 @@ const MATHTERMS = {
   'What is the range for odd power functions?': '(-infinity, infinity)',
   'What is the range for all even, positive power functions?': '[0, infinity)',
   'What is the range for all even, negative power functions?': '(-infinity, 0]',
+  'When a point is reflected over the x-axis, the _-__________ changes sign.':
+    'y-coordinate',
+  'When a point is reflected over the y-axis, the _-__________ changes sign.':
+    'x-coordinate',
+  'Fractions (or quotients) containing integers in both the numerator and the denominator, and the denominator is never 0.':
+    'rational number',
+  'A transformation that multiplies every y-coordinate of a graph by a constant factor. For y=af(x), the y-values of the parent function are multiplied by a. If |a| >1, the graph is vertically stretched; if 0 < |a| < 1, it is vertically compressed.':
+    'vertical dilation',
+  'A transformation that changes the y-coordinates of a graph while leaving the x-coordinates unchanged.':
+    'vertical transformation',
+  'Vertical translations, vertical stretches, and vertical compressions.':
+    'vertical transformations',
+  'A transformation that changes the x-coordinates of a graph while leaving the y-coordinates unchanged.':
+    'horizontal transformation',
+  'Horizontal translations, horizontal stretches, and horizontal compressions.':
+    'horizontal transformations',
+  'Precise term for "vertical stretch" and "vertical compression."':
+    'vertical dilation',
+  'Precise term for "horizontal stretch" and "horizontal compression."':
+    'horizontal dilation',
+  'A transformation that moves a graph up or down without changing its shape. A constant is added to or subtracted from every y-coordinate.':
+    'vertical translation',
+  'A transformation that moves a graph left or right without changing its shape. A constant is added to or subtracted from the x-input of the function.':
+    'horizontal translation',
+  'Between points P and Q denoted by d(P,Q)': 'distance',
+  'The length of one side of a triangle is at most equal to the sum of the lengths of the other two sides.':
+    'triangle inequality',
+  'Let P, Q, M be points. Then, d(P,M) <= d(P,Q) + d(Q,M)':
+    'triangle inequality',
+  'Let P be a point and radius r, thus this is the set of all points Q whose distance from P is r.':
+    'circle',
+  'The starting point of a ray.': 'vertex',
+  'All the possible points within a circle.': 'disc',
+  'Half a straight angle.': 'right angle',
+  'A horizontal line and a vertical line intersecting at a point O, called the origin.':
+    'coordinate axes',
+  'The set of all pairs (x,y) of real numbers. Denoted by R²': 'plane',
+  'The natural numbers plus zero.': 'whole numbers',
+  '[True/False]: Irrational numbers cannot be expressed as a fraction of two integers (a rational).':
+    'true',
+  'Numbers that cannot be written as fractions.': 'irrational numbers',
+  'The set of all rational and irrational numbers together.': 'real numbers',
+  'aⁿ, the a represents the...': 'base',
+  'aⁿ, the n represents the...': 'exponent',
+  'Tells you how many times to multiply a number by itself.': 'exponent',
+  'We use _________ to represent repeated multiplication.': 'exponent',
+  'A mathematical statement indicating that two expressions are equal.':
+    'equation',
+  'An equation expressing a relationship between constant and variable quantities.':
+    'formula',
+  'A sum of or difference of terms, each consisting of a variable raised to a nonnegative integer power.':
+    'polynomial',
+  'If a term does not contain a variable, it is called a...': 'constant',
+  'The term of a polynomial with the highest power.': 'leading term',
+  'When a binomial is squared, the result is called a...':
+    'perfect square trinomial',
+  'A two dimensional plane where the x-axis is the horizontal axis and the y-axis is the vertical axis and a point in the plane is defined as an ordered pair (x, y).':
+    'Cartesian Coordinate System',
+  'A two dimensional plane where the x-axis is the real axis and the y-axis is the imaginary axis.':
+    'complex plane',
+  'A coordinate system in which the horizontal axis represents the real component and the vertical axis represents the imaginary component.':
+    'complex plane',
+  'A directed line segment.': 'ray',
+  'The union of two rays having a common endpoint, called the vertex.': 'angle',
+  'An angle where its terminal side lies on an axis, including 0°, 90°, 180°, 270°, or 360°.':
+    'quadrantal angle',
+  'An equation of the vertical line through (a, b).': 'x = a',
+  'An equation of the horizontal line through (a, b).': 'y = b',
+  'The set of all points (x, y) in the coordinate plane that satisfy the equation.':
+    'graph',
 };
 
 export default MATHTERMS;

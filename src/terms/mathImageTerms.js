@@ -80,6 +80,19 @@ const MATH_IMAGE_TERMS = {
   'Identify the parent function|/images/math/parentfn8.png': 'f(x) = 1/x',
   'Identify the parent function|/images/math/parentfn9.png': 'f(x) = 2^x',
   'Identify the parent function|/images/math/transform5.png': 'f(x) = x^2',
+  'Identify the formula|/images/math/distanceformula.png': 'distance formula',
+  'Identify the expression|/images/math/polynomial.png': 'polynomial',
+  'The a represents the...|/images/math/polynomial.png': 'coefficient',
+  'The n represents the...|/images/math/polynomial.png': 'degree',
+  'aₙxⁿ represents the...|/images/math/polynomial.png': 'leading term',
+  'Identify the expression|/images/math/perfectsquare.png': 'perfect square',
+  'Identify the expression|/images/math/perfectsquaretri.png':
+    'perfect square trinomial',
+  'Identify the formula|/images/math/pythagorean.png': 'Pythagorean Theorem',
+  'Identify the formula|/images/math/midpointformula.png': 'Midpoint Formula',
+  'Identify the formula|/images/math/slopeformula.png': 'Slope Formula',
+  'Identify the formula|/images/math/pointslopeformula.png':
+    'Point-Slope Formula',
 };
 
 export default MATH_IMAGE_TERMS;
