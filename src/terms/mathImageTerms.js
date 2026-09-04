@@ -93,6 +93,14 @@ const MATH_IMAGE_TERMS = {
   'Identify the formula|/images/math/slopeformula.png': 'Slope Formula',
   'Identify the formula|/images/math/pointslopeformula.png':
     'Point-Slope Formula',
+  'What is the multiplicity of x = 0?|/images/math/polyfn1.png': '2',
+  'What is the multiplicity of x = -3?|/images/math/polyfn1.png': '5',
+  'At most, how many turning points can this function have?|/images/math/polyfn2.png':
+    '2',
+  'Does x = 2 cross or touch the x-axis?|/images/math/polyfn1.png': 'cross',
+  'Does x = 0 cross or touch the x-axis?|/images/math/polyfn1.png': 'touch',
+  'Which term determines the graph end behavior?|/images/math/polyfn2.png':
+    'x^3',
 };
 
 export default MATH_IMAGE_TERMS;

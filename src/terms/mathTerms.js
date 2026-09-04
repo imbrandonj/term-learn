@@ -870,6 +870,18 @@ const MATHTERMS = {
   'An equation of the horizontal line through (a, b).': 'y = b',
   'The set of all points (x, y) in the coordinate plane that satisfy the equation.':
     'graph',
+  "The number of times a root occurs as a zero of a polynomial, equivalently, the exponent of its corresponding linear factor in the polynomial's factored form.":
+    'multiplicity',
+  'The multiplicity of a polynomial root that causes the graph to "bounce" or touch the x-axis and turn around':
+    'even',
+  'The multiplicity of a polynomial root that causes the graph to intersect/cross the x-axis.':
+    'odd',
+  'What is the domain for all polynomial functions?': 'all real numbers',
+  '[True/False]: Polynomial functions have unrestricted real domains.': 'true',
+  'The end behavior of a polynomial function is determined by the...':
+    'leading term',
+  'If a polynomial function has a degree n, then there will be at most how many turning points (local max/min)?':
+    'n - 1',
 };
 
 export default MATHTERMS;
