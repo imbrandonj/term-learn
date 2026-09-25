@@ -214,6 +214,7 @@ const MATHTERMS = {
   'Use this formula to build an equation of a line when you know: 1) the slope and 2) the y-intercept.':
     'slope-intercept form',
   'y - y₁ = m(x - x₁)': 'point-slope form',
+  'Write point-slope formula.': 'y - y1 = m(x - x1)',
   'A ratio of vertical change to horizontal change.': 'slope',
   '(0, y)': 'y-intercept',
   '(x, 0)': 'x-intercept',
@@ -599,8 +600,8 @@ const MATHTERMS = {
   'Using a graph to represent a function.': 'visual',
   'The reciprocal function.': 'f(x) = 1/x',
   'Odd function key points (aside from f(x) = 1/x).':
-    '(1, 1), (0, 0), (-1, -1)',
-  'Even function key points.': '(1, 1), (0, 0), (-1, 1)',
+    '(-1, -1), (0, 0), (1, 1)',
+  'Even function key points.': '(-1, 1), (0, 0), (1, 1)',
   '[True/False]: Most functions are neither even nor odd.': 'true',
   'f(x) + k': 'vertical shift up',
   'f(x) - k': 'vertical shift down',
@@ -882,6 +883,10 @@ const MATHTERMS = {
     'leading term',
   'If a polynomial function has a degree n, then there will be at most how many turning points (local max/min)?':
     'n - 1',
+  'Converts "I know a point and the slope" into an equation for the entire line. Finding the y-intercept is one thing you can do with this equation.':
+    'point-slope form',
+  'Organized around slope + a point.': 'point-slope form',
+  'Organized around slope + y-intercept.': 'slope-intercept form',
 };
 
 export default MATHTERMS;

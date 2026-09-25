@@ -91,8 +91,9 @@ const MATH_IMAGE_TERMS = {
   'Identify the formula|/images/math/pythagorean.png': 'Pythagorean Theorem',
   'Identify the formula|/images/math/midpointformula.png': 'Midpoint Formula',
   'Identify the formula|/images/math/slopeformula.png': 'Slope Formula',
-  'Identify the formula|/images/math/pointslopeformula.png':
-    'Point-Slope Formula',
+  'Identify the formula|/images/math/pointslopeformula.png': 'Point-Slope Form',
+  'Identify the formula|/images/math/slope-intercept-form.png':
+    'Slope-Intercept Form',
   'What is the multiplicity of x = 0?|/images/math/polyfn1.png': '2',
   'What is the multiplicity of x = -3?|/images/math/polyfn1.png': '5',
   'At most, how many turning points can this function have?|/images/math/polyfn2.png':
