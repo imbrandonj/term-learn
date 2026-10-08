@@ -1,15 +1,4 @@
 const D637 = {
-  'A strategic approach to curriculum planning that starts with identifying clear end goals or learning outcomes of a course or lesson before planning the instructional strategies and assessments.':
-    'backward design',
-  'Stage 1 of backward design': 'identify desired results',
-  'Stage 2 of backward design': 'determine acceptable evidence',
-  'Stage 3 of backward design': 'plan learning experiences and instruction',
-  '[Backward design stage] Use academic standards to define the learning outcomes, then prioritize content into three levels: basic knowledge, important skills, and enduring understandings.':
-    'identify desired results',
-  "[Backward design stage] Decide on assessments that will demonstrate students' understanding and mastery of the learning goals. This stage helps with making sure assessments are aligned with the standards and learning objectives.":
-    'determine acceptable evidence',
-  '[Backward design stage] Develop instructional strategies and learning activities that will help students achieve their learning goals, informed by the desired results and the methods of assessment established.':
-    'plan learning experiences and instruction',
   'Benchmarks define what students should master at each grade level.':
     'standards',
   'Charts the progression of standards, specifying instruction order and timing.':
@@ -176,6 +165,101 @@ const D637 = {
     'cognitivism',
   'In which learning theory does scaffolding play a crucial role in assisting students through their ZPD?':
     'constructivism',
+  "Information or comments about an individual's performance; offers guidance, evaluation, or correction to support improving, growing, or maintaining desired standards or competencies.":
+    'feedback',
+  'Defines what performance looks like at each level of a rubric; must be clear and detailed enough for students to understand what is expected of them and how they can improve.':
+    'descriptors',
+  "A detailed guide that helps teachers assess the quality of students' work based on defined criteria, covering various levels of achievement from basic to advanced.":
+    'rubric',
+  'An individual task, such as a research paper, presentation, or report, completed by a candidate and evaluated based on a rubric; a formal testing process that demonstrates competency for a course.':
+    'performance-based assessment',
+  'An approach to teaching and learning that emphasizes students being able to do, or perform, specific skills as a result of instruction.':
+    'performance-based learning',
+  "Initial stage involves methods like screening tests, diagnostic assessments, and pre-tests, which help educators understand students' baseline knowledge before instruction begins.":
+    'pre-assessment',
+  'A tool for evaluating student learning at specific points, such as at the end of a unit, semester, or academic year; often in the form of a quiz or test.':
+    'summative assessment',
+  'Used during the learning process to gauge student understanding and guide further learning.':
+    'formative assessment',
+  'Checks for understanding that take place during the learning process. They offer a way for teachers to evaluate how students are grasping the material, allowing for real-time feedback and instructional adjustments.':
+    'formative assessment',
+  'An assessment type that provides ongoing feedback that informs teaching and supports student learning.':
+    'formative assessment',
+  '"Exit tickets at the end of each lesson" is what type of assessment?':
+    'formative assessment',
+  'These assessments are designed to give a conclusive overview of student achievements and to determine if they have met the learning objectives set out at the start of the instructional period.':
+    'summative assessment',
+  '"A comprehensive exam covering all major topics discussed throughout the semester" is what type of assessment?':
+    'summative assessment',
+  'This final stage is where educators evaluate the total learning achievements through methods such as comprehensive exams, projects, or performance demonstrations to confirm what students have learned and whether they meet the established educational standards.':
+    'summative assesment',
+  "They include tools such as quizzes, journals, and observational data, allowing teachers to make real-time adjustments and provide tailored support based on students' immediate learning needs.":
+    'formative assessment',
+  'These make grading criteria transparent, aiding both educators and students in understanding expectations.':
+    'rubric',
+  'Assessments that provide continuous feedback that informs teaching and supports student learning.':
+    'formative assessment',
+  "Assessments that evaluate content mastery and provide a conclusive overview to students' comprehension and mastery.":
+    'summative assessment',
+  'This assessment type requires the application of knowledge, enhancing deep learning and real-world skills.':
+    'performance-based assessment',
+  'List the 5 types of instructional strategies (alpha).':
+    'cooperative, direct, discovery, indepedent, indirect',
+  '[Instructional Strategy]: involves teachers delivering content directly to students, often through lectures or demonstrations, ensuring clear communication of key concepts aligned with educational standards.':
+    'direct instruction',
+  '[Instructional Strategy]: encourages students to discover knowledge through activities like inquiry and problem-solving, promoting critical thinking skills while aligning with curriculum goals.':
+    'indirect instruction',
+  '[Instructional Strategy]: allows students to explore concepts independently, fostering curiousity and deeper understanding, which supports standards-based learning objectives through active engagement and exploration.':
+    'discovery learning',
+  '[Instructional Strategy]: empower students to pursue topics of interest at their own pace, ensuring personalized learning experiences while meeting specified learning outcomes.':
+    'independent studies',
+  '[Instructional Strategy]: involves collaborative group activities where students work together to achieve shared goals, enhancing social skills alongside academic achievement by educational standards.':
+    'cooperative learning',
+  '[Instructional Strategy]: highly teacher directed.': 'direct instruction',
+  '[Instructional Strategy]: mainly student centered.': 'indrect instruction',
+  '[Instructional Strategy]: students working with students.':
+    'cooperative learning',
+  '[Instructional Strategy]: interactive instruction.': 'cooperative learning',
+  '[Instructional Strategy]: individual study.': 'independent learning',
+  '[Instructional Strategy]: student self-reliance.': 'independent learning',
+  '[Instructional Strategy]: learner activity oriented.': 'discovery learning',
+  '[Instructional Strategy]: experiential learning.': 'discovery learning',
+  '[Instructional Strategy]: lectures, guest speakers, panels, drill and practice, tutorials, movies, workbooks, handouts, recordings, assigned questions.':
+    'direct instruction',
+  '[Instructional Strategy]: discovery, guided/unguided inquiry, case studies, concept mapping, composing, Socratic questioning, problem-solving, decision-making.':
+    'indirect instruction',
+  '[Instructional Strategy]: roleplaying, brainstorming, forums; 1-3-6- investigative, laboratory, or buzz groups; jigsaw; student team achievement divisions (STADS); teams games tournaments (TGTS); think-pair-share; task-based groups.':
+    'cooperative learning',
+  '[Instructional Strategy]: papers, reports, essays, individual brainstorming or research, correspondence, computer-assisted instruction, distance learning.':
+    'indepedent learning',
+  '[Instructional Strategy]: field trips, field study/observations, dramatizations, model building, work experience, reenactment, real cases.':
+    'discovery learning',
+  '[Instructional Strategy]: This is an effective strategy for introducing new information. While it is an efficient use of time, it may not be engaging to all learners or feel authentic to the real world, depending on implementation.':
+    'direct instruction',
+  '[Instructional Strategy]: This strategy can be more engaging but also may carry a higher cognitive load. It benefits from anticipation of options and careful planning.':
+    'indirect instruction',
+  '[Instructional Strategy]: This strategy ties into social learning theories and is engaging. The use of roles increases the likelihood that all students will participate.':
+    'cooperative learning',
+  '[Instructional Strategy]: This strategy can enable learners to proceed at their own pace and pursue interests according to timing and circumstances. It may work best with those who are self-motivated.':
+    'independent learning',
+  '[Instructional Strategy]: This strategy can be highly engaging and memorable but may be time consuming or expensive. Accessibility may be a concern.':
+    'discovery learning',
+  '[Instructional Strategy]: Effective for introducing new information but may lack real-world relevance.':
+    'direct instruction',
+  '[Instructional Strategy]: Demands a learner-centric approach with emphasis on critical thinking and problem-solving.':
+    'indirect instruction',
+  '[Instructional Strategy]: Requires planning to ensure all student participation and balances various abilities.':
+    'cooperative learning',
+  '[Instructional Strategy]: Needs to cater to student autonomy and self-paced learning opportunities.':
+    'independent learning',
+  '[Instructional Strategy]: Integrates social learning theories and ensures engagement through active roles.':
+    'discovery learning',
+  'This learning strategy emphasizes interdependence and shared responsibility.':
+    'cooperative learning',
+  'Inquiry-based learning is an effective strategy for developing problem-solving skills. Which instructional strategy is this?':
+    'indirect instruction',
+  '[True/False]: Facilitating discussions and interactions encourages students to engage deeply with the content, share insights, and enhance their understanding.':
+    'true',
 };
 
 export default D637;
