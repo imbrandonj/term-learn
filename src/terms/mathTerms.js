@@ -887,6 +887,35 @@ const MATHTERMS = {
     'point-slope form',
   'Organized around slope + a point.': 'point-slope form',
   'Organized around slope + y-intercept.': 'slope-intercept form',
+  'If, upon division, you get a remainder of 0, your divisor is a factor of your dividend.':
+    'factor theorem',
+  'If, upon division, you get a remainder of 0, what is the divisor to the dividend?':
+    'factor',
+  'y = a is a root or zero of a polynomial g(y) only if...': 'g(a) = 0',
+  'If a polynomial p(x) is divided by a linear polynomial (x - a), then the remainder is equal to p(a).':
+    'remainder theorem',
+  'The remainder theorem states that when a polynomial p(x) is divided by a linear polynomial (x - a), then the remainder is equal to...':
+    'p(a)',
+  "If f(x) is a polynomial of degree n greater than or equal to 1, and 'a' is any real number, then (x - a) is a factor of f(x) if f(a) = 0.":
+    'factor theorem',
+  'The factor theorem states that (x - a) is a factor of f(x) if...':
+    'f(a) = 0',
+  'Rational Zero Theorem': 'Rational Root Theorem',
+  'Used to find the rational solutions of a polynomial equation (or zeros or roots of a polynomial function). The solutions derived at the end of any polynomial equation are known as roots or zeros of a polynomial.':
+    'rational root theorem',
+  '[True/False]: A polynomial must have rational zeros.': 'false',
+  'A value of the variable that satisifes an equation; the solution.': 'root',
+  'A value of the variable that makes a function equal to zero.': 'zero',
+  'Zero vs Root: this one is tied to an equation.': 'root',
+  'Zero vs Root: this one is tied to a function.': 'zero',
+  'x = 1. What is the factor?': 'x - 1',
+  'When applying the quadratic formula to a quadratic, and you obtain i, you have an...':
+    'irreducible quadratic',
+  'A second-degree polynomial that cannot be factored into real linear factors because it has no real roots.':
+    'irreducible quadratic',
+  'ax² + bx + c and the discriminant is less than zero.':
+    'irreducible quadratic',
+  'The quadratic (ax² + bx + c) discriminant.': 'b^2 - 4ac',
 };
 
 export default MATHTERMS;
