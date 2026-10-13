@@ -846,7 +846,7 @@ const MATHTERMS = {
   'aⁿ, the a represents the...': 'base',
   'aⁿ, the n represents the...': 'exponent',
   'Tells you how many times to multiply a number by itself.': 'exponent',
-  'We use _________ to represent repeated multiplication.': 'exponent',
+  'We use _________ to represent repeated multiplication.': 'exponents',
   'A mathematical statement indicating that two expressions are equal.':
     'equation',
   'An equation expressing a relationship between constant and variable quantities.':

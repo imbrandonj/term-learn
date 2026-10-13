@@ -102,6 +102,78 @@ const MATH_IMAGE_TERMS = {
   'Does x = 0 cross or touch the x-axis?|/images/math/polyfn1.png': 'touch',
   'Which term determines the graph end behavior?|/images/math/polyfn2.png':
     'x^3',
+  'Identify the angle relationship|/images/math/corangle1.png':
+    'corresponding angles',
+  'Identify the angle relationship|/images/math/corangle2.png':
+    'corresponding angles',
+  'Identify the angle relationship|/images/math/corangle3.png':
+    'corresponding angles',
+  'Identify the angle relationship|/images/math/corangle4.jpg':
+    'corresponding angles',
+  'Identify the angle relationship|/images/math/corangle5.png':
+    'corresponding angles',
+  'Identify the angle relationship|/images/math/corangle6.png':
+    'corresponding angles',
+  'Identify the angle relationship|/images/math/corangle7.png':
+    'corresponding angles',
+  'Identify the angle relationship|/images/math/corangle8.png':
+    'corresponding angles',
+  'Identify the angle relationship|/images/math/corangle9.png':
+    'corresponding angles',
+  'Identify the angle relationship|/images/math/altextangle1.png':
+    'alternate exterior angles',
+  'Identify the angle relationship|/images/math/altextangle2.png':
+    'alternate exterior angles',
+  'Identify the angle relationship|/images/math/altextangle3.png':
+    'alternate exterior angles',
+  'Identify the angle relationship|/images/math/altextangle4.jpg':
+    'alternate exterior angles',
+  'Identify the angle relationship|/images/math/altextangle5.png':
+    'alternate exterior angles',
+  'Identify the angle relationship|/images/math/altextangle6.png':
+    'alternate exterior angles',
+  'Identify the angle relationship|/images/math/altextangle7.png':
+    'alternate exterior angles',
+  'Identify the angle relationship|/images/math/altextangle8.png':
+    'alternate exterior angles',
+  'Identify the angle relationship|/images/math/altextangle9.png':
+    'alternate exterior angles',
+  'Identify the angle relationship|/images/math/altintangle1.png':
+    'alternate interior angles',
+  'Identify the angle relationship|/images/math/altintangle2.png':
+    'alternate interior angles',
+  'Identify the angle relationship|/images/math/altintangle3.jpg':
+    'alternate interior angles',
+  'Identify the angle relationship|/images/math/altintangle4.png':
+    'alternate interior angles',
+  'Identify the angle relationship|/images/math/altintangle5.png':
+    'alternate interior angles',
+  'Identify the angle relationship|/images/math/altintangle6.png':
+    'alternate interior angles',
+  'Identify the angle relationship|/images/math/consintangle1.png':
+    'consecutive interior angles',
+  'Identify the angle relationship|/images/math/consintangle2.png':
+    'consecutive interior angles',
+  'Identify the angle relationship|/images/math/consintangle3.png':
+    'consecutive interior angles',
+  'Identify the angle relationship|/images/math/consintangle4.png':
+    'consecutive interior angles',
+  'Identify the angle relationship|/images/math/consintangle5.png':
+    'consecutive interior angles',
+  'Identify the angle relationship|/images/math/consintangle6.png':
+    'consecutive interior angles',
+  'Identify the angle relationship|/images/math/consextangle1.png':
+    'consecutive exterior angles',
+  'Identify the angle relationship|/images/math/consextangle2.png':
+    'consecutive exterior angles',
+  'What is the angle measurement?|/images/math/angle47.png': '47',
+  'What is the angle measurement?|/images/math/angle53.png': '53',
+  'What is the angle measurement?|/images/math/angle80.png': '80',
+  'What is the angle measurement?|/images/math/angle84.png': '84',
+  'What is the angle measurement?|/images/math/angle110.png': '110',
+  'What is the angle measurement?|/images/math/angle111.png': '111',
+  'What is the angle measurement?|/images/math/angle113.png': '113',
+  'What is the angle measurement?|/images/math/angle125.png': '125',
 };
 
 export default MATH_IMAGE_TERMS;
