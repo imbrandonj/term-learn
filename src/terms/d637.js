@@ -204,7 +204,7 @@ const D637 = {
   'This assessment type requires the application of knowledge, enhancing deep learning and real-world skills.':
     'performance-based assessment',
   'List the 5 types of instructional strategies (alpha).':
-    'cooperative, direct, discovery, indepedent, indirect',
+    'cooperative, direct, discovery, independent, indirect',
   '[Instructional Strategy]: involves teachers delivering content directly to students, often through lectures or demonstrations, ensuring clear communication of key concepts aligned with educational standards.':
     'direct instruction',
   '[Instructional Strategy]: encourages students to discover knowledge through activities like inquiry and problem-solving, promoting critical thinking skills while aligning with curriculum goals.':
@@ -231,7 +231,7 @@ const D637 = {
   '[Instructional Strategy]: roleplaying, brainstorming, forums; 1-3-6- investigative, laboratory, or buzz groups; jigsaw; student team achievement divisions (STADS); teams games tournaments (TGTS); think-pair-share; task-based groups.':
     'cooperative learning',
   '[Instructional Strategy]: papers, reports, essays, individual brainstorming or research, correspondence, computer-assisted instruction, distance learning.':
-    'indepedent learning',
+    'independent learning',
   '[Instructional Strategy]: field trips, field study/observations, dramatizations, model building, work experience, reenactment, real cases.':
     'discovery learning',
   '[Instructional Strategy]: This is an effective strategy for introducing new information. While it is an efficient use of time, it may not be engaging to all learners or feel authentic to the real world, depending on implementation.':

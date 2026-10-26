@@ -916,6 +916,17 @@ const MATHTERMS = {
   'ax² + bx + c and the discriminant is less than zero.':
     'irreducible quadratic',
   'The quadratic (ax² + bx + c) discriminant.': 'b^2 - 4ac',
+  '[True/False]: Every polynomial can be factored into linear and irreducible quadratics over the real number system.':
+    'true',
+  'The conjugate of a + b is...': 'a - b',
+  'Formed by changing the sign between two terms in a binomial, such as turning a + b into a - b, and is used to simplify expressions or rationalize denominators.':
+    'conjugate',
+  'Refers to a pair of expressions that are identical expect for the sign between the two terms, which is reversed.':
+    'conjugate pairs',
+  'Every complex solution comes in...': 'conjugate pairs',
+  'Irreducible quadratics can only be factored over...': 'complex numbers',
+  'What is the conjugate pair of -7 + 5i': '-7 - 5i',
+  'Irreducible quadratics give you...': 'complex solutions',
 };
 
 export default MATHTERMS;
