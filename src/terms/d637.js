@@ -260,6 +260,53 @@ const D637 = {
     'indirect instruction',
   '[True/False]: Facilitating discussions and interactions encourages students to engage deeply with the content, share insights, and enhance their understanding.':
     'true',
+  '[True/False]: Learning objectives are more narrow than standards.': 'true',
+  'These bridge the gap between standards and students.': 'learning objectives',
+  'Addresses concepts directly covered by the standard, and they include a condition, a behavior, and a criterion.':
+    'learning objectives',
+  'Completely encompass concepts described in learning objectives.':
+    'standards',
+  '[True/False]: Cooperative learning is typically used after new information is introduced. It is not an introductory activity.':
+    'true',
+  'Which instructional strategy is delivering a well-planned and organized lecture on a new topic?':
+    'direct instruction',
+  'Which instructional strategy is assigning students a research topic and presentation?':
+    'indirect instruction',
+  '[True/False]: Indirect instruction strategies are a great method for introducing new content.':
+    'false',
+  'Which learning theory aligns with lectures and rote learning with worksheets and homework?':
+    'behaviorism',
+  'This learning theory emphasizes observable behaviors and how people learn through interaction with the environment.':
+    'behaviorism',
+  'Which learning theory aligns with experiential learning, discovery, and scaffolding?':
+    'constructivism',
+  'Mastering a concept suggests readiness to progress, but __________ can deepen understanding and engagement.':
+    'enrichment',
+  'A short-answer exam is which type of assessment?': 'summative assessment',
+  'A group discussion of a topic is which type of assessment?':
+    'formative assessment',
+  'A complete portfolio on a unit is which type of assessment?':
+    'summative assessment',
+  'A standardized test is which type of assessment?': 'summative assessment',
+  'A written composition on a topic is which type of assessment?':
+    'summative assessment',
+  "An exit ticket providing a summary of the day's topic is which type of assessment?":
+    'formative assessment',
+  'A peer evaluation is which type of assessment?': 'formative assessment',
+  'The purpose of this assessment is to monitor student progress during a unit.':
+    'formative assessment',
+  'A presentation on a topic is which type of assessment?':
+    'summative assessment',
+  'Data used to identify learning gaps, adjust pacing, and differentiate instruction.':
+    'formative assessment data',
+  'Data used to analyze performance trends, inform future instruction, and set benchmarks.':
+    'summative assessment data',
+  'Used to identify differentiation needs, which concepts to revisit, and needed additional resources.':
+    'assessment data',
+  'It is used to make needed adjustments to content and to set goals for student performance and teacher instruction.':
+    'assessment data',
+  'After being informed by assessment data, a teacher changes their instruction strategies to improve learning concepts. What is this called?':
+    'data-driven instruction',
 };
 
 export default D637;
