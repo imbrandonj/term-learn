@@ -21,7 +21,7 @@ const D637 = {
     'national standards',
   'Refine and tailor the national goals to focus on the unique characteristics and needs of local communities just within the national level.':
     'state standards',
-  'Suppot state standards with specific goals, resources, and student demographics, implementing policies for localized education delivery.':
+  'Support state standards with specific goals, resources, and student demographics, implementing policies for localized education delivery.':
     'district-level standards',
   'Align with the national vision while being responsive to community and district needs through educator-developed teaching methods.':
     'instructional strategies',
@@ -192,7 +192,7 @@ const D637 = {
   '"A comprehensive exam covering all major topics discussed throughout the semester" is what type of assessment?':
     'summative assessment',
   'This final stage is where educators evaluate the total learning achievements through methods such as comprehensive exams, projects, or performance demonstrations to confirm what students have learned and whether they meet the established educational standards.':
-    'summative assesment',
+    'summative assessment',
   "They include tools such as quizzes, journals, and observational data, allowing teachers to make real-time adjustments and provide tailored support based on students' immediate learning needs.":
     'formative assessment',
   'These make grading criteria transparent, aiding both educators and students in understanding expectations.':
@@ -307,6 +307,71 @@ const D637 = {
     'assessment data',
   'After being informed by assessment data, a teacher changes their instruction strategies to improve learning concepts. What is this called?':
     'data-driven instruction',
+  'An attempt to address the variation of learners in the classroom through multiple approaches that modify instruction and curriculum to match the individual needs of students.':
+    'differentiation',
+  'Refers to the knowledge, understanding, and skills (KUD) students are expected to acquire.':
+    'content',
+  'A student-centered approach that tailors instruction to meet varied learning needs.':
+    'differentiated instruction',
+  'Designed to accommodate individual learning styles, readiness levels, and interests, making it student-centered and personalized.':
+    'differentiated instruction',
+  'A teacher offers a variety of learning activities and assessments, including tiered assignments, flexible grouping, and student choice.':
+    'differentiation',
+  'Meeting students where they are in their journey, which includes assessing and responding to their readiness levels, and making sure they are appropriately challenged.':
+    'differentiation',
+  'Providing a student with extra time to complete a test due to their ADHD diagnosis is an example of...':
+    'accommodation',
+  'Providing visual aids and graphic organizers to support comprehension for ELLs is an example of...':
+    'accommodation',
+  CBE: 'competency based education',
+  'Students must demonstrate mastery of each competency before moving on.':
+    'CBE',
+  'Students progress only after demonstration mastery of specific skills and knowledge.':
+    'CBE',
+  'Encompasses the ability to apply a combination of knowledge, skills, abilities, and intellectual behaviors to successfully complete tasks within a specific context.':
+    'competency',
+  'A change made to the learning environment, available equipment, or how assignments/assessments are completed by a student.':
+    'adaptation',
+  'A change made to the way instruction is delivered or to the way curriculum is accessed by a student.':
+    'accommodation',
+  'A change to the content and skills that students are expected to learn/master.':
+    'modification',
+  'Candidates progress through courses as soon as they can prove they have mastered the material, rather than advancing only when the semester or term ends; candidates who can learn faster, spend more time on schoolwork, or lean on knowledge they already have from previous work or school experience can accelerate through courses.':
+    'CBE',
+  'A differentiated instruction technique of providing tiered assignments with varying levels of difficulty and support, allowing students to progress at their own pace.':
+    'CBE',
+  'Audiobooks and dictation are __________ that change how the student accesses information, while extra time on tests is an ___________ that provides additional support for demonstrating learning.':
+    'accommodation',
+  'These terms are often used interchangeably and refer to changes made to the learning environment, materials, or assessments to help students access the curriculum and demonstrate their learning.':
+    'adaptations and accommodations',
+  "Utilizing students' customs, characteristics, experiences, and perspectives as tools for better classroom instruction.":
+    'culturally responsive teaching',
+  "[True/False]: Students' home language and dialects is a significant asset that can be used to bridge home and school cultures, create a sense of belonging, and enhance learning.":
+    'true',
+  '[True/False]: Prior academic knowledge is a cultural asset teachers can leverage in a culturally responsive classroom.':
+    'false',
+  'A teaching approach that balances individual needs with the needs of the class as whole.':
+    'differentiation',
+  'Proactive, assessment-based, dynamic, flexible, adaptive, and inclusive.':
+    'differentiation',
+  'A principle of differentiation that focuses on how students make sense of concepts.':
+    'process',
+  '[True/False]: A translation tool is an appropriate accommodation to enhance the educational experience of a student who is learning English as a second language.':
+    'true',
+  'Acknowledging and valuing individuality, establishing supportive relationships, creating a rich and inclusive curriculum, using relevant and responsive pedagogy, and promoting a critical consciousness.':
+    'culturally responsive teaching',
+  'A primary benefit to this teaching approach is a greater sense of value, empowerment, and connectedness.':
+    'culturally responsive teaching',
+  'The four principles of differentiation (alpha).':
+    'affect/learning environment, content, process, product',
+  'This differentiation principle refers to how students demonstrate their understanding of the content.':
+    'product',
+  'This differentiation principle refers to how students make sense of and internalize the content.':
+    'process',
+  'This differentiation principle refers to the knowledge, understanding, and skills (KUD) students are expected to acquire.':
+    'content',
+  'This differentiation principle refers to the physical and emotional atmosphere of the classroom.':
+    'affect/learning environment',
 };
 
 export default D637;
